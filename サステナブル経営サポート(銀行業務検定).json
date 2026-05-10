@@ -2741,8 +2741,8 @@
       "企業の不正を暴いてメディアにリークする。",
       "企業の内部情報を事前に入手してインサイダー取引を行う。"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2"
   },
   {
     "id": 212,
@@ -4548,8 +4548,8 @@
       "エネルギー消費量をゼロにするため、家電製品の使用を禁止した住宅。",
       "電気を使用せず、ガスのみを使用する住宅。"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2"
   },
   {
     "id": 351,
@@ -5563,8 +5563,8 @@
       "石油産出国会議",
       "警察官（Cop）"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1"
   },
   {
     "id": 429,
