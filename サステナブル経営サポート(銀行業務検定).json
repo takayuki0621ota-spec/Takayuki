@@ -6286,8 +6286,8 @@
       "16,000 t-CO2",
       "1.6 t-CO2"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2\\n\\n【解説】\\n1個あたりの排出量は、10 + 5 + 1 = 16 kg-CO2/個。\\n1,000個なので、16 × 1,000 = 16,000 kg-CO2。\\n1トン = 1,000kgより、16,000 kg-CO2 = 16 t-CO2。"
   },
   {
     "id": 485,
@@ -6299,8 +6299,8 @@
       "2,300 kg-CO2削減",
       "1,467 kg-CO2削減（約1.5トン削減）"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4"
+    "correctOptionIndex": 4,
+    "explanation": "【正解】5\\n\\n【解説】\\nガソリン車：10,000km ÷ 10km/L = 1,000L、1,000L × 2.3kg-CO2/L = 2,300kg-CO2。\\nEV：10,000km ÷ 6km/kWh ≒ 1,666.7kWh、1,666.7kWh × 0.5kg-CO2/kWh ≒ 833.3kg-CO2。\\n削減量：2,300 − 833.3 ≒ 1,466.7kg-CO2（約1,467kg-CO2）。"
   },
   {
     "id": 486,
