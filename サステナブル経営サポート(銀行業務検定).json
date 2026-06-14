@@ -528,8 +528,8 @@
       "サプライチェーンでの脱炭素化に向けた取り組み",
       "利益の全額を環境保護団体へ寄付すること"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3"
+    "correctOptionIndex": 4,
+    "explanation": "【正解】5（利益の全額を環境保護団体へ寄付すること）"
   },
   {
     "id": 42,
@@ -554,8 +554,8 @@
       "実態を伴わないにもかかわらず、環境に配慮しているように見せかけること。",
       "緑色の塗料を使って、工場の外観を環境配慮型に見せること。"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（実態を伴わないにもかかわらず、環境に配慮しているように見せかけること。）"
   },
   {
     "id": 44,
@@ -892,8 +892,8 @@
       "スズ（Tin）",
       "タンタル（Tantalum）"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（銅（Copper））"
   },
   {
     "id": 70,
@@ -1009,8 +1009,8 @@
       "従業員のみ",
       "顧客のみ"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（株主、従業員、顧客、取引先、地域社会、地球環境など、あらゆるステークホルダー）"
   },
   {
     "id": 79,
@@ -1048,8 +1048,8 @@
       "エネルギー使用状況届出書の提出",
       "中長期計画書の提出"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（すべての事業所において、使用する電力を100%再生可能エネルギーに切り替えること。）"
   },
   {
     "id": 82,
@@ -1152,8 +1152,8 @@
       "温暖化は自然のサイクルの一部であり、将来的に寒冷化に向かうと予測される。",
       "温暖化の主な原因は太陽活動の変化であり、人間活動の影響は限定的である。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（人間の活動が温暖化を引き起こしていることは「疑う余地がない（unequivocal）」。）"
   },
   {
     "id": 90,
@@ -1190,8 +1190,8 @@
       "業務上必要かつ相当な範囲を超えたものにより",
       "優越的な関係を背景とした言動であって"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（加害者に悪意があること）"
   },
   {
     "id": 93,
@@ -1216,8 +1216,8 @@
       "営業部門、製造部門などの現業部門（リスクの発生源・所有者）",
       "内部監査部門（独立した客観的な保証）"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（リスク管理部門、コンプライアンス部門などの管理部門（リスクの監視・支援））"
   },
   {
     "id": 95,
@@ -1371,8 +1371,8 @@
       "化石燃料車からEVへの急速なシフトによる既存製品の需要減（市場・技術リスク）",
       "環境配慮に欠ける企業としてのブランドイメージ低下（評判リスク）"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（海面上昇により沿岸部の工場が浸水するリスク（物理的リスク））"
   },
   {
     "id": 107,
@@ -1526,8 +1526,8 @@
       "従業員の体重を測定して健康管理すること。",
       "会計ソフトの処理速度を向上させる技術。"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（企業の製品やサービスが環境や社会に与えるインパクトを金銭換算し、会計情報（財務諸表）に統合または補足して開示しようとする試み。）"
   },
   {
     "id": 119,
@@ -1591,8 +1591,8 @@
       "廃棄物や不要になった製品を、デザインやアイデアによって、より付加価値の高い製品に生まれ変わらせること。",
       "製品を修理して長く使うこと（リペア）。"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（廃棄物や不要になった製品を、デザインやアイデアによって、より付加価値の高い製品に生まれ変わらせること。）"
   },
   {
     "id": 124,
@@ -2125,8 +2125,8 @@
       "議決権行使を通じて企業の行動変容を促す手法（エンゲージメント）。",
       "特定のテーマ（水、再エネなど）に関連する企業に投資する手法。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（特定の条件（武器製造、たばこ、化石燃料など）に該当する業種や企業を投資対象から除外する手法。）"
   },
   {
     "id": 165,
@@ -2281,8 +2281,8 @@
       "「疑う余地がない（unequivocal）」",
       "「可能性が極めて高い（extremely likely）」"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（「疑う余地がない（unequivocal）」）"
   },
   {
     "id": 177,
@@ -2307,8 +2307,8 @@
       "土地利用の変化",
       "新規化学物質（プラスチック汚染など）"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（成層圏オゾンの破壊）"
   },
   {
     "id": 179,
@@ -2450,8 +2450,8 @@
       "健康経営の取り組みが優良であり、地域における発信を行っている企業を可視化し、社会的な評価を受ける環境を整備する。",
       "医療費が最も少ない企業を表彰する。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（健康経営の取り組みが優良であり、地域における発信を行っている企業を可視化し、社会的な評価を受ける環境を整備する。）"
   },
   {
     "id": 190,
@@ -2515,8 +2515,8 @@
       "国籍や性別に関係なく、同じ制服を着せること。",
       "給与を一律に同じ額にすること。"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（人々の置かれた状況の違いを考慮し、機会へのアクセスが平等になるよう、必要な支援や調整を行うこと。）"
   },
   {
     "id": 195,
@@ -2541,8 +2541,8 @@
       "特定事業者（または特定連鎖化事業者）として、エネルギー管理統括者の選任や定期報告が義務付けられる。",
       "届出により、努力義務のみが課される。"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（特定事業者（または特定連鎖化事業者）として、エネルギー管理統括者の選任や定期報告が義務付けられる。）"
   },
   {
     "id": 197,
@@ -2684,8 +2684,8 @@
       "製品と原材料を高い価値のまま使い続ける（Keep products and materials in use）。",
       "廃棄物と汚染を出さない設計を行う（Design out waste and pollution）。"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（廃棄物を最終処分場で安全に埋め立てる。）"
   },
   {
     "id": 208,
@@ -2879,8 +2879,8 @@
       "環境",
       "組織統治（ガバナンス）"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（財務パフォーマンス）"
   },
   {
     "id": 223,
@@ -2918,8 +2918,8 @@
       "不買運動によって売上が下がるリスク。",
       "企業活動が、従業員、地域住民、消費者などの「権利保持者」に与える負の影響（リスク）。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2"
+    "correctOptionIndex": 4,
+    "explanation": "【正解】5（企業活動が、従業員、地域住民、消費者などの「権利保持者」に与える負の影響（リスク）。）"
   },
   {
     "id": 226,
@@ -2931,8 +2931,8 @@
       "最初から合理的保証（財務諸表監査と同レベル）が義務付けられている。",
       "保証は不要とされている。"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（限定的保証（Limited Assurance）から開始し、将来的には合理的保証（Reasonable Assurance）への移行を目指して義務付けられている。）"
   },
   {
     "id": 227,
@@ -3126,8 +3126,8 @@
       "コンクリート",
       "コンクリート及び鉄から成る建設資材（鉄筋コンクリート）"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（プラスチック（塩ビ管など））"
   },
   {
     "id": 242,
@@ -3178,8 +3178,8 @@
       "グリーン購入は企業が行うもの、グリーン調達は個人が行うもの。",
       "グリーン購入は製品・サービスを購入すること、グリーン調達は原材料・部品を調達することを指すことが多い。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2"
+    "correctOptionIndex": 4,
+    "explanation": "【正解】5（グリーン購入は製品・サービスを購入すること、グリーン調達は原材料・部品を調達することを指すことが多い。）"
   },
   {
     "id": 246,
@@ -3243,8 +3243,8 @@
       "リサイクルして再利用することが義務付けられている。",
       "毒性が強く分解しにくいため、法律により期間内の処分が義務付けられており、長期保管は認められない。"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1"
+    "correctOptionIndex": 4,
+    "explanation": "【正解】5（毒性が強く分解しにくいため、法律により期間内の処分が義務付けられており、長期保管は認められない。）"
   },
   {
     "id": 251,
@@ -3360,8 +3360,8 @@
       "1997年 COP3（京都）",
       "2015年 国連持続可能な開発サミット（ニューヨーク）"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（1992年 地球サミット（リオデジャネイロ））"
   },
   {
     "id": 260,
@@ -3386,8 +3386,8 @@
       "-10",
       "0"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3"
+    "correctOptionIndex": 4,
+    "explanation": "【正解】5（0）"
   },
   {
     "id": 262,
@@ -3451,8 +3451,8 @@
       "危険な作業を中止し、リスクそのものをなくす（回避）。",
       "損害保険に加入し、事故時の損失を補償してもらう。"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1"
+    "correctOptionIndex": 4,
+    "explanation": "【正解】5（損害保険に加入し、事故時の損失を補償してもらう。）"
   },
   {
     "id": 267,
@@ -3542,8 +3542,8 @@
       "約19,400トン",
       "約20,000トン"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（約21,340トン）"
   },
   {
     "id": 274,
@@ -3555,8 +3555,8 @@
       "繊維・ファッション",
       "プラスチック"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（原子力発電所の廃棄物処理）"
   },
   {
     "id": 275,
@@ -3659,8 +3659,8 @@
       "公正・適正な取引",
       "気候変動"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（株主優待制度の充実）"
   },
   {
     "id": 283,
@@ -3698,8 +3698,8 @@
       "ダイバーシティ（多様性）",
       "従業員の個人的な趣味・嗜好"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1"
+    "correctOptionIndex": 4,
+    "explanation": "【正解】5（従業員の個人的な趣味・嗜好）"
   },
   {
     "id": 286,
@@ -3711,8 +3711,8 @@
       "企業文化への定着",
       "As is（現状）とTo be（あるべき姿）のギャップの定量把握"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（終身雇用の堅持）"
   },
   {
     "id": 287,
@@ -3880,8 +3880,8 @@
       "レポーティング",
       "発行体の株価上昇見込み"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2"
+    "correctOptionIndex": 4,
+    "explanation": "【正解】5（発行体の株価上昇見込み）"
   },
   {
     "id": 300,
@@ -4062,8 +4062,8 @@
       "製品・サービスの市場創造。",
       "自らの排出削減目標の設定と挑戦。"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（すべての生産拠点を海外に移転すること。）"
   },
   {
     "id": 314,
@@ -4296,8 +4296,8 @@
       "家庭から出る生ゴミの総称。",
       "賞味期限が切れて腐敗した食品。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（本来食べられるにもかかわらず廃棄されている食品。）"
   },
   {
     "id": 332,
@@ -4309,8 +4309,8 @@
       "アスファルト・コンクリート",
       "木材"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（プラスチック）"
   },
   {
     "id": 333,
@@ -4361,8 +4361,8 @@
       "商業目的であれば自由に捕獲できる。",
       "捕獲、採取、殺傷、損傷が原則として禁止されている。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2"
+    "correctOptionIndex": 4,
+    "explanation": "【正解】5（捕獲、採取、殺傷、損傷が原則として禁止されている。）"
   },
   {
     "id": 337,
@@ -4374,8 +4374,8 @@
       "許可なく、かすみ網を使って大量に捕獲する場合。",
       "住宅街でカラスがうるさいので、エアガンで撃退する場合。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（狩猟期間内に、狩猟免許を持ち、定められた猟具・方法で狩猟鳥獣を捕獲する場合。）"
   },
   {
     "id": 338,
@@ -4413,8 +4413,8 @@
       "上・下流コスト（グリーン購入の差額や容器包装リサイクル費用など）",
       "公害防止コスト（事業エリア内コスト）"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（環境負荷とは無関係な、単なる生産設備更新費用。）"
   },
   {
     "id": 341,
@@ -4517,8 +4517,8 @@
       "強制労働の禁止",
       "児童労働の廃止"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（週休3日制の導入）"
   },
   {
     "id": 349,
@@ -4686,8 +4686,8 @@
       "資本家が労働者を搾取する構造を肯定する考え方。",
       "国家がすべての企業を管理する考え方。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（株主だけでなく、従業員、顧客、取引先、地域社会など、あらゆるステークホルダーの利益を考慮して経営を行う考え方。）"
   },
   {
     "id": 362,
@@ -4790,8 +4790,8 @@
       "フロン類の破壊費用",
       "エアバッグ類の再資源化費用"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（自動車税の未納分）"
   },
   {
     "id": 370,
@@ -4816,8 +4816,8 @@
       "渇水による操業停止",
       "節水設備の導入コスト（移行リスク）"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（渇水による操業停止）"
   },
   {
     "id": 372,
@@ -4894,8 +4894,8 @@
       "児童労働 ／ フェアトレード認証（カカオ等）",
       "森林破壊 ／ FSC認証（木材・紙）"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（熱帯雨林の破壊や労働問題 ／ RSPO（持続可能なパーム油のための円卓会議）認証）"
   },
   {
     "id": 378,
@@ -5024,8 +5024,8 @@
       "SMETA監査",
       "SAQ（Self-Assessment Questionnaire）"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4"
+    "correctOptionIndex": 4,
+    "explanation": "【正解】5（SAQ（Self-Assessment Questionnaire））"
   },
   {
     "id": 388,
@@ -5037,8 +5037,8 @@
       "持続可能な資材調達",
       "倫理"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（財務パフォーマンス）"
   },
   {
     "id": 389,
@@ -5050,8 +5050,8 @@
       "自動車業界",
       "繊維・アパレル業界"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（電子・電機業界）"
   },
   {
     "id": 390,
@@ -5180,8 +5180,8 @@
       "省エネ設備の導入（ボイラー更新、照明LED化など）。",
       "森林経営活動（間伐などによる吸収量増大）。"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（原子力発電所の稼働率向上によるCO2削減。）"
   },
   {
     "id": 400,
@@ -5193,8 +5193,8 @@
       "算定を行わず、適当な量のクレジットを購入する。",
       "削減努力は一切せず、全ての排出量をクレジット購入で帳消しにする。"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（まず自らの排出量を算定し、可能な限り削減努力を行った上で、どうしても削減できない分をクレジットで埋め合わせる。）"
   },
   {
     "id": 401,
@@ -5311,8 +5311,8 @@
       "環境に良いとされる白鳥の保護活動。",
       "ブラック・スワン（通常の金融危機）のうち、環境関連以外のもの。"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（気候変動によって引き起こされる、発生確率は低いが、発生すると極めて甚大な被害をもたらす金融危機のリスク。）\n\n【解説】グリーン・スワンは、気候変動が引き起こす、発生確率や影響の予測が難しく、発生した場合には金融システムや経済全体に極めて大きな被害をもたらし得るリスクを指します。ブラック・スワンになぞらえた表現ですが、特に気候・環境起因の深刻なシステミックリスクを強調する言葉です。"
   },
   {
     "id": 410,
@@ -5337,8 +5337,8 @@
       "各部門の取り組み状況のモニタリングと評価。",
       "マテリアリティ（重要課題）の特定と目標設定。"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（年に1回開催し、形式的な報告だけを受けてシャンシャンで終わらせる。）"
   },
   {
     "id": 412,
@@ -5389,8 +5389,8 @@
       "人権侵害が発生してからの事後対応。",
       "人権リスクの特定と評価（これは方針策定の次のステップ）。"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（人権方針の策定とコミットメント（経営トップによる宣言）。）"
   },
   {
     "id": 416,
@@ -5571,8 +5571,8 @@
       "株主優待制度の充実度",
       "コスト"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（株主優待制度の充実度）"
   },
   {
     "id": 430,
@@ -5623,8 +5623,8 @@
       "多様な人材が組織に存在している状態そのもの（Diversity）",
       "特定の人種や性別のみを優遇して採用すること"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（個々の置かれた状況やニーズに応じて、異なる支援やリソースを提供し、機会の平等を実質的に保障すること）"
   },
   {
     "id": 434,
@@ -5649,8 +5649,8 @@
       "救済へのアクセス",
       "企業による人権尊重責任"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（国家による企業の利益保護義務）"
   },
   {
     "id": 436,
@@ -5714,8 +5714,8 @@
       "10 t-CO2",
       "100 t-CO2"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2"
+    "correctOptionIndex": 4,
+    "explanation": "【正解】5（100 t-CO2）"
   },
   {
     "id": 441,
@@ -6013,8 +6013,8 @@
       "社会活動コスト（地域の清掃活動費用など）",
       "公害防止コスト"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（社会活動コスト（地域の清掃活動費用など））"
   },
   {
     "id": 464,
@@ -6156,8 +6156,8 @@
       "養殖の水産物（ASC）",
       "パーム油（RSPO）"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（持続可能な漁業で獲れた天然の水産物）"
   },
   {
     "id": 475,
@@ -6325,8 +6325,8 @@
       "事業活動に関わる法令等の遵守",
       "株価の最大化"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1"
+    "correctOptionIndex": 4,
+    "explanation": "【正解】5（株価の最大化）"
   },
   {
     "id": 488,
@@ -6364,8 +6364,8 @@
       "8,000 kg-CO2",
       "200 kg-CO2"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（800 kg-CO2）"
   },
   {
     "id": 491,
