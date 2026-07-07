@@ -5191,8 +5191,8 @@
       "LPWA (Low Power Wide Area)",
       "Bluetooth"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4\n\n【解説】\n・4. 適切。Sigfox、LoRaWAN、NB-IoTなどが含まれます。\n・1. 不適切。近距離無線通信（おサイフケータイなど）です。\n・2. 不適切。近距離通信技術です。\n・3. 不適切。高速通信が可能ですが、LPWAほど長距離・低消費電力ではありません。",
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3\n\n【解説】\n・3. 適切。LPWAは低消費電力かつ長距離通信が可能な無線通信技術の総称で、Sigfox、LoRaWAN、NB-IoTなどが含まれます。\n・1. 不適切。Wi-Fiは一般に高速ですが消費電力が大きく、短距離向きです。\n・2. 不適切。NFCは近距離通信です。\n・4. 不適切。Bluetoothは近距離通信が中心です。",
     "id": 433
   },
   {

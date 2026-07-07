@@ -104,8 +104,8 @@
       "EBITDA ÷ 有利子負債",
       "売上高 ÷ 有利子負債"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3\n\n【解説】\n・3. 適切。これは「ネットデット・EBITDA倍率」に近い概念です。\n・2. 適切。EBITDA有利子負債倍率は「有利子負債 ÷ EBITDA」で算出されます。ここでEBITDAは簡便的に「営業利益 ＋ 減価償却費」とされます。借入金がキャッシュフローの何年分あるかを示し、償還能力を測る指標です。\n・1. 不適切。分子と分母が逆です。\n・4. 不適切。無関係な式です。"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2\n\n【解説】\n・2. 適切。EBITDAを「営業利益＋減価償却費」と近似する場合、EBITDA有利子負債倍率は「有利子負債 ÷ EBITDA」で表せます。\n・1. 不適切。現預金を控除した「ネットデット・EBITDA倍率」に近い式です。\n・3. 不適切。分子と分母が逆です。\n・4. 不適切。無関係な式です。"
   },
   {
     "id": 10,
@@ -200,8 +200,8 @@
       "Rarity（希少性）→ Value（経済的価値）→ Organization（組織）→ Imitability（模倣困難性）",
       "Imitability（模倣困難性）→ Rarity（希少性）→ Value（経済的価値）→ Organization（組織）"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4\n\n【解説】\n・4. 適切。VRIO分析は、経営資源を Value（価値があるか）→ Rarity（希少か）→ Imitability（模倣困難か）→ Organization（活用する組織があるか）の順に評価し、競争優位性を判断します。"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1\n\n【解説】\nVRIO分析は、経営資源を Value（価値）→ Rarity（希少性）→ Imitability（模倣困難性）→ Organization（組織）の順に評価します。"
   },
   {
     "id": 18,
