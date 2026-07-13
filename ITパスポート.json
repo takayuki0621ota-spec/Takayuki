@@ -1,0 +1,6002 @@
+[
+  {
+    "id": "IP_001",
+    "question": "自社の強み・弱み、市場の機会・脅威を分析し、経営戦略を策定する手法として、最も適切なものはどれか。",
+    "options": [
+      "BSC分析",
+      "PPM分析",
+      "SWOT分析",
+      "ABC分析"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（SWOT分析）\n\nSWOT分析は、企業の内部環境を強み(Strengths)と弱み(Weaknesses)、外部環境を機会(Opportunities)と脅威(Threats)の4つの視点で分析する手法です。"
+  },
+  {
+    "id": "IP_002",
+    "question": "著作権法において、保護の対象となるものはどれか。",
+    "options": [
+      "プログラムのアルゴリズム",
+      "プログラム記述言語の規約",
+      "プログラムのソースコード",
+      "プログラムの通信プロトコル"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（プログラムのソースコード）\n\n著作権法では、プログラムの「ソースコード」は著作物として保護されますが、プログラム言語、規約(プロトコル)、解法(アルゴリズム)は保護の対象外です。"
+  },
+  {
+    "id": "IP_003",
+    "question": "プロジェクトマネジメントにおいて、プロジェクトの作業を階層構造に分解し、詳細なタスクを定義した図はどれか。",
+    "options": [
+      "RBS (Risk Breakdown Structure)",
+      "CBS (Cost Breakdown Structure)",
+      "WBS (Work Breakdown Structure)",
+      "OBS (Organization Breakdown Structure)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（WBS (Work Breakdown Structure)）\n\nWBS(Work Breakdown Structure)は、プロジェクト全体の作業を細かい単位に分解し、階層構造で整理した図です。スコープの定義やスケジュール管理の基礎となります。"
+  },
+  {
+    "id": "IP_004",
+    "question": "SLA(Service Level Agreement)の説明として、最も適切なものはどれか。",
+    "options": [
+      "サービスの提供者が、利用者に対してサービスの利用料金を請求する文書。",
+      "システムの設計書に基づいて、開発者がプログラムの仕様を記述した文書。",
+      "システムの運用担当者が、日々の運用業務の手順やルールを記述した文書。",
+      "サービスの利用者と提供者の間で、サービス品質の目標値を合意した文書。"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（サービスの利用者と提供者の間で、サービス品質の目標値を合意した文書。）\n\nSLA(Service Level Agreement:サービスレベル合意書)は、サービスの提供者と利用者の間で、サービスの品質(稼働率、応答時間など)に関する目標値や範囲を取り決めた合意文書です。"
+  },
+  {
+    "id": "IP_005",
+    "question": "情報セキュリティにおける「多要素認証」の例として、最も適切なものはどれか。",
+    "options": [
+      "指紋認証と静脈認証の両方を用いて本人確認を行う。",
+      "パスワード入力に加え、スマホに届いたコードを入力させる。",
+      "社員証(ICカード)と入館証(物理キー)の両方を提示させる。",
+      "パスワードと暗証番号(PIN)の両方を入力させる。"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（パスワード入力に加え、スマホに届いたコードを入力させる。）\n\n多要素認証(MFA)は、「知識情報(パスワード等)」「所持情報(スマホ、ICカード等)」「生体情報(指紋等)」の3要素のうち、異なる2つ以上を組み合わせる方式です。選択肢2は「知識情報（パスワード）」と「所持情報（スマホに届くコード）」の組み合わせであり、最も適切です。選択肢1は生体情報どうし、選択肢3は所持情報どうし、選択肢4は知識情報どうしなので、多要素認証には当たりません。"
+  },
+  {
+    "id": "IP_006",
+    "question": "IoT(Internet of Things)の説明として、最も適切なものはどれか。",
+    "options": [
+      "インターネットを利用して、商品の売買や決済を行う仕組み。",
+      "インターネットを通じて、個人同士が情報を交換する仕組み。",
+      "モノがインターネットに接続され、相互に情報をやり取りする仕組み。",
+      "インターネット上の仮想空間で、アバターを用いて活動する仕組み。"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（モノがインターネットに接続され、相互に情報をやり取りする仕組み。）\n\nIoT(モノのインターネット)は、家電や自動車、センサーなどのあらゆる「モノ」がインターネットに接続され、データの収集や制御、機器同士の通信を行う仕組みを指します。"
+  },
+  {
+    "id": "IP_007",
+    "question": "PCの主記憶装置(メインメモリ)として使用され、電源を切ると内容が消える揮発性のメモリはどれか。",
+    "options": [
+      "ROM",
+      "HDD",
+      "SSD",
+      "DRAM"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（DRAM）\n\nDRAM(Dynamic Random Access Memory)は、PCの主記憶装置として広く使われる揮発性メモリで、電源を切るとデータが消失します。ROM、HDD、SSDは不揮発性です。"
+  },
+  {
+    "id": "IP_008",
+    "question": "災害や事故などの不測の事態が発生した際に、事業を早期に復旧・継続するための計画を何というか。",
+    "options": [
+      "BCM (Business Continuity Management)",
+      "BCP (Business Continuity Plan)",
+      "BPO (Business Process Outsourcing)",
+      "BPR (Business Process Re-engineering)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（BCP (Business Continuity Plan)）\n\nBCP(事業継続計画)は、緊急事態においても中核となる事業を継続し、早期復旧を図るために事前に策定しておく計画のことです。"
+  },
+  {
+    "id": "IP_009",
+    "question": "PC内のファイルを暗号化して使用不能にし、復号するための鍵と引き換えに金銭を要求するマルウェアはどれか。",
+    "options": [
+      "トロイの木馬",
+      "スパイウェア",
+      "ランサムウェア",
+      "キーロガー"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（ランサムウェア）\n\nランサムウェア(Ransomware)は、感染したPCのデータを暗号化して人質に取り、復号(元に戻すこと)と引き換えに身代金(Ransom)を要求するマルウェアです。"
+  },
+  {
+    "id": "IP_010",
+    "question": "PDCAサイクルにおいて、実施した結果を評価・分析し、計画との差異を確認するプロセスはどれか。",
+    "options": [
+      "Check(評価)",
+      "Act(改善)",
+      "Plan(計画)",
+      "Do(実行)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（Check(評価)）\n\nPDCAサイクルの「Check(評価)」プロセスでは、実行(Do)した結果を測定・監視し、当初の計画(Plan)と比較して評価・分析を行います。"
+  },
+  {
+    "id": "IP_011",
+    "question": "企業のコーポレートガバナンス(企業統治)を強化する目的として、最も適切なものはどれか。",
+    "options": [
+      "従業員の給与を一律に引き上げ、モチベーションを向上させるため。",
+      "新商品を開発し、売上高を最大化するため。",
+      "市場シェアを拡大し、競合他社を排除するため。",
+      "経営の透明性を高め、健全で効率的な経営を実現するため。"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（経営の透明性を高め、健全で効率的な経営を実現するため。）\n\nコーポレートガバナンスは、企業経営の透明性・健全性を確保し、ステークホルダー(株主、顧客、従業員など)の利益を守るための仕組みです。"
+  },
+  {
+    "id": "IP_012",
+    "question": "【計算問題】製品1個あたりの販売価格が1,000円、変動費が600円、固定費が40万円の場合、損益分岐点となる販売個数は幾らか。",
+    "options": [
+      "1,000個",
+      "500個",
+      "2,000個",
+      "400個"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（1,000個）\n\n1個あたりの限界利益は、1,000円 - 600円 = 400円です。固定費40万円を回収するために必要な個数は、400,000 ÷ 400 = 1,000個となります。"
+  },
+  {
+    "id": "IP_013",
+    "question": "マーケティングミックスの4Pに含まれる要素の組合せとして、適切なものはどれか。",
+    "options": [
+      "Politics(政治)、Economy(経済)、Society(社会)、Technology(技術)",
+      "People(人)、Process(プロセス)、Physical Evidence(物的証拠)、Partnership(提携)",
+      "Plan(計画)、Do(実行)、Check(評価)、Act(改善)",
+      "Product(製品)、Price(価格)、Place(流通)、Promotion(プロモーション)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（Product(製品)、Price(価格)、Place(流通)、Promotion(プロモーション)）\n\n4Pは、売り手側の視点でのマーケティング要素(製品、価格、流通、プロモーション)を指します。"
+  },
+  {
+    "id": "IP_014",
+    "question": "個人情報保護法において、「要配慮個人情報」に該当するものはどれか。",
+    "options": [
+      "本人のメールアドレス",
+      "本人の氏名と住所",
+      "本人の病歴や犯罪歴",
+      "本人の電話番号"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（本人の病歴や犯罪歴）\n\n要配慮個人情報は、不当な差別や偏見が生じないよう、取り扱いに特に配慮が必要な情報です。人種、信条、社会的身分、病歴、犯罪歴などが該当します。"
+  },
+  {
+    "id": "IP_015",
+    "question": "システム開発の工程において、発注者がシステムに求める機能や性能を明確にする工程はどれか。",
+    "options": [
+      "詳細設計",
+      "要件定義",
+      "基本設計",
+      "プログラミング"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（要件定義）\n\n要件定義プロセスでは、利用者(発注者)のニーズを整理し、システム化の範囲や機能を決定します。"
+  },
+  {
+    "id": "IP_016",
+    "question": "ITサービスマネジメントにおいて、利用者からの問い合わせを一元的に受け付ける窓口の名称はどれか。",
+    "options": [
+      "アーカイブ",
+      "データセンター",
+      "サービスデスク",
+      "リポジトリ"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（サービスデスク）\n\nサービスデスク(ヘルプデスク)は、利用者からの問い合わせやトラブル報告などの単一の窓口(SPOC)として機能します。"
+  },
+  {
+    "id": "IP_017",
+    "question": "ネットワーク上のコンピュータを識別するためのIPアドレスを、ドメイン名(ホスト名)と対応付けるシステムはどれか。",
+    "options": [
+      "ARP (Address Resolution Protocol)",
+      "DHCP (Dynamic Host Configuration Protocol)",
+      "DNS (Domain Name System)",
+      "NAT (Network Address Translation)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（DNS (Domain Name System)）\n\nDNSは、人間が覚えやすいドメイン名(例: example.com)と、コンピュータが処理するIPアドレスを相互に変換するシステムです。"
+  },
+  {
+    "id": "IP_018",
+    "question": "【計算問題】10Mバイトのデータを、8Mbps(ビット/秒)の通信速度で転送する場合、転送にかかる時間は理論上何秒か。",
+    "options": [
+      "8秒",
+      "0.8秒",
+      "10秒",
+      "1.25秒"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（10秒）\n\n1バイト=8ビットです。10Mバイトは、10 × 8 = 80Mビットになります。80Mビット ÷ 8Mbps = 10秒です。"
+  },
+  {
+    "id": "IP_019",
+    "question": "金融機関などを装った偽の電子メールを送りつけ、偽のWebサイトに誘導して暗証番号などの個人情報を盗み取る行為はどれか。",
+    "options": [
+      "ソーシャルエンジニアリング",
+      "DoS攻撃",
+      "フィッシング",
+      "スキミング"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（フィッシング）\n\nフィッシング(Phishing)は、実在する企業を騙って偽サイトに誘導し、個人情報を詐取する詐欺手法です。"
+  },
+  {
+    "id": "IP_020",
+    "question": "CPUと主記憶装置(メインメモリ)の間に配置され、処理速度の差を埋めるために用いられる高速なメモリはどれか。",
+    "options": [
+      "キャッシュメモリ",
+      "レジスタ",
+      "仮想メモリ",
+      "フラッシュメモリ"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（キャッシュメモリ）\n\nキャッシュメモリは、CPUと主記憶装置の速度差を緩和し、システム全体の処理速度を向上させるために搭載されます。"
+  },
+  {
+    "id": "IP_021",
+    "question": "関係データベース(RDB)において、表(テーブル)内の行を一意に識別するための列を何というか。",
+    "options": [
+      "外部キー",
+      "主キー",
+      "インデックス",
+      "ビュー"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（主キー）\n\n主キー(Primary Key)は、テーブル内のレコード(行)を一意に特定するためのフィールド(列)です。重複値や空値(NULL)は許されません。"
+  },
+  {
+    "id": "IP_022",
+    "question": "クラウドコンピューティングのサービスモデルのうち、アプリケーションソフトウェアをインターネット経由で提供する形態はどれか。",
+    "options": [
+      "IaaS (Infrastructure as a Service)",
+      "SaaS (Software as a Service)",
+      "PaaS (Platform as a Service)",
+      "DaaS (Desktop as a Service)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（SaaS (Software as a Service)）\n\nSaaSは、電子メールやCRMなどのソフトウェア機能をネットワーク経由で利用者に提供するサービス形態です。"
+  },
+  {
+    "id": "IP_023",
+    "question": "公開鍵暗号技術を応用し、電子文書の作成者が本人であること、および改ざんされていないことを証明する技術はどれか。",
+    "options": [
+      "デジタル署名",
+      "メッセージ認証コード",
+      "タイムスタンプ",
+      "バイオメトリクス認証"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（デジタル署名）\n\nデジタル署名は、送信者の秘密鍵で暗号化(署名)し、受信者が送信者の公開鍵で復号・検証することで、真正性と完全性を証明します。"
+  },
+  {
+    "id": "IP_024",
+    "question": "人工知能(AI)の分野において、人間の脳神経回路を模したモデルを用いて、コンピュータ自らがデータの特徴を学習する手法はどれか。",
+    "options": [
+      "エキスパートシステム",
+      "データマイニング",
+      "遺伝的アルゴリズム",
+      "ディープラーニング(深層学習)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ディープラーニング(深層学習)）\n\nディープラーニングは、ニューラルネットワークを多層化し、大量のデータから特徴量を自動的に抽出・学習する機械学習の一種です。"
+  },
+  {
+    "id": "IP_025",
+    "question": "プロジェクト管理において、作業の順序関係を矢印で結んだアローダイアグラムにおいて、最も時間がかかる経路を何というか。",
+    "options": [
+      "ベースライン",
+      "マイルストーン",
+      "クリティカルパス",
+      "ガントチャート"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（クリティカルパス）\n\nクリティカルパスは、プロジェクト開始から終了までの最長経路であり、この経路上の作業が遅れるとプロジェクト全体の遅延に直結します。"
+  },
+  {
+    "id": "IP_026",
+    "question": "WebサイトとWebブラウザ間の通信を暗号化し、盗聴や改ざんを防ぐためのプロトコルはどれか。",
+    "options": [
+      "HTTP",
+      "SMTP",
+      "HTTPS",
+      "FTP"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（HTTPS）\n\nHTTPS (HyperText Transfer Protocol Secure) は、SSL/TLSを用いてHTTP通信を暗号化するプロトコルです。"
+  },
+  {
+    "id": "IP_027",
+    "question": "RPA(Robotic Process Automation)の導入効果として、最も適切なものはどれか。",
+    "options": [
+      "社員の健康状態を管理し、働き方改革を推進する。",
+      "定型的な事務作業を自動化し、業務効率を向上させる。",
+      "高度な判断が必要な経営戦略の策定を自動化する。",
+      "物理的なロボットを用いて、工場の組立作業を自動化する。"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（定型的な事務作業を自動化し、業務効率を向上させる。）\n\nRPAは、PC上で行う定型的な事務作業(データ入力や照合など)をソフトウェアロボットにより自動化する技術です。"
+  },
+  {
+    "id": "IP_028",
+    "question": "2進数の「1010」を10進数で表したものはどれか。",
+    "options": [
+      "10",
+      "5",
+      "12",
+      "8"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（10）\n\n2進数の1010は、(1×2^3) + (0×2^2) + (1×2^1) + (0×2^0) = 8 + 0 + 2 + 0 = 10 となります。"
+  },
+  {
+    "id": "IP_029",
+    "question": "企業が社会的責任を果たすために、環境保護や社会貢献活動などに配慮した経営を行う考え方を何というか。",
+    "options": [
+      "IPO (Initial Public Offering)",
+      "OJT (On-the-Job Training)",
+      "CSR (Corporate Social Responsibility)",
+      "M&A (Mergers and Acquisitions)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（CSR (Corporate Social Responsibility)）\n\nCSR(企業の社会的責任)は、企業が利益追求だけでなく、社会や環境に対する責任を果たすべきという考え方です。"
+  },
+  {
+    "id": "IP_030",
+    "question": "無線LANのセキュリティ規格において、WPA2よりも強固なセキュリティ機能を持つ最新の規格はどれか。",
+    "options": [
+      "WEP",
+      "TKIP",
+      "WPA3",
+      "WPA"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（WPA3）\n\nWPA3は、WPA2の後継となるセキュリティ規格で、より強力な暗号化やパスワード保護機能が強化されています。"
+  },
+  {
+    "id": "IP_031",
+    "question": "従業員が私物のスマートフォンやタブレット端末を業務に利用することを何というか。",
+    "options": [
+      "M2M (Machine to Machine)",
+      "BYOD (Bring Your Own Device)",
+      "MDM (Mobile Device Management)",
+      "MVNO (Mobile Virtual Network Operator)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（BYOD (Bring Your Own Device)）\n\nBYODは、従業員個人の端末を業務に持ち込んで利用することです。コスト削減などのメリットがある一方、セキュリティ対策が重要となります。"
+  },
+  {
+    "id": "IP_032",
+    "question": "ブロックチェーン技術を活用し、デジタルデータに唯一無二の資産価値を付与する仕組みはどれか。",
+    "options": [
+      "DeFi (Decentralized Finance)",
+      "CBDC (Central Bank Digital Currency)",
+      "NFT (Non-Fungible Token)",
+      "ICO (Initial Coin Offering)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（NFT (Non-Fungible Token)）\n\nNFT(非代替性トークン)は、デジタルアートやゲームアイテムなどのデジタルデータに対し、偽造不可な鑑定書・所有証明書を付与する技術です。"
+  },
+  {
+    "id": "IP_033",
+    "question": "【計算問題】あるシステムの投資額が1,000万円、その投資によって得られる年間利益が250万円である場合、投資利益率(ROI)は何%か。",
+    "options": [
+      "25%",
+      "10%",
+      "40%",
+      "20%"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（25%）\n\nROI(Return On Investment)は、利益 ÷ 投資額 × 100 で求められます。250万円 ÷ 1,000万円 × 100 = 25% です。"
+  },
+  {
+    "id": "IP_034",
+    "question": "企業間で提携や取引を行う際、営業秘密などの未公開情報を第三者に漏らさないことを約束する契約はどれか。",
+    "options": [
+      "SLA (Service Level Agreement)",
+      "OEM (Original Equipment Manufacturer)",
+      "NDA (Non-Disclosure Agreement)",
+      "EULA (End User License Agreement)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（NDA (Non-Disclosure Agreement)）\n\nNDA(秘密保持契約)は、取引過程で開示される機密情報を、許可なく第三者に開示・漏洩しないことを合意する契約です。"
+  },
+  {
+    "id": "IP_035",
+    "question": "IPアドレスをネットワーク部とホスト部に区切るために使用されるビット列はどれか。",
+    "options": [
+      "サブネットマスク",
+      "DNSサーバアドレス",
+      "デフォルトゲートウェイ",
+      "MACアドレス"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（サブネットマスク）\n\nサブネットマスクは、IPアドレスの32ビットのうち、どこまでがネットワークアドレスで、どこからがホストアドレスかを示すための数値です。"
+  },
+  {
+    "id": "IP_036",
+    "question": "無線LANにおいて、アクセスポイントを識別するために付けられる最大32文字の識別子はどれか。",
+    "options": [
+      "WEPキー",
+      "ESSID (SSID)",
+      "MACアドレス",
+      "PINコード"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ESSID (SSID)）\n\nESSID(Extended SSID)は、無線LANネットワークを識別するための名前です。接続する端末は、このIDを指定してアクセスポイントに接続します。"
+  },
+  {
+    "id": "IP_037",
+    "question": "デジタル技術を活用して、ビジネスモデルや組織を変革し、競争上の優位性を確立することを何というか。",
+    "options": [
+      "CX (Customer Experience)",
+      "UX (User Experience)",
+      "SX (Sustainability Transformation)",
+      "DX (Digital Transformation)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（DX (Digital Transformation)）\n\nDX(デジタルトランスフォーメーション)は、ITの浸透が人々の生活をあらゆる面でより良い方向に変化させる概念であり、ビジネスにおいてはデジタル技術による変革を指します。"
+  },
+  {
+    "id": "IP_038",
+    "question": "【計算問題】あるシステムの平均故障間隔(MTBF)が900時間、平均修理時間(MTTR)が100時間の場合、このシステムの稼働率は幾らか。",
+    "options": [
+      "0.95",
+      "0.9",
+      "0.8",
+      "0.1"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（0.9）\n\n稼働率は MTBF ÷ (MTBF + MTTR) で求められます。900 ÷ (900 + 100) = 900 ÷ 1000 = 0.9 です。"
+  },
+  {
+    "id": "IP_039",
+    "question": "ソースコードが無償で公開され、誰でも自由に利用、修正、再配布ができるソフトウェアを何というか。",
+    "options": [
+      "パッケージソフトウェア",
+      "シェアウェア",
+      "ミドルウェア",
+      "OSS (Open Source Software)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（OSS (Open Source Software)）\n\nOSS(オープンソースソフトウェア)は、LinuxやApache、MySQLなど、ソースコードが公開され、ライセンス条件の下で自由に扱えるソフトウェアです。"
+  },
+  {
+    "id": "IP_040",
+    "question": "近距離無線通信規格の一つで、極めて少ない消費電力で通信が可能な技術はどれか。",
+    "options": [
+      "BLE (Bluetooth Low Energy)",
+      "NFC (Near Field Communication)",
+      "LTE (Long Term Evolution)",
+      "Wi-Fi"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（BLE (Bluetooth Low Energy)）\n\nBLEは、Bluetooth 4.0以降に追加された低消費電力通信モードで、IoT機器やウェアラブルデバイスなどで広く利用されています。"
+  },
+  {
+    "id": "IP_041",
+    "question": "Webアプリケーションの入力フォームなどに、悪意のあるSQL文を入力してデータベースを不正に操作する攻撃はどれか。",
+    "options": [
+      "クロスサイトスクリプティング",
+      "バッファオーバーフロー",
+      "ディレクトリトラバーサル",
+      "SQLインジェクション"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（SQLインジェクション）\n\nSQLインジェクションは、データベースへの問い合わせ文(SQL)の不備を突き、不正な命令を実行させる攻撃手法です。"
+  },
+  {
+    "id": "IP_042",
+    "question": "【計算問題】サンプリング周波数44.1kHz、量子化ビット数16ビット、ステレオ(2チャンネル)で1秒間音声を録音した際のデータ量は約何KBか。",
+    "options": [
+      "44.1KB",
+      "88.2KB",
+      "1411.2KB",
+      "176.4KB"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（176.4KB）\n\nデータ量(ビット) = 44,100回/秒 × 16ビット × 2ch × 1秒 = 1,411,200ビット。バイトに換算すると ÷8 で 176,400バイト。KBに換算すると ÷1000 で約176.4KBとなります。"
+  },
+  {
+    "id": "IP_043",
+    "question": "目標達成に向けたプロセスの実施状況を計測・評価するための重要業績評価指標はどれか。",
+    "options": [
+      "CSF (Critical Success Factor)",
+      "KPI (Key Performance Indicator)",
+      "SLA (Service Level Agreement)",
+      "KGI (Key Goal Indicator)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（KPI (Key Performance Indicator)）\n\nKPIは、最終目標(KGI)を達成するための中間的な指標であり、業務の進捗やパフォーマンスを定量的に評価するために設定されます。"
+  },
+  {
+    "id": "IP_044",
+    "question": "自社の業務プロセスの一部(人事、経理、コールセンターなど)を、外部の専門業者に委託することを何というか。",
+    "options": [
+      "ASP (Application Service Provider)",
+      "BPO (Business Process Outsourcing)",
+      "M&A (Mergers and Acquisitions)",
+      "SaaS (Software as a Service)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（BPO (Business Process Outsourcing)）\n\nBPOは、業務プロセスそのものを外部企業に委託し、業務効率化やコスト削減、コア業務への集中を図る経営手法です。"
+  },
+  {
+    "id": "IP_045",
+    "question": "金融(Finance)と技術(Technology)を組み合わせた造語で、ITを活用した革新的な金融サービスを指す言葉はどれか。",
+    "options": [
+      "ヘルステック (HealthTech)",
+      "アグリテック (AgriTech)",
+      "エドテック (EdTech)",
+      "フィンテック (FinTech)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（フィンテック (FinTech)）\n\nフィンテックは、スマートフォン決済や資産運用ロボアドバイザーなど、金融サービスと情報技術を結びつけた新しいサービスや動きを指します。"
+  },
+  {
+    "id": "IP_046",
+    "question": "複数のWebサイトで同一のIDとパスワードを使い回している利用者を狙い、不正に入手したIDリストを用いてログインを試みる攻撃はどれか。",
+    "options": [
+      "辞書攻撃",
+      "ブルートフォース攻撃",
+      "ゼロデイ攻撃",
+      "パスワードリスト攻撃"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（パスワードリスト攻撃）\n\nパスワードリスト攻撃は、他所から流出したIDとパスワードのリストを使い、別のサイトへの不正ログインを試みる攻撃です。"
+  },
+  {
+    "id": "IP_047",
+    "question": "【計算問題】売上高が1,000万円、変動費が600万円、固定費が300万円のとき、営業利益は何万円か。",
+    "options": [
+      "700万円",
+      "400万円",
+      "300万円",
+      "100万円"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（100万円）\n\n営業利益 = 売上高 - 変動費 - 固定費 です。1,000 - 600 - 300 = 100万円 となります。"
+  },
+  {
+    "id": "IP_048",
+    "question": "部品の調達から製造、流通、販売に至るまでの一連の流れを統合的に管理し、全体の最適化を図る経営管理手法はどれか。",
+    "options": [
+      "PLM (Product Lifecycle Management)",
+      "CRM (Customer Relationship Management)",
+      "SCM (Supply Chain Management)",
+      "ERP (Enterprise Resource Planning)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（SCM (Supply Chain Management)）\n\nSCM(サプライチェーンマネジメント)は、供給連鎖全体を管理・最適化することで、納期短縮や在庫削減、コスト削減を目指す手法です。"
+  },
+  {
+    "id": "IP_049",
+    "question": "顧客に関する情報を一元管理し、顧客との良好な関係を築くことで、顧客満足度や収益の向上を目指す手法はどれか。",
+    "options": [
+      "SFA (Sales Force Automation)",
+      "CRM (Customer Relationship Management)",
+      "KM (Knowledge Management)",
+      "HRM (Human Resource Management)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（CRM (Customer Relationship Management)）\n\nCRM(顧客関係管理)は、顧客の購買履歴や問い合わせ内容などを管理・分析し、個々の顧客に適した対応を行うことでLTV(顧客生涯価値)を高める手法です。"
+  },
+  {
+    "id": "IP_050",
+    "question": "コンピュータを利用して、製品や建築物などの設計や製図を行うシステムを何というか。",
+    "options": [
+      "CAD (Computer Aided Design)",
+      "CAM (Computer Aided Manufacturing)",
+      "CIM (Computer Integrated Manufacturing)",
+      "CAE (Computer Aided Engineering)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（CAD (Computer Aided Design)）\n\nCAD(キャド)は、コンピュータ支援設計のことで、図面の作成や3Dモデルの作成を効率化するツールです。"
+  },
+  {
+    "id": "IP_051",
+    "question": "あるソフトウェアの機能を、外部のプログラムから利用できるようにしたインターフェース(窓口)の仕様を何というか。",
+    "options": [
+      "API (Application Programming Interface)",
+      "GUI (Graphical User Interface)",
+      "IDE (Integrated Development Environment)",
+      "CUI (Character User Interface)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（API (Application Programming Interface)）\n\nAPIは、ソフトウェアコンポーネント同士が互いに情報をやり取りするためのインターフェース仕様です。Web APIなどを通じて他社のサービス機能を利用することなどが可能です。"
+  },
+  {
+    "id": "IP_052",
+    "question": "【計算問題】2進数「1100」と「1010」のビットごとの論理積(AND)をとった結果はどれか。",
+    "options": [
+      "1010",
+      "1110",
+      "0110",
+      "1000"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（1000）\n\n論理積(AND)は、両方のビットが1の場合のみ1になります。\n  1100\n  1010\n------\n  1000"
+  },
+  {
+    "id": "IP_053",
+    "question": "情報セキュリティマネジメントシステム(ISMS)の適合性評価制度において、認証基準として用いられる国際規格(または国内規格)はどれか。",
+    "options": [
+      "ISO/IEC 27001 (JIS Q 27001)",
+      "ISO 9001 (JIS Q 9001)",
+      "ISO 14001 (JIS Q 14001)",
+      "ISO/IEC 20000 (JIS Q 20000)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ISO/IEC 27001 (JIS Q 27001)）\n\nISO/IEC 27001(JIS Q 27001)は、組織がISMSを確立、実施、維持、改善するための要求事項を規定した規格です。"
+  },
+  {
+    "id": "IP_054",
+    "question": "生産管理において、製品の品質(Quality)、コスト(Cost)、納期(Delivery)の3要素を総称して何というか。",
+    "options": [
+      "TQC",
+      "QCD",
+      "ROE",
+      "QoL"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（QCD）\n\nQCDは、製造業などの生産活動において重要視される3つの要素の頭文字をとったものです。"
+  },
+  {
+    "id": "IP_055",
+    "question": "IoT機器などの近く(エッジ)にサーバを配置し、データ処理を分散させることで、通信遅延の短縮や負荷分散を図る技術はどれか。",
+    "options": [
+      "量子コンピューティング",
+      "エッジコンピューティング",
+      "ユーティリティコンピューティング",
+      "グリッドコンピューティング"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（エッジコンピューティング）\n\nエッジコンピューティングは、クラウドに全てのデータを送るのではなく、端末に近い場所(エッジ)で処理を行うことで、リアルタイム性の向上などを実現します。"
+  },
+  {
+    "id": "IP_056",
+    "question": "【計算問題】横800ピクセル、縦600ピクセルの画像を、24ビットカラー(1画素あたり3バイト)で保存した場合のデータ量は約何KBか(圧縮は考慮しない)。",
+    "options": [
+      "1,920KB",
+      "480KB",
+      "3,600KB",
+      "1,440KB"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（1,440KB）\n\n総画素数は 800 × 600 = 480,000画素。データ量は 480,000 × 3バイト = 1,440,000バイト。1KB=1,000バイトとして計算すると 1,440KB となります。"
+  },
+  {
+    "id": "IP_057",
+    "question": "低消費電力で広範囲の通信を可能にする無線通信技術の総称で、IoT機器の通信に適しているものはどれか。",
+    "options": [
+      "ADSL (Asymmetric Digital Subscriber Line)",
+      "FTTH (Fiber To The Home)",
+      "LPWA (Low Power Wide Area)",
+      "ISDN (Integrated Services Digital Network)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（LPWA (Low Power Wide Area)）\n\nLPWAは、通信速度は遅いものの、低消費電力で数km〜数十kmの長距離通信が可能な技術で、スマートメーターやセンサーネットワークで利用されます。"
+  },
+  {
+    "id": "IP_058",
+    "question": "第5世代移動通信システム(5G)の特徴として、適切でないものはどれか。",
+    "options": [
+      "多数の端末を同時に接続できる(多接続)。",
+      "通信の遅延が非常に小さい(低遅延)。",
+      "通信距離が非常に長く、基地局が不要である。",
+      "高速・大容量の通信が可能である。"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（通信距離が非常に長く、基地局が不要である。）\n\n5Gの特徴は「高速大容量」「高信頼・低遅延」「多数同時接続」です。高い周波数帯を使用するため、電波の届く距離は比較的短く、多数の基地局が必要です。"
+  },
+  {
+    "id": "IP_059",
+    "question": "取引データをブロックと呼ばれる単位にまとめ、それらを鎖のように連結して分散管理する技術はどれか。",
+    "options": [
+      "ブロックチェーン",
+      "データウェアハウス",
+      "分散データベース",
+      "データレイク"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ブロックチェーン）\n\nブロックチェーンは、分散型台帳技術の一つで、改ざんが極めて困難であり、暗号資産(仮想通貨)の基盤技術として知られています。"
+  },
+  {
+    "id": "IP_060",
+    "question": "【計算問題】1.5Mバイトのファイルを、通信速度10Mbpsの回線を使ってダウンロードする。回線利用率が50%の場合、ダウンロードにかかる時間は何秒か。",
+    "options": [
+      "0.6秒",
+      "2.4秒",
+      "4.8秒",
+      "1.2秒"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（2.4秒）\n\nファイルサイズ:1.5MB × 8 = 12Mビット。実効通信速度:10Mbps × 0.5 = 5Mbps。時間:12Mビット ÷ 5Mbps = 2.4秒。"
+  },
+  {
+    "id": "IP_061",
+    "question": "企業が法令や社会的規範、企業倫理などを遵守して活動することを何というか。",
+    "options": [
+      "コンプライアンス",
+      "ガバナンス",
+      "アカウンタビリティ",
+      "ディスクロージャー"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（コンプライアンス）\n\nコンプライアンス(法令遵守)は、法令だけでなく社内規定や社会通念、倫理観を守ることも含みます。"
+  },
+  {
+    "id": "IP_062",
+    "question": "組織内の不正行為などを内部通報した労働者が、解雇などの不利益な取り扱いを受けないよう保護する法律はどれか。",
+    "options": [
+      "公益通報者保護法",
+      "不正競争防止法",
+      "個人情報保護法",
+      "労働基準法"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（公益通報者保護法）\n\n公益通報者保護法は、国民の生命や身体の保護、消費者の利益擁護等のため、公益通報を行った通報者を保護する法律です。"
+  },
+  {
+    "id": "IP_063",
+    "question": "他人のID・パスワードを無断で入力してネットワークに接続する行為などを禁止・処罰する法律はどれか。",
+    "options": [
+      "サイバーセキュリティ基本法",
+      "プロバイダ責任制限法",
+      "刑法",
+      "不正アクセス禁止法"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（不正アクセス禁止法）\n\n不正アクセス禁止法は、ID・パスワードの不正利用や、セキュリティホールの攻撃による不正アクセス行為自体を犯罪として処罰します。"
+  },
+  {
+    "id": "IP_064",
+    "question": "【計算問題】データの集まり {10, 20, 30, 40, 200} の平均値と中央値(メジアン)の組合せとして、正しいものはどれか。",
+    "options": [
+      "平均値:60、中央値:30",
+      "平均値:30、中央値:30",
+      "平均値:30、中央値:40",
+      "平均値:60、中央値:40"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（平均値:60、中央値:30）\n\n合計は 10+20+30+40+200 = 300。個数は5個なので平均値は 300÷5=60。データを順に並べると 10, 20, 30, 40, 200 なので、中央値は真ん中の 30 です。"
+  },
+  {
+    "id": "IP_065",
+    "question": "複数のハードディスクを組み合わせ、データの冗長化や高速化を図る技術で、ストライピング(分散書き込み)のみを行う方式はどれか。",
+    "options": [
+      "RAID 1",
+      "RAID 6",
+      "RAID 5",
+      "RAID 0"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（RAID 0）\n\nRAID 0(ストライピング)は、データを分散して書き込むことで高速化しますが、冗長性(耐障害性)はありません。1台でも故障するとデータが失われます。"
+  },
+  {
+    "id": "IP_066",
+    "question": "バックアップ方式のうち、前回の「フルバックアップ」からの変更分すべてを毎回バックアップする方式はどれか。",
+    "options": [
+      "フルバックアップ",
+      "リアルタイムバックアップ",
+      "差分バックアップ",
+      "増分バックアップ"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（差分バックアップ）\n\n差分バックアップは、直前のフルバックアップからの変更分を保存します。復旧時はフルバックアップ+最新の差分バックアップの2つで済みます。"
+  },
+  {
+    "id": "IP_067",
+    "question": "停電や電圧低下などの電源トラブルが発生した際に、一定時間電力を供給し、システムを安全にシャットダウンさせるための装置はどれか。",
+    "options": [
+      "GPU (Graphics Processing Unit)",
+      "UPS (Uninterruptible Power Supply)",
+      "PDU (Power Distribution Unit)",
+      "AVR (Automatic Voltage Regulator)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（UPS (Uninterruptible Power Supply)）\n\nUPS(無停電電源装置)は、予期せぬ停電時にバッテリーから電力を供給し、データ消失やハードウェア故障を防ぐ装置です。"
+  },
+  {
+    "id": "IP_068",
+    "question": "【計算問題】稼働率が0.9の装置を2台直列に接続したシステムの全体の稼働率は幾らか。",
+    "options": [
+      "0.99",
+      "0.81",
+      "1.8",
+      "0.9"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（0.81）\n\n直列システムの稼働率は、各装置の稼働率の積になります。0.9 × 0.9 = 0.81 です。"
+  },
+  {
+    "id": "IP_069",
+    "question": "高齢者や障害者を含む誰もが、情報機器やソフトウェアを支障なく利用できる状態にあることを表す用語はどれか。",
+    "options": [
+      "トレーサビリティ",
+      "ユーザビリティ",
+      "アクセシビリティ",
+      "セキュリティ"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（アクセシビリティ）\n\nアクセシビリティ(Accessibility)は、利用者の身体的条件や環境に関わらず、情報やサービスにアクセスし利用できる度合いを指します。"
+  },
+  {
+    "id": "IP_070",
+    "question": "Webサイトやソフトウェアの「使いやすさ」や「使い勝手」を表す用語はどれか。",
+    "options": [
+      "ユーザビリティ",
+      "リライアビリティ",
+      "アベイラビリティ",
+      "スケーラビリティ"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ユーザビリティ）\n\nユーザビリティ(Usability)は、特定の利用者が特定の目的を達成するために、製品を有効、効率的、かつ満足して使える度合いのことです。"
+  },
+  {
+    "id": "IP_071",
+    "question": "情報通信技術(ICT)を利用できる人と利用できない人との間に生じる、情報格差やそれに伴う経済的・社会的格差を何というか。",
+    "options": [
+      "デジタルタトゥー",
+      "デジタルツイン",
+      "デジタルネイティブ",
+      "デジタルディバイド"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（デジタルディバイド）\n\nデジタルディバイド(Digital Divide)は、インターネットやPC等の利用能力や環境の違いによって生じる格差のことです。"
+  },
+  {
+    "id": "IP_072",
+    "question": "【計算問題】開発工数が20人月のプロジェクトを、5人で担当する場合、開発期間は何ヶ月になるか。",
+    "options": [
+      "5ヶ月",
+      "25ヶ月",
+      "100ヶ月",
+      "4ヶ月"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（4ヶ月）\n\n工数(人月)= 人数 × 期間(月)です。20人月 ÷ 5人 = 4ヶ月 となります。"
+  },
+  {
+    "id": "IP_073",
+    "question": "インターネットを通じて不特定多数の人から、プロジェクトや活動に必要な資金を少額ずつ集める仕組みはどれか。",
+    "options": [
+      "ドロップシッピング",
+      "アフィリエイト",
+      "クラウドソーシング",
+      "クラウドファンディング"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（クラウドファンディング）\n\nクラウドファンディング(Crowdfunding)は、群衆(Crowd)と資金調達(Funding)を組み合わせた造語です。"
+  },
+  {
+    "id": "IP_074",
+    "question": "個人や企業が保有する遊休資産(場所、乗り物、モノ、スキルなど)を、インターネットを介して他者と貸し借り・共有する経済モデルはどれか。",
+    "options": [
+      "サブスクリプション",
+      "シェアリングエコノミー",
+      "フリーミアム",
+      "ギグエコノミー"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（シェアリングエコノミー）\n\nシェアリングエコノミーは、民泊やカーシェア、スキルシェアなど、資産の共有によって新たな価値を生み出す経済活動です。"
+  },
+  {
+    "id": "IP_075",
+    "question": "ICTを活用し、時間や場所にとらわれない柔軟な働き方をすることを何というか。",
+    "options": [
+      "テレワーク",
+      "裁量労働制",
+      "フレックスタイム制",
+      "ワークシェアリング"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（テレワーク）\n\nテレワーク(Telework)は、Tele(離れた場所)とWork(働く)を合わせた言葉で、在宅勤務やサテライトオフィス勤務などが含まれます。"
+  },
+  {
+    "id": "IP_076",
+    "question": "【計算問題】排他的論理和(XOR)演算において、入力が「1」と「1」の場合の出力はどれか。",
+    "options": [
+      "0",
+      "10",
+      "null",
+      "1"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（0）\n\n排他的論理和(XOR)は、入力が異なれば「1」、同じであれば「0」を出力します。1と1は同じなので出力は「0」です。"
+  },
+  {
+    "id": "IP_077",
+    "question": "外部ネットワークからの不正アクセスを防ぐために、内部ネットワークとの境界に設置され、通信の通過可否を判断するシステムはどれか。",
+    "options": [
+      "ファイアウォール",
+      "プロキシサーバ",
+      "ハブ",
+      "ロードバランサ"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ファイアウォール）\n\nファイアウォール(防火壁)は、パケットのヘッダ情報(IPアドレスやポート番号)を基に、通信を許可または遮断するパケットフィルタリング機能などを持ちます。"
+  },
+  {
+    "id": "IP_078",
+    "question": "Webアプリケーションへの攻撃を防ぐために特化したファイアウォールで、SQLインジェクションやXSSなどを検知・防御するものはどれか。",
+    "options": [
+      "IDS (Intrusion Detection System)",
+      "UTM (Unified Threat Management)",
+      "WAF (Web Application Firewall)",
+      "IPS (Intrusion Prevention System)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（WAF (Web Application Firewall)）\n\nWAFは、Webアプリケーションレベルの通信内容を検査し、従来のファイアウォールでは防げないアプリケーション層への攻撃を防御します。"
+  },
+  {
+    "id": "IP_079",
+    "question": "外部公開サーバ(Webサーバなど)を、内部ネットワークから隔離して配置するための緩衝地帯となるネットワーク領域を何というか。",
+    "options": [
+      "WAN (Wide Area Network)",
+      "LAN (Local Area Network)",
+      "VPN (Virtual Private Network)",
+      "DMZ (DeMilitarized Zone)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（DMZ (DeMilitarized Zone)）\n\nDMZ(非武装地帯)は、外部インターネットと内部LANの間に設けられるセグメントで、外部からの直接アクセスを受けつつ、内部LANへの被害波及を防ぎます。"
+  },
+  {
+    "id": "IP_080",
+    "question": "キーボードからの入力操作を記録し、パスワードやクレジットカード番号などを盗み取るスパイウェアの一種はどれか。",
+    "options": [
+      "バックドア",
+      "ボット",
+      "ルートキット",
+      "キーロガー"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（キーロガー）\n\nキーロガー(Keylogger)は、キーボードの打鍵履歴(ログ)を記録するソフトウェアまたはハードウェアで、入力情報を盗聴するために悪用されます。"
+  },
+  {
+    "id": "IP_081",
+    "question": "SMS(ショートメッセージサービス)を悪用して、フィッシングサイトへ誘導したり、マルウェアをインストールさせたりする手口はどれか。",
+    "options": [
+      "スキミング",
+      "ファーミング",
+      "ソーシャルエンジニアリング",
+      "スミッシング"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（スミッシング）\n\nスミッシング(Smishing)は、SMSとPhishingを組み合わせた造語で、SMSを用いたフィッシング詐欺のことです。"
+  },
+  {
+    "id": "IP_082",
+    "question": "ネットワークに接続された機器に対して、正しい時刻情報を配信するためのプロトコルはどれか。",
+    "options": [
+      "POP",
+      "SMTP",
+      "NTP",
+      "FTP"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（NTP）\n\nNTP(Network Time Protocol)は、ネットワーク上の機器の時刻を同期させるためのプロトコルです。"
+  },
+  {
+    "id": "IP_083",
+    "question": "営業活動を支援し、顧客情報の管理や商談の進捗状況などを可視化して、営業効率を高めるシステムはどれか。",
+    "options": [
+      "SCM",
+      "ERP",
+      "PLM",
+      "SFA"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（SFA）\n\nSFA(Sales Force Automation)は、営業支援システムと呼ばれ、営業担当者の活動や顧客情報を管理・共有して効率化を図る仕組みです。"
+  },
+  {
+    "id": "IP_084",
+    "question": "【計算問題】取得原価が100万円、耐用年数が5年、残存価額が0円の資産を定額法で減価償却する場合、1年あたりの減価償却費は何万円か。",
+    "options": [
+      "20万円",
+      "25万円",
+      "50万円",
+      "10万円"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（20万円）\n\n定額法の計算式は(取得原価 - 残存価額)÷ 耐用年数 です。(100万円 - 0円)÷ 5年 = 20万円となります。"
+  },
+  {
+    "id": "IP_085",
+    "question": "国や地方公共団体などが保有するデータを、営利・非営利を問わず二次利用可能な形式で公開し、社会全体の活性化を促す取り組みはどれか。",
+    "options": [
+      "マイデータ",
+      "ビッグデータ",
+      "メタデータ",
+      "オープンデータ"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（オープンデータ）\n\nオープンデータは、機械判読に適した形式で、かつ二次利用が可能なルールで公開される公共データのことです。"
+  },
+  {
+    "id": "IP_086",
+    "question": "システム監査人の要件として、監査対象から独立している必要がある理由はどれか。",
+    "options": [
+      "システム開発の技術力を高めるため",
+      "客観的で公平な評価を行うため",
+      "監査時間を短縮するため",
+      "監査費用を安く抑えるため"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（客観的で公平な評価を行うため）\n\nシステム監査人は、監査対象部門や業務から独立した立場でなければ、客観的かつ公正な監査判断ができません(独立性の原則)。"
+  },
+  {
+    "id": "IP_087",
+    "question": "電子データがある日時に存在していたこと、およびその日時以降に改ざんされていないことを証明する技術はどれか。",
+    "options": [
+      "デジタル署名",
+      "ブロックチェーン",
+      "メッセージ認証コード",
+      "タイムスタンプ"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（タイムスタンプ）\n\nタイムスタンプ(Time Stamp)は、信頼できる第三者機関(TSA)が発行し、ある時刻にそのデータが存在し、それ以降改ざんされていないことを証明します。"
+  },
+  {
+    "id": "IP_088",
+    "question": "【計算問題】稼働率が0.9(90%)の装置を2台並列に接続したシステムの稼働率は幾らか。",
+    "options": [
+      "0.18",
+      "0.99",
+      "0.81",
+      "0.9"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（0.99）\n\n並列システムの稼働率は、1 - (1 - 稼働率) × (1 - 稼働率) で求められます。1 - (1 - 0.9) × (1 - 0.9) = 1 - 0.1 × 0.1 = 1 - 0.01 = 0.99 です。"
+  },
+  {
+    "id": "IP_089",
+    "question": "金融(Finance)と技術(Technology)を組み合わせ、ITを活用して革新的な金融サービスを生み出す動きを何というか。",
+    "options": [
+      "インシュアテック",
+      "アグリテック",
+      "フィンテック",
+      "エドテック"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（フィンテック）\n\nフィンテック(FinTech)は、FinanceとTechnologyを掛け合わせた造語で、モバイル決済や資産運用アプリなどのサービスを指します。"
+  },
+  {
+    "id": "IP_090",
+    "question": "交通系ICカードや電子マネー決済などで利用されている、近距離無線通信の規格はどれか。",
+    "options": [
+      "Bluetooth",
+      "NFC",
+      "ZigBee",
+      "Wi-Fi"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（NFC）\n\nNFC(Near Field Communication)は、数センチメートル程度の至近距離で無線通信を行う規格で、非接触ICカードなどに利用されます。"
+  },
+  {
+    "id": "IP_091",
+    "question": "関係データベースにおいて、条件に合致する行を抽出する操作はどれか。",
+    "options": [
+      "結合(Join)",
+      "射影(Projection)",
+      "選択(Selection)",
+      "和(Union)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（選択(Selection)）\n\n選択(Selection)は、表から特定の条件を満たす「行」を取り出す操作です。特定の「列」を取り出すのは射影(Projection)です。"
+  },
+  {
+    "id": "IP_092",
+    "question": "営業秘密の不正取得や、周知な商品等表示の混同惹起行為などを規制し、公正な競争を確保するための法律はどれか。",
+    "options": [
+      "不正競争防止法",
+      "特許法",
+      "独占禁止法",
+      "著作権法"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（不正競争防止法）\n\n不正競争防止法は、事業者間の公正な競争を阻害する行為(営業秘密の侵害、コピー商品の販売など)を規制する法律です。"
+  },
+  {
+    "id": "IP_093",
+    "question": "製品の企画・開発から廃棄に至るまでのライフサイクル全体を管理し、収益の最大化を図る手法はどれか。",
+    "options": [
+      "ERP",
+      "CRM",
+      "PLM",
+      "SCM"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（PLM）\n\nPLM(Product Lifecycle Management:製品ライフサイクル管理)は、製品の企画から廃棄までの全工程を統合管理し、開発期間短縮やコスト削減を目指す手法です。"
+  },
+  {
+    "id": "IP_094",
+    "question": "【計算問題】2進数の「110」と「011」を加算した結果を2進数で表したものはどれか。",
+    "options": [
+      "1001",
+      "0101",
+      "1000",
+      "1111"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（1001）\n\n110(10進数で6)+ 011(10進数で3)= 1001(10進数で9)。各桁を足すと、1の位:0+1=1、2の位:1+1=10(繰り上がり)、4の位:1+0+1(繰り上がり)=10 -> 1001。"
+  },
+  {
+    "id": "IP_095",
+    "question": "あるソフトウェアの機能を、外部のプログラムから利用できるように定めた規約やインターフェースを何というか。",
+    "options": [
+      "SPI",
+      "API",
+      "CUI",
+      "GUI"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（API）\n\nAPI(Application Programming Interface)は、ソフトウェアの機能を外部から呼び出して利用するための規約や手順のセットです。"
+  },
+  {
+    "id": "IP_096",
+    "question": "SLA(サービスレベル合意書)に基づき、サービスの品質を維持・向上させるための継続的な管理活動はどれか。",
+    "options": [
+      "BCP",
+      "ISMS",
+      "SLM",
+      "ITIL"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（SLM）\n\nSLM(Service Level Management:サービスレベル管理)は、SLAで合意したサービス品質を達成・維持するために、PDCAサイクルを回して管理する活動です。"
+  },
+  {
+    "id": "IP_097",
+    "question": "Webページに入力されたデータに含まれる悪意のあるスクリプトが、利用者のブラウザ上で実行されてしまう脆弱性を何というか。",
+    "options": [
+      "クロスサイトスクリプティング(XSS)",
+      "バッファオーバーフロー",
+      "セッションハイジャック",
+      "SQLインジェクション"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（クロスサイトスクリプティング(XSS)）\n\nクロスサイトスクリプティング(XSS)は、動的にWebページを生成する際の不備を突き、悪意あるスクリプトを利用者のブラウザで実行させる攻撃です。"
+  },
+  {
+    "id": "IP_098",
+    "question": "【計算問題】転送速度が10Mbpsの回線を使用して、600Mバイトのデータを転送するのにかかる理論上の時間は何秒か。ただし、1バイト=8ビットとする。",
+    "options": [
+      "60秒",
+      "48秒",
+      "480秒",
+      "80秒"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（480秒）\n\nデータ量は 600Mバイト × 8 = 4,800Mビット。時間は 4,800Mビット ÷ 10Mbps = 480秒です。"
+  },
+  {
+    "id": "IP_099",
+    "question": "スマートフォンなどで表示したQRコードやバーコードを読み取ることで代金を支払う決済手段はどれか。",
+    "options": [
+      "デビットカード",
+      "電子マネー",
+      "クレジットカード",
+      "コード決済"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（コード決済）\n\nコード決済(QRコード決済、バーコード決済)は、スマホアプリ等でコードを表示または読み取ることで支払うキャッシュレス決済です。"
+  },
+  {
+    "id": "IP_100",
+    "question": "1つのCPUパッケージ内に、処理を行うコア(中核部分)を複数搭載しているプロセッサを何というか。",
+    "options": [
+      "FPGA",
+      "マイクロコントローラ",
+      "GPU",
+      "マルチコアプロセッサ"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（マルチコアプロセッサ）\n\nマルチコアプロセッサは、1つのチップに複数のCPUコア(デュアルコア、クアッドコアなど)を搭載し、並列処理性能を高めたものです。"
+  },
+  {
+    "id": "IP_101",
+    "question": "自己増殖機能を持ち、ネットワークなどを通じて他のコンピュータに感染を広げるマルウェアはどれか。",
+    "options": [
+      "スパイウェア",
+      "ワーム",
+      "ランサムウェア",
+      "トロイの木馬"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ワーム）\n\nワーム(Worm)は、単独で存在し、自己複製を行ってネットワーク経由で他のシステムへ感染を拡大するマルウェアです。"
+  },
+  {
+    "id": "IP_102",
+    "question": "TCP/IPネットワークにおいて、Webサーバ(HTTP)が標準的に使用するポート番号はどれか。",
+    "options": [
+      "110",
+      "25",
+      "443",
+      "80"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（80）\n\nHTTP(暗号化なしWeb通信)の標準ポート番号は80番です。443はHTTPS、25はSMTP、110はPOP3です。"
+  },
+  {
+    "id": "IP_103",
+    "question": "業務プロセスを抜本的に見直し、再設計することで、コスト、品質、サービス、スピードなどを劇的に改善する手法はどれか。",
+    "options": [
+      "ERP",
+      "BPR",
+      "MOT",
+      "BPO"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（BPR）\n\nBPR(Business Process Re-engineering)は、既存の業務プロセスを根本から見直し(リエンジニアリング)、再構築する手法です。"
+  },
+  {
+    "id": "IP_104",
+    "question": "【計算問題】10Mバイトのデータを、実効転送速度が4Mbpsの回線でダウンロードするのにかかる時間は何秒か。",
+    "options": [
+      "25秒",
+      "40秒",
+      "2.5秒",
+      "20秒"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（20秒）\n\nデータ量は 10Mバイト × 8 = 80Mビット。時間は 80Mビット ÷ 4Mbps = 20秒です。"
+  },
+  {
+    "id": "IP_105",
+    "question": "現実世界の情報にデジタル情報を重ね合わせて表示し、現実を拡張する技術はどれか。",
+    "options": [
+      "VR (Virtual Reality)",
+      "SR (Substitutional Reality)",
+      "MR (Mixed Reality)",
+      "AR (Augmented Reality)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（AR (Augmented Reality)）\n\nAR(拡張現実)は、スマホのカメラ越しの映像などにCGや情報を重ねて表示する技術です。ポケモンGOなどが有名です。"
+  },
+  {
+    "id": "IP_106",
+    "question": "プロジェクトのスケジュール管理に使用され、作業の開始日や終了日を横棒グラフで表した図はどれか。",
+    "options": [
+      "ガントチャート",
+      "アローダイアグラム",
+      "散布図",
+      "パレート図"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ガントチャート）\n\nガントチャートは、縦軸に作業項目、横軸に時間をとり、作業の期間をバー(横棒)で示した工程表です。"
+  },
+  {
+    "id": "IP_107",
+    "question": "生体認証(バイオメトリクス認証)において、身体的特徴を利用するものはどれか。",
+    "options": [
+      "キーストローク認証",
+      "音声認証",
+      "筆跡認証",
+      "指紋認証"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（指紋認証）\n\n身体的特徴(静的特徴)には指紋、静脈、虹彩、顔などがあります。筆跡やキーストロークは行動的特徴(動的特徴)です。"
+  },
+  {
+    "id": "IP_108",
+    "question": "【計算問題】売上高が1,000万円、売上原価が700万円、販売費及び一般管理費が200万円の場合、営業利益は何万円か。",
+    "options": [
+      "10万円",
+      "800万円",
+      "100万円",
+      "300万円"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（100万円）\n\n売上総利益=売上高-売上原価=1,000-700=300万円。営業利益=売上総利益-販管費=300-200=100万円です。"
+  },
+  {
+    "id": "IP_109",
+    "question": "インターネットを通じて、不特定多数の人から資金を調達する仕組みはどれか。",
+    "options": [
+      "クラウドソーシング",
+      "クラウドコンピューティング",
+      "ASP",
+      "クラウドファンディング"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（クラウドファンディング）\n\nクラウドファンディング(Crowdfunding)は、群衆(Crowd)と資金調達(Funding)を組み合わせた言葉で、ネット上で資金を募る仕組みです。"
+  },
+  {
+    "id": "IP_110",
+    "question": "クラウドコンピューティングのサービスモデルのうち、サーバ、CPU、ストレージなどのインフラ資源を提供するものはどれか。",
+    "options": [
+      "IaaS",
+      "SaaS",
+      "DaaS",
+      "PaaS"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（IaaS）\n\nIaaS(Infrastructure as a Service)は、ハードウェアやネットワークなどのインフラ機能を提供するサービスです。"
+  },
+  {
+    "id": "IP_111",
+    "question": "データベース設計において、実体(Entity)と関連(Relationship)を用いてデータの構造を可視化する図はどれか。",
+    "options": [
+      "フローチャート",
+      "DFD",
+      "E-R図",
+      "クラス図"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（E-R図）\n\nE-R図(Entity-Relationship Diagram)は、データの構造を「実体」と「関連」で表現する図で、データベース設計の初期段階で使われます。"
+  },
+  {
+    "id": "IP_112",
+    "question": "個人情報の第三者提供において、本人の同意を得る代わりに、あらかじめ本人に通知し、本人の求めに応じて提供を停止する方式はどれか。",
+    "options": [
+      "オプトアウト",
+      "プライバシーマーク",
+      "匿名加工情報",
+      "オプトイン"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（オプトアウト）\n\nオプトアウト方式は、「拒否(Opt-out)しなければ同意したとみなす」方式で、事前の通知と事後の停止対応を条件に第三者提供を認める特例です。"
+  },
+  {
+    "id": "IP_113",
+    "question": "他社には真似のできない、企業の中核となる強みや技術力のことを何というか。",
+    "options": [
+      "ニッチ戦略",
+      "コアコンピタンス",
+      "アライアンス",
+      "ベンチマーキング"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（コアコンピタンス）\n\nコアコンピタンス(Core Competence)は、競合他社が模倣困難で、顧客に価値をもたらす、企業の中核的な能力のことです。"
+  },
+  {
+    "id": "IP_114",
+    "question": "プロジェクト管理のアローダイアグラムにおいて、作業の遅れがプロジェクト全体の遅れに直結する経路を何というか。",
+    "options": [
+      "ダミー作業",
+      "マイルストーン",
+      "クリティカルパス",
+      "ベースライン"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（クリティカルパス）\n\nクリティカルパスは、開始から終了までの経路の中で所要日数が最長の経路です。この経路上の作業遅延は全体の遅延となります。"
+  },
+  {
+    "id": "IP_115",
+    "question": "IoT機器向けの通信技術で、低消費電力かつ長距離通信を特徴とするものはどれか。",
+    "options": [
+      "Wi-Fi 6",
+      "NFC",
+      "LPWA",
+      "5G"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（LPWA）\n\nLPWA(Low Power Wide Area)は、少ない電力で数km以上の広範囲な通信が可能な無線通信技術の総称です。"
+  },
+  {
+    "id": "IP_116",
+    "question": "システム障害が発生した際に、速やかにサービスを平常運用状態に復旧させるプロセスはどれか。",
+    "options": [
+      "変更管理",
+      "問題管理",
+      "インシデント管理",
+      "リリース管理"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（インシデント管理）\n\nインシデント管理は、障害などのインシデント発生時に、暫定対応を含めて迅速にサービスを復旧させることを目的とします。"
+  },
+  {
+    "id": "IP_117",
+    "question": "Webサーバのファイルパス指定の不備を突き、本来アクセスできない親ディレクトリ等のファイルにアクセスする攻撃はどれか。",
+    "options": [
+      "ディレクトリトラバーサル",
+      "DoS攻撃",
+      "バッファオーバーフロー",
+      "SQLインジェクション"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ディレクトリトラバーサル）\n\nディレクトリトラバーサル(Directory Traversal)は、「../」などのパス操作文字を使って、意図しないディレクトリへ遡ってアクセスする攻撃です。"
+  },
+  {
+    "id": "IP_118",
+    "question": "システムの故障率の変化を時間の経過とともに示した曲線の名称はどれか。",
+    "options": [
+      "バスタブ曲線",
+      "パレート図",
+      "散布図",
+      "管理図"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（バスタブ曲線）\n\nバスタブ曲線は、初期故障期、偶発故障期、摩耗故障期の3つの期間における故障率の変化を示したグラフで、浴槽の断面に似ています。"
+  },
+  {
+    "id": "IP_119",
+    "question": "インターネットなどの公衆回線上に、暗号化技術などを用いて仮想的な専用線を構築する技術はどれか。",
+    "options": [
+      "LAN",
+      "WAN",
+      "VPN",
+      "ISP"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（VPN）\n\nVPN(Virtual Private Network)は、公衆網を利用しながらも、トンネリングや暗号化によって専用線のように安全に通信する技術です。"
+  },
+  {
+    "id": "IP_120",
+    "question": "SSDやUSBメモリなどに使用され、電気的にデータの書き換えや消去が可能な不揮発性メモリはどれか。",
+    "options": [
+      "フラッシュメモリ",
+      "SRAM",
+      "DRAM",
+      "キャッシュメモリ"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（フラッシュメモリ）\n\nフラッシュメモリは、電源を切ってもデータが消えず(不揮発性)、電気的に書き換え可能な半導体メモリです。"
+  },
+  {
+    "id": "IP_121",
+    "question": "パスワードに依存しない新しいオンライン認証技術の標準化を推進している団体、またはその規格はどれか。",
+    "options": [
+      "FIDO",
+      "IEEE",
+      "PCI DSS",
+      "ISO"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（FIDO）\n\nFIDO(Fast Identity Online)は、生体認証などを利用して、パスワードを使わずに安全に認証を行うための技術規格です。"
+  },
+  {
+    "id": "IP_122",
+    "question": "ネットワーク機器の製造時に割り当てられる、48ビットの世界で唯一の固有な識別番号はどれか。",
+    "options": [
+      "IPアドレス",
+      "MACアドレス",
+      "サブネットマスク",
+      "ポート番号"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（MACアドレス）\n\nMACアドレス(Media Access Control Address)は、NICなどのネットワーク機器に固有に割り当てられた物理アドレスです。"
+  },
+  {
+    "id": "IP_123",
+    "question": "目標達成のために重要となる成功要因のことを何というか。",
+    "options": [
+      "KPI (Key Performance Indicator)",
+      "KGI (Key Goal Indicator)",
+      "CSF (Critical Success Factor)",
+      "BSC (Balanced Scorecard)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（CSF (Critical Success Factor)）\n\nCSF(重要成功要因)は、経営戦略目標を達成するために決定的に重要となる要因のことです。"
+  },
+  {
+    "id": "IP_124",
+    "question": "【計算問題】16進数の「C」を2進数で表したものはどれか。",
+    "options": [
+      "1010",
+      "1101",
+      "1100",
+      "1011"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（1100）\n\n16進数のCは10進数の12です。12を2進数に変換すると、8+4=12なので「1100」となります。(A=10, B=11, C=12...)"
+  },
+  {
+    "id": "IP_125",
+    "question": "商品のパッケージなどに印刷されている、太さの異なる縦棒と数字を組み合わせた識別コードはどれか。",
+    "options": [
+      "バーコード",
+      "QRコード",
+      "RFID",
+      "ICタグ"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（バーコード）\n\nバーコード(JANコードなど)は、縞模様の線の太さで情報を表現し、専用のリーダーで読み取る識別コードです。"
+  },
+  {
+    "id": "IP_126",
+    "question": "システムの信頼性を表す指標のうち、システムが稼働している時間の割合を示すものはどれか。",
+    "options": [
+      "応答時間",
+      "スループット",
+      "ターンアラウンドタイム",
+      "稼働率"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（稼働率）\n\n稼働率(Availability)は、全運転時間に対する稼働時間の割合で、システムが正常に利用可能な状態である確率を示します。"
+  },
+  {
+    "id": "IP_127",
+    "question": "ウイルス対策ソフトにおいて、既知のウイルスの特徴(シグネチャ)を記録したファイルを何というか。",
+    "options": [
+      "ウイルス定義ファイル",
+      "バックアップファイル",
+      "ログファイル",
+      "構成ファイル"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ウイルス定義ファイル）\n\nウイルス定義ファイル(パターンファイル)には、既知のウイルスの特徴的なコード(シグネチャ)が記録されており、これと照合してウイルスを検知します。"
+  },
+  {
+    "id": "IP_128",
+    "question": "プリンタやスキャナの解像度を表す単位で、1インチあたりのドット数を意味するものはどれか。",
+    "options": [
+      "bps (bits per second)",
+      "ppm (pages per minute)",
+      "Hz (Hertz)",
+      "dpi (dots per inch)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（dpi (dots per inch)）\n\ndpi(dots per inch)は、1インチ(約2.54cm)の長さにいくつの点(ドット)を並べられるかを表す解像度の単位です。"
+  },
+  {
+    "id": "IP_129",
+    "question": "AI技術を活用して、手書き文字や非定型帳票などを高精度に読み取ってデータ化する技術はどれか。",
+    "options": [
+      "チャットボット",
+      "データマイニング",
+      "AI-OCR",
+      "RPA"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（AI-OCR）\n\nAI-OCRは、従来のOCR(光学文字認識)にAI(人工知能)技術を組み合わせ、識字率を向上させた技術です。"
+  },
+  {
+    "id": "IP_130",
+    "question": "膨大な科学技術計算やシミュレーションを超高速に行うために開発されたコンピュータを何というか。",
+    "options": [
+      "スーパーコンピュータ",
+      "メインフレーム",
+      "マイクロコンピュータ",
+      "ワークステーション"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（スーパーコンピュータ）\n\nスーパーコンピュータは、気象予測や創薬シミュレーションなど、大規模な科学技術計算を超高速に処理するために設計されたコンピュータです。"
+  },
+  {
+    "id": "IP_131",
+    "question": "企業の財務状況を分析する指標のうち、自己資本に対する当期純利益の割合を示すものはどれか。",
+    "options": [
+      "PER (Price Earnings Ratio)",
+      "ROE (Return On Equity)",
+      "ROA (Return On Assets)",
+      "ROI (Return On Investment)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ROE (Return On Equity)）\n\nROE(自己資本利益率)は、株主が出資したお金(自己資本)を使って、企業がどれだけ効率的に利益を上げたかを示す指標です。"
+  },
+  {
+    "id": "IP_132",
+    "question": "【計算問題】あるプロジェクトの作業Aの最頻値が5日、楽観値が3日、悲観値が13日の場合、3点見積もり法による期待値は何日か。",
+    "options": [
+      "7日",
+      "6日",
+      "5日",
+      "8日"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（6日）\n\n3点見積もりの期待値は (楽観値 + 4 × 最頻値 + 悲観値) ÷ 6 で求められます。(3 + 4×5 + 13) ÷ 6 = (3 + 20 + 13) ÷ 6 = 36 ÷ 6 = 6日です。"
+  },
+  {
+    "id": "IP_133",
+    "question": "インターネット上の通信を暗号化するプロトコルであるTLS(Transport Layer Security)が提供する機能に含まれないものはどれか。",
+    "options": [
+      "可用性の確保",
+      "盗聴の防止",
+      "改ざんの検知",
+      "サーバの認証"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（可用性の確保）\n\nTLSは「暗号化による盗聴防止」「改ざん検知」「通信相手の認証」を提供しますが、可用性(システムが停止せずに稼働し続けること)を確保する機能はありません。"
+  },
+  {
+    "id": "IP_135",
+    "question": "企業が保有するサーバやストレージを、インターネット経由で他の企業に貸し出すサービス形態はどれか。",
+    "options": [
+      "オンプレミス",
+      "コロケーション",
+      "ホスティング",
+      "ハウジング"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（ホスティング）\n\nホスティングは、事業者が所有するサーバやインフラ機能を、利用者に貸し出すサービスです。ハウジングは場所(ラック)を貸し出すサービスです。"
+  },
+  {
+    "id": "IP_136",
+    "question": "【計算問題】画像サイズが800×600画素、1画素あたり24ビットの色情報を持つ画像を、圧縮せずに保存した場合のデータサイズは約何KBか。1KB=1,024バイトとする。",
+    "options": [
+      "469KB",
+      "11,250KB",
+      "1,406KB",
+      "1,875KB"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（1,406KB）\n\n総ビット数は 800×600×24 = 11,520,000ビット。バイト換算で ÷8 = 1,440,000バイト。KB換算で ÷1,024 ≒ 1,406.25KB です。"
+  },
+  {
+    "id": "IP_137",
+    "question": "著作権法において、著作権が発生する時期はいつか。",
+    "options": [
+      "著作物を創作した時点",
+      "著作物に©マークを表示した時点",
+      "著作権登録を行った時点",
+      "著作物を公表した時点"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（著作物を創作した時点）\n\n著作権は、手続きや登録を必要とせず、思想や感情を創作的に表現した(作った)時点で自動的に発生します(無方式主義)。"
+  },
+  {
+    "id": "IP_138",
+    "question": "システム開発の見積もり手法のうち、過去の類似プロジェクトのデータを参考にして概算を見積もる手法はどれか。",
+    "options": [
+      "類推見積法",
+      "ファンクションポイント法",
+      "ボトムアップ見積法",
+      "3点見積法"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（類推見積法）\n\n類推見積法は、過去の類似事例(アナログ)と比較・類推して、規模や工数を予測するトップダウン的な見積もり手法です。"
+  },
+  {
+    "id": "IP_139",
+    "question": "DNSキャッシュポイズニング攻撃の対策として、最も適切なものはどれか。",
+    "options": [
+      "DNSサーバのソースポート番号をランダムにする。",
+      "WebサーバにWAFを導入する。",
+      "メールサーバでSPFレコードを確認する。",
+      "クライアントPCにウイルス対策ソフトを入れる。"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（DNSサーバのソースポート番号をランダムにする。）\n\nDNSキャッシュポイズニングは、偽の情報をキャッシュさせて汚染する攻撃です。問い合わせ時のソースポート番号をランダム化することで、偽の応答を注入されにくくします。"
+  },
+  {
+    "id": "IP_140",
+    "question": "【計算問題】アナログ音声をサンプリング周波数44.1kHz、量子化ビット数16ビット、ステレオ(2チャンネル)で5秒間録音した場合のデータ量は約何バイトか。",
+    "options": [
+      "441,000バイト",
+      "3,528,000バイト",
+      "882,000バイト",
+      "1,764,000バイト"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（882,000バイト）\n\n1秒間のデータ量は 44,100回 × 16ビット × 2ch = 1,411,200ビット。バイト換算で ÷8 = 176,400バイト/秒。5秒分なので ×5 = 882,000バイトです。"
+  },
+  {
+    "id": "IP_141",
+    "question": "公益通報者保護法の目的として、最も適切なものはどれか。",
+    "options": [
+      "個人情報の漏えいを防ぐため、内部告発を禁止するため。",
+      "企業の機密情報が外部に流出しないよう、監視を強化するため。",
+      "組織内の不正を通報した労働者を、解雇などの不利益な扱いから守るため。",
+      "不正アクセスを行った者を処罰し、被害者を救済するため。"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（組織内の不正を通報した労働者を、解雇などの不利益な扱いから守るため。）\n\n公益通報者保護法は、国民の生命や安全を守るため、組織の不正を通報した労働者が解雇や降格などの不利益を受けないよう保護する法律です。"
+  },
+  {
+    "id": "IP_142",
+    "question": "プロジェクトの進捗管理において、計画に対する遅れやコスト超過を定量的に評価する手法(EVM)で用いられる指標「CV(コスト差異)」の計算式はどれか。",
+    "options": [
+      "AC(実コスト) - EV(出来高)",
+      "EV(出来高) - AC(実コスト)",
+      "EV(出来高) - PV(計画値)",
+      "PV(計画値) - AC(実コスト)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（EV(出来高) - AC(実コスト)）\n\nCV(Cost Variance:コスト差異)は、EV(Earned Value:出来高)からAC(Actual Cost:実際に掛かったコスト)を引いて求めます。プラスなら予算内、マイナスなら予算超過です。"
+  },
+  {
+    "id": "IP_143",
+    "question": "PCやスマートフォンなどの端末に保存されているデータを、遠隔操作で消去する機能はどれか。",
+    "options": [
+      "ローミング",
+      "テザリング",
+      "リモートデスクトップ",
+      "リモートワイプ"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（リモートワイプ）\n\nリモートワイプ(Remote Wipe)は、端末の紛失や盗難時に、管理者が遠隔操作で端末内のデータを消去し、情報漏えいを防ぐ機能です。"
+  },
+  {
+    "id": "IP_144",
+    "question": "【計算問題】MTBFが450時間、MTTRが50時間のシステムの稼働率は幾らか。",
+    "options": [
+      "0.9",
+      "0.5",
+      "0.8",
+      "0.95"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（0.9）\n\n稼働率 = MTBF ÷ (MTBF + MTTR) = 450 ÷ (450 + 50) = 450 ÷ 500 = 0.9(90%)です。"
+  },
+  {
+    "id": "IP_145",
+    "question": "企業が自社のサーバをデータセンターなどに預け、運用管理を委託するサービスはどれか。",
+    "options": [
+      "ホスティング",
+      "アウトソーシング",
+      "ハウジング",
+      "クラウドコンピューティング"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（ハウジング）\n\nハウジング(コロケーション)は、利用者が所有する機器を通信事業者の施設(データセンター)に設置し、電源や回線、場所を提供するサービスです。"
+  },
+  {
+    "id": "IP_146",
+    "question": "アジャイル開発において、開発チームが短期間(1〜4週間程度)で区切って反復する開発サイクルのことを何と呼ぶか。",
+    "options": [
+      "マイルストーン",
+      "スプリント",
+      "ワークパッケージ",
+      "クリティカルパス"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（スプリント）\n\nスクラムなどのアジャイル開発では、一定の短い期間(スプリントやイテレーション)ごとに計画・実装・レビューを繰り返し、機能を段階的にリリースします。"
+  },
+  {
+    "id": "IP_147",
+    "question": "無線LANの暗号化規格であるWPA2やWPA3で使用されている、高度な暗号化アルゴリズムはどれか。",
+    "options": [
+      "MD5",
+      "AES",
+      "DES",
+      "RSA"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（AES）\n\nAES(Advanced Encryption Standard)は、無線LANの暗号化方式(WPA2-PSKなど)で採用されている、現在最も信頼性の高い共通鍵暗号アルゴリズムの一つです。"
+  },
+  {
+    "id": "IP_148",
+    "question": "【計算問題】定価10,000円の商品を2割引きで販売したが、それでも原価の25%の利益が得られた。この商品の原価は何円か。",
+    "options": [
+      "6,000円",
+      "6,400円",
+      "5,000円",
+      "8,000円"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（6,400円）\n\n売値は 10,000 × 0.8 = 8,000円。これが原価(x)の1.25倍(利益25%)なので、x × 1.25 = 8,000。x = 8,000 ÷ 1.25 = 6,400円です。"
+  },
+  {
+    "id": "IP_149",
+    "question": "ビッグデータの特性を表す「3V」に含まれないものはどれか。",
+    "options": [
+      "Volume(量)",
+      "Velocity(速度)",
+      "Value(価値)",
+      "Variety(多様性)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（Value(価値)）\n\nビッグデータの3Vは、Volume(量)、Velocity(速度・頻度)、Variety(多様性・種類)です。これにValue(価値)やVeracity(正確性)を加えて4V、5Vと呼ぶこともありますが、基本の3VにはValueは含まれません。"
+  },
+  {
+    "id": "IP_150",
+    "question": "メールの送信元が詐称されていないことを確認するために、送信元ドメインのDNSサーバに登録されたIPアドレスと照合する技術はどれか。",
+    "options": [
+      "SPF (Sender Policy Framework)",
+      "DKIM (DomainKeys Identified Mail)",
+      "DMARC",
+      "S/MIME"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（SPF (Sender Policy Framework)）\n\nSPFは、送信元メールサーバのIPアドレスが、そのドメインのDNSに登録されている正当なものかを検証し、なりすましを防ぐ技術です。"
+  },
+  {
+    "id": "IP_151",
+    "question": "企業が法令や社会的規範、倫理を守りながら活動することを何というか。",
+    "options": [
+      "アカウンタビリティ",
+      "ガバナンス",
+      "ディスクロージャー",
+      "コンプライアンス"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（コンプライアンス）\n\nコンプライアンス(法令遵守)は、企業が法律だけでなく、社会的なルールや倫理観を守って公正に業務を行うことを指します。"
+  },
+  {
+    "id": "IP_152",
+    "question": "【計算問題】700MBのCD-Rに、1枚あたり3MBの画像データを保存する場合、最大で何枚まで保存できるか。ただし、管理領域などのオーバーヘッドは考慮しないものとする。",
+    "options": [
+      "230枚",
+      "300枚",
+      "200枚",
+      "233枚"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（233枚）\n\n700MB ÷ 3MB = 233.33... なので、整数枚数としては233枚まで保存可能です。"
+  },
+  {
+    "id": "IP_153",
+    "question": "PDCAサイクルの「Act(改善)」において行われる活動として、最も適切なものはどれか。",
+    "options": [
+      "評価結果に基づき、プロセスの変更や修正を行う。",
+      "実施結果を集計し、目標との差異を分析する。",
+      "計画に従って業務を実行し、記録を残す。",
+      "業務の目標を設定し、実行計画を作成する。"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（評価結果に基づき、プロセスの変更や修正を行う。）\n\nAct(改善・処置)は、Check(評価)の結果を受けて、不具合の修正や計画の見直し、次期への改善策を実施する段階です。"
+  },
+  {
+    "id": "IP_154",
+    "question": "バイオメトリクス認証における「本人拒否率(FRR)」の説明として、適切なものはどれか。",
+    "options": [
+      "他人であるにもかかわらず、誤って本人として認証される確率。",
+      "認証システムが故障して動かなくなる確率。",
+      "登録データが破損して認証できなくなる確率。",
+      "本人であるにもかかわらず、認証されずに拒否される確率。"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（本人であるにもかかわらず、認証されずに拒否される確率。）\n\nFRR(False Rejection Rate)は、本人が認証を求めたのに誤って拒否される確率です。これに対し、他人を受け入れてしまうのがFAR(False Acceptance Rate)です。"
+  },
+  {
+    "id": "IP_155",
+    "question": "CRM(Customer Relationship Management)システムを導入する主な目的はどれか。",
+    "options": [
+      "顧客との良好な関係を構築・維持し、顧客満足度と収益を向上させる。",
+      "商品の在庫を適正に管理し、欠品や過剰在庫を防ぐ。",
+      "社内の人事・給与情報を一元管理し、業務を効率化する。",
+      "Webサイトへのアクセス数を解析し、広告効果を測定する。"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（顧客との良好な関係を構築・維持し、顧客満足度と収益を向上させる。）\n\nCRM(顧客関係管理)は、顧客情報を一元管理し、きめ細かな対応を行うことで、顧客満足度(CS)やロイヤリティを高め、LTV(顧客生涯価値)の最大化を目指します。"
+  },
+  {
+    "id": "IP_156",
+    "question": "【計算問題】10進数の「0.625」を2進数で表したものはどれか。",
+    "options": [
+      "0.110",
+      "0.011",
+      "0.101",
+      "0.111"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（0.101）\n\n0.625 × 2 = 1.25 (1), 0.25 × 2 = 0.5 (0), 0.5 × 2 = 1.0 (1)。小数部を取り出して順に並べると「0.101」になります。"
+  },
+  {
+    "id": "IP_157",
+    "question": "情報セキュリティの3要素(機密性、完全性、可用性)のうち、「完全性」が損なわれた状態はどれか。",
+    "options": [
+      "顧客名簿のファイルが外部に流出した。",
+      "アクセス集中によりWebサイトが表示できなくなった。",
+      "パスワードを忘れてログインできなくなった。",
+      "Webサイトの内容が何者かによって書き換えられた。"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（Webサイトの内容が何者かによって書き換えられた。）\n\n完全性(Integrity)は、情報が正確で完全であることを指します。改ざん(書き換え)は完全性の侵害です。流出は機密性、停止は可用性の侵害です。"
+  },
+  {
+    "id": "IP_158",
+    "question": "システム開発において、プログラムの内部構造を考慮せず、仕様書に基づいて入力と出力の関係だけを検証するテスト手法はどれか。",
+    "options": [
+      "ホワイトボックステスト",
+      "トップダウンテスト",
+      "ボトムアップテスト",
+      "ブラックボックステスト"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ブラックボックステスト）\n\nブラックボックステストは、内部ロジックを見ずに(黒い箱として扱い)、入力に対する出力が仕様通りかを確認するテストです。"
+  },
+  {
+    "id": "IP_159",
+    "question": "OS(オペレーティングシステム)の役割として、適切でないものはどれか。",
+    "options": [
+      "ファイルシステムを提供し、データの保存を管理する。",
+      "メモリやCPUなどのハードウェア資源を管理する。",
+      "ユーザーインターフェース(UI)を提供する。",
+      "Webサイトの検索順位を決定する。"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（Webサイトの検索順位を決定する。）\n\nWebサイトの検索順位決定は検索エンジンの役割であり、OSの機能ではありません。OSは資源管理、タスク管理、UI提供などの基本機能を提供します。"
+  },
+  {
+    "id": "IP_160",
+    "question": "【計算問題】1,200円の商品を販売する際、利益率を20%確保したい。販売価格は幾らに設定すればよいか。ここで利益率は「販売価格に対する利益の割合」とする。",
+    "options": [
+      "1,600円",
+      "1,500円",
+      "1,440円",
+      "1,400円"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（1,500円）\n\n販売価格をxとすると、原価はxの80%(100%-20%)に相当します。0.8x = 1,200円 なので、x = 1,200 ÷ 0.8 = 1,500円です。"
+  },
+  {
+    "id": "IP_161",
+    "question": "企業が従業員に対して、私物のスマートフォンやPCを業務に利用することを許可する制度はどれか。",
+    "options": [
+      "VDI (Virtual Desktop Infrastructure)",
+      "VPN (Virtual Private Network)",
+      "BYOD (Bring Your Own Device)",
+      "MDM (Mobile Device Management)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（BYOD (Bring Your Own Device)）\n\nBYODは、従業員個人の端末を業務に持ち込んで利用することです。コスト削減などのメリットがある一方、セキュリティ管理が課題となります。"
+  },
+  {
+    "id": "IP_162",
+    "question": "インターネット上の住所にあたるドメイン名において、「.co.jp」の「co」が表す組織種別はどれか。",
+    "options": [
+      "ネットワークサービス",
+      "政府機関",
+      "教育機関",
+      "企業"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（企業）\n\n「co」はCommercial(企業)、「go」はGovernment(政府)、「ac」はAcademic(教育機関)、「ne」はNetwork(ネットワーク)を表します。"
+  },
+  {
+    "id": "IP_163",
+    "question": "コンピュータの処理能力を評価する指標の一つで、1秒間に実行できる浮動小数点演算の回数を示すものはどれか。",
+    "options": [
+      "TPS",
+      "Hz",
+      "MIPS",
+      "FLOPS"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（FLOPS）\n\nFLOPS(Floating-point Operations Per Second)は、科学技術計算などの性能指標です。MIPSは整数の命令実行回数、Hzはクロック周波数です。"
+  },
+  {
+    "id": "IP_164",
+    "question": "【計算問題】RAID 1(ミラーリング)で構成された、容量1TBのHDD 2台からなるディスクアレイの実効容量は何TBか。",
+    "options": [
+      "1TB",
+      "2TB",
+      "0.5TB",
+      "1.5TB"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（1TB）\n\nRAID 1は同じデータを2台に書き込むため、実効容量は1台分(1TB)となります。信頼性は高まりますが容量効率は50%です。"
+  },
+  {
+    "id": "IP_165",
+    "question": "関係データベースにおいて、表と表を関連付けるために使用される、他方の表の主キーを参照する列を何というか。",
+    "options": [
+      "外部キー",
+      "複合キー",
+      "候補キー",
+      "主キー"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（外部キー）\n\n外部キー(Foreign Key)は、他の表の主キーを参照し、データ間の整合性(参照整合性)を保つための列です。"
+  },
+  {
+    "id": "IP_166",
+    "question": "情報システムの設計において、障害が発生してもシステム全体を停止させず、機能を縮小してでも運転を継続する考え方はどれか。",
+    "options": [
+      "フォールトトレランス",
+      "フェールセーフ",
+      "フールプルーフ",
+      "フェールソフト"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（フェールソフト）\n\nフェールソフトは、障害時に一部の機能を切り離してでも、システムの全面停止を避けて稼働を続ける設計思想です。"
+  },
+  {
+    "id": "IP_167",
+    "question": "暗号資産(仮想通貨)の基盤技術として知られ、取引履歴をブロック単位で鎖状に連結して改ざんを困難にする技術はどれか。",
+    "options": [
+      "ブロックチェーン",
+      "ディープラーニング",
+      "クラウドコンピューティング",
+      "エッジコンピューティング"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ブロックチェーン）\n\nブロックチェーンは、分散型台帳技術の一つで、取引データをブロックにまとめてハッシュ値で連鎖させることで、改ざんを極めて困難にします。"
+  },
+  {
+    "id": "IP_168",
+    "question": "【計算問題】100人の従業員がいる会社で、任意の2人の間で通信を行うために必要な通信回線の総数は何本か。",
+    "options": [
+      "200本",
+      "9,900本",
+      "100本",
+      "4,950本"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（4,950本）\n\nn人の相互接続に必要な回線数は n(n-1)/2 で求められます。100 × 99 ÷ 2 = 9,900 ÷ 2 = 4,950本です。"
+  },
+  {
+    "id": "IP_169",
+    "question": "企業などが、自社の強みや独自性を活かして、特定の市場セグメント(ニッチ市場)に経営資源を集中させる戦略はどれか。",
+    "options": [
+      "ニッチ戦略",
+      "コストリーダーシップ戦略",
+      "ブルーオーシャン戦略",
+      "差別化戦略"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ニッチ戦略）\n\nニッチ戦略は、大手が参入しにくい隙間市場(ニッチ)に特化し、独自の地位を築く戦略です。コトラーの競争地位別戦略における専門企業の戦略です。"
+  },
+  {
+    "id": "IP_170",
+    "question": "情報セキュリティマネジメントシステム(ISMS)の国際規格はどれか。",
+    "options": [
+      "ISO 9001",
+      "ISO/IEC 27001",
+      "JIS Q 15001",
+      "ISO 14001"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ISO/IEC 27001）\n\nISO/IEC 27001はISMSの国際規格です。ISO 9001は品質、ISO 14001は環境、JIS Q 15001はプライバシーマーク(個人情報)の規格です。"
+  },
+  {
+    "id": "IP_171",
+    "question": "コンピュータ内部で、CPUと主記憶装置の間の処理速度の差を埋め、高速化するために設けられるメモリはどれか。",
+    "options": [
+      "仮想メモリ",
+      "レジスタ",
+      "キャッシュメモリ",
+      "フラッシュメモリ"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（キャッシュメモリ）\n\nキャッシュメモリは、低速な主記憶と高速なCPUの間に配置される高速なSRAMを用いたメモリで、データアクセスのボトルネックを解消します。"
+  },
+  {
+    "id": "IP_172",
+    "question": "【計算問題】パリティチェック方式(偶数パリティ)において、7ビットのデータ「1011001」に付加するパリティビットはどれか。",
+    "options": [
+      "11",
+      "0",
+      "1",
+      "10"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（0）\n\nデータ「1011001」に含まれる「1」の個数は4個(偶数)です。偶数パリティでは「1」の総数を偶数にするため、付加するビットは「0」となります。"
+  },
+  {
+    "id": "IP_173",
+    "question": "インターネットを利用して、遠隔地にあるコンピュータの画面を操作したり、ファイルを転送したりするためのプロトコルで、通信経路が暗号化されるものはどれか。",
+    "options": [
+      "HTTP",
+      "SSH",
+      "Telnet",
+      "FTP"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（SSH）\n\nSSH(Secure Shell)は、リモート操作を行うためのプロトコルで、通信内容が暗号化されます。Telnetは暗号化されません。"
+  },
+  {
+    "id": "IP_174",
+    "question": "企業が保有する知的財産やノウハウなどを、不正に持ち出されないように管理し、競争力を維持する経営手法はどれか。",
+    "options": [
+      "リスクマネジメント",
+      "ナレッジマネジメント",
+      "タレントマネジメント",
+      "知的財産管理"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（知的財産管理）\n\n知的財産管理(知財管理)は、特許や著作権、営業秘密などの知的財産を適切に保護・活用し、経営に役立てる活動です。"
+  },
+  {
+    "id": "IP_175",
+    "question": "Webサイトなどで、利用者が意図せずボタンなどをクリックしてしまうように誘導し、意図しない操作を行わせる攻撃手法はどれか。",
+    "options": [
+      "クリックジャッキング",
+      "ドライブバイダウンロード",
+      "ゼロデイ攻撃",
+      "フィッシング"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（クリックジャッキング）\n\nクリックジャッキングは、透明なボタンや偽の表示を重ねて配置し、利用者に気付かれないようにクリックさせ、意図しない処理を実行させる攻撃です。"
+  },
+  {
+    "id": "IP_176",
+    "question": "【計算問題】100Vの電圧で5Aの電流が流れる電気機器を、2時間使用した場合の電力量(Wh)は幾らか。",
+    "options": [
+      "1,000Wh",
+      "500Wh",
+      "200Wh",
+      "100Wh"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（1,000Wh）\n\n電力(W) = 電圧(V) × 電流(A) = 100 × 5 = 500W。電力量(Wh) = 電力(W) × 時間(h) = 500 × 2 = 1,000Whです。"
+  },
+  {
+    "id": "IP_177",
+    "question": "システム開発のテスト工程において、プログラムの最小単位(関数やメソッドなど)が正しく動作することを確認するテストはどれか。",
+    "options": [
+      "単体テスト",
+      "結合テスト",
+      "システムテスト",
+      "運用テスト"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（単体テスト）\n\n単体テスト(ユニットテスト)は、個々のモジュールやコンポーネントが仕様通りに動作するかを検証する、開発の初期段階で行うテストです。"
+  },
+  {
+    "id": "IP_178",
+    "question": "ネットワークカメラやスマート家電などが、初期パスワードのまま運用されていることを悪用し、大規模なサイバー攻撃の踏み台にするマルウェアはどれか。",
+    "options": [
+      "Mirai",
+      "WannaCry",
+      "Emotet",
+      "Stuxnet"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（Mirai）\n\nMiraiは、IoT機器に感染してボットネットを形成し、大規模なDDoS攻撃を行うマルウェアです。初期パスワードの脆弱性を突きます。"
+  },
+  {
+    "id": "IP_179",
+    "question": "企業が災害時に備えて、バックアップデータを遠隔地のデータセンターに保管する目的として、最も適切なものはどれか。",
+    "options": [
+      "運用コストを削減するため",
+      "同時被災のリスクを低減するため",
+      "データの暗号化強度を高めるため",
+      "データ転送速度を向上させるため"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（同時被災のリスクを低減するため）\n\n遠隔地保管(リモートバックアップ)は、本社と同じ地域で災害が起きても、データが同時に失われるリスク(同時被災)を避けるためのBCP対策です。"
+  },
+  {
+    "id": "IP_180",
+    "question": "【計算問題】論理積(AND)演算において、2進数「1010」と「1100」の演算結果はどれか。",
+    "options": [
+      "0110",
+      "1110",
+      "1000",
+      "0010"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（1000）\n\n各ビットごとにAND(両方1なら1、それ以外は0)をとります。1と1→1、0と1→0、1と0→0、0と0→0。よって「1000」になります。"
+  },
+  {
+    "id": "IP_181",
+    "question": "情報システムの利用者が、自分自身のIDやパスワードを適切に管理する義務を何というか。",
+    "options": [
+      "善管注意義務",
+      "説明責任",
+      "立証責任",
+      "守秘義務"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（善管注意義務）\n\n善管注意義務(善良なる管理者の注意義務)は、業務委託やシステム利用において、善良な管理者として求められる注意を払って管理する義務のことです。"
+  },
+  {
+    "id": "IP_182",
+    "question": "無線LANの接続において、アクセスポイントを識別するための識別子を何というか。",
+    "options": [
+      "ESSID",
+      "BSSID",
+      "UUID",
+      "SSID"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（SSID）\n\nSSID(Service Set Identifier)は、無線LANネットワークを識別するための名前です。本問のアクセスポイントの識別子はSSIDです。"
+  },
+  {
+    "id": "IP_183",
+    "question": "企業が利益の一部を社会に還元したり、環境保護活動に取り組んだりする社会的責任を何というか。",
+    "options": [
+      "SRI (Socially Responsible Investment)",
+      "SDGs (Sustainable Development Goals)",
+      "CSR (Corporate Social Responsibility)",
+      "CSV (Creating Shared Value)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（CSR (Corporate Social Responsibility)）\n\nCSR(企業の社会的責任)は、企業が利益追求だけでなく、社会や環境に対する責任を果たすべきという考え方です。"
+  },
+  {
+    "id": "IP_184",
+    "question": "【計算問題】ある作業をAさんが1人で行うと10日、Bさんが1人で行うと15日かかる。2人で協力して行うと何日で終わるか。",
+    "options": [
+      "6日",
+      "5日",
+      "8日",
+      "12.5日"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（6日）\n\n全体の仕事量を1とすると、Aの1日の仕事量は1/10、Bは1/15。2人の1日の合計は 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6。よって6日で終わります。"
+  },
+  {
+    "id": "IP_185",
+    "question": "Webサイトの訪問者が、どのページから来て、どのページを見たかなどの行動履歴を分析することを何というか。",
+    "options": [
+      "クラスター分析",
+      "バスケット分析",
+      "アクセス解析",
+      "回帰分析"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（アクセス解析）\n\nアクセス解析は、Webサイトのログなどを分析し、訪問数、滞在時間、流入経路などを把握してサイト改善に役立てる手法です。"
+  },
+  {
+    "id": "IP_186",
+    "question": "電子メールの送受信において、メール本文だけでなく添付ファイルなども扱えるように拡張した規格はどれか。",
+    "options": [
+      "MIME",
+      "POP",
+      "IMAP",
+      "SMTP"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（MIME）\n\nMIME(Multipurpose Internet Mail Extensions)は、ASCII文字しか扱えなかったメールで、日本語や画像、音声などを扱えるようにした拡張規格です。"
+  },
+  {
+    "id": "IP_187",
+    "question": "システム開発において、発注者が作成し、ベンダーに対して具体的な提案を依頼する文書はどれか。",
+    "options": [
+      "RFI (Request For Information)",
+      "NDA (Non-Disclosure Agreement)",
+      "RFP (Request For Proposal)",
+      "RFQ (Request For Quotation)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（RFP (Request For Proposal)）\n\nRFP(提案依頼書)は、発注者がシステムの要件や制約事項を提示し、ベンダーに具体的なシステム提案や見積もりを依頼する文書です。"
+  },
+  {
+    "id": "IP_188",
+    "question": "【計算問題】QRコードは、汚れや破損があってもデータを復元できる機能を持っている。この機能を何というか。",
+    "options": [
+      "認証機能",
+      "暗号化機能",
+      "データ圧縮機能",
+      "誤り訂正機能"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（誤り訂正機能）\n\nQRコードはリード・ソロモン符号などの誤り訂正技術を採用しており、一部が汚れてもデータを正しく読み取ることができます。"
+  },
+  {
+    "id": "IP_189",
+    "question": "PCの周辺機器を接続するためのインターフェース規格で、最大100Wまでの電力供給が可能なものはどれか。",
+    "options": [
+      "DisplayPort",
+      "Thunderbolt",
+      "HDMI",
+      "USB Power Delivery (USB PD)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（USB Power Delivery (USB PD)）\n\nUSB PDは、USB Type-Cコネクタ等を用いて、最大100W(最新規格ではさらに拡張)の大電力を供給できる規格です。"
+  },
+  {
+    "id": "IP_190",
+    "question": "企業が保有するデータの中で、個人情報保護法における「個人識別符号」に該当するものはどれか。",
+    "options": [
+      "社員ID",
+      "携帯電話番号",
+      "メールアドレス",
+      "マイナンバー(個人番号)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（マイナンバー(個人番号)）\n\nマイナンバー、パスポート番号、基礎年金番号、指紋データなどは、それ単体で個人を識別できる「個人識別符号」として個人情報に該当します。"
+  },
+  {
+    "id": "IP_191",
+    "question": "人工知能(AI)の学習手法の一つで、正解データを与えずに、データ自体の特徴や構造を学習させる手法はどれか。",
+    "options": [
+      "強化学習",
+      "教師あり学習",
+      "深層学習",
+      "教師なし学習"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（教師なし学習）\n\n教師なし学習は、正解(ラベル)のないデータを入力し、データの分布や類似性などをAIに発見させる学習手法です。"
+  },
+  {
+    "id": "IP_192",
+    "question": "【計算問題】100個のデータがあり、そのうち80個が正常、20個が異常である。このデータから異常を検知するシステムが、異常データを正しく異常と判定した割合(再現率)が0.9の場合、見逃された異常データは何個か。",
+    "options": [
+      "2個",
+      "4個",
+      "10個",
+      "18個"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（2個）\n\n異常データ20個のうち、90%(0.9)は正しく検知されたので、検知数=20×0.9=18個。見逃されたのは 20 - 18 = 2個です。"
+  },
+  {
+    "id": "IP_193",
+    "question": "ネットワーク上の通信機器やサーバを監視・制御するためのプロトコルはどれか。",
+    "options": [
+      "SMTP",
+      "SNMP",
+      "ICMP",
+      "DHCP"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（SNMP）\n\nSNMP(Simple Network Management Protocol)は、ルータやスイッチなどのネットワーク機器の状態を監視・管理するためのプロトコルです。"
+  },
+  {
+    "id": "IP_194",
+    "question": "企業買収(M&A)の一手法で、株式公開買付けのことを何というか。",
+    "options": [
+      "LBO (Leveraged Buyout)",
+      "TOB (Take Over Bid)",
+      "MBO (Management Buyout)",
+      "IPO (Initial Public Offering)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（TOB (Take Over Bid)）\n\nTOBは、不特定多数の株主に対して、価格や期間を公告して株式を買い付ける手法です。敵対的買収に使われることもあります。"
+  },
+  {
+    "id": "IP_195",
+    "question": "OSI参照モデルにおいて、物理的な電気信号の伝送を行う第1層はどれか。",
+    "options": [
+      "ネットワーク層",
+      "トランスポート層",
+      "物理層",
+      "データリンク層"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（物理層）\n\nOSI参照モデルの第1層は物理層で、ケーブルやコネクタの形状、電気信号の変換などを規定しています。"
+  },
+  {
+    "id": "IP_196",
+    "question": "【計算問題】ある工場の生産ラインで、製品Aを1個作るのに2分かかる。1時間で何個製造できるか。",
+    "options": [
+      "20個",
+      "60個",
+      "30個",
+      "50個"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（30個）\n\n1時間は60分です。60分 ÷ 2分/個 = 30個製造できます。"
+  },
+  {
+    "id": "IP_197",
+    "question": "組織全体のプロジェクトを統括し、標準化や資源の最適化、PMの支援を行う専門組織はどれか。",
+    "options": [
+      "CFO (Chief Financial Officer)",
+      "CIO (Chief Information Officer)",
+      "PMO (Project Management Office)",
+      "CEO (Chief Executive Officer)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（PMO (Project Management Office)）\n\nPMOは、組織内のプロジェクトマネジメントを横断的に支援・管理し、成功率を高めるための専門部署です。"
+  },
+  {
+    "id": "IP_198",
+    "question": "著作権法において、著作権者の許諾なしに行える行為として、認められているものはどれか。",
+    "options": [
+      "社内会議での資料配布としての複製",
+      "友人への販売目的の複製",
+      "私的使用のための複製",
+      "自社Webサイトへの転載"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（私的使用のための複製）\n\n個人的にまたは家庭内などの限られた範囲で使用することを目的とする「私的使用のための複製」は、権利者の許諾なく行えます。"
+  },
+  {
+    "id": "IP_199",
+    "question": "Webサイトにおいて、利用者の入力内容を確認画面なしで即座にデータベースに登録するような設計が引き起こす問題はどれか。",
+    "options": [
+      "処理速度が遅くなる",
+      "データ容量が増える",
+      "セキュリティが高まる",
+      "誤入力に気付きにくくなる"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（誤入力に気付きにくくなる）\n\n確認画面がないと、利用者が入力ミスに気付かないまま登録されてしまい、データの正確性が損なわれるリスクがあります。ユーザビリティの観点からも確認画面は重要です。"
+  },
+  {
+    "id": "IP_200",
+    "question": "【計算問題】1GBのデータを、転送速度1Gbpsの回線で転送する場合、理論上かかる時間は何秒か。1B=8bitとする。",
+    "options": [
+      "10秒",
+      "0.8秒",
+      "1秒",
+      "8秒"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（8秒）\n\n1GB = 8Gbit です。8Gbit ÷ 1Gbps = 8秒となります。"
+  },
+  {
+    "id": "IP_201",
+    "question": "インターネットで商品を販売する際、特定商取引法に基づいて表示しなければならない事項はどれか。",
+    "options": [
+      "販売価格、送料、支払時期、事業者の氏名(名称)・住所・電話番号",
+      "従業員の氏名、年齢、経歴",
+      "商品の仕入れ原価、利益率、在庫数",
+      "事業者の売上高、資本金、主要取引先"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（販売価格、送料、支払時期、事業者の氏名(名称)・住所・電話番号）\n\n特定商取引法では、通信販売において、販売価格、送料、支払い方法・時期、事業者の氏名・住所・電話番号などの表示を義務付けています。"
+  },
+  {
+    "id": "IP_202",
+    "question": "【計算問題】あるシステムの稼働率が0.8であるとき、このシステムを2つ直列に接続したシステム全体の稼働率は幾らか。",
+    "options": [
+      "0.16",
+      "0.96",
+      "0.8",
+      "0.64"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（0.64）\n\n直列システムの稼働率は、各システムの稼働率の積で求められます。0.8 × 0.8 = 0.64 です。"
+  },
+  {
+    "id": "IP_203",
+    "question": "ソフトウェアの不具合(バグ)を修正したり、機能を改善したりするために配布される更新プログラムのことを何というか。",
+    "options": [
+      "マクロ",
+      "スクリプト",
+      "バッチ",
+      "パッチ"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（パッチ）\n\nパッチ(Patch)は、プログラムの一部を修正・変更するために適用するデータのことです。セキュリティ修正パッチなどが代表的です。"
+  },
+  {
+    "id": "IP_204",
+    "question": "企業が自社の業務システムを構築する際、初期費用を抑え、必要な機能をサービスとして利用する形態(SaaSなど)を選ぶメリットはどれか。",
+    "options": [
+      "カスタマイズの自由度が最も高い",
+      "導入までの期間を短縮できる",
+      "オフライン環境での利用に最適",
+      "自社でハードウェアを保有するため資産管理が容易"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（導入までの期間を短縮できる）\n\nクラウドサービス(SaaS等)は、ハードウェア調達やソフト開発が不要なため、導入期間を短縮でき、初期費用も抑えられます。"
+  },
+  {
+    "id": "IP_205",
+    "question": "情報セキュリティにおける「ソーシャルエンジニアリング」の手口はどれか。",
+    "options": [
+      "サーバに大量のパケットを送りつけてダウンさせる。",
+      "電話で管理者になりすましてパスワードを聞き出す。",
+      "通信を傍受してデータを盗む。",
+      "プログラムの脆弱性を突いて侵入する。"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（電話で管理者になりすましてパスワードを聞き出す。）\n\nソーシャルエンジニアリングは、技術的な手段を使わず、人の心理的な隙や行動のミスにつけ込んで情報を盗む手法です(のぞき見、なりすまし電話など)。"
+  },
+  {
+    "id": "IP_206",
+    "question": "【計算問題】ある商品の売価を、原価の25%増しに設定した。売価が5,000円のとき、原価は何円か。",
+    "options": [
+      "6,250円",
+      "3,750円",
+      "4,000円",
+      "4,250円"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（4,000円）\n\n原価をxとすると、売価は1.25xとなります。1.25x = 5,000円 なので、x = 5,000 ÷ 1.25 = 4,000円です。"
+  },
+  {
+    "id": "IP_207",
+    "question": "インターネット上のコンピュータ間でファイルを転送するための標準的なプロトコルはどれか。",
+    "options": [
+      "HTTP (HyperText Transfer Protocol)",
+      "FTP (File Transfer Protocol)",
+      "POP (Post Office Protocol)",
+      "SMTP (Simple Mail Transfer Protocol)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（FTP (File Transfer Protocol)）\n\nFTPは、ネットワーク上でファイルを送受信するために使われるプロトコルです。WebはHTTP、メール送信はSMTP、受信はPOP/IMAPです。"
+  },
+  {
+    "id": "IP_208",
+    "question": "関係データベースの操作言語であるSQLにおいて、表からデータを検索する命令はどれか。",
+    "options": [
+      "DELETE",
+      "UPDATE",
+      "INSERT",
+      "SELECT"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（SELECT）\n\nSELECT文はデータの検索・抽出を行います。UPDATEは更新、INSERTは追加、DELETEは削除を行います。"
+  },
+  {
+    "id": "IP_209",
+    "question": "企業が災害などの緊急事態に遭遇した場合に、事業資産の損害を最小限にとどめつつ、中核となる事業の継続あるいは早期復旧を可能とするために、平常時に行うべき活動や緊急時における事業継続のための方法、手段などを取り決めておく計画はどれか。",
+    "options": [
+      "M&A",
+      "CSR",
+      "BCP",
+      "SLA"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（BCP）\n\nBCP(Business Continuity Plan:事業継続計画)は、緊急事態における事業継続・早期復旧のための計画です。"
+  },
+  {
+    "id": "IP_210",
+    "question": "【計算問題】16進数の「2A」を10進数で表したものはどれか。",
+    "options": [
+      "40",
+      "32",
+      "42",
+      "26"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（42）\n\n16進数の2Aは、2×16^1 + 10×16^0 = 32 + 10 = 42 です。(A=10)"
+  },
+  {
+    "id": "IP_211",
+    "question": "システム開発の下流工程において、プログラムが仕様通りに動作することを確認するために、開発者自身が行うテストはどれか。",
+    "options": [
+      "受入テスト",
+      "運用テスト",
+      "単体テスト",
+      "ユーザビリティテスト"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（単体テスト）\n\n単体テストは、プログラム(モジュール)単体の動作を確認するテストで、原則としてプログラミングを行った開発者が実施します。"
+  },
+  {
+    "id": "IP_212",
+    "question": "無線LANのセキュリティ規格WPA2で採用されている暗号化方式CCMPで使用される暗号化アルゴリズムはどれか。",
+    "options": [
+      "RC4",
+      "AES",
+      "WEP",
+      "TKIP"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（AES）\n\nWPA2では、暗号化アルゴリズムとしてAES(Advanced Encryption Standard)を採用したCCMPというプロトコルが必須化されています。"
+  },
+  {
+    "id": "IP_213",
+    "question": "プロジェクトマネジメントにおいて、プロジェクトのスコープ(範囲)が明確に定義されていないことが原因で、プロジェクトの進行とともにスコープがなし崩し的に拡大していく現象を何というか。",
+    "options": [
+      "スコープクリープ",
+      "チェンジマネジメント",
+      "リスクアセスメント",
+      "ステークホルダー"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（スコープクリープ）\n\nスコープクリープは、要件の追加や変更が管理されずに積み重なり、プロジェクトの範囲が肥大化してしまう現象です。"
+  },
+  {
+    "id": "IP_214",
+    "question": "【計算問題】ある作業の所要時間が、楽観値3日、最頻値6日、悲観値15日と見積もられた。PERT(3点見積もり)における期待値(平均日数)は何日か。",
+    "options": [
+      "6日",
+      "8日",
+      "9日",
+      "7日"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（7日）\n\n(3 + 4×6 + 15) ÷ 6 = (3 + 24 + 15) ÷ 6 = 42 ÷ 6 = 7日です。"
+  },
+  {
+    "id": "IP_215",
+    "question": "IoTデバイスなどで利用される、省電力かつ長距離通信が可能な無線通信技術の総称はどれか。",
+    "options": [
+      "LTE",
+      "Wi-Fi",
+      "Bluetooth",
+      "LPWA (Low Power Wide Area)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（LPWA (Low Power Wide Area)）\n\nLPWAは、SigfoxやLoRaWAN、NB-IoTなどの技術の総称で、低消費電力で広域(数km〜数十km)をカバーできるのが特徴です。"
+  },
+  {
+    "id": "IP_216",
+    "question": "企業の経営資源(ヒト・モノ・カネ・情報)を有効活用し、経営の効率化を図るための基幹業務システムはどれか。",
+    "options": [
+      "CRM (Customer Relationship Management)",
+      "ERP (Enterprise Resource Planning)",
+      "SCM (Supply Chain Management)",
+      "SFA (Sales Force Automation)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ERP (Enterprise Resource Planning)）\n\nERP(企業資源計画)は、企業の基幹業務(会計、人事、販売、生産など)を統合管理し、経営資源の最適化を図るシステムです。"
+  },
+  {
+    "id": "IP_217",
+    "question": "Webサイトの閲覧履歴などを保存するために、Webサーバから利用者のブラウザに送信されるデータファイルはどれか。",
+    "options": [
+      "キャッシュ",
+      "履歴(ヒストリー)",
+      "ブックマーク",
+      "Cookie(クッキー)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（Cookie(クッキー)）\n\nCookieは、Webサーバが利用者を識別するために、ブラウザ側に保存させる小さなデータファイルです。セッション管理などに使われます。"
+  },
+  {
+    "id": "IP_218",
+    "question": "【計算問題】10Mbpsの回線で、圧縮された100MBのデータを転送するのにかかる時間は何秒か。ただし、回線の伝送効率は80%とする。",
+    "options": [
+      "100秒",
+      "80秒",
+      "10秒",
+      "125秒"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（100秒）\n\n実効速度は 10Mbps × 0.8 = 8Mbps。データ量は 100MB = 800Mbit。時間は 800Mbit ÷ 8Mbps = 100秒です。"
+  },
+  {
+    "id": "IP_219",
+    "question": "個人情報保護法において、本人の同意を得ずに個人データを第三者に提供できるケースとして、正しいものはどれか。",
+    "options": [
+      "親会社に提供する場合",
+      "法令に基づく場合",
+      "業務提携先に提供する場合",
+      "本人の利益になると判断した場合"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（法令に基づく場合）\n\n法令に基づく場合(警察の捜査協力など)、人の生命・身体・財産の保護に必要な場合などは、本人の同意なく第三者提供が認められています。"
+  },
+  {
+    "id": "IP_220",
+    "question": "システム開発の外部設計(基本設計)で行う作業として、適切なものはどれか。",
+    "options": [
+      "データベースの物理的な構造を決定する。",
+      "プログラミング言語を選定する。",
+      "画面や帳票のレイアウトを決定する。",
+      "プログラムの内部処理手順を作成する。"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（画面や帳票のレイアウトを決定する。）\n\n外部設計は、利用者から見える部分(UI)の設計が中心です。画面遷移、帳票レイアウト、外部インターフェースなどを決定します。"
+  },
+  {
+    "id": "IP_221",
+    "question": "電子メールの暗号化やデジタル署名を行うための規格はどれか。",
+    "options": [
+      "SMTP",
+      "S/MIME",
+      "POP3",
+      "IMAP4"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（S/MIME）\n\nS/MIME(Secure/Multipurpose Internet Mail Extensions)は、公開鍵暗号技術を用いて電子メールの暗号化とデジタル署名を行う規格です。"
+  },
+  {
+    "id": "IP_222",
+    "question": "【計算問題】2進数の「1101」を10進数で表したものはどれか。",
+    "options": [
+      "15",
+      "14",
+      "11",
+      "13"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（13）\n\n1×8 + 1×4 + 0×2 + 1×1 = 8 + 4 + 0 + 1 = 13 です。"
+  },
+  {
+    "id": "IP_223",
+    "question": "インターネットバンキングなどで利用される、一度しか使えない使い捨てパスワードのことを何というか。",
+    "options": [
+      "ワンタイムパスワード",
+      "固定パスワード",
+      "バイオメトリクス",
+      "マトリクス認証"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ワンタイムパスワード）\n\nワンタイムパスワード(OTP)は、短時間(30秒〜60秒など)ごとに変化し、一度しか使えないパスワードで、セキュリティ強度が高い認証方式です。"
+  },
+  {
+    "id": "IP_224",
+    "question": "企業が保有する情報を「機密性」「完全性」「可用性」の観点から分類し、重要度に応じて適切な管理を行うことを何というか。",
+    "options": [
+      "ログ管理",
+      "アクセス制御",
+      "リスク分析",
+      "情報資産管理"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（情報資産管理）\n\n情報資産管理は、組織が持つ情報資産を洗い出し、その重要度(機密性・完全性・可用性の格付け)に応じて分類・管理することです。"
+  },
+  {
+    "id": "IP_225",
+    "question": "ソフトウェアの権利者が、ソースコードを無償で公開し、誰でも自由に使用、改変、再配布できるようにしたソフトウェアはどれか。",
+    "options": [
+      "シェアウェア",
+      "パッケージソフト",
+      "フリーウェア",
+      "OSS (Open Source Software)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（OSS (Open Source Software)）\n\nOSSは、ソースコードが公開され、利用・改変・再配布が許可されているソフトウェアです(Linux、Apache、MySQLなど)。"
+  },
+  {
+    "id": "IP_226",
+    "question": "【計算問題】あるサーバの年間稼働時間が8,760時間、計画停止時間が60時間、故障による停止時間が15時間であった。このサーバの稼働率は幾らか(小数第4位を四捨五入)。",
+    "options": [
+      "0.9932",
+      "0.9829",
+      "0.9914",
+      "0.9983"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（0.9983）\n\n稼働すべき時間(全時間 - 計画停止)は 8760 - 60 = 8700時間。実稼働時間は 8700 - 15 = 8685時間。稼働率 = 8685 ÷ 8700 ≒ 0.99827... → 0.9983。"
+  },
+  {
+    "id": "IP_227",
+    "question": "サイバー攻撃の一種で、特定の組織や個人を標的として、長期間にわたり執拗に攻撃を行う手法はどれか。",
+    "options": [
+      "辞書攻撃",
+      "DoS攻撃",
+      "ブルートフォース攻撃",
+      "APT攻撃"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（APT攻撃）\n\nAPT(Advanced Persistent Threat)攻撃は、特定のターゲットに対して、様々な手法を駆使して執拗かつ継続的に行われる攻撃です。"
+  },
+  {
+    "id": "IP_228",
+    "question": "労働者派遣法において、派遣労働者に対して指揮命令を行う権限を持つのは誰か。",
+    "options": [
+      "派遣元企業",
+      "派遣先企業",
+      "ハローワーク",
+      "労働基準監督署"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（派遣先企業）\n\n派遣労働者との雇用契約は「派遣元」と結びますが、業務の指揮命令権は「派遣先」にあります。請負契約では指揮命令権も請負業者側にあります。"
+  },
+  {
+    "id": "IP_229",
+    "question": "PCなどの電子機器において、ACアダプタなどから供給される直流電流を、各部品が必要とする電圧に変換する回路や装置はどれか。",
+    "options": [
+      "インバータ",
+      "AC-DCアダプタ",
+      "トランス",
+      "DC-DCコンバータ"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（DC-DCコンバータ）\n\nDC-DCコンバータは、直流(DC)電圧を、別の電圧の直流(DC)に変換する装置です。PC内部でCPUやメモリ用に電圧を調整するのに使われます。"
+  },
+  {
+    "id": "IP_230",
+    "question": "【計算問題】1MBのメモリ空間があるとき、1画素が2バイトの情報を持つ640×480画素の画像を、圧縮せずに最大何枚記憶できるか。",
+    "options": [
+      "0枚",
+      "3枚",
+      "2枚",
+      "1枚"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（1枚）\n\n画像1枚のサイズは 640×480×2バイト = 614,400バイト ≒ 0.6MB。1MBには1枚しか入りません(2枚だと1.2MB必要)。"
+  },
+  {
+    "id": "IP_231",
+    "question": "インターネット上で、ドメイン名とIPアドレスの対応関係を管理するシステムはどれか。",
+    "options": [
+      "ARP (Address Resolution Protocol)",
+      "DNS (Domain Name System)",
+      "DHCP (Dynamic Host Configuration Protocol)",
+      "NAT (Network Address Translation)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（DNS (Domain Name System)）\n\nDNSは、人間が覚えやすいドメイン名(例: example.com)と、コンピュータが使うIPアドレスを相互に変換(名前解決)するシステムです。"
+  },
+  {
+    "id": "IP_232",
+    "question": "企業の財務諸表の一つで、ある時点における企業の財政状態(資産、負債、純資産)を表すものはどれか。",
+    "options": [
+      "損益計算書 (P/L)",
+      "キャッシュフロー計算書 (C/F)",
+      "貸借対照表 (B/S)",
+      "株主資本等変動計算書"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（貸借対照表 (B/S)）\n\n貸借対照表(バランスシート)は、決算日時点での企業の資産、負債、純資産の状態を示したものです。"
+  },
+  {
+    "id": "IP_233",
+    "question": "システム開発において、プログラムのソースコードを解析し、文法エラーやコーディング規約違反などを検出するツールはどれか。",
+    "options": [
+      "動的解析ツール",
+      "コンパイラ",
+      "デバッガ",
+      "静的解析ツール"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（静的解析ツール）\n\n静的解析ツールは、プログラムを実行せずにソースコードを解析して、潜在的な欠陥や規約違反を検出するツールです。"
+  },
+  {
+    "id": "IP_234",
+    "question": "【計算問題】2進数の「10110」を3倍した結果を2進数で表したものはどれか。",
+    "options": [
+      "101100",
+      "101101",
+      "111100",
+      "1000010"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（1000010）\n\n10110(2進数)は、16+4+2=22(10進数)。22×3=66。66を2進数にすると、64+2なので「1000010」となります。あるいは、左シフト(2倍)した「101100」に元の「10110」を足しても求められます。"
+  },
+  {
+    "id": "IP_235",
+    "question": "情報セキュリティのリスクマネジメントにおいて、リスクの影響を低減するための対策(リスク低減)に該当するものはどれか。",
+    "options": [
+      "データを暗号化して情報漏えいに備える。",
+      "サイバー保険に加入する。",
+      "リスクを許容範囲内としてそのままにする。",
+      "個人情報を扱わないように業務プロセスを変更する。"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（データを暗号化して情報漏えいに備える。）\n\nリスク低減(緩和)は、リスクの発生確率や影響度を下げる対策です。暗号化は漏えい時の被害(影響)を低減します。保険は移転、扱わないのは回避、そのままは保有です。"
+  },
+  {
+    "id": "IP_236",
+    "question": "製造業などで、資材の調達から製造、流通、販売に至るまでの一連のプロセスを最適化し、リードタイム短縮やコスト削減を図る管理手法はどれか。",
+    "options": [
+      "SCM (Supply Chain Management)",
+      "ERP (Enterprise Resource Planning)",
+      "CRM (Customer Relationship Management)",
+      "PLM (Product Lifecycle Management)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（SCM (Supply Chain Management)）\n\nSCM(サプライチェーンマネジメント)は、供給連鎖(サプライチェーン)全体の情報を共有・管理し、全体最適を図る手法です。"
+  },
+  {
+    "id": "IP_237",
+    "question": "Webサイトの通信プロトコルであるHTTPSが利用している、通信の暗号化技術はどれか。",
+    "options": [
+      "WPA",
+      "SSL/TLS",
+      "SSH",
+      "IPsec"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（SSL/TLS）\n\nHTTPSは、HTTP通信をSSL(Secure Sockets Layer)またはその後継であるTLS(Transport Layer Security)で暗号化したものです。"
+  },
+  {
+    "id": "IP_238",
+    "question": "【計算問題】ある製品のMTBFが1,000時間、MTTRが10時間である場合、この製品が故障してから復旧し、次に故障するまでの平均的なサイクル(MTBF+MTTR)は何時間か。",
+    "options": [
+      "1,000時間",
+      "1,010時間",
+      "100時間",
+      "990時間"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（1,010時間）\n\n故障から復旧して次の故障までの1サイクルは、稼働時間(MTBF)+修理時間(MTTR)なので、1,000 + 10 = 1,010時間です。"
+  },
+  {
+    "id": "IP_239",
+    "question": "コンピュータウイルスなどのマルウェアを検知するために、プログラムを隔離された仮想環境(サンドボックス)で動作させ、その挙動を分析する技術はどれか。",
+    "options": [
+      "ファイアウォール",
+      "ヒューリスティック",
+      "サンドボックス",
+      "パターンマッチング"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（サンドボックス）\n\nサンドボックス(Sandbox)は、外部から隔離された安全な領域(砂場)でプログラムを実行し、システムへの影響を与えずに悪意ある振る舞いがないか確認する技術です。"
+  },
+  {
+    "id": "IP_240",
+    "question": "企業の社会的責任(CSR)活動の一環として、芸術・文化活動への支援を行うことを何というか。",
+    "options": [
+      "フィランソロピー",
+      "ディスクロージャー",
+      "メセナ",
+      "コンプライアンス"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（メセナ）\n\nメセナ(Mecenat)は、企業が資金提供などを通じて文化・芸術活動を支援することです。フィランソロピーは社会貢献活動全般を指します。"
+  },
+  {
+    "id": "IP_241",
+    "question": "ハードディスクなどの記憶装置において、データを読み書きする最小単位(セクタ)の集まりを何というか。",
+    "options": [
+      "クラスタ",
+      "トラック",
+      "シリンダ",
+      "パーティション"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（クラスタ）\n\nOSがファイルを管理する際の最小単位はクラスタ(またはブロック)と呼ばれ、複数のセクタで構成されます。"
+  },
+  {
+    "id": "IP_242",
+    "question": "【計算問題】10進数の「255」を2進数で表したものはどれか。",
+    "options": [
+      "10101010",
+      "11111111",
+      "10000000",
+      "11110000"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（11111111）\n\n255は8ビット全てのビットが1の状態です(128+64+32+16+8+4+2+1)。"
+  },
+  {
+    "id": "IP_243",
+    "question": "インターネットへの接続サービスを提供する事業者を何というか。",
+    "options": [
+      "CSP (Cloud Service Provider)",
+      "ASP (Application Service Provider)",
+      "ISP (Internet Service Provider)",
+      "MSP (Managed Service Provider)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（ISP (Internet Service Provider)）\n\nISP(プロバイダ)は、個人や企業に対してインターネット接続環境を提供する事業者です。"
+  },
+  {
+    "id": "IP_244",
+    "question": "プロジェクト管理において、作業の順序関係を矢印で結び、所要日数を記入して日程計画を作成する図法はどれか。",
+    "options": [
+      "管理図",
+      "パレート図",
+      "アローダイアグラム(PERT図)",
+      "ガントチャート"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（アローダイアグラム(PERT図)）\n\nアローダイアグラムは、作業(アクティビティ)を矢印で結んで順序関係を示した図で、クリティカルパスの発見などに用いられます。"
+  },
+  {
+    "id": "IP_245",
+    "question": "企業が自社の強みを活かし、競合他社に対する優位性を確立するための源泉となる能力を何というか。",
+    "options": [
+      "シナジー",
+      "ケイパビリティ",
+      "コアコンピタンス",
+      "アライアンス"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（コアコンピタンス）\n\nコアコンピタンスは、顧客に利益をもたらし、競合相手に真似されにくく、複数の市場に応用できる、企業の中核的な能力です。"
+  },
+  {
+    "id": "IP_246",
+    "question": "【計算問題】損益分岐点売上高が8,000万円、実際の売上高が1億円(10,000万円)の場合、経営の安全余裕率は何%か。",
+    "options": [
+      "80%",
+      "125%",
+      "25%",
+      "20%"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（20%）\n\n安全余裕率は (売上高 - 損益分岐点売上高) ÷ 売上高 × 100 で求められます。(10,000 - 8,000) ÷ 10,000 × 100 = 2,000 ÷ 10,000 × 100 = 20% です。"
+  },
+  {
+    "id": "IP_247",
+    "question": "システムの信頼性設計において、2つの機器が同時に故障しない限りシステムが停止しない構成(並列構成など)をとることを何というか。",
+    "options": [
+      "冗長化",
+      "標準化",
+      "最適化",
+      "仮想化"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（冗長化）\n\n冗長化(Redundancy)は、予備の機器を用意したり並列化したりして、一部が故障してもシステム全体としては機能を維持できるようにすることです。"
+  },
+  {
+    "id": "IP_248",
+    "question": "クレジットカード番号などの機密情報を保護するための、国際的なセキュリティ基準はどれか。",
+    "options": [
+      "GDPR",
+      "Pマーク",
+      "ISMS",
+      "PCI DSS"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（PCI DSS）\n\nPCI DSS(Payment Card Industry Data Security Standard)は、クレジットカード情報の保護を目的として、国際カードブランド5社が策定したセキュリティ基準です。"
+  },
+  {
+    "id": "IP_249",
+    "question": "AI(人工知能)において、脳の神経回路網を模倣した数理モデルを何というか。",
+    "options": [
+      "決定木",
+      "ニューラルネットワーク",
+      "エキスパートシステム",
+      "遺伝的アルゴリズム"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ニューラルネットワーク）\n\nニューラルネットワークは、人間の脳のニューロン(神経細胞)のつながりを模倣したモデルで、ディープラーニングの基礎となっています。"
+  },
+  {
+    "id": "IP_250",
+    "question": "【計算問題】あるシステムの稼働率が0.9、別のシステムの稼働率が0.8である。この2つのシステムを並列に接続した場合の稼働率は幾らか。",
+    "options": [
+      "0.9",
+      "0.98",
+      "0.8",
+      "0.72"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（0.98）\n\n並列接続の稼働率 = 1 - (1 - 0.9) × (1 - 0.8) = 1 - 0.1 × 0.2 = 1 - 0.02 = 0.98 です。"
+  },
+  {
+    "id": "IP_251",
+    "question": "製造物責任法(PL法)において、製造物の欠陥により損害が生じた場合、製造業者が負う責任はどれか。",
+    "options": [
+      "連帯責任",
+      "過失責任",
+      "無過失責任",
+      "有限責任"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（無過失責任）\n\nPL法では、被害者は製造業者の「過失」を証明する必要がなく、製品に「欠陥」があったことを証明すれば損害賠償を請求できる「無過失責任」を採用しています。"
+  },
+  {
+    "id": "IP_252",
+    "question": "PCやサーバのメモリ(DRAM)において、データの消失を防ぐために定期的に電荷を補充する動作を何というか。",
+    "options": [
+      "リブート",
+      "リストア",
+      "リセット",
+      "リフレッシュ"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（リフレッシュ）\n\nDRAMはコンデンサに電荷を蓄えてデータを記憶しますが、自然放電で消えてしまうため、定期的な再書き込み(リフレッシュ)が必要です。"
+  },
+  {
+    "id": "IP_253",
+    "question": "無線通信において、電波の届く範囲内にいる第三者に通信内容を傍受されるリスクを何というか。",
+    "options": [
+      "改ざん",
+      "盗聴",
+      "否認",
+      "なりすまし"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（盗聴）\n\n無線通信は空間を媒体とするため、電波を受信できる範囲にいれば通信内容を傍受(盗聴)されるリスクがあります。そのため暗号化が重要です。"
+  },
+  {
+    "id": "IP_254",
+    "question": "【計算問題】100MbpsのLANで、利用率が40%のとき、1秒間に転送できるデータ量は何MBか。1B=8bitとする。",
+    "options": [
+      "5MB",
+      "40MB",
+      "50MB",
+      "4MB"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（5MB）\n\n100Mbps × 0.4 = 40Mbps。40Mbit ÷ 8 = 5MB(メガバイト)です。"
+  },
+  {
+    "id": "IP_255",
+    "question": "企業が新商品を市場に投入する際、初期に高価格を設定し、開発コストを早期に回収する価格戦略はどれか。",
+    "options": [
+      "ペネトレーションプライス戦略(浸透価格戦略)",
+      "ロスリーダー戦略",
+      "スキミングプライス戦略(上澄み吸収価格戦略)",
+      "プライスリーダーシップ戦略"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（スキミングプライス戦略(上澄み吸収価格戦略)）\n\nスキミングプライス戦略は、高価格でも購入する層(イノベーター等)をターゲットに利益を確保する戦略です。逆に低価格でシェア拡大を狙うのがペネトレーションプライス戦略です。"
+  },
+  {
+    "id": "IP_256",
+    "question": "情報システムの開発・運用において、利用者と提供者の間でサービスの品質基準を取り決めた契約文書はどれか。",
+    "options": [
+      "RFP",
+      "EULA",
+      "SLA",
+      "NDA"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（SLA）\n\nSLA(Service Level Agreement)は、サービスの品質目標(稼働率、応答時間など)を合意した文書です。"
+  },
+  {
+    "id": "IP_257",
+    "question": "インターネット上で、Webサイトの正当性を証明し、通信を暗号化するために使用される電子証明書を発行する機関はどれか。",
+    "options": [
+      "JPCERT/CC",
+      "認証局 (CA)",
+      "IPA",
+      "登録局 (RA)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（認証局 (CA)）\n\n認証局(Certificate Authority:CA)は、デジタル証明書を発行し、サイト運営者の実在性などを証明する第三者機関です。"
+  },
+  {
+    "id": "IP_258",
+    "question": "【計算問題】排他的論理和(XOR)演算において、2進数「1100」と「1010」の演算結果はどれか。",
+    "options": [
+      "1000",
+      "0110",
+      "1110",
+      "0010"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（0110）\n\nXORは、ビットが異なれば1、同じなら0になります。1と1→0、1と0→1、0と1→1、0と0→0。よって「0110」です。"
+  },
+  {
+    "id": "IP_259",
+    "question": "企業内LANとインターネットの境界に設置し、外部からの不正アクセスを防ぐためのパケットフィルタリング機能を持つ装置はどれか。",
+    "options": [
+      "ロードバランサ",
+      "ハブ",
+      "リピータ",
+      "ファイアウォール"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ファイアウォール）\n\nファイアウォールは、通過するパケットのIPアドレスやポート番号をチェックし、許可された通信のみを通すことで不正アクセスを防ぎます。"
+  },
+  {
+    "id": "IP_260",
+    "question": "データベース管理システム(DBMS)において、トランザクション処理の4つの特性(ACID特性)に含まれないものはどれか。",
+    "options": [
+      "独立性 (Isolation)",
+      "可用性 (Availability)",
+      "一貫性 (Consistency)",
+      "原子性 (Atomicity)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（可用性 (Availability)）\n\nACID特性は、Atomicity(原子性)、Consistency(一貫性)、Isolation(独立性)、Durability(永続性)の4つです。Availability(可用性)は情報セキュリティの要素です。"
+  },
+  {
+    "id": "IP_261",
+    "question": "スマートフォンの画面ロック解除などに使われる、顔や指紋などの身体的特徴を用いた認証方式はどれか。",
+    "options": [
+      "マトリクス認証",
+      "生体認証(バイオメトリクス認証)",
+      "トークン認証",
+      "二要素認証"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（生体認証(バイオメトリクス認証)）\n\n生体認証は、指紋、顔、静脈、虹彩などの身体的特徴や、筆跡などの行動的特徴を用いて本人確認を行う方式です。"
+  },
+  {
+    "id": "IP_262",
+    "question": "【計算問題】10進数の「-5」を、8ビットの2の補数表現で表したものはどれか。",
+    "options": [
+      "11111010",
+      "11111011",
+      "10000101",
+      "00000101"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（11111011）\n\n+5は「00000101」。ビットを反転すると「11111010」。これに1を加えると「11111011」となり、これが-5の2の補数表現です。"
+  },
+  {
+    "id": "IP_263",
+    "question": "プロジェクト管理において、作業の進捗状況とコストの消化状況を対比して管理する手法(EVM)で、開発効率(コスト効率)を示す指標CPIが1.0より小さい場合の状態はどれか。",
+    "options": [
+      "スケジュール遅延",
+      "予算内",
+      "予算オーバー",
+      "スケジュール前倒し"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（予算オーバー）\n\nCPI(Cost Performance Index)= EV(出来高)÷ AC(実コスト)。1.0未満ということは、出来高に対してコストがかかりすぎている(予算オーバー)状態です。"
+  },
+  {
+    "id": "IP_264",
+    "question": "Webページのデザインやレイアウトを定義するための言語はどれか。",
+    "options": [
+      "JavaScript",
+      "XML",
+      "CSS (Cascading Style Sheets)",
+      "HTML (HyperText Markup Language)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（CSS (Cascading Style Sheets)）\n\nCSSは、HTMLで記述された文書の見た目(色、フォント、配置など)を指定するためのスタイルシート言語です。"
+  },
+  {
+    "id": "IP_265",
+    "question": "企業が自社の製品やサービスの市場における位置付けを分析するために用いる「PPM(プロダクト・ポートフォリオ・マネジメント)」の2つの軸はどれか。",
+    "options": [
+      "売上高と利益率",
+      "製品の価格と品質",
+      "市場成長率と市場占有率",
+      "新規顧客と既存顧客"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（市場成長率と市場占有率）\n\nPPMは、縦軸に「市場成長率」、横軸に「市場占有率(マーケットシェア)」をとり、事業を「花形」「金のなる木」「問題児」「負け犬」に分類します。"
+  },
+  {
+    "id": "IP_266",
+    "question": "【計算問題】HDDの容量が500GBで、そのうち20%を使用している。空き容量は何GBか。",
+    "options": [
+      "400GB",
+      "100GB",
+      "300GB",
+      "250GB"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（400GB）\n\n使用量は500GB×0.2=100GB。空き容量は500GB-100GB=400GBです。または500GB×(1-0.2)=400GB。"
+  },
+  {
+    "id": "IP_267",
+    "question": "情報セキュリティ対策として、PCのUSBポートを物理的に塞いだり、使用を制限したりする目的はどれか。",
+    "options": [
+      "USB機器の故障を防ぐため",
+      "情報の持ち出しやマルウェアの侵入を防ぐため",
+      "キーボードやマウスの誤操作を防ぐため",
+      "PCの消費電力を抑えるため"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（情報の持ち出しやマルウェアの侵入を防ぐため）\n\nUSBメモリ経由での情報漏えいや、ウイルス感染(USBメモリを挿すだけで感染するものなど)を防ぐために、物理的・技術的にポートを封鎖する対策が行われます。"
+  },
+  {
+    "id": "IP_268",
+    "question": "企業の財務分析において、流動資産を流動負債で割った比率(流動比率)が高い場合、何が優れているといえるか。",
+    "options": [
+      "短期的な支払い能力",
+      "長期的な収益性",
+      "借金の少なさ",
+      "在庫の回転効率"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（短期的な支払い能力）\n\n流動比率は、1年以内に現金化できる資産(流動資産)と1年以内に支払う負債(流動負債)の比率で、企業の短期的な支払い能力(安全性)を示します。"
+  },
+  {
+    "id": "IP_269",
+    "question": "インターネット上で、特定のWebサイトへのアクセスが集中し、サーバがつながりにくくなる現象を意図的に引き起こす攻撃はどれか。",
+    "options": [
+      "SQLインジェクション",
+      "クロスサイトスクリプティング",
+      "バッファオーバーフロー",
+      "DoS攻撃"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（DoS攻撃）\n\nDoS攻撃(Denial of Service attack)は、大量のデータを送りつけるなどしてサーバに負荷をかけ、サービスを利用不能にする攻撃です。"
+  },
+  {
+    "id": "IP_270",
+    "question": "【計算問題】あるシステムの平均修復時間(MTTR)を短縮するために最も効果的な対策はどれか。",
+    "options": [
+      "システムの二重化(冗長化)",
+      "定期的な再起動の実施",
+      "高品質な部品の使用による故障率の低減",
+      "保守要員のスキル向上や交換部品の常備"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（保守要員のスキル向上や交換部品の常備）\n\nMTTR(Mean Time To Repair)は修理にかかる時間の平均です。修理スキル向上や部品の即時交換体制はMTTRを短縮します。故障率低減はMTBFを延ばす対策です。"
+  },
+  {
+    "id": "IP_271",
+    "question": "PCやスマートフォンなどの端末が、マルウェア感染によってロックされたり、ファイルが暗号化されたりして使用不能になり、解除のために金銭を要求される被害をもたらすものはどれか。",
+    "options": [
+      "ランサムウェア",
+      "ボット",
+      "キーロガー",
+      "スパイウェア"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ランサムウェア）\n\nランサムウェア(Ransomware)は、Ransom(身代金)とSoftwareを組み合わせた造語です。データを暗号化して人質に取り、復号のための対価を要求します。"
+  },
+  {
+    "id": "IP_272",
+    "question": "インターネット上の住所にあたるIPアドレスの枯渇問題への対策として策定され、アドレス空間を128ビットに拡張したプロトコルはどれか。",
+    "options": [
+      "NAT",
+      "IPv4",
+      "DHCP",
+      "IPv6"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（IPv6）\n\nIPv6は、IPアドレスを従来の32ビット(IPv4)から128ビットに拡張したプロトコルです。事実上無限に近いアドレスを利用可能です。"
+  },
+  {
+    "id": "IP_273",
+    "question": "災害や事故などの予期せぬ事態が発生した場合でも、中核となる事業を継続し、早期復旧を図るための計画を何というか。",
+    "options": [
+      "CSR",
+      "NDA",
+      "SLA",
+      "BCP"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（BCP）\n\nBCP(Business Continuity Plan:事業継続計画)は、緊急事態においても事業を継続・復旧させるための計画のことです。"
+  },
+  {
+    "id": "IP_274",
+    "question": "【計算問題】10Mバイトのデータを、8Mbpsの通信速度で転送するのにかかる理論上の時間は何秒か。",
+    "options": [
+      "80秒",
+      "10秒",
+      "1.25秒",
+      "8秒"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（10秒）\n\n10Mバイト = 10 × 8 = 80Mビットです。80Mビット ÷ 8Mbps = 10秒となります。"
+  },
+  {
+    "id": "IP_275",
+    "question": "サービスの提供者と利用者の間で、サービスの品質内容(稼働率、応答時間など)について合意した文書はどれか。",
+    "options": [
+      "SLA",
+      "SLM",
+      "RFP",
+      "NDA"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（SLA）\n\nSLA(Service Level Agreement:サービスレベル合意書)は、サービス品質の保証内容を明文化した契約文書です。"
+  },
+  {
+    "id": "IP_276",
+    "question": "紙の書類などをスキャナで読み取り、文字データを認識してテキストデータに変換する技術はどれか。",
+    "options": [
+      "RFID",
+      "QRコード",
+      "OCR",
+      "OMR"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（OCR）\n\nOCR(Optical Character Recognition:光学式文字認識)は、画像化された文字を解析してテキストデータに変換する技術です。"
+  },
+  {
+    "id": "IP_277",
+    "question": "インターネットを通じて、不特定多数の人から資金調達を行う仕組みはどれか。",
+    "options": [
+      "クラウドソーシング",
+      "フィンテック",
+      "クラウドコンピューティング",
+      "クラウドファンディング"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（クラウドファンディング）\n\nクラウドファンディング(Crowdfunding)は、群衆(Crowd)と資金調達(Funding)を組み合わせた言葉で、インターネット経由で支援金を募る仕組みです。"
+  },
+  {
+    "id": "IP_278",
+    "question": "【計算問題】稼働率が0.9の装置を2台並列に接続したシステム全体の稼働率は幾らか。",
+    "options": [
+      "0.81",
+      "0.99",
+      "0.9",
+      "0.18"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（0.99）\n\n並列システムの稼働率は、1 - (全装置が同時に故障する確率) で求められます。1 - (1-0.9) × (1-0.9) = 1 - 0.1 × 0.1 = 1 - 0.01 = 0.99 です。"
+  },
+  {
+    "id": "IP_279",
+    "question": "人間の心理的な隙や行動のミスにつけ込んで、パスワードなどの機密情報を盗み出す手法を何というか。",
+    "options": [
+      "リバースエンジニアリング",
+      "ゼロデイ攻撃",
+      "SQLインジェクション",
+      "ソーシャルエンジニアリング"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ソーシャルエンジニアリング）\n\nソーシャルエンジニアリングは、技術的な方法ではなく、覗き見やなりすまし電話など、人の心理や行動の隙を利用する手法です。"
+  },
+  {
+    "id": "IP_280",
+    "question": "家電や自動車、工場設備など、あらゆるモノがインターネットにつながり、相互に情報をやり取りする仕組みはどれか。",
+    "options": [
+      "RPA",
+      "IoT",
+      "AI",
+      "ICT"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（IoT）\n\nIoT(Internet of Things:モノのインターネット)は、PCやスマホ以外の様々なモノがネットに接続される概念や技術のことです。"
+  },
+  {
+    "id": "IP_281",
+    "question": "企業の経営環境を「強み(Strengths)」「弱み(Weaknesses)」「機会(Opportunities)」「脅威(Threats)」の4つの視点から分析する手法はどれか。",
+    "options": [
+      "SWOT分析",
+      "PPM分析",
+      "ABC分析",
+      "3C分析"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（SWOT分析）\n\nSWOT分析は、内部環境(強み・弱み)と外部環境(機会・脅威)を組み合わせて戦略を策定するフレームワークです。"
+  },
+  {
+    "id": "IP_282",
+    "question": "【計算問題】横800ピクセル、縦600ピクセルの画像を、1画素あたり24ビットの色情報で記録する場合、データ量は約何Mバイトか(1Mバイト=1,000,000バイトとする)。",
+    "options": [
+      "11.52Mバイト",
+      "1.44Mバイト",
+      "1.92Mバイト",
+      "0.48Mバイト"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（1.44Mバイト）\n\n総画素数は800×600=480,000画素。1画素24ビット=3バイト。480,000 × 3 = 1,440,000バイト。1Mバイト=1,000,000バイトなので、1.44Mバイトです。"
+  },
+  {
+    "id": "IP_283",
+    "question": "システムがいつ、誰によって、どのような操作をされたかを記録したものを何というか。",
+    "options": [
+      "監査証跡",
+      "アクセス権",
+      "ログオン",
+      "バックアップ"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（監査証跡）\n\n監査証跡(オーディットトレイル)は、システムへのアクセスや操作の履歴を記録したログのことで、不正の追跡や監査に利用されます。"
+  },
+  {
+    "id": "IP_284",
+    "question": "Bluetoothの仕様の一つで、ボタン電池1個で数年稼働できるほどの省電力性を特徴とするものはどれか。",
+    "options": [
+      "ZigBee",
+      "BLE",
+      "Wi-Fi",
+      "NFC"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（BLE）\n\nBLE(Bluetooth Low Energy)は、従来のBluetoothに比べて大幅に消費電力を抑えた通信規格です。ウェアラブル端末やIoT機器で多用されます。"
+  },
+  {
+    "id": "IP_285",
+    "question": "「記憶(知識)」「所持」「生体」の3要素のうち、2つ以上を組み合わせて本人確認を行う方式はどれか。",
+    "options": [
+      "シングルサインオン",
+      "多要素認証",
+      "チャレンジレスポンス認証",
+      "バイオメトリクス認証"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（多要素認証）\n\n多要素認証(MFA)は、パスワード(記憶)、スマホ(所持)、指紋(生体)などの異なる要素を組み合わせてセキュリティを高める方式です。"
+  },
+  {
+    "id": "IP_286",
+    "question": "個人が保有する遊休資産(空き部屋、車、スキルなど)を、インターネットを介して他者に貸し出したり提供したりする経済活動はどれか。",
+    "options": [
+      "ギグエコノミー",
+      "サブスクリプション",
+      "ロングテール",
+      "シェアリングエコノミー"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（シェアリングエコノミー）\n\nシェアリングエコノミーは、場所・乗り物・モノ・人・金などの遊休資産を共有・活用する仕組みです(例:民泊、カーシェア)。"
+  },
+  {
+    "id": "IP_287",
+    "question": "【計算問題】16進数の「1A」を10進数で表すと幾らか。",
+    "options": [
+      "16",
+      "32",
+      "26",
+      "20"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（26）\n\n16進数の1Aは、1×16^1 + A(10)×16^0 = 16 + 10 = 26 となります。"
+  },
+  {
+    "id": "IP_288",
+    "question": "現実の風景に、コンピュータが作り出した情報を重ね合わせて表示する技術はどれか。",
+    "options": [
+      "MR",
+      "SR",
+      "AR",
+      "VR"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（AR）\n\nAR(Augmented Reality:拡張現実)は、現実世界にデジタル情報を付加して表示する技術です(例:ポケモンGO、スマホのカメラ越しに案内表示)。"
+  },
+  {
+    "id": "IP_289",
+    "question": "プロジェクトの成果物や作業を階層的に分解し、管理可能な単位に細分化した図はどれか。",
+    "options": [
+      "OBS",
+      "RBS",
+      "WBS",
+      "CBS"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（WBS）\n\nWBS(Work Breakdown Structure)は、作業分解構成図とも呼ばれ、プロジェクト全体を細かいタスクに分解して構造化したものです。"
+  },
+  {
+    "id": "IP_290",
+    "question": "組織の目標達成度を評価するための重要業績評価指標を何というか。",
+    "options": [
+      "CSF",
+      "KPI",
+      "KGI",
+      "SLA"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（KPI）\n\nKPI(Key Performance Indicator)は、目標達成に向けたプロセスの実施状況を計測するための中間指標です。KGIは最終目標の達成指標です。"
+  },
+  {
+    "id": "IP_291",
+    "question": "攻撃者がシステムへの侵入後に、自身の痕跡を隠蔽したり、バックドア(裏口)を設置したりするために用いるツール群はどれか。",
+    "options": [
+      "エクスプロイトキット",
+      "ルートキット",
+      "キーロガー",
+      "スパイウェア"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ルートキット）\n\nルートキット(Rootkit)は、侵入者が管理者権限を維持し、ログ改ざん等で検知を逃れるための機能をまとめたパッケージです。"
+  },
+  {
+    "id": "IP_292",
+    "question": "3Dグラフィックスの描画処理などに特化しており、近年ではディープラーニングの計算処理にも利用されるプロセッサはどれか。",
+    "options": [
+      "GPU",
+      "MCU",
+      "CPU",
+      "FPGA"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（GPU）\n\nGPU(Graphics Processing Unit)は、並列演算性能が高く、画像処理やAIの機械学習などに適しています。"
+  },
+  {
+    "id": "IP_293",
+    "question": "【計算問題】サンプリング周波数44.1kHz、量子化ビット数16ビット、ステレオ(2チャンネル)で1分間録音した場合のデータ量は約何Mバイトか(1k=1000、1M=1000kとする)。",
+    "options": [
+      "1.4Mバイト",
+      "10.6Mバイト",
+      "5.3Mバイト",
+      "21.2Mバイト"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（10.6Mバイト）\n\n1秒あたりのデータ量は、44,100 × 16ビット × 2ch = 1,411,200ビット。バイト換算(÷8)で176,400バイト/秒。60秒分で10,584,000バイト。約10.6Mバイトです。"
+  },
+  {
+    "id": "IP_294",
+    "question": "企業が利益を追求するだけでなく、環境保護や社会貢献活動などを通じて社会的責任を果たすべきという考え方はどれか。",
+    "options": [
+      "ERP",
+      "CSR",
+      "CRM",
+      "SCM"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（CSR）\n\nCSR(Corporate Social Responsibility)は、企業の社会的責任のことです。法令遵守や環境配慮などが含まれます。"
+  },
+  {
+    "id": "IP_295",
+    "question": "ITサービス管理において、システムの障害発生時に、業務への影響を最小限に抑えて迅速に復旧させるプロセスはどれか。",
+    "options": [
+      "インシデント管理",
+      "問題管理",
+      "変更管理",
+      "リリース管理"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（インシデント管理）\n\nインシデント管理は、発生した障害(インシデント)に対して迅速に対応し、サービスを平常運用状態に戻すことを最優先するプロセスです。"
+  },
+  {
+    "id": "IP_296",
+    "question": "端末の近く(エッジ)にサーバを配置し、データ処理を分散させることで、通信遅延の短縮や負荷分散を図る技術はどれか。",
+    "options": [
+      "量子コンピューティング",
+      "グリッドコンピューティング",
+      "エッジコンピューティング",
+      "クラウドコンピューティング"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（エッジコンピューティング）\n\nエッジコンピューティングは、利用者に近い場所で処理を行うことで、リアルタイム性を高め、通信量を削減する技術です。"
+  },
+  {
+    "id": "IP_297",
+    "question": "他人のPCやサーバに不正に侵入し、その計算能力を無断で使用して暗号資産(仮想通貨)のマイニングを行う攻撃はどれか。",
+    "options": [
+      "フィッシング",
+      "クリプトジャッキング",
+      "標的型攻撃",
+      "ランサムウェア"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（クリプトジャッキング）\n\nクリプトジャッキング(Cryptojacking)は、他者のリソースを勝手に使ってマイニングを行い、利益を得るサイバー攻撃です。"
+  },
+  {
+    "id": "IP_298",
+    "question": "【計算問題】1個の商品を製造するのに、材料費が400円、加工費が200円かかる。この商品を1,000円で販売したときの利益率は幾らか(販売費などは考慮しない)。",
+    "options": [
+      "60%",
+      "40%",
+      "20%",
+      "50%"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（40%）\n\n原価は400+200=600円。利益は1,000-600=400円。利益率は400 ÷ 1,000 × 100 = 40% です。"
+  },
+  {
+    "id": "IP_299",
+    "question": "業務提携や開発委託などを行う際に、相手方に開示する秘密情報を第三者に漏らさないことを約束する契約はどれか。",
+    "options": [
+      "NDA",
+      "EULA",
+      "SLA",
+      "OEM"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（NDA）\n\nNDA(Non-Disclosure Agreement:秘密保持契約)は、取引過程で知った秘密情報の漏洩を防ぐための契約です。"
+  },
+  {
+    "id": "IP_301",
+    "question": "Webサイトにおいて、利用者の入力データを適切に処理せず、データベースを不正に操作する命令文を埋め込む攻撃手法はどれか。",
+    "options": [
+      "クロスサイトスクリプティング",
+      "ディレクトリトラバーサル",
+      "セッションハイジャック",
+      "SQLインジェクション"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（SQLインジェクション）\n\nSQLインジェクションは、SQL文の断片を注入(インジェクション)して、データベースの改ざんや情報漏洩を引き起こす攻撃です。"
+  },
+  {
+    "id": "IP_302",
+    "question": "ソフトウェア開発において、ソースコードを公開し、誰でも自由に使用・改変・再配布できるようにしたソフトウェアを何というか。",
+    "options": [
+      "ファームウェア",
+      "パッケージソフト",
+      "OSS",
+      "シェアウェア"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（OSS）\n\nOSS(Open Source Software)は、ソースコードが公開されており、ライセンス条件に従えば自由に利用・改変できるソフトウェアです。"
+  },
+  {
+    "id": "IP_303",
+    "question": "【計算問題】10人のメンバーがいるチームで、互いに1対1で通信を行う場合、通信経路の総数は幾つか。",
+    "options": [
+      "100",
+      "10",
+      "90",
+      "45"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（45）\n\nn人の場合の経路数は n(n-1)/2 で求められます。10(10-1)/2 = 90/2 = 45通りです。"
+  },
+  {
+    "id": "IP_304",
+    "question": "プロジェクト管理において、作業の順序関係を矢印で結んだ図を用いて、最短の作業日数を計算する手法はどれか。",
+    "options": [
+      "パレート図",
+      "散布図",
+      "ガントチャート",
+      "アローダイアグラム"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（アローダイアグラム）\n\nアローダイアグラム(PERT図)は、作業の依存関係を図示し、クリティカルパス(最長経路)を見つけることで最短工期を算出する手法です。"
+  },
+  {
+    "id": "IP_305",
+    "question": "インターネットバンキングなどで、一度しか使えない使い捨てのパスワードを用いて認証を行う方式はどれか。",
+    "options": [
+      "ワンタイムパスワード",
+      "バイオメトリクス",
+      "シングルサインオン",
+      "マトリクス認証"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ワンタイムパスワード）\n\nワンタイムパスワード(OTP)は、利用の都度新しいパスワードが生成され、一度使うと無効になる仕組みで、セキュリティ強度が高いです。"
+  },
+  {
+    "id": "IP_306",
+    "question": "企業が保有する情報資産について、機密性・完全性・可用性を維持するための活動を組織的に管理する仕組みはどれか。",
+    "options": [
+      "ITSMS",
+      "EMS",
+      "QMS",
+      "ISMS"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ISMS）\n\nISMS(Information Security Management System)は、情報セキュリティマネジメントシステムのことです。JIS Q 27001などで規定されています。"
+  },
+  {
+    "id": "IP_307",
+    "question": "【計算問題】定価1,000円の商品を3割引きで販売したが、まだ原価の4割の利益があった。この商品の原価は幾らか。",
+    "options": [
+      "700円",
+      "500円",
+      "400円",
+      "600円"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（500円）\n\n売価は1,000×0.7=700円。これが原価の1.4倍(原価+4割利益)にあたります。原価=700÷1.4=500円です。"
+  },
+  {
+    "id": "IP_308",
+    "question": "ハードディスクの代わりにフラッシュメモリを使用し、高速な読み書きと耐衝撃性を備えた記憶装置はどれか。",
+    "options": [
+      "HDD",
+      "DVD",
+      "SSD",
+      "BD"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（SSD）\n\nSSD(Solid State Drive)は、半導体メモリを使用した記憶装置で、HDDに比べて高速・静音・省電力・衝撃に強い特徴があります。"
+  },
+  {
+    "id": "IP_309",
+    "question": "システム開発において、発注側と受注側の認識ズレを防ぐために、開発するシステムの機能や性能などの要件を明確に定義する工程はどれか。",
+    "options": [
+      "要件定義",
+      "基本設計",
+      "詳細設計",
+      "テスト"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（要件定義）\n\n要件定義は、利用者がシステムに何を求めているかを明確にし、システム化の範囲や機能を決定する上流工程の作業です。"
+  },
+  {
+    "id": "IP_310",
+    "question": "インターネット上でデータを送受信する際に、内容を暗号化して盗聴や改ざんを防ぐプロトコルはどれか。",
+    "options": [
+      "NTP",
+      "TLS",
+      "FTP",
+      "DNS"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（TLS）\n\nTLS(Transport Layer Security)は、インターネット通信を暗号化するプロトコルです。旧称のSSLと呼ばれることもあります。"
+  },
+  {
+    "id": "IP_311",
+    "question": "製品の製造過程において、設計図などのデータをコンピュータで作成・処理するシステムはどれか。",
+    "options": [
+      "CAM",
+      "CAE",
+      "CIM",
+      "CAD"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（CAD）\n\nCAD(Computer Aided Design)は、コンピュータ支援設計のことです。図面の作成や編集を効率化します。"
+  },
+  {
+    "id": "IP_312",
+    "question": "【計算問題】あるWebサイトのアクセス数が、毎月前月の1.2倍に増えている。現在のアクセス数が10,000件の場合、2か月後のアクセス数は何件になるか。",
+    "options": [
+      "14,400件",
+      "14,000件",
+      "12,000件",
+      "24,000件"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（14,400件）\n\n1か月後:10,000 × 1.2 = 12,000件。2か月後:12,000 × 1.2 = 14,400件となります。"
+  },
+  {
+    "id": "IP_313",
+    "question": "特定の企業や組織を標的に、メールの添付ファイルを開かせたりしてマルウェアに感染させ、内部情報を盗み出す攻撃はどれか。",
+    "options": [
+      "辞書攻撃",
+      "総当たり攻撃",
+      "標的型攻撃",
+      "DoS攻撃"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（標的型攻撃）\n\n標的型攻撃(APT攻撃)は、特定のターゲットに狙いを定め、業務連絡を装ったメールを送るなどして侵入する巧妙な攻撃です。"
+  },
+  {
+    "id": "IP_314",
+    "question": "コンピュータネットワークにおいて、ドメイン名とIPアドレスの対応付けを行うシステムはどれか。",
+    "options": [
+      "DNS",
+      "NAT",
+      "ARP",
+      "DHCP"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（DNS）\n\nDNS(Domain Name System)は、人間が理解しやすいドメイン名(例:example.com)と、コンピュータが使うIPアドレスを変換するシステムです。"
+  },
+  {
+    "id": "IP_316",
+    "question": "企業の活動全体を経営資源の有効活用の観点から統合的に管理し、経営の効率化を図る手法はどれか。",
+    "options": [
+      "BPR",
+      "ERP",
+      "CRM",
+      "SCM"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ERP）\n\nERP(Enterprise Resource Planning:企業資源計画)は、ヒト・モノ・カネ・情報などの経営資源を一元管理する手法やシステムのことです。"
+  },
+  {
+    "id": "IP_317",
+    "question": "【計算問題】2進数の「1010」と「0101」のビットごとの論理積(AND)をとった結果はどれか。",
+    "options": [
+      "0000",
+      "1010",
+      "1111",
+      "0101"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（0000）\n\n論理積(AND)は、両方が1の場合のみ1になります。1と0の組み合わせは全て0になるため、結果は0000です。"
+  },
+  {
+    "id": "IP_318",
+    "question": "人工知能(AI)において、コンピュータが大量のデータから特徴を自動的に学習する技術はどれか。",
+    "options": [
+      "データマイニング",
+      "ロジックツリー",
+      "エキスパートシステム",
+      "ディープラーニング"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ディープラーニング）\n\nディープラーニング(深層学習)は、人間の脳神経回路を模したニューラルネットワークを用い、データの特徴を自動抽出・学習する技術です。"
+  },
+  {
+    "id": "IP_319",
+    "question": "ネットワークカメラやルータなどのIoT機器が、デフォルトのパスワードのまま使用されていることを悪用し、大規模なボットネットを形成するマルウェアはどれか。",
+    "options": [
+      "Stuxnet",
+      "Mirai",
+      "WannaCry",
+      "Emotet"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（Mirai）\n\nMiraiは、IoT機器の脆弱性(弱いパスワードなど)を突いて感染し、踏み台として大規模なDDoS攻撃を行うマルウェアです。"
+  },
+  {
+    "id": "IP_320",
+    "question": "無線LANのセキュリティ規格であるWPA3において採用されている、より強固な認証方式はどれか。",
+    "options": [
+      "WEP",
+      "TKIP",
+      "SAE",
+      "PPAP"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（SAE）\n\nWPA3では、SAE(Simultaneous Authentication of Equals)という認証方式が採用され、辞書攻撃などへの耐性が強化されています。WEPやTKIPは旧来の方式であり、PPAPは無関係です。"
+  },
+  {
+    "id": "IP_321",
+    "question": "システム開発の見積もり手法において、機能の数や難易度(画面数、帳票数など)を基に開発規模を見積もる方法はどれか。",
+    "options": [
+      "標準タスク法",
+      "COCOMO",
+      "LOC法",
+      "ファンクションポイント法"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ファンクションポイント法）\n\nファンクションポイント法(FP法)は、入出力画面やファイル数などの「機能」に着目し、その複雑さから規模を算出する手法です。"
+  },
+  {
+    "id": "IP_322",
+    "question": "【計算問題】7,000円の商品を消費税10%込みで販売した。消費税額は幾らか(税抜価格に対する税額を求める)。",
+    "options": [
+      "636円",
+      "700円",
+      "770円",
+      "630円"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（636円）\n\n税込7,000円は税抜価格の1.1倍です。税抜価格=7,000÷1.1≒6363.6円。税額は7,000-6363.6=636.4円。約636円です(設問によっては端数処理の指定があるが、選択肢から636円が適切)。"
+  },
+  {
+    "id": "IP_324",
+    "question": "サーバ仮想化において、ホストOSを使用せず、ハードウェア上で直接仮想化ソフトウェアを動作させる方式はどれか。",
+    "options": [
+      "ホストOS型",
+      "ハイパーバイザ型",
+      "コンテナ型",
+      "デュアルブート"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ハイパーバイザ型）\n\nハイパーバイザ型(ベアメタル型)は、ハードウェアの直上で仮想化ソフトが動き、その上でゲストOSが稼働するため、処理効率が良いです。"
+  },
+  {
+    "id": "IP_325",
+    "question": "クレジットカード情報を取り扱う事業者が準拠すべき、セキュリティの国際的な統一基準はどれか。",
+    "options": [
+      "PCI DSS",
+      "GDPR",
+      "JIS Q 15001",
+      "ISO 27001"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（PCI DSS）\n\nPCI DSSは、クレジットカード会員データの保護を目的に策定されたセキュリティ基準です。"
+  },
+  {
+    "id": "IP_326",
+    "question": "製品の故障が発生するまでの平均動作時間を表す指標はどれか。",
+    "options": [
+      "MTTR",
+      "RPO",
+      "RTO",
+      "MTBF"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（MTBF）\n\nMTBF(Mean Time Between Failures:平均故障間隔)は、システムが故障せずに稼働している平均時間で、信頼性の指標となります。"
+  },
+  {
+    "id": "IP_327",
+    "question": "【計算問題】データ量1GBのファイルを、転送速度1Gbpsの回線で送信したときにかかる時間は最短で何秒か(1B=8bitとする)。",
+    "options": [
+      "10秒",
+      "0.1秒",
+      "8秒",
+      "1秒"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（8秒）\n\n1GB = 1Gバイト = 8Gビット。8Gビット ÷ 1Gbps = 8秒です。"
+  },
+  {
+    "id": "IP_328",
+    "question": "関係データベースにおいて、表と表を関連付けるために用いられる列を何というか。",
+    "options": [
+      "ビュー",
+      "インデックス",
+      "主キー",
+      "外部キー"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（外部キー）\n\n外部キーは、他の表の主キーを参照している列のことで、表同士のリレーション(関係)を定義します。"
+  },
+  {
+    "id": "IP_329",
+    "question": "プログラミングにおいて、変数や関数の名前、有効範囲などを管理し、名前の衝突を防ぐ仕組みはどれか。",
+    "options": [
+      "オブジェクト",
+      "インスタンス",
+      "クラス",
+      "名前空間"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（名前空間）\n\n名前空間(ネームスペース)は、識別子の有効範囲を区切り、同名の識別子が競合しないようにする仕組みです。"
+  },
+  {
+    "id": "IP_330",
+    "question": "労働者派遣契約において、派遣労働者への指揮命令権を持つのは誰か。",
+    "options": [
+      "派遣元企業",
+      "派遣先企業",
+      "労働者自身",
+      "労働基準監督署"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（派遣先企業）\n\n派遣契約では、雇用関係は派遣元にありますが、業務上の指揮命令権は「派遣先企業」にあります。これが請負契約との大きな違いです。"
+  },
+  {
+    "id": "IP_331",
+    "question": "システム開発のテスト工程において、プログラムの内部構造を考慮せず、仕様書通りの出力が得られるかを確認する手法はどれか。",
+    "options": [
+      "ブラックボックステスト",
+      "単体テスト",
+      "ホワイトボックステスト",
+      "回帰テスト"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ブラックボックステスト）\n\nブラックボックステストは、入力と出力の関係だけに着目して検証を行う手法です。内部構造を検証するのはホワイトボックステストです。"
+  },
+  {
+    "id": "IP_332",
+    "question": "【計算問題】あるプロジェクトのEVM分析において、計画価値(PV)が100万円、実コスト(AC)が120万円、出来高(EV)が90万円であった。コスト効率指数(CPI)は幾らか。",
+    "options": [
+      "0.83",
+      "0.75",
+      "0.9",
+      "1.2"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（0.75）\n\nCPI(Cost Performance Index)は、EV ÷ AC で求められます。90 ÷ 120 = 0.75 です。1を下回っているためコスト超過です。"
+  },
+  {
+    "id": "IP_333",
+    "question": "インターネット上で、ドメイン名やIPアドレスなどの資源を全世界的に管理・調整している組織はどれか。",
+    "options": [
+      "W3C",
+      "ISO",
+      "IEEE",
+      "ICANN"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ICANN）\n\nICANN(Internet Corporation for Assigned Names and Numbers)は、IPアドレスやドメイン名などのインターネット資源を管理する非営利団体です。"
+  },
+  {
+    "id": "IP_334",
+    "question": "自社のサーバやPCがマルウェアに感染し、外部への攻撃の踏み台にされていないかを確認するために有効な対策はどれか。",
+    "options": [
+      "データのバックアップ",
+      "生体認証の導入",
+      "外部向け通信ログの監視",
+      "ウイルス定義ファイルの更新"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（外部向け通信ログの監視）\n\n踏み台にされると、社内端末やサーバから外部へ不審な通信が発生します。ファイアウォールやプロキシなどの外部向け通信ログを監視し、平常時と異なる宛先や大量通信を検知することが有効です。"
+  },
+  {
+    "id": "IP_335",
+    "question": "顧客の購買履歴などを分析し、「おむつを買う人はビールも買う」といった意外な関連性を見つけ出す手法はどれか。",
+    "options": [
+      "バスケット分析",
+      "クラスター分析",
+      "回帰分析",
+      "ABC分析"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（バスケット分析）\n\nバスケット分析(マーケットバスケット解析)は、買い物かごの中身を分析し、同時に購入されやすい商品の組み合わせを見つけるデータマイニング手法です。"
+  },
+  {
+    "id": "IP_336",
+    "question": "著作権法において、著作者人格権に含まれないものはどれか。",
+    "options": [
+      "同一性保持権",
+      "氏名表示権",
+      "公表権",
+      "複製権"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（複製権）\n\n複製権は「著作財産権」に含まれます。著作者人格権は、公表権、氏名表示権、同一性保持権の3つ(名誉声望保持権含む)です。"
+  },
+  {
+    "id": "IP_337",
+    "question": "【計算問題】100Vの電圧で、5Aの電流が流れる電気機器を2時間使用したときの消費電力量は幾らか。",
+    "options": [
+      "0.5kWh",
+      "500Wh",
+      "1kWh",
+      "1000Wh"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（1kWh）\n\n電力(W) = 電圧(V) × 電流(A) = 100 × 5 = 500W。電力量(Wh) = 電力(W) × 時間(h) = 500W × 2h = 1000Wh = 1kWh です。"
+  },
+  {
+    "id": "IP_338",
+    "question": "企業が自社の業務プロセスを見直し、抜本的に再設計することで、コスト、品質、サービス、スピードなどを劇的に改善する手法はどれか。",
+    "options": [
+      "BPR",
+      "BPO",
+      "BCP",
+      "M&A"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（BPR）\n\nBPR(Business Process Reengineering)は、業務プロセスを根本から見直し、再構築(リエンジニアリング)する経営手法です。"
+  },
+  {
+    "id": "IP_339",
+    "question": "複数のハードディスクを組み合わせて、データの冗長性や読み書き速度を向上させる技術はどれか。",
+    "options": [
+      "BIOS",
+      "NAS",
+      "RAID",
+      "SAN"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（RAID）\n\nRAID(Redundant Arrays of Inexpensive Disks)は、複数のディスクを仮想的に1つのドライブとして扱い、信頼性や性能を高める技術です。"
+  },
+  {
+    "id": "IP_340",
+    "question": "PCの電源を入れた直後に起動し、OSが起動する前にハードウェアの初期化や診断を行うプログラムはどれか。",
+    "options": [
+      "Shell",
+      "BIOS",
+      "Driver",
+      "Kernel"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（BIOS）\n\nBIOS(Basic Input/Output System)やUEFIは、PC起動時に最初に実行され、ハードウェアのチェックやOSの読み込みを行うファームウェアです。"
+  },
+  {
+    "id": "IP_341",
+    "question": "無線LANの暗号化方式WPA2で利用されている暗号化アルゴリズムはどれか。",
+    "options": [
+      "DES",
+      "RC4",
+      "AES",
+      "RSA"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（AES）\n\nWPA2では、CCMPというプロトコルの中でAES(Advanced Encryption Standard)という強力な暗号化アルゴリズムが採用されています。"
+  },
+  {
+    "id": "IP_342",
+    "question": "【計算問題】A社の自己資本は200億円、負債は300億円である。自己資本比率は幾らか。",
+    "options": [
+      "40%",
+      "66%",
+      "60%",
+      "20%"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（40%）\n\n総資本 = 自己資本 + 負債 = 200 + 300 = 500億円。自己資本比率 = 自己資本 ÷ 総資本 = 200 ÷ 500 = 0.4 = 40% です。"
+  },
+  {
+    "id": "IP_343",
+    "question": "インターネットなどのネットワークを介して、ソフトウェアの機能をサービスとして提供する形態はどれか。",
+    "options": [
+      "DaaS",
+      "SaaS",
+      "PaaS",
+      "IaaS"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（SaaS）\n\nSaaS(Software as a Service)は、ソフトウェアそのものをインターネット経由でサービスとして利用する形態です(例:Webメール、オンラインストレージ)。"
+  },
+  {
+    "id": "IP_344",
+    "question": "情報セキュリティの3要素(機密性、完全性、可用性)のうち、「完全性」が損なわれた例はどれか。",
+    "options": [
+      "顧客名簿が流出した",
+      "サーバがダウンしてアクセスできない",
+      "パスワードを忘れてログインできない",
+      "Webサイトの内容が改ざんされた"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（Webサイトの内容が改ざんされた）\n\n完全性(Integrity)は、情報が正確で完全であることを指します。改ざんは完全性の侵害です。流出は機密性、ダウンは可用性の侵害です。"
+  },
+  {
+    "id": "IP_345",
+    "question": "PDCAサイクルにおいて、計画に基づき業務を実行する段階はどれか。",
+    "options": [
+      "Check",
+      "Plan",
+      "Do",
+      "Act"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（Do）\n\nPDCAはPlan(計画)→ Do(実行)→ Check(評価)→ Act(改善)のサイクルです。実行はDoにあたります。"
+  },
+  {
+    "id": "IP_346",
+    "question": "企業が自社のサーバをデータセンタに預け、電源や回線などの設備を利用するサービスはどれか。",
+    "options": [
+      "クラウド",
+      "ホスティング",
+      "レンタルサーバ",
+      "ハウジング"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ハウジング）\n\nハウジング(コロケーション)は、顧客が所有する機器をデータセンタに設置するサービスです。ホスティングは事業者のサーバを借りるサービスです。"
+  },
+  {
+    "id": "IP_347",
+    "question": "【計算問題】ある工場の生産ラインでは、故障率が0.002回/時間である。平均故障間隔(MTBF)は何時間か。",
+    "options": [
+      "500時間",
+      "200時間",
+      "50時間",
+      "1000時間"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（500時間）\n\nMTBFは故障率の逆数で近似できます。1 ÷ 0.002 = 1000 ÷ 2 = 500時間です。"
+  },
+  {
+    "id": "IP_348",
+    "question": "コンピュータウイルスを作成・保管・提供する行為を処罰対象とする法律はどれか。",
+    "options": [
+      "個人情報保護法",
+      "不正アクセス禁止法",
+      "刑法",
+      "著作権法"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（刑法）\n\nいわゆる「ウイルス作成罪」は、刑法の「不正指令電磁的記録に関する罪」として規定されています。"
+  },
+  {
+    "id": "IP_349",
+    "question": "ネットワーク上の通信データを採取し、その内容を解析するツールや行為を何というか。",
+    "options": [
+      "ピング",
+      "ポートスキャン",
+      "パケットキャプチャ",
+      "トレーサビリティ"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（パケットキャプチャ）\n\nパケットキャプチャ(スニッフィング)は、ネットワークを流れるパケットを収集・解析する行為です。トラブルシューティングや盗聴に使われます。"
+  },
+  {
+    "id": "IP_350",
+    "question": "財務諸表の一つで、ある時点における企業の財政状態(資産・負債・純資産)を表すものはどれか。",
+    "options": [
+      "貸借対照表",
+      "株主資本等変動計算書",
+      "キャッシュフロー計算書",
+      "損益計算書"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（貸借対照表）\n\n貸借対照表(B/S:Balance Sheet)は、企業の財政状態を示す書類です。損益計算書(P/L)は経営成績(利益)を示します。"
+  },
+  {
+    "id": "IP_351",
+    "question": "社内ネットワークとインターネットの境界で防御する従来の考え方ではなく、「全ての通信を信頼しない」という前提でセキュリティ対策を行う考え方はどれか。",
+    "options": [
+      "VPN",
+      "DMZ",
+      "ゼロトラスト",
+      "境界防御"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（ゼロトラスト）\n\nゼロトラスト(Zero Trust)は、内部・外部を区別せず、全てのアクセスを疑って検証するというセキュリティモデルです。"
+  },
+  {
+    "id": "IP_352",
+    "question": "【計算問題】10進数の「10」を2進数で表すと幾らか。",
+    "options": [
+      "1010",
+      "1001",
+      "1100",
+      "0101"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（1010）\n\n10 = 8 + 2 = 1×2^3 + 0×2^2 + 1×2^1 + 0×2^0 なので、2進数では「1010」となります。"
+  },
+  {
+    "id": "IP_353",
+    "question": "インターネット販売において、あまり売れないニッチな商品を多種類取り揃えることで、その合計売上が大きな割合を占める現象を何というか。",
+    "options": [
+      "規模の経済",
+      "ネットワーク外部性",
+      "ロングテール",
+      "パレートの法則"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（ロングテール）\n\nロングテール(Long Tail)は、販売数量の少ない商品の積み重ねが大きな収益を生む現象で、実店舗より在庫コストが低いネット販売の特徴です。"
+  },
+  {
+    "id": "IP_354",
+    "question": "スマートフォンの本体に内蔵され、物理的なカードの差し替えなしに通信事業者の情報を書き換えられるSIMはどれか。",
+    "options": [
+      "microSIM",
+      "SIMロック",
+      "eSIM",
+      "nanoSIM"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（eSIM）\n\neSIM(Embedded SIM)は、端末に埋め込まれたSIMで、遠隔操作(リモート)でプロファイルを書き換えることができます。"
+  },
+  {
+    "id": "IP_355",
+    "question": "土地、建物、設備などの業務用資産を、経営的な視点から最適に管理・活用する手法はどれか。",
+    "options": [
+      "サプライチェーンマネジメント",
+      "ファシリティマネジメント",
+      "ナレッジマネジメント",
+      "アセットマネジメント"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ファシリティマネジメント）\n\nファシリティマネジメント(FM)は、オフィスや工場などの施設(ファシリティ)をコスト最小・効果最大になるように管理することです。"
+  },
+  {
+    "id": "IP_356",
+    "question": "【計算問題】実効転送速度が10Mbpsの回線で、600Mバイトのデータを転送するのにかかる時間は何秒か。",
+    "options": [
+      "48秒",
+      "60秒",
+      "800秒",
+      "480秒"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（480秒）\n\n600Mバイト = 600 × 8 = 4800Mビット。4800Mビット ÷ 10Mbps = 480秒です。"
+  },
+  {
+    "id": "IP_357",
+    "question": "従業員が私物のスマートフォンやタブレットを業務に利用することを何というか。",
+    "options": [
+      "SOHO",
+      "MVNO",
+      "MDM",
+      "BYOD"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（BYOD）\n\nBYOD(Bring Your Own Device)は、私物端末の業務利用です。コスト削減などのメリットがある一方、セキュリティリスクへの対策が必要です。"
+  },
+  {
+    "id": "IP_358",
+    "question": "IoT機器向けの通信規格で、低消費電力かつ長距離通信が可能という特徴を持つものはどれか。",
+    "options": [
+      "Wi-Fi",
+      "Bluetooth",
+      "LPWA",
+      "NFC"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（LPWA）\n\nLPWA(Low Power Wide Area)は、省電力で広範囲をカバーできる無線通信技術で、SigfoxやLoRaWANなどがあります。"
+  },
+  {
+    "id": "IP_360",
+    "question": "【計算問題】売上高が1,000万円、変動費が600万円、固定費が300万円のとき、利益は何万円か。",
+    "options": [
+      "300万円",
+      "100万円",
+      "700万円",
+      "400万円"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（100万円）\n\n利益 = 売上高 - (変動費 + 固定費) = 1,000 - (600 + 300) = 100万円です。"
+  },
+  {
+    "id": "IP_361",
+    "question": "携帯電話などの無線通信インフラを他社から借り受けて、独自の通信サービスを提供する事業者を何というか。",
+    "options": [
+      "MVNO",
+      "ASP",
+      "MNO",
+      "ISP"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（MVNO）\n\nMVNO(Mobile Virtual Network Operator:仮想移動体通信事業者)は、自前の回線網を持たず、大手キャリアから回線を借りてサービス(格安SIMなど)を提供します。"
+  },
+  {
+    "id": "IP_362",
+    "question": "企業が従業員に貸与したスマートフォンなどのモバイル端末を、遠隔から一元的に管理・制御するシステムはどれか。",
+    "options": [
+      "DRM",
+      "MDM",
+      "MAM",
+      "MCM"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（MDM）\n\nMDM(Mobile Device Management)は、モバイル端末の紛失時にロックしたり、アプリのインストールを制限したりする管理システムです。"
+  },
+  {
+    "id": "IP_363",
+    "question": "ITサービスに関する利用者からの問い合わせやトラブル申告を一元的に受け付ける窓口を何というか。",
+    "options": [
+      "コールセンタ",
+      "サービスデスク",
+      "データセンタ",
+      "ヘルプデスク"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（サービスデスク）\n\nサービスデスク(SPOC:Single Point of Contact)は、利用者への単一の窓口として機能し、問い合わせ対応や障害情報の案内などを行います。"
+  },
+  {
+    "id": "IP_364",
+    "question": "【計算問題】解像度が300dpiのスキャナで、1インチ×1インチの画像を読み取ったときの総画素数は幾つか。",
+    "options": [
+      "300",
+      "600",
+      "90,000",
+      "900"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（90,000）\n\n300dpiは、1インチあたり300ドット(画素)という意味です。1インチ×1インチの面積なら、300×300=90,000画素となります。"
+  },
+  {
+    "id": "IP_365",
+    "question": "競争のない未開拓の市場を創造し、高収益を上げる戦略を何というか。",
+    "options": [
+      "ニッチ戦略",
+      "差別化戦略",
+      "レッドオーシャン戦略",
+      "ブルーオーシャン戦略"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ブルーオーシャン戦略）\n\nブルーオーシャン戦略は、血で血を洗う競争の激しい既存市場(レッドオーシャン)を避け、競争相手のいない新しい市場(青い海)を開拓する戦略です。"
+  },
+  {
+    "id": "IP_366",
+    "question": "データベースにおいて、一連の処理が全て成功するか、全て失敗(取り消し)かのどちらかになる性質を何というか。",
+    "options": [
+      "独立性",
+      "原子性",
+      "永続性",
+      "一貫性"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（原子性）\n\n原子性(Atomicity)は、トランザクション処理が「完全に実行される」か「全く実行されない」かの二者択一であることを保証する性質です(ACID特性の一つ)。"
+  },
+  {
+    "id": "IP_367",
+    "question": "コンピュータ犯罪などの法的証拠を明らかにするために、デジタルデータを保全・解析する技術や手順はどれか。",
+    "options": [
+      "リバースエンジニアリング",
+      "データマイニング",
+      "生体認証",
+      "デジタルフォレンジック"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（デジタルフォレンジック）\n\nデジタルフォレンジック(Digital Forensics)は、デジタル鑑識とも呼ばれ、犯罪捜査や法的紛争において電子的証拠を収集・分析することです。"
+  },
+  {
+    "id": "IP_368",
+    "question": "【計算問題】稼働率0.9の装置を3台直列に接続したシステム全体の稼働率は幾らか。",
+    "options": [
+      "0.81",
+      "0.27",
+      "0.9",
+      "0.729"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（0.729）\n\n直列接続なので、0.9 × 0.9 × 0.9 = 0.81 × 0.9 = 0.729 となります。"
+  },
+  {
+    "id": "IP_369",
+    "question": "SLA(サービスレベル合意書)に基づき、ITサービスの品質を維持・向上させるための継続的な管理活動はどれか。",
+    "options": [
+      "BCP",
+      "ITIL",
+      "ISMS",
+      "SLM"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（SLM）\n\nSLM(Service Level Management:サービスレベル管理)は、SLAの達成状況をモニタリングし、サービスの維持・改善を図る活動です。"
+  },
+  {
+    "id": "IP_370",
+    "question": "リレーショナルデータベース(RDB)以外のデータベースの総称で、ビッグデータの高速処理などに適しているものはどれか。",
+    "options": [
+      "NoSQL",
+      "SQL",
+      "MySQL",
+      "NewSQL"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（NoSQL）\n\nNoSQL(Not only SQL)は、RDBの限界(拡張性や柔軟性)を補うために開発されたデータベースの総称です(例:キーバリューストア、ドキュメント指向DB)。"
+  },
+  {
+    "id": "IP_371",
+    "question": "インターネットを利用して、不特定多数の人々に業務を委託する形態はどれか。",
+    "options": [
+      "クラウドソーシング",
+      "アウトソーシング",
+      "クラウドファンディング",
+      "BPO"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（クラウドソーシング）\n\nクラウドソーシング(Crowdsourcing)は、群衆(Crowd)に業務委託(Sourcing)するという意味で、ネット上で仕事を依頼・受注する仕組みです。"
+  },
+  {
+    "id": "IP_372",
+    "question": "【計算問題】1件あたり200バイトのレコードが100万件あるデータベースの総容量は約何Mバイトか(1M=1,000,000とする)。",
+    "options": [
+      "50Mバイト",
+      "20Mバイト",
+      "100Mバイト",
+      "200Mバイト"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（200Mバイト）\n\n200バイト × 1,000,000 = 200,000,000バイト = 200Mバイトです。"
+  },
+  {
+    "id": "IP_373",
+    "question": "Webアプリケーションへの攻撃(SQLインジェクションなど)を検知・防御するために設置されるファイアウォールはどれか。",
+    "options": [
+      "パケットフィルタリング",
+      "WAF",
+      "IPS",
+      "IDS"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（WAF）\n\nWAF(Web Application Firewall)は、Webアプリへの通信内容(HTTP/HTTPS)を検査し、特有の攻撃を防ぐセキュリティ機器やソフトウェアです。"
+  },
+  {
+    "id": "IP_374",
+    "question": "ICタグを利用して、無線でデータの読み書きを行う技術はどれか。",
+    "options": [
+      "RFID",
+      "IrDA",
+      "NFC",
+      "Bluetooth"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（RFID）\n\nRFID(Radio Frequency Identification)は、微小なICチップ(タグ)とリーダライタ間で無線通信を行い、個体識別などを行う技術です(例:Suica、電子タグ)。"
+  },
+  {
+    "id": "IP_375",
+    "question": "BCP(事業継続計画)において、災害発生時からどのくらいの時間でシステムを復旧させるかという目標時間を何というか。",
+    "options": [
+      "MTBF",
+      "RPO",
+      "RTO",
+      "MTTR"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（RTO）\n\nRTO(Recovery Time Objective:目標復旧時間)は、「いつまでに」復旧させるかという時間の目標です。RPOは「どの時点のデータまで」戻すかです。"
+  },
+  {
+    "id": "IP_376",
+    "question": "【計算問題】2進数の「101」と「011」を加算した結果はどれか。",
+    "options": [
+      "1110",
+      "0111",
+      "100",
+      "1000"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（1000）\n\n101(5) + 011(3) = 1000(8)。(1+1=10, 1+1=10の繰り上がりを考慮)。"
+  },
+  {
+    "id": "IP_377",
+    "question": "他社が容易に真似できない、その企業独自の核となる技術や強みのことを何というか。",
+    "options": [
+      "コアコンピタンス",
+      "ベンチマーキング",
+      "ベストプラクティス",
+      "アライアンス"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（コアコンピタンス）\n\nコアコンピタンス(Core Competence)は、企業の競争優位の源泉となる中核的な能力のことです。"
+  },
+  {
+    "id": "IP_378",
+    "question": "CPUと主記憶装置(メモリ)の間の処理速度の差を埋めるために設置される高速なメモリはどれか。",
+    "options": [
+      "キャッシュメモリ",
+      "仮想メモリ",
+      "フラッシュメモリ",
+      "SSD"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（キャッシュメモリ）\n\nキャッシュメモリは、CPU内部または近くに配置され、頻繁に使うデータを一時的に保存してアクセス速度を向上させます。"
+  },
+  {
+    "id": "IP_379",
+    "question": "システムに対して実際に攻撃を試み、セキュリティ上の弱点(脆弱性)がないかを確認するテストを何というか。",
+    "options": [
+      "ストレステスト",
+      "運用テスト",
+      "単体テスト",
+      "ペネトレーションテスト"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ペネトレーションテスト）\n\nペネトレーションテスト(侵入テスト)は、ホワイトハッカーなどが攻撃者の視点でシステムに侵入を試み、脆弱性を検証するテストです。"
+  },
+  {
+    "id": "IP_380",
+    "question": "企業の活動に利害関係を持つ人々(株主、顧客、従業員、地域社会など)の総称はどれか。",
+    "options": [
+      "ストックホルダー",
+      "シェアホルダー",
+      "ボードメンバー",
+      "ステークホルダー"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ステークホルダー）\n\nステークホルダー(利害関係者)は、企業の経営活動によって影響を受ける全ての関係者を指します。"
+  },
+  {
+    "id": "IP_381",
+    "question": "【計算問題】IPアドレス「192.168.1.55」、サブネットマスク「255.255.255.0」のネットワークアドレスはどれか。",
+    "options": [
+      "192.168.1.255",
+      "192.168.0.0",
+      "192.168.1.0",
+      "192.168.1.1"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（192.168.1.0）\n\nサブネットマスク「255.255.255.0」は、先頭24ビットがネットワーク部であることを示します。したがって、第3オクテットまでが同じ「192.168.1.0」がネットワークアドレスです。"
+  },
+  {
+    "id": "IP_382",
+    "question": "ネットワーク機器の制御機能とデータ転送機能を分離し、ソフトウェアによってネットワーク構成を柔軟に制御する技術はどれか。",
+    "options": [
+      "LAN",
+      "WAN",
+      "VPN",
+      "SDN"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（SDN）\n\nSDN(Software Defined Networking)は、物理的な配線を変更せずに、ソフトウェアの設定だけでネットワーク構成や動作を変更できる技術です。"
+  },
+  {
+    "id": "IP_383",
+    "question": "PPM分析において、市場成長率は低いが市場占有率(シェア)が高く、安定した利益を生み出す事業区分はどれか。",
+    "options": [
+      "負け犬",
+      "問題児",
+      "花形",
+      "金のなる木"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（金のなる木）\n\n金のなる木(Cash Cow)は、投資を抑えても利益が得られる事業です。ここから得た資金を他の事業(問題児や花形)に投資します。"
+  },
+  {
+    "id": "IP_384",
+    "question": "暗号化と復号に同じ鍵を使用する暗号化方式はどれか。",
+    "options": [
+      "公開鍵暗号方式",
+      "ハッシュ関数",
+      "ディジタル署名",
+      "共通鍵暗号方式"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（共通鍵暗号方式）\n\n共通鍵暗号方式(秘密鍵暗号)は、データの送り手と受け手が同じ鍵(共通鍵)を使う方式です。処理が高速ですが、鍵の配送に課題があります。"
+  },
+  {
+    "id": "IP_385",
+    "question": "あるソフトウェアの機能やデータを、外部のプログラムから呼び出して利用できるように定めた規約やインターフェースはどれか。",
+    "options": [
+      "IDE",
+      "GUI",
+      "CLI",
+      "API"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（API）\n\nAPI(Application Programming Interface)は、ソフトウェア同士が連携するための窓口です。Web APIなどを通じて他サービスの機能を利用できます。"
+  },
+  {
+    "id": "IP_386",
+    "question": "【計算問題】10人月と見積もられた開発プロジェクトを、2人で担当する場合、完了までに何ヶ月かかるか(生産性は変わらないものとする)。",
+    "options": [
+      "2ヶ月",
+      "5ヶ月",
+      "10ヶ月",
+      "20ヶ月"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（5ヶ月）\n\n10人月は「1人でやると10ヶ月かかる仕事量」です。これを2人で割ると、10 ÷ 2 = 5ヶ月となります。"
+  },
+  {
+    "id": "IP_387",
+    "question": "本部が加盟店に対して商標の使用権や経営ノウハウを提供し、対価としてロイヤリティを受け取るビジネス形態はどれか。",
+    "options": [
+      "ドロップシッピング",
+      "レギュラーチェーン",
+      "ボランタリーチェーン",
+      "フランチャイズチェーン"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（フランチャイズチェーン）\n\nフランチャイズチェーン(FC)は、本部が商標や経営ノウハウを提供し、加盟店が対価としてロイヤリティを支払う形態です。"
+  },
+  {
+    "id": "IP_388",
+    "question": "インターネットなどを介して、複数のコンピュータを連携させ、仮想的に1台の巨大なスーパーコンピュータのように処理させる技術はどれか。",
+    "options": [
+      "モバイルコンピューティング",
+      "グリッドコンピューティング",
+      "エッジコンピューティング",
+      "クラウドコンピューティング"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（グリッドコンピューティング）\n\nグリッドコンピューティングは、分散している計算資源を格子(Grid)のように結びつけ、大規模な計算処理を行う技術です。"
+  },
+  {
+    "id": "IP_389",
+    "question": "自社の業務の一部を、海外の事業者に委託することを何というか。",
+    "options": [
+      "クラウドソーシング",
+      "インソーシング",
+      "オフショアアウトソーシング",
+      "ニアショアアウトソーシング"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（オフショアアウトソーシング）\n\nオフショア(Offshore)は海外を意味します。海外の企業や拠点に業務委託することをオフショアアウトソーシングと呼びます。"
+  },
+  {
+    "id": "IP_390",
+    "question": "ISMS(情報セキュリティマネジメントシステム)の運用において、PDCAサイクルの「A(Act)」で行うべきことはどれか。",
+    "options": [
+      "処置・改善",
+      "監視・レビュー",
+      "計画策定",
+      "運用・実施"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（処置・改善）\n\nAct(処置)では、監査やレビューの結果(Check)に基づいて、不適合の是正や予防処置を行い、システムを継続的に改善します。"
+  },
+  {
+    "id": "IP_391",
+    "question": "【計算問題】16進数の「A」と「B」を加算した結果を10進数で表すと幾らか。",
+    "options": [
+      "15",
+      "11",
+      "12",
+      "21"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（21）\n\n16進数のAは10、Bは11です。10 + 11 = 21 となります。"
+  },
+  {
+    "id": "IP_392",
+    "question": "BLE(Bluetooth Low Energy)を利用した発信機で、スマホなどの端末が近づくと位置情報を検知し、クーポン配信などに利用されるものはどれか。",
+    "options": [
+      "GPS",
+      "ビーコン",
+      "ルータ",
+      "ドローン"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ビーコン）\n\nビーコン(Beacon)は、BLEの電波を発信し、受信した端末に対して位置に応じた情報を提供する仕組みや機器のことです。"
+  },
+  {
+    "id": "IP_393",
+    "question": "マーケティングの4P(Product, Price, Place, Promotion)のうち、「Place」が指すものはどれか。",
+    "options": [
+      "販売促進",
+      "製品",
+      "流通経路",
+      "価格"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（流通経路）\n\nPlaceは流通(チャネル、場所)を指します。顧客に製品を届けるための経路や販売場所の戦略です。"
+  },
+  {
+    "id": "IP_394",
+    "question": "送信者が本人であることを証明し、データが改ざんされていないことを保証するために、公開鍵暗号技術を応用した仕組みはどれか。",
+    "options": [
+      "メッセージ認証コード",
+      "パケットフィルタリング",
+      "ディジタル署名",
+      "タイムスタンプ"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（ディジタル署名）\n\nディジタル署名は、送信データそのものではなく、その要約値に対して送信者の秘密鍵で署名し、受信者が公開鍵で検証することで、送信者の真正性確認と改ざん検知を行う仕組みです。"
+  },
+  {
+    "id": "IP_395",
+    "question": "組織の外部の独立した第三者が、財務諸表や業務プロセスなどを検証し、報告する監査を何というか。",
+    "options": [
+      "セキュリティ監査",
+      "システム監査",
+      "内部監査",
+      "外部監査"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（外部監査）\n\n外部監査は、利害関係のない第三者(公認会計士など)が行う監査で、客観性と信頼性が高いです。対して内部監査は組織内部の人間が行います。"
+  },
+  {
+    "id": "IP_396",
+    "question": "5Gネットワークにおいて、用途に合わせてネットワークを仮想的に分割し、異なる品質や特性(低遅延、大容量など)を提供する技術はどれか。",
+    "options": [
+      "キャリアアグリゲーション",
+      "ネットワークスライシング",
+      "ローミング",
+      "ハンドオーバ"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ネットワークスライシング）\n\nネットワークスライシングは、1つの物理ネットワークを仮想的にスライス(分割)し、自動運転用、動画配信などの用途ごとに最適な通信環境を提供する技術です。"
+  },
+  {
+    "id": "IP_397",
+    "question": "【計算問題】稼働率0.8のシステムAと稼働率0.8のシステムBを並列に接続した。どちらか片方でも動いていればよい場合の全体の稼働率は幾らか。",
+    "options": [
+      "0.96",
+      "0.8",
+      "0.16",
+      "0.64"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（0.96）\n\n並列システムの稼働率 = 1 - (1-0.8) × (1-0.8) = 1 - 0.2 × 0.2 = 1 - 0.04 = 0.96 です。"
+  },
+  {
+    "id": "IP_398",
+    "question": "製品の欠陥により、消費者の生命・身体・財産に損害が生じた場合、製造業者の損害賠償責任を定める法律はどれか。",
+    "options": [
+      "特定商取引法",
+      "消費者契約法",
+      "製造物責任法(PL法)",
+      "独占禁止法"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（製造物責任法(PL法)）\n\nPL法(Product Liability Act)は、製品の欠陥によって生じた損害に対する製造者の賠償責任(無過失責任)を定めた法律です。"
+  },
+  {
+    "id": "IP_399",
+    "question": "会社の許可を得ずに、従業員が独断で業務に使用している私物のPCやクラウドサービスなどを何というか。",
+    "options": [
+      "ダークウェブ",
+      "レガシーシステム",
+      "BYOD",
+      "シャドーIT"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（シャドーIT）\n\nシャドーITは、IT部門が把握・管理していないIT利用のことで、セキュリティ事故の原因となりやすいため問題視されます。"
+  },
+  {
+    "id": "IP_400",
+    "question": "これまで人間が行っていた定型的な事務作業を、ソフトウェアロボットにより自動化・効率化する取り組みはどれか。",
+    "options": [
+      "FA",
+      "BPO",
+      "RPA",
+      "AI"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（RPA）\n\nRPA(Robotic Process Automation)は、ホワイトカラーのデスクワーク(データ入力など)を自動化するツールや技術のことです。"
+  },
+  {
+    "id": "IP_401",
+    "question": "【計算問題】5人のテストの点数が、70、80、90、60、100点だった。この5人の平均点は何点か。",
+    "options": [
+      "90点",
+      "75点",
+      "80点",
+      "85点"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（80点）\n\n合計点 = 70+80+90+60+100 = 400点。平均 = 400 ÷ 5 = 80点です。"
+  },
+  {
+    "id": "IP_402",
+    "question": "企業の合併や買収のことを指す用語はどれか。",
+    "options": [
+      "TOB",
+      "LBO",
+      "M&A",
+      "IPO"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（M&A）\n\nM&A(Mergers and Acquisitions)は、企業の合併・買収の総称です。事業拡大や新規参入の手段として利用されます。"
+  },
+  {
+    "id": "IP_403",
+    "question": "数字だけでなく、漢字やカナなどのデータも扱え、3つの隅にある切り出しシンボルが特徴の2次元コードはどれか。",
+    "options": [
+      "ISBNコード",
+      "QRコード",
+      "JANコード",
+      "バーコード"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（QRコード）\n\nQRコードは、デンソーウェーブが開発した2次元コードで、大容量データを扱え、読み取り速度が速い(Quick Response)のが特徴です。"
+  },
+  {
+    "id": "IP_404",
+    "question": "離席時に机の上に書類を放置しない、PC画面をロックするなど、情報漏洩を防ぐための物理的な対策を何というか。",
+    "options": [
+      "クリアデスク・クリアスクリーン",
+      "フェイルセーフ",
+      "フールプルーフ",
+      "ソーシャルエンジニアリング"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（クリアデスク・クリアスクリーン）\n\nクリアデスク・クリアスクリーンは、机上や画面上の情報を整理・隠蔽し、盗み見や紛失を防ぐセキュリティの基本動作です。"
+  },
+  {
+    "id": "IP_405",
+    "question": "プロジェクトの立ち上げ時に作成され、プロジェクトの目的、範囲、任命されたマネージャーなどを正式に承認する文書はどれか。",
+    "options": [
+      "SLA",
+      "WBS",
+      "プロジェクトマネジメント計画書",
+      "プロジェクト憲章"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（プロジェクト憲章）\n\nプロジェクト憲章は、プロジェクトの正当性を認め、PMに権限を与えるための公式文書です。"
+  },
+  {
+    "id": "IP_406",
+    "question": "【計算問題】3Mバイトの画像データを10%に圧縮した。圧縮後のデータサイズは何KBか(1Mバイト=1000KBとする)。",
+    "options": [
+      "100KB",
+      "300KB",
+      "30KB",
+      "3000KB"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（300KB）\n\n3Mバイト = 3000KB。これを10%(0.1倍)に圧縮すると、3000 × 0.1 = 300KBとなります。"
+  },
+  {
+    "id": "IP_407",
+    "question": "電気信号を力学的運動(回転や伸縮など)に変換する装置の総称で、ロボットの関節やモータなどに使われるものはどれか。",
+    "options": [
+      "コントローラ",
+      "アクチュエータ",
+      "インバータ",
+      "センサ"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（アクチュエータ）\n\nアクチュエータは、入力されたエネルギーを物理的な動きに変換する駆動装置のことです。"
+  },
+  {
+    "id": "IP_408",
+    "question": "企業が法令や社会的規範、企業倫理などを守り、公正・適切な経営を行うことを何というか。",
+    "options": [
+      "ディスクロージャー",
+      "コンプライアンス",
+      "ガバナンス",
+      "アカウンタビリティ"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（コンプライアンス）\n\nコンプライアンス(法令遵守)は、法律だけでなく、社会的なルールや倫理を守ることも含みます。"
+  },
+  {
+    "id": "IP_409",
+    "question": "パスワードクラッキングの手法の一つで、辞書にある単語やその組み合わせを次々と試してパスワードを破ろうとする攻撃はどれか。",
+    "options": [
+      "辞書攻撃",
+      "リプレイ攻撃",
+      "DoS攻撃",
+      "ブルートフォース攻撃"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（辞書攻撃）\n\n辞書攻撃は、パスワードに使われやすい単語(辞書)を用いて効率的に解読を試みる手法です。総当たり(ブルートフォース)とは区別されます。"
+  },
+  {
+    "id": "IP_410",
+    "question": "PCに接続された周辺機器(プリンタやマウスなど)をOSが制御できるようにするためのソフトウェアはどれか。",
+    "options": [
+      "アプリケーション",
+      "デバイスドライバ",
+      "ファームウェア",
+      "ミドルウェア"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（デバイスドライバ）\n\nデバイスドライバは、OSとハードウェアの仲立ちをし、周辺機器を操作するための専用プログラムです。"
+  },
+  {
+    "id": "IP_411",
+    "question": "【計算問題】投資額が1000万円で、得られた利益が200万円の場合、ROI(投資利益率)は何%か。",
+    "options": [
+      "200%",
+      "10%",
+      "50%",
+      "20%"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（20%）\n\nROI = 利益 ÷ 投資額 × 100 = 200 ÷ 1000 × 100 = 20% です。"
+  },
+  {
+    "id": "IP_412",
+    "question": "技術開発の成果を事業に結びつけ、経済的価値を創出する経営手法を何というか。",
+    "options": [
+      "OJT",
+      "MOT",
+      "TQC",
+      "MBA"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（MOT）\n\nMOT(Management of Technology:技術経営)は、技術力を核として、研究開発から製品化までを戦略的にマネジメントする手法です。"
+  },
+  {
+    "id": "IP_413",
+    "question": "システムの変更作業に伴うリスクを管理し、変更による影響を最小限に抑えるためのプロセスはどれか。",
+    "options": [
+      "インシデント管理",
+      "構成管理",
+      "変更管理",
+      "リリース管理"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（変更管理）\n\n変更管理は、システムへの変更要求(RFC)を評価・承認し、安全に変更を実施するためのプロセスです。"
+  },
+  {
+    "id": "IP_414",
+    "question": "元々は画像処理用だが、単純な計算を大量に並列処理する能力が高いため、ディープラーニングの学習などに多用されるチップはどれか。",
+    "options": [
+      "FPGA",
+      "ASIC",
+      "GPU",
+      "CPU"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（GPU）\n\nGPU(Graphics Processing Unit)は、並列処理が得意で、AI分野での利用が急速に拡大しています。"
+  },
+  {
+    "id": "IP_415",
+    "question": "バイオメトリクス認証において、本人であるにもかかわらず認証が拒否される確率(本人拒否率)を表す指標はどれか。",
+    "options": [
+      "FMR",
+      "FAR",
+      "EER",
+      "FRR"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（FRR）\n\nFRR(False Rejection Rate:本人拒否率)は、本人なのに認証されない確率です。FAR(他人受入率)とのトレードオフ関係にあります。"
+  },
+  {
+    "id": "IP_416",
+    "question": "【計算問題】入力Aと入力Bが異なるときだけ出力が1になる論理回路はどれか。",
+    "options": [
+      "OR",
+      "XOR",
+      "NOT",
+      "AND"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（XOR）\n\nXOR(排他的論理和)は、入力が不一致(0と1、または1と0)のときに出力が1になります。"
+  },
+  {
+    "id": "IP_417",
+    "question": "インターネット上の情報やサービス(Online)を利用して、実店舗(Offline)への来店を促すマーケティング施策はどれか。",
+    "options": [
+      "C2C",
+      "B2B",
+      "B2C",
+      "O2O"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（O2O）\n\nO2O(Online to Offline)は、ネットでクーポンを配布して実店舗に誘導するなど、オンラインとオフラインを連携させる手法です。"
+  },
+  {
+    "id": "IP_418",
+    "question": "専用のゴーグルなどを装着し、コンピュータで作られた仮想空間にあたかも自分が入り込んだかのような体験ができる技術はどれか。",
+    "options": [
+      "SR",
+      "AR",
+      "MR",
+      "VR"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（VR）\n\nVR(Virtual Reality:仮想現実)は、視界を覆うことで没入感のある仮想空間体験を提供する技術です。"
+  },
+  {
+    "id": "IP_419",
+    "question": "目標達成に向けた活動の進捗状況を測るための先行指標(リード指標)として適切なものはどれか。",
+    "options": [
+      "新規商談件数",
+      "利益額",
+      "顧客満足度",
+      "売上高"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（新規商談件数）\n\n売上や利益は結果(遅行指標)ですが、商談件数は将来の売上につながる先行指標(活動指標)として管理できます。"
+  },
+  {
+    "id": "IP_420",
+    "question": "ソフトウェアやシステムのセキュリティ上の欠陥や弱点のことを何というか。",
+    "options": [
+      "脆弱性",
+      "インシデント",
+      "脅威",
+      "リスク"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（脆弱性）\n\n脆弱性(バルネラビリティ)は、セキュリティホールとも呼ばれ、攻撃者に悪用されるプログラムの不具合や設計上の弱点のことです。"
+  },
+  {
+    "id": "IP_421",
+    "question": "手書きの文字や印刷された文字をスキャナなどで読み取り、デジタルデータとしてのテキストに変換する技術はどれか。",
+    "options": [
+      "OMR",
+      "RPA",
+      "OCR",
+      "GPS"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（OCR）\n\nOCR(Optical Character Reader/Recognition)は、画像データに含まれる文字を認識し、テキストデータに変換する技術です。"
+  },
+  {
+    "id": "IP_422",
+    "question": "プロジェクトのスケジュール管理において、作業を階層的に分解し、管理可能な単位に細分化して表現した図はどれか。",
+    "options": [
+      "WBS",
+      "E-R図",
+      "UML",
+      "DFD"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（WBS）\n\nWBS(Work Breakdown Structure)は、プロジェクト全体の作業をトップダウンで階層的に分解し、構造化した図です。"
+  },
+  {
+    "id": "IP_423",
+    "question": "企業が利益を追求するだけでなく、環境保護や社会貢献など、社会的な責任を果たすべきだという考え方はどれか。",
+    "options": [
+      "M&A",
+      "BPO",
+      "KPI",
+      "CSR"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（CSR）\n\nCSR(Corporate Social Responsibility)は、企業の社会的責任のことです。"
+  },
+  {
+    "id": "IP_424",
+    "question": "【計算問題】横800画素、縦600画素の画像を、1画素あたり24ビットの色情報で保存する場合、データ量は約何KBか。ここで1KB=1000バイトとする。",
+    "options": [
+      "1920KB",
+      "11520KB",
+      "1440KB",
+      "480KB"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（1440KB）\n\n総ビット数 = 800 × 600 × 24 = 11,520,000ビット。バイトに換算すると ÷8 で 1,440,000バイト。KBに換算すると ÷1000 で 1440KB です。"
+  },
+  {
+    "id": "IP_425",
+    "question": "人間の心理的な隙や行動のミスにつけ込んで、パスワードなどの機密情報を盗み出す手法を何と呼ぶか。",
+    "options": [
+      "SQLインジェクション",
+      "バッファオーバーフロー",
+      "ゼロデイ攻撃",
+      "ソーシャルエンジニアリング"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ソーシャルエンジニアリング）\n\nソーシャルエンジニアリングは、電話でパスワードを聞き出す、肩越しに盗み見る(ショルダーハッキング)など、IT技術を使わないアナログな手法を含みます。"
+  },
+  {
+    "id": "IP_426",
+    "question": "現実の風景に、コンピュータで作られた文字や映像などの情報を重ね合わせて表示する技術はどれか。",
+    "options": [
+      "AR",
+      "AI",
+      "VR",
+      "IoT"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（AR）\n\nAR(Augmented Reality:拡張現実)は、ポケモンGOなどのゲームや、ナビゲーションアプリなどで利用されています。"
+  },
+  {
+    "id": "IP_427",
+    "question": "インターネットを通じて、不特定多数の人々から少額ずつの資金を調達する仕組みはどれか。",
+    "options": [
+      "フィンテック",
+      "ブロックチェーン",
+      "クラウドソーシング",
+      "クラウドファンディング"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（クラウドファンディング）\n\nクラウドファンディング(Crowdfunding)は、群衆(Crowd)と資金調達(Funding)を組み合わせた造語です。"
+  },
+  {
+    "id": "IP_428",
+    "question": "プロジェクトの工程管理に使われる図で、横軸に時間、縦軸に作業項目をとり、各作業の開始から終了までを棒状の線で表したものはどれか。",
+    "options": [
+      "パレート図",
+      "レーダーチャート",
+      "ガントチャート",
+      "散布図"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（ガントチャート）\n\nガントチャートは、作業の進捗状況を視覚的に把握するのに適しています。"
+  },
+  {
+    "id": "IP_429",
+    "question": "【計算問題】100Mバイトのデータを、実効転送速度80Mbpsの回線でダウンロードするのにかかる時間は何秒か。",
+    "options": [
+      "8秒",
+      "0.8秒",
+      "1.25秒",
+      "10秒"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（10秒）\n\n100Mバイト = 100 × 8 = 800Mビット。800Mビット ÷ 80Mbps = 10秒 です。"
+  },
+  {
+    "id": "IP_430",
+    "question": "PC内のファイルを勝手に暗号化して使用不能にし、復号するための対価として金銭を要求するマルウェアはどれか。",
+    "options": [
+      "ワーム",
+      "ランサムウェア",
+      "ボット",
+      "スパイウェア"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ランサムウェア）\n\nランサムウェア(Ransomware)は、身代金(Ransom)とソフトウェア(Software)を組み合わせた造語です。"
+  },
+  {
+    "id": "IP_431",
+    "question": "HDDの代わりに利用される記憶装置で、半導体メモリを使用しており、高速で衝撃に強い特徴を持つものはどれか。",
+    "options": [
+      "DVD",
+      "SSD",
+      "RAID",
+      "NAS"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（SSD）\n\nSSD(Solid State Drive)は、HDDと比べてアクセス速度が速く、動作音が静かで、消費電力も少ない傾向があります。"
+  },
+  {
+    "id": "IP_432",
+    "question": "個人が保有する遊休資産(場所、乗り物、モノ、スキルなど)を、インターネットを介して他の個人と貸し借りや売買する仕組みはどれか。",
+    "options": [
+      "トレーサビリティ",
+      "シェアリングエコノミー",
+      "ギグエコノミー",
+      "サブスクリプション"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（シェアリングエコノミー）\n\nシェアリングエコノミーの代表例には、民泊やカーシェアリングなどがあります。"
+  },
+  {
+    "id": "IP_433",
+    "question": "サービス提供者と利用者の間で、サービスの品質(稼働率や応答時間など)について合意した文書はどれか。",
+    "options": [
+      "NDA",
+      "SLM",
+      "BCP",
+      "SLA"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（SLA）\n\nSLA(Service Level Agreement)は、サービスレベル合意書のことです。SLMはSLAの内容を維持・改善する管理活動のことです。"
+  },
+  {
+    "id": "IP_434",
+    "question": "【計算問題】売上高が1000万円、変動費が600万円、固定費が300万円のとき、利益は何万円か。",
+    "options": [
+      "700万円",
+      "300万円",
+      "400万円",
+      "100万円"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（100万円）\n\n利益 = 売上高 - 変動費 - 固定費 = 1000 - 600 - 300 = 100万円 です。"
+  },
+  {
+    "id": "IP_435",
+    "question": "バイオメトリクス認証において、本人であるにもかかわらず認証が拒否される確率を何というか。",
+    "options": [
+      "認証失敗率",
+      "稼働率",
+      "本人拒否率",
+      "他人受入率"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（本人拒否率）\n\n本人拒否率(FRR:False Rejection Rate)が高いと利便性が下がり、他人受入率(FAR:False Acceptance Rate)が高いと安全性が下がります。両者はトレードオフの関係にあります。"
+  },
+  {
+    "id": "IP_436",
+    "question": "Bluetoothの仕様の一つで、ボタン電池一つで長期間稼働できるような省電力通信を目的としたものはどれか。",
+    "options": [
+      "NFC",
+      "LTE",
+      "BLE",
+      "Wi-Fi"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（BLE）\n\nBLE(Bluetooth Low Energy)は、IoT機器やウェアラブルデバイスなどで広く利用されています。"
+  },
+  {
+    "id": "IP_438",
+    "question": "開発担当(Development)と運用担当(Operations)が連携・協力し、迅速かつ柔軟にシステムを開発・運用する手法はどれか。",
+    "options": [
+      "アジャイル",
+      "プロトタイピング",
+      "ウォーターフォール",
+      "DevOps"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（DevOps）\n\nDevOps(デブオプス)は、対立しがちな開発と運用の壁を取り払い、ビジネス価値を継続的に提供することを目指します。"
+  },
+  {
+    "id": "IP_439",
+    "question": "【計算問題】稼働率0.9の装置Aと稼働率0.9の装置Bを直列に接続したシステム全体の稼働率は幾らか。",
+    "options": [
+      "0.81",
+      "0.9",
+      "0.99",
+      "1.8"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（0.81）\n\n直列システムの稼働率 = 装置Aの稼働率 × 装置Bの稼働率 = 0.9 × 0.9 = 0.81 です。"
+  },
+  {
+    "id": "IP_440",
+    "question": "「知っていること(パスワード等)」「持っていること(ICカード等)」「本人であること(生体情報)」のうち、2つを組み合わせて認証する方式はどれか。",
+    "options": [
+      "二要素認証",
+      "マトリクス認証",
+      "シングルサインオン",
+      "ディレクトリサービス"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（二要素認証）\n\n二要素認証(2FA)は、セキュリティ強度を高めるために利用されます。「二段階認証」とは厳密には異なりますが、混同されることもあります。"
+  },
+  {
+    "id": "IP_441",
+    "question": "本来は画像処理を行うためのプロセッサだが、その並列処理能力の高さから、ディープラーニングなどのAI計算にも利用されているものはどれか。",
+    "options": [
+      "CPU",
+      "FPGA",
+      "ASIC",
+      "GPU"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（GPU）\n\nGPU(Graphics Processing Unit)は、大量のデータを同時に処理するのが得意です。"
+  },
+  {
+    "id": "IP_442",
+    "question": "テレワーク環境において、社外から社内ネットワークへ安全に接続するために利用される技術はどれか。",
+    "options": [
+      "IDS",
+      "VPN",
+      "UPS",
+      "DMZ"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（VPN）\n\nVPN(Virtual Private Network)は、公衆回線上に仮想的な専用線を構築し、通信を暗号化する技術です。"
+  },
+  {
+    "id": "IP_443",
+    "question": "災害や事故などの予期せぬ事態が発生しても、重要な業務を中断させない、あるいは早期に復旧させるための計画はどれか。",
+    "options": [
+      "CSR",
+      "M&A",
+      "BCM",
+      "BCP"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（BCP）\n\nBCP(Business Continuity Plan:事業継続計画)は、非常時の対応手順や体制などを定めたものです。"
+  },
+  {
+    "id": "IP_444",
+    "question": "【計算問題】2進数の「1011」を10進数で表すと幾らか。",
+    "options": [
+      "11",
+      "15",
+      "13",
+      "10"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（11）\n\n1011(2) = 1×2^3 + 0×2^2 + 1×2^1 + 1×2^0 = 8 + 0 + 2 + 1 = 11 です。"
+  },
+  {
+    "id": "IP_445",
+    "question": "特定のWebサイトやサーバに対して、複数のコンピュータから一斉に大量のアクセスを行い、サービスを停止に追い込む攻撃はどれか。",
+    "options": [
+      "DDoS攻撃",
+      "フィッシング",
+      "標的型攻撃",
+      "クロスサイトスクリプティング"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（DDoS攻撃）\n\nDDoS(Distributed Denial of Service)攻撃は、踏み台となる多数のコンピュータを利用して行われる分散型のサービス妨害攻撃です。"
+  },
+  {
+    "id": "IP_447",
+    "question": "企業が法律や社会的な規範、社内規則などを守ることを何というか。",
+    "options": [
+      "アカウンタビリティ",
+      "ガバナンス",
+      "コンプライアンス",
+      "ディスクロージャー"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（コンプライアンス）\n\nコンプライアンス(Compliance)は「法令遵守」と訳されますが、倫理観や社会規範の遵守も含みます。"
+  },
+  {
+    "id": "IP_448",
+    "question": "組織の情報システムが、経営目的に照らして安全かつ有効に機能しているかを、独立した第三者が点検・評価することを何というか。",
+    "options": [
+      "ペネトレーションテスト",
+      "ソフトウェアテスト",
+      "セキュリティ診断",
+      "システム監査"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（システム監査）\n\nシステム監査は、リスクコントロールの適切性を評価し、助言を行う活動です。"
+  },
+  {
+    "id": "IP_449",
+    "question": "【計算問題】音声データをサンプリング(標本化)する際、1秒間に44,100回サンプリングを行った。このときのサンプリング周波数は何kHzか。",
+    "options": [
+      "4.41kHz",
+      "44.1kHz",
+      "441kHz",
+      "0.441kHz"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（44.1kHz）\n\nHz(ヘルツ)は1秒間の回数です。1kHz = 1000Hz なので、44,100Hz ÷ 1000 = 44.1kHz です。"
+  },
+  {
+    "id": "IP_450",
+    "question": "公衆無線LAN(フリーWi-Fi)を利用する際、通信内容の盗聴を防ぐために利用すべき技術はどれか。",
+    "options": [
+      "WEP",
+      "ESSID",
+      "MACアドレスフィルタリング",
+      "VPN"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（VPN）\n\nVPNを利用することで通信経路が暗号化され、安全性が高まります。WEPは古い暗号化方式で危険です。"
+  },
+  {
+    "id": "IP_451",
+    "question": "IoT機器などで収集したデータを、クラウドではなく、端末の近く(エッジ)にあるサーバで処理する方式はどれか。",
+    "options": [
+      "量子コンピューティング",
+      "グリッドコンピューティング",
+      "クラウドコンピューティング",
+      "エッジコンピューティング"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（エッジコンピューティング）\n\nエッジコンピューティングは、通信遅延の短縮や通信量の削減に効果があります。"
+  },
+  {
+    "id": "IP_452",
+    "question": "投資家が企業を評価する際、財務情報だけでなく、環境(Environment)、社会(Social)、ガバナンス(Governance)の要素を重視する投資手法はどれか。",
+    "options": [
+      "デイトレード",
+      "バリュー投資",
+      "インデックス投資",
+      "ESG投資"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ESG投資）\n\nESG投資は、持続可能な社会の実現に寄与する企業を支援する意味合いがあります。"
+  },
+  {
+    "id": "IP_453",
+    "question": "企業の活動に関わりを持つ、株主、従業員、顧客、取引先、地域社会などの利害関係者のことを何というか。",
+    "options": [
+      "ハウスホルダー",
+      "ステークホルダー",
+      "シェアホルダー",
+      "ストックホルダー"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ステークホルダー）\n\nステークホルダー(Stakeholder)は、企業を取り巻くあらゆる利害関係者を指します。"
+  },
+  {
+    "id": "IP_454",
+    "question": "【計算問題】16進数の「A」を2進数で表すとどれか。",
+    "options": [
+      "1100",
+      "1010",
+      "1001",
+      "1011"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（1010）\n\n16進数のAは10進数の10です。10を2進数にすると「1010」になります。"
+  },
+  {
+    "id": "IP_455",
+    "question": "公開鍵暗号方式において、公開鍵が本人のものであることを証明するデジタル証明書を発行する機関はどれか。",
+    "options": [
+      "登録局(RA)",
+      "認証局(CA)",
+      "JPCERT/CC",
+      "情報処理推進機構(IPA)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（認証局(CA)）\n\n認証局(CA:Certificate Authority)は、信頼できる第三者機関としてデジタル証明書を発行します。"
+  },
+  {
+    "id": "IP_456",
+    "question": "IoTデバイスに搭載され、温度、湿度、加速度、位置情報などの物理的な情報を検知・計測する部品はどれか。",
+    "options": [
+      "モデム",
+      "アクチュエータ",
+      "ルータ",
+      "センサ"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（センサ）\n\nセンサで収集したデータをインターネット経由で送信するのがIoTの基本的な仕組みです。"
+  },
+  {
+    "id": "IP_457",
+    "question": "マーケティングにおいて、自社の商品やサービスが持つ、競合他社にはない独自の強みや売り文句のことを何というか。",
+    "options": [
+      "SEO",
+      "CSF",
+      "USP",
+      "KGI"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（USP）\n\nUSP(Unique Selling Proposition)は、顧客に対して「なぜこの商品を買うべきか」を提案するものです。"
+  },
+  {
+    "id": "IP_458",
+    "question": "プロジェクトのスケジュール管理において、作業の遅れがプロジェクト全体の遅れに直結する一連の作業経路を何というか。",
+    "options": [
+      "スラック",
+      "クリティカルパス",
+      "ベースライン",
+      "マイルストーン"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（クリティカルパス）\n\nクリティカルパス上の作業には余裕時間(スラック)がなく、重点的な管理が必要です。"
+  },
+  {
+    "id": "IP_459",
+    "question": "【計算問題】あるシステム開発の工数が30人月と見積もられた。10人のエンジニアで開発する場合、完了までに何ヶ月かかるか。",
+    "options": [
+      "30ヶ月",
+      "3ヶ月",
+      "300ヶ月",
+      "0.3ヶ月"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（3ヶ月）\n\n期間 = 工数 ÷ 人数 = 30人月 ÷ 10人 = 3ヶ月 です。"
+  },
+  {
+    "id": "IP_460",
+    "question": "外部ネットワークからの不正アクセスを防ぐために、内部ネットワークとの境界に設置され、通信の通過・遮断を判断する仕組みはどれか。",
+    "options": [
+      "DHCPサーバ",
+      "DNSサーバ",
+      "ファイアウォール",
+      "プロキシサーバ"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（ファイアウォール）\n\nファイアウォール(防火壁)は、パケットフィルタリングなどの機能により、許可された通信のみを通します。"
+  },
+  {
+    "id": "IP_461",
+    "question": "国や地方自治体などが保有する公共データを、誰もが自由に加工・利用できるように公開したものを何というか。",
+    "options": [
+      "ビッグデータ",
+      "ダークデータ",
+      "オープンデータ",
+      "メタデータ"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（オープンデータ）\n\nオープンデータは、営利目的も含めた二次利用が可能な条件で公開されるデータです。"
+  },
+  {
+    "id": "IP_462",
+    "question": "顧客からの注文を受けてから製品を生産する方式はどれか。",
+    "options": [
+      "OEM",
+      "EMS",
+      "BTO",
+      "ODM"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（BTO）\n\nBTO(Build To Order)は、受注生産方式のことです。在庫リスクを減らせるメリットがあります。"
+  },
+  {
+    "id": "IP_463",
+    "question": "ITサービスマネジメントにおいて、システム障害などのインシデントが発生した際に、迅速にサービスを復旧させるプロセスはどれか。",
+    "options": [
+      "リリース管理",
+      "変更管理",
+      "インシデント管理",
+      "問題管理"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（インシデント管理）\n\nインシデント管理は「迅速な復旧」を最優先とし、根本原因の究明は「問題管理」で行います。"
+  },
+  {
+    "id": "IP_464",
+    "question": "【計算問題】10MBのファイルを圧縮して2MBになった。このときの圧縮率は何%か。なお、圧縮率=(圧縮後のサイズ÷圧縮前のサイズ)×100 とする。",
+    "options": [
+      "80%",
+      "50%",
+      "20%",
+      "500%"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（20%）\n\n圧縮率 = 2MB ÷ 10MB × 100 = 0.2 × 100 = 20% です。"
+  },
+  {
+    "id": "IP_465",
+    "question": "無線LANのセキュリティ規格で、WEPやWPA2の脆弱性を改善し、より強固な暗号化を実現したものはどれか。",
+    "options": [
+      "SSID",
+      "WPA3",
+      "MIMO",
+      "WPS"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（WPA3）\n\nWPA3は最新のセキュリティ規格で、SAEハンドシェイクなどにより安全性が向上しています。"
+  },
+  {
+    "id": "IP_466",
+    "question": "クライアントPCのデスクトップ環境をサーバ上に集約し、ネットワーク経由で利用する仕組みはどれか。",
+    "options": [
+      "VPN",
+      "VoIP",
+      "VLAN",
+      "VDI"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（VDI）\n\nVDI(Virtual Desktop Infrastructure)は、シンクライアント環境の実現によく利用されます。"
+  },
+  {
+    "id": "IP_467",
+    "question": "情報通信技術(ICT)を利用できる人とできない人の間に生じる、社会的・経済的な格差のことを何というか。",
+    "options": [
+      "デジタルディバイド",
+      "デジタルサイネージ",
+      "デジタルフォレンジック",
+      "デジタルタトゥー"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（デジタルディバイド）\n\nデジタルディバイド(情報格差)は、年齢、地域、所得などによって生じることがあります。"
+  },
+  {
+    "id": "IP_468",
+    "question": "プロジェクト管理において、プロジェクトの成果物や作業範囲を定義し、管理する活動はどれか。",
+    "options": [
+      "スコープ管理",
+      "品質管理",
+      "タイム管理",
+      "コスト管理"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（スコープ管理）\n\nスコープ管理では、やるべきこと(対象)とやらないこと(対象外)を明確にします。"
+  },
+  {
+    "id": "IP_469",
+    "question": "【計算問題】1秒間に1,000ビットのデータを転送できる通信回線がある。この回線の転送速度は幾らか。",
+    "options": [
+      "1Gbps",
+      "1kbps",
+      "100bps",
+      "1Mbps"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（1kbps）\n\n1,000ビット = 1kビットなので、1秒間に1kビット転送できる速度は 1kbps です。"
+  },
+  {
+    "id": "IP_470",
+    "question": "組織が情報を適切に管理し、機密性・完全性・可用性を維持するための仕組み(情報セキュリティマネジメントシステム)の国際規格はどれか。",
+    "options": [
+      "ISO 14001",
+      "ISO 9001",
+      "ISO/IEC 27001",
+      "JIS Q 15001"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（ISO/IEC 27001）\n\nISO/IEC 27001はISMSの要求事項を定めた国際規格です。JIS Q 15001はプライバシーマーク(Pマーク)の基準です。"
+  },
+  {
+    "id": "IP_471",
+    "question": "現実世界から収集した様々なデータをコンピュータ上で再現し、シミュレーションなどを行う技術はどれか。",
+    "options": [
+      "バーチャルリアリティ",
+      "デジタルサイネージ",
+      "デジタルツイン",
+      "ミックストリアリティ"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（デジタルツイン）\n\nデジタルツイン(Digital Twin)は、「デジタルの双子」という意味で、現実世界をデジタル空間にコピーする技術です。"
+  },
+  {
+    "id": "IP_472",
+    "question": "バス、電車、タクシー、自転車など、様々な移動手段を一つのサービスとして統合し、スマホアプリなどで検索・予約・決済を行えるようにする仕組みはどれか。",
+    "options": [
+      "SaaS",
+      "IaaS",
+      "MaaS",
+      "PaaS"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（MaaS）\n\nMaaS(Mobility as a Service)は、移動を「サービス」として捉える概念です。"
+  },
+  {
+    "id": "IP_473",
+    "question": "「社内ネットワークは安全である」という前提を捨て、全てのアクセスを信頼せずに検査・認証を行うセキュリティの考え方はどれか。",
+    "options": [
+      "ゼロトラスト",
+      "境界型防御",
+      "DMZ",
+      "サンドボックス"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ゼロトラスト）\n\nゼロトラスト(Zero Trust)は、守るべき情報資産にアクセスするものは全て検証するという考え方です。"
+  },
+  {
+    "id": "IP_474",
+    "question": "【計算問題】平均故障間隔(MTBF)が900時間、平均修理時間(MTTR)が100時間のシステムの稼働率は幾らか。",
+    "options": [
+      "0.95",
+      "0.1",
+      "0.9",
+      "0.8"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（0.9）\n\n稼働率 = MTBF ÷ (MTBF + MTTR) = 900 ÷ (900 + 100) = 900 ÷ 1000 = 0.9 です。"
+  },
+  {
+    "id": "IP_475",
+    "question": "製品の原材料調達から製造、物流、販売に至るまでの一連の流れにおいて、セキュリティの弱点を狙って行われるサイバー攻撃はどれか。",
+    "options": [
+      "サプライチェーン攻撃",
+      "辞書攻撃",
+      "ゼロデイ攻撃",
+      "標的型攻撃"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（サプライチェーン攻撃）\n\nサプライチェーン攻撃は、セキュリティ対策が手薄な取引先や子会社を経由して、本来の標的である大企業などを攻撃する手法です。"
+  },
+  {
+    "id": "IP_476",
+    "question": "データとデジタル技術を活用して、製品やサービス、ビジネスモデルを変革するとともに、業務そのものや組織などを変革し、競争上の優位性を確立することはどれか。",
+    "options": [
+      "EX",
+      "CX",
+      "UX",
+      "DX"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（DX）\n\nDX(Digital Transformation:デジタルトランスフォーメーション)は、単なるIT化ではなく、デジタル技術による変革を指します。"
+  },
+  {
+    "id": "IP_477",
+    "question": "ブロックチェーン技術を活用し、デジタルデータに唯一性を持たせた「非代替性トークン」のことを何というか。",
+    "options": [
+      "NFC",
+      "NFT",
+      "NTT",
+      "NTP"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（NFT）\n\nNFT(Non-Fungible Token)は、デジタルアートやゲームアイテムなどの所有証明に利用されます。"
+  },
+  {
+    "id": "IP_478",
+    "question": "【計算問題】固定費が200万円、変動費率が0.6(60%)の場合、損益分岐点売上高は何万円か。",
+    "options": [
+      "120万円",
+      "333万円",
+      "500万円",
+      "200万円"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（500万円）\n\n損益分岐点売上高 = 固定費 ÷ (1 - 変動費率) = 200 ÷ (1 - 0.6) = 200 ÷ 0.4 = 500万円 です。"
+  },
+  {
+    "id": "IP_479",
+    "question": "IPアドレスの枯渇問題に対応するために策定された、128ビットのアドレス空間を持つプロトコルはどれか。",
+    "options": [
+      "IP-VPN",
+      "IPsec",
+      "IPv6",
+      "IPv4"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（IPv6）\n\nIPv6(Internet Protocol Version 6)は、ほぼ無限のアドレスを使用可能です。従来のIPv4は32ビットです。"
+  },
+  {
+    "id": "IP_480",
+    "question": "インターネットにおいて、ドメイン名(例: example.co.jp)とIPアドレスの対応付けを行うシステムはどれか。",
+    "options": [
+      "NAT",
+      "DHCP",
+      "ARP",
+      "DNS"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（DNS）\n\nDNS(Domain Name System)は、人間が覚えやすいドメイン名をコンピュータが理解できるIPアドレスに変換します。"
+  },
+  {
+    "id": "IP_481",
+    "question": "【計算問題】2進数の「1100」と「1010」のビットごとの論理積(AND)をとった結果はどれか。",
+    "options": [
+      "0110",
+      "1110",
+      "1000",
+      "0010"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（1000）\n\n1100\n1010\n----\n1000(両方が1のときだけ1になる)"
+  },
+  {
+    "id": "IP_482",
+    "question": "キーボードの入力履歴を記録し、パスワードやクレジットカード情報などを盗み取るスパイウェアの一種はどれか。",
+    "options": [
+      "バックドア",
+      "ルートキット",
+      "トロイの木馬",
+      "キーロガー"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（キーロガー）\n\nキーロガー(Keylogger)は、本来はデバッグやログ管理に使われる技術ですが、悪用されると脅威になります。"
+  },
+  {
+    "id": "IP_483",
+    "question": "SMS(ショートメッセージサービス)を利用して、偽のサイトに誘導し個人情報を盗み取る手口はどれか。",
+    "options": [
+      "ファーミング",
+      "フィッシング",
+      "スキミング",
+      "スミッシング"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（スミッシング）\n\nスミッシング(Smishing)は、SMSとPhishingを組み合わせた造語です。"
+  },
+  {
+    "id": "IP_484",
+    "question": "【計算問題】60MBのデータを40Mbpsの回線で送信する場合、転送にかかる時間は何秒か。ただし、伝送効率などのロスは考慮しない。",
+    "options": [
+      "15秒",
+      "1.5秒",
+      "24秒",
+      "12秒"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（12秒）\n\n60MB = 60 × 8 = 480Mビット。480Mビット ÷ 40Mbps = 12秒 です。"
+  },
+  {
+    "id": "IP_485",
+    "question": "アジャイル開発の手法の一つで、チームが一丸となって短期間(スプリント)ごとにソフトウェアを開発・リリースする手法はどれか。",
+    "options": [
+      "ウォーターフォール",
+      "スクラム",
+      "スパイラル",
+      "XP"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（スクラム）\n\nスクラム(Scrum)は、ラグビーのスクラムが語源で、チームのコミュニケーションを重視します。"
+  },
+  {
+    "id": "IP_486",
+    "question": "クライアントPCには最低限の機能しか持たせず、アプリケーションやデータはサーバ側で管理する仕組みのPCを何というか。",
+    "options": [
+      "モバイル端末",
+      "スタンドアロン",
+      "シンクライアント",
+      "ファットクライアント"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（シンクライアント）\n\nシンクライアント(Thin Client)は、情報漏洩対策や管理コスト削減のために導入されます。「Thin」は「薄い・少ない」という意味です。"
+  },
+  {
+    "id": "IP_487",
+    "question": "指紋や静脈などの生体情報を利用するバイオメトリクス認証において、一度登録した生体情報は変更できないという欠点を補うために、加工したデータを利用する技術はどれか。",
+    "options": [
+      "クロスサイト認証",
+      "マルチモーダル認証",
+      "チャレンジレスポンス",
+      "キャンセラブルバイオメトリクス"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（キャンセラブルバイオメトリクス）\n\nキャンセラブルバイオメトリクスは、万が一データが漏洩しても、変換ロジックなどを変更することで、パスワードのように再設定(キャンセル・更新)を可能にする技術です。"
+  },
+  {
+    "id": "IP_488",
+    "question": "【計算問題】横1024ドット、縦768ドットの画像を、24ビットカラー(3バイト)で表示するために必要なビデオメモリ(VRAM)の容量は、少なくとも約何MBか。ここで1MB=10^6バイトとする。",
+    "options": [
+      "2.4MB",
+      "1.8MB",
+      "4.8MB",
+      "0.8MB"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（2.4MB）\n\nデータ量 = 1024 × 768 × 3バイト ≒ 2,359,296バイト。約2.4MB必要です。"
+  },
+  {
+    "id": "IP_489",
+    "question": "3D CADデータなどを基に、樹脂や金属などの材料を積層して立体物を造形する装置はどれか。",
+    "options": [
+      "3Dプリンタ",
+      "プロッタ",
+      "3Dスキャナ",
+      "NC工作機械"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（3Dプリンタ）\n\n3Dプリンタによる製造は、アディティブ・マニュファクチャリング(積層造形)とも呼ばれます。"
+  },
+  {
+    "id": "IP_490",
+    "question": "あるソフトウェアの機能やデータを、他のプログラムから呼び出して利用できるように定めた規約やインターフェースのことを何というか。",
+    "options": [
+      "API",
+      "CLI",
+      "GUI",
+      "SDK"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（API）\n\nAPI(Application Programming Interface)を公開(Web APIなど)することで、他社サービスとの連携が容易になります。"
+  },
+  {
+    "id": "IP_491",
+    "question": "ソースコードが公開されており、誰でも自由に利用、修正、再配布が可能なソフトウェアを何というか。",
+    "options": [
+      "シェアウェア",
+      "フリーウェア",
+      "パブリックドメインソフトウェア",
+      "OSS"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（OSS）\n\nOSS(Open Source Software)の代表例には、Linux、Apache、MySQL、Pythonなどがあります。利用条件(ライセンス)を守る必要があります。"
+  },
+  {
+    "id": "IP_492",
+    "question": "【計算問題】稼働率が0.9のサーバ2台を並列に接続した場合、システム全体の稼働率は幾らか。",
+    "options": [
+      "0.99",
+      "0.81",
+      "0.18",
+      "0.9"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（0.99）\n\n並列稼働率 = 1 - (1-0.9) × (1-0.9) = 1 - 0.1 × 0.1 = 1 - 0.01 = 0.99 です。"
+  },
+  {
+    "id": "IP_493",
+    "question": "人間と会話するように、テキストや音声で自動的に対話を行うプログラムはどれか。",
+    "options": [
+      "チャットボット",
+      "クローラ",
+      "ロボット",
+      "スパイダー"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（チャットボット）\n\nチャットボット(Chatbot)は、カスタマーサポートの自動化などで広く利用されています。"
+  },
+  {
+    "id": "IP_494",
+    "question": "AI(人工知能)の技術の一つで、人間の脳神経回路を模したニューラルネットワークを多層にし、コンピュータ自らがデータの特徴を学習する手法はどれか。",
+    "options": [
+      "機械学習",
+      "ディープラーニング",
+      "遺伝的アルゴリズム",
+      "エキスパートシステム"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（ディープラーニング）\n\nディープラーニング(深層学習)は、画像認識や音声認識、自然言語処理などで高い成果を上げています。"
+  },
+  {
+    "id": "IP_495",
+    "question": "不特定多数の人(群衆)に、インターネット経由で業務を委託する形態はどれか。",
+    "options": [
+      "アウトソーシング",
+      "インソーシング",
+      "クラウドソーシング",
+      "クラウドファンディング"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（クラウドソーシング）\n\nクラウドソーシング(Crowdsourcing)は、Crowd(群衆)とSourcing(調達)を組み合わせた言葉です。"
+  },
+  {
+    "id": "IP_496",
+    "question": "インターネットを通じて、単発の仕事(ギグ)を請け負う働き方の経済形態はどれか。",
+    "options": [
+      "シェアリングエコノミー",
+      "循環型経済",
+      "トークンエコノミー",
+      "ギグエコノミー"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ギグエコノミー）\n\nギグエコノミー(Gig Economy)の働き手はギグワーカーと呼ばれ、Uber Eatsの配達員などが代表例です。"
+  },
+  {
+    "id": "IP_497",
+    "question": "【計算問題】プロジェクトの作業工程において、クリティカルパスの所要日数が20日で、他の経路の所要日数が15日だった場合、プロジェクト全体の最短工期は何日か。",
+    "options": [
+      "5日",
+      "35日",
+      "15日",
+      "20日"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（20日）\n\nプロジェクト全体の工期は、最も時間のかかる経路(クリティカルパス)の日数で決まります。したがって20日です。"
+  },
+  {
+    "id": "IP_498",
+    "question": "在庫管理などで、商品を売上高の高い順にA、B、Cの3つのグループに分け、重要度に応じた管理を行う手法はどれか。",
+    "options": [
+      "クラスター分析",
+      "回帰分析",
+      "ABC分析",
+      "SWOT分析"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（ABC分析）\n\nABC分析はパレートの法則(80:20の法則)に基づいた分析手法です。"
+  },
+  {
+    "id": "IP_499",
+    "question": "企業の内部環境を「強み(Strengths)」「弱み(Weaknesses)」、外部環境を「機会(Opportunities)」「脅威(Threats)」の4つの視点で分析する手法はどれか。",
+    "options": [
+      "3C分析",
+      "バリューチェーン分析",
+      "SWOT分析",
+      "5フォース分析"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（SWOT分析）\n\nSWOT分析は、経営戦略やマーケティング戦略の立案によく使われます。"
+  },
+  {
+    "id": "IP_500",
+    "question": "企業経営において、公正な判断や透明性を確保し、企業の不祥事を防ぐとともに、企業価値を向上させるための仕組みを何というか。",
+    "options": [
+      "内部統制",
+      "コーポレートガバナンス",
+      "コンプライアンス",
+      "CSR"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（コーポレートガバナンス）\n\nコーポレートガバナンス(企業統治)は、株主などのステークホルダーが経営者を監視・監督する仕組みを含みます。"
+  },
+  {
+    "id": "IP_501",
+    "question": "デジタル技術を用いて、業務プロセスやビジネスモデルを変革し、競争上の優位性を確立することを何というか。",
+    "options": [
+      "DX (デジタルトランスフォーメーション)",
+      "SX (サステナビリティトランスフォーメーション)",
+      "UX (ユーザーエクスペリエンス)",
+      "CX (カスタマーエクスペリエンス)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（DX (デジタルトランスフォーメーション)）\n\nDX(Digital Transformation)は、データとデジタル技術を活用して、製品やサービス、ビジネスモデルを変革するとともに、業務そのものや組織、プロセス、企業文化・風土を変革することです。"
+  },
+  {
+    "id": "IP_502",
+    "question": "「何も信頼しない」ことを前提に、すべての通信やアクセスを常に検査・認証するセキュリティの考え方はどれか。",
+    "options": [
+      "DMZ",
+      "サンドボックス",
+      "ゼロトラスト",
+      "境界防御"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（ゼロトラスト）\n\nゼロトラスト(Zero Trust)は、社内・社外の区別なく、すべてのアクセスを信頼せずに検証するというセキュリティモデルです。"
+  },
+  {
+    "id": "IP_503",
+    "question": "機械学習の手法において、正解データ(ラベル)付きの学習データを用いて、コンピュータに学習させる手法はどれか。",
+    "options": [
+      "強化学習",
+      "教師なし学習",
+      "教師あり学習",
+      "深層学習"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（教師あり学習）\n\n教師あり学習は、入力データとそれに対応する正解データ(教師データ)のペアを学習させることで、未知のデータに対する予測や分類を行う手法です。"
+  },
+  {
+    "id": "IP_504",
+    "question": "実店舗やECサイト、SNSなど、あらゆる販売経路を統合し、顧客にシームレスな購買体験を提供する戦略はどれか。",
+    "options": [
+      "マルチチャネル",
+      "オムニチャネル",
+      "クロスチャネル",
+      "O2O"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（オムニチャネル）\n\nオムニチャネルは、すべての(Omni)チャネル(接点)を連携させ、顧客がチャネルの違いを意識せずに利用できる環境を提供する戦略です。"
+  },
+  {
+    "id": "IP_505",
+    "question": "インターネット上の掲示板などで権利侵害があった場合、プロバイダの損害賠償責任の制限や、発信者情報の開示請求について定めた法律はどれか。",
+    "options": [
+      "不正アクセス禁止法",
+      "プロバイダ責任制限法",
+      "個人情報保護法",
+      "サイバーセキュリティ基本法"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2（プロバイダ責任制限法）\n\nプロバイダ責任制限法は、特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の通称です。"
+  },
+  {
+    "id": "IP_506",
+    "question": "IoT機器などの端末側(エッジ)でデータの処理や分析を行うことで、通信遅延の短縮やサーバ負荷の低減を図る技術はどれか。",
+    "options": [
+      "グリッドコンピューティング",
+      "量子コンピューティング",
+      "エッジコンピューティング",
+      "クラウドコンピューティング"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（エッジコンピューティング）\n\nエッジコンピューティングは、データ発生源の近く(エッジ)で処理を行う分散コンピューティングモデルで、リアルタイム性が求められるIoTシステムなどで有効です。"
+  },
+  {
+    "id": "IP_507",
+    "question": "ソフトウェア開発において、短い期間で設計・実装・テストを繰り返し、機能を追加していく開発手法はどれか。",
+    "options": [
+      "スパイラルモデル",
+      "プロトタイピング",
+      "アジャイル開発",
+      "ウォーターフォール開発"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（アジャイル開発）\n\nアジャイル開発は、変化に柔軟に対応するため、短いサイクル(イテレーションやスプリント)を繰り返して開発を進める手法です。"
+  }
+]

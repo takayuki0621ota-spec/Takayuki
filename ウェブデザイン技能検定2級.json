@@ -1,15 +1,15 @@
 [
   {
     "id": 20001,
-    "question": "WCAG 2.1において、テキストと背景のコントラスト比（レベルAA）として、通常のテキストに求められる最低比率はどれか。",
+    "question": "WCAG 2.1において、テキストと背景のコントラスト比（レベルAA）として、大きな文字を除くテキストに求められる最低比率はどれか。",
     "options": [
       "3.0:1",
-      "4.5:1",
+      "10:1",
       "7.0:1",
-      "10:1"
+      "4.5:1"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（4.5:1）\n\n【解説】\n1. 3.0:1は、大きな文字（18pt以上、または太字の14pt以上）に求められる比率です。\n2. WCAG 2.1 レベルAAでは、通常のテキストに対して4.5:1以上のコントラスト比が求められます。\n3. 7.0:1は、レベルAAAで求められる比率です。\n4. 10:1という基準はWCAGには存在しません。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（4.5:1）\n\n【解説】\n1. 3.0:1は、大きな文字（18pt以上、または太字の14pt以上）に求められる比率です。\n2. 10:1という基準はWCAGには存在しません。\n3. 7.0:1は、レベルAAAで求められる比率です。\n4. WCAG 2.1 レベルAAでは、大きな文字を除くテキストに対して4.5:1以上のコントラスト比が求められます。"
   },
   {
     "id": 20002,
@@ -28,12 +28,12 @@
     "question": "HTML5のセクショニング要素において、自己完結しており、それ単体で配布や再利用が可能（RSSフィードなど）なコンテンツを表す要素はどれか。",
     "options": [
       "<section>",
-      "<article>",
+      "<div>",
       "<aside>",
-      "<div>"
+      "<article>"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（<article>）\n\n【解説】\n1. <section>は、一般的なセクションを表しますが、自己完結性は必須ではありません。\n2. <article>は、ブログ記事やニュース記事など、それだけで完結しているコンテンツを表します。\n3. <aside>は、メインコンテンツと関連性が薄い補足情報（サイドバーなど）を表します。\n4. <div>は、意味を持たない汎用的なコンテナです。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（<article>）\n\n【解説】\n1. <section>は、文書のセクションを表しますが、自己完結性は必須ではありません。\n2. <div>は、意味を持たない汎用的なコンテナです。\n3. <aside>は、メインコンテンツと関連性が薄い補足情報（サイドバーなど）を表します。\n4. <article>は、ブログ記事やニュース記事など、それだけで完結しているコンテンツを表します。"
   },
   {
     "id": 20004,
@@ -64,12 +64,12 @@
     "question": "CSS Grid Layoutにおいて、グリッドコンテナの列（カラム）のサイズと数を定義するプロパティはどれか。",
     "options": [
       "grid-template-rows",
-      "grid-template-columns",
+      "grid-gap",
       "grid-auto-flow",
-      "grid-gap"
+      "grid-template-columns"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（grid-template-columns）\n\n【解説】\n1. grid-template-rowsは、行（ロウ）のサイズと数を定義します。\n2. grid-template-columnsは、列（カラム）のサイズと数を定義します。\n3. grid-auto-flowは、自動配置のアルゴリズム（行優先か列優先か）を指定します。\n4. grid-gap（現在はgap推奨）は、グリッドアイテム間の隙間を指定します。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（grid-template-columns）\n\n【解説】\n1. grid-template-rowsは、行（ロウ）のサイズと数を定義します。\n2. grid-gap（現在はgap）は、グリッドアイテム間の隙間を指定します。\n3. grid-auto-flowは、自動配置のアルゴリズム（行優先か列優先か）を指定します。\n4. grid-template-columnsは、列（カラム）のサイズと数を定義します。"
   },
   {
     "id": 20007,
@@ -105,43 +105,43 @@
       "経済的な利益（Economic Profit）"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（経済的な利益（Economic Profit））\n\n【解説】\n1. 公平な利用は原則の一つです。\n2. 柔軟な使用は原則の一つです。\n3. 単純で直感的な使用は原則の一つです。\n4. 経済的な利益はユニバーサルデザインの7原則には含まれません。他には「認知できる情報」「ミスの許容」「少ない身体的努力」「接近や利用のためのサイズと空間」があります。"
+    "explanation": "【正解】4（経済的な利益(Economic Profit)）\n\n【解説】\n1. 公平な利用は原則の一つです。\n2. 柔軟な使用は原則の一つです。\n3. 単純で直感的な使用は原則の一つです。\n4. 経済的な利益はユニバーサルデザインの7原則には含まれません。他には「認知できる情報」「ミスの許容」「少ない身体的努力」「接近や利用のためのサイズと空間」があります。"
   },
   {
     "id": 20010,
     "question": "次のHTMLコード `<a href=\"sample.pdf\" download=\"manual.pdf\">` の役割として正しいものはどれか。",
     "options": [
       "PDFファイルをブラウザ内で強制的に表示する。",
-      "PDFファイルをダウンロードさせ、保存時のファイル名をmanual.pdfとする。",
+      "manual.pdfというファイルをアップロードする。",
       "PDFファイルへのリンクを作成するが、クリックしても何も起きない。",
-      "manual.pdfというファイルをアップロードする。"
+      "PDFファイルをダウンロードさせ、保存時のファイル名をmanual.pdfとする。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（PDFファイルをダウンロードさせ、保存時のファイル名をmanual.pdfとする。）\n\n【解説】\n1. ブラウザ設定によりますが、download属性はダウンロードを促すものです。\n2. download属性を指定すると、リンク先のリソースをダウンロードするようにブラウザに指示し、属性値をデフォルトのファイル名として提案します。\n3. 通常通りリンクとして機能します。\n4. アップロード機能ではありません。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（PDFファイルをダウンロードさせ、保存時のファイル名をmanual.pdfとする。）\n\n【解説】\n1. download属性は、リンク先リソースをダウンロードとして扱うよう指示します。\n2. アップロード機能ではありません。\n3. リンクとして機能します。\n4. download属性を指定すると、リンク先のリソースをダウンロードするようにブラウザに指示し、属性値をデフォルトのファイル名として提案します。"
   },
   {
     "id": 20011,
-    "question": "横800ピクセル、縦600ピクセルの画像を、24ビットカラー（各画素3バイト）で非圧縮保存した場合のデータサイズとして、最も適切なものはどれか。",
+    "question": "横800ピクセル、縦600ピクセルの画像を、24ビットカラー（各画素3バイト）で非圧縮保存した場合のデータサイズとして、最も適切なものはどれか（1MB=1,000,000バイトとする）。",
     "options": [
       "約 480 KB",
-      "約 1.44 MB",
+      "約 14.4 MB",
       "約 4.8 MB",
-      "約 14.4 MB"
+      "約 1.44 MB"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（約 1.44 MB）\n\n【解説】\nデータ量 = 画素数 × 1画素あたりのデータ量\n画素数 = 800 × 600 = 480,000画素\n1画素 = 24ビット = 3バイト\n全体サイズ = 480,000 × 3 = 1,440,000バイト\n\n1 KB = 1,024バイト、1 MB = 1,024 KB とすると、\n1,440,000 ÷ 1,024 ÷ 1,024 ≒ 1.37 MB\n\n1 KB = 1,000バイト換算の場合は 1.44 MB となります。選択肢の中で最も近い 1.44 MB が正解です。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（約 1.44 MB）\n\n【解説】\nデータ量 = 画素数 × 1画素あたりのデータ量\n画素数 = 800 × 600 = 480,000画素\n1画素 = 24ビット = 3バイト\n全体サイズ = 480,000 × 3 = 1,440,000バイト\n\n1MB=1,000,000バイトとして、\n1,440,000 ÷ 1,000,000 = 1.44MB です。"
   },
   {
     "id": 20012,
-    "question": "ファイルサイズが12MBのデータを、通信速度が80Mbps（ビット毎秒）の回線でダウンロードする場合にかかる理論上の最短時間として、適切なものはどれか。",
+    "question": "ファイルサイズが12MBのデータを、通信速度が80Mbps（ビット毎秒）の回線でダウンロードする場合にかかる理論上の最短時間として、適切なものはどれか（1MB=1,000,000バイトとする）。",
     "options": [
       "0.15秒",
-      "1.2秒",
+      "12秒",
       "1.5秒",
-      "12秒"
+      "1.2秒"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（1.2秒）\n\n【解説】\nまず単位を合わせます。\nファイルサイズ：12 MB (メガバイト) = 12 × 8 = 96 Mbit (メガビット)\n通信速度：80 Mbps (メガビット毎秒)\n\n時間 = データ量 ÷ 通信速度\n時間 = 96 Mbit ÷ 80 Mbps = 1.2 秒\n\nしたがって、1.2秒が正解です。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（1.2秒）\n\n【解説】\nまず単位を合わせます。\nファイルサイズ：12 MB (メガバイト) = 12 × 8 = 96 Mbit (メガビット)\n通信速度：80 Mbps (メガビット毎秒)\n\n時間 = データ量 ÷ 通信速度\n時間 = 96 Mbit ÷ 80 Mbps = 1.2 秒\n\nしたがって、1.2秒が正解です。"
   },
   {
     "id": 20013,
@@ -165,19 +165,19 @@
       "summary"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（scope）\n\n【解説】\n1. scope属性は、その見出しセルが行（row）に対するものか、列（col）に対するものかを明示するために使用され、スクリーンリーダーの読み上げ順序を支援します。\n2. headers属性は複雑な表でセルと見出しを関連付けるために使われますが、単純な表ではscopeが一般的です。\n3. axis属性は分類を示すためのものですが、あまり一般的ではありません。\n4. summary属性はtable要素の属性であり（HTML5では廃止）、th要素の属性ではありません。"
+    "explanation": "【正解】1（scope）\n\n【解説】\n1. scope属性は、その見出しセルが行（row）に対するものか、列（col）に対するものかを明示するために使用され、スクリーンリーダーの読み上げ順序を支援します。\n2. headers属性は複雑な表でセルと見出しを関連付けるために使われますが、単純な表ではscopeを使用します。\n3. axis属性はHTML5では廃止されています。\n4. summary属性はtable要素の属性であり（HTML5では廃止）、th要素の属性ではありません。"
   },
   {
     "id": 20015,
     "question": "JavaScriptにおいて、イベントの伝播（バブリング）を停止させるために使用するメソッドはどれか。",
     "options": [
       "event.preventDefault()",
-      "event.stopPropagation()",
+      "event.cancelBubble = false",
       "event.stopImmediatePropagation()",
-      "event.cancelBubble = false"
+      "event.stopPropagation()"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（event.stopPropagation()）\n\n【解説】\n1. preventDefault() は、リンク遷移やフォーム送信などのデフォルトの動作をキャンセルするものです。\n2. stopPropagation() は、現在のイベントが親要素へ伝播（バブリング）するのを防ぎます。\n3. stopImmediatePropagation() は、伝播を止めるだけでなく、同じ要素に設定された他のイベントリスナーの実行も止めます。\n4. cancelBubble は古いIE向けのプロパティで、標準メソッドを使用すべきです。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（event.stopPropagation()）\n\n【解説】\n1. preventDefault() は、リンク遷移やフォーム送信などのデフォルトの動作をキャンセルするものです。\n2. cancelBubble は古いIE向けのプロパティで、標準メソッドを使用すべきです。\n3. stopImmediatePropagation() は、伝播を止めるだけでなく、同じ要素に設定された他のイベントリスナーの実行も止めます。\n4. stopPropagation() は、現在のイベントが親要素へ伝播（バブリング）するのを防ぎます。"
   },
   {
     "id": 20016,
@@ -189,31 +189,31 @@
       "コンテンツの幅、padding、border、marginすべてを width に含める。"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（コンテンツの幅、padding、borderを width に含める（marginは含まない）。）\n\n【解説】\n1. 標準の `box-sizing: content-box` の挙動です。\n2. そのような仕様はありません。\n3. `border-box` を指定すると、指定した width の中に padding と border のサイズが含まれ、残りがコンテンツ領域の幅となります。レイアウト計算が容易になるため広く使われています。\n4. margin は box-sizing の設定にかかわらず、常に width の外側に計算されます。"
+    "explanation": "【正解】3（コンテンツの幅、padding、borderを width に含める(marginは含まない)。）\n\n【解説】\n1. 標準の `box-sizing: content-box` の挙動です。\n2. そのような仕様はありません。\n3. `border-box` を指定すると、指定した width の中に padding と border のサイズが含まれ、残りがコンテンツ領域の幅となります。レイアウト計算が容易になるため広く使われています。\n4. margin は box-sizing の設定にかかわらず、常に width の外側に計算されます。"
   },
   {
     "id": 20017,
     "question": "情報セキュリティにおける「クロスサイトスクリプティング（XSS）」の説明として、適切なものはどれか。",
     "options": [
       "データベースへの問い合わせ文を改ざんし、不正なデータを操作する攻撃。",
-      "ウェブページに悪意のあるスクリプトを埋め込み、閲覧者のブラウザ上で実行させる攻撃。",
+      "ユーザーを偽のサイトに誘導し、パスワードなどを入力させる詐欺行為。",
       "サーバーに大量のリクエストを送りつけ、システムをダウンさせる攻撃。",
-      "ユーザーを偽のサイトに誘導し、パスワードなどを入力させる詐欺行為。"
+      "ウェブページに悪意のあるスクリプトを埋め込み、閲覧者のブラウザ上で実行させる攻撃。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（ウェブページに悪意のあるスクリプトを埋め込み、閲覧者のブラウザ上で実行させる攻撃。）\n\n【解説】\n1. SQLインジェクションの説明です。\n2. XSS（Cross Site Scripting）は、脆弱性のあるWebサイトにスクリプトを埋め込み、Cookieの盗聴や偽情報の表示などを行う攻撃です。\n3. DoS/DDoS攻撃の説明です。\n4. フィッシング詐欺の説明です。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ウェブページに悪意のあるスクリプトを埋め込み、閲覧者のブラウザ上で実行させる攻撃。）\n\n【解説】\n1. SQLインジェクションの説明です。\n2. フィッシング詐欺の説明です。\n3. DoS/DDoS攻撃の説明です。\n4. XSS（Cross Site Scripting）は、脆弱性のあるWebサイトにスクリプトを埋め込み、Cookieの盗聴や偽情報の表示などを行う攻撃です。"
   },
   {
     "id": 20018,
     "question": "HTTPステータスコード `301 Moved Permanently` の意味として、適切なものはどれか。",
     "options": [
       "リクエストされたリソースは一時的に別の場所に移動した。",
-      "リクエストされたリソースは恒久的に別の場所に移動した。",
+      "リクエストされたリソースへのアクセス権限がない。",
       "サーバー内部でエラーが発生したため、リクエストを完了できない。",
-      "リクエストされたリソースへのアクセス権限がない。"
+      "リクエストされたリソースは恒久的に別の場所に移動した。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（リクエストされたリソースは恒久的に別の場所に移動した。）\n\n【解説】\n1. 一時的な移動は `302 Found` または `307 Temporary Redirect` です。\n2. `301 Moved Permanently` は恒久的な移動を示し、検索エンジンもインデックスを新しいURLに更新します。\n3. `500 Internal Server Error` などの説明です。\n4. `403 Forbidden` の説明です。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（リクエストされたリソースは恒久的に別の場所に移動した。）\n\n【解説】\n1. 一時的な移動は `302 Found` または `307 Temporary Redirect` です。\n2. `403 Forbidden` の説明です。\n3. `500 Internal Server Error` などの説明です。\n4. `301 Moved Permanently` は恒久的な移動を示し、検索エンジンもインデックスを新しいURLに更新します。"
   },
   {
     "id": 20019,
@@ -232,12 +232,12 @@
     "question": "VDT（Visual Display Terminals）作業における労働衛生管理として、ディスプレイ画面の配置について適切でないものはどれか。",
     "options": [
       "画面の上端が眼の高さと同じか、やや下になるように設置する。",
-      "画面と眼の距離は、40cm以上確保することが望ましい。",
+      "画面と眼の距離は、40cm以上確保する。",
       "画面に窓や照明の映り込み（グレア）がないようにする。",
       "画面の輝度（明るさ）は、書類やキーボード周辺よりも著しく高く設定する。"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（画面の輝度（明るさ）は、書類やキーボード周辺よりも著しく高く設定する。）\n\n【解説】\n1. 適切です。視線がやや下向きになるのが自然です。\n2. 適切です。近すぎると眼精疲労の原因になります。\n3. 適切です。反射防止型ディスプレイの使用や照明の調整が推奨されます。\n4. 不適切です。画面と周囲（書類、キーボード等）の明るさの差（輝度比）が大きすぎると、目の負担になります。なるべく差を小さくすることが推奨されています。"
+    "explanation": "【正解】4（画面の輝度(明るさ)は、書類やキーボード周辺よりも著しく高く設定する。）\n\n【解説】\n1. 適切です。視線がやや下向きになるのが自然です。\n2. 適切です。近すぎると眼精疲労の原因になります。\n3. 適切です。反射防止型ディスプレイを使用し、照明を調整します。\n4. 不適切です。画面と周囲（書類、キーボード等）の明るさの差（輝度比）が大きすぎると、目の負担になります。差を小さくします。"
   },
   {
     "id": 20021,
@@ -253,7 +253,7 @@
   },
   {
     "id": 20022,
-    "question": "CSSにおいて、要素を通常のフローから除外し、最も近い「位置指定された（static以外の）」祖先要素を基準に配置するプロパティ値はどれか。",
+    "question": "CSSにおいて、要素をフローから除外し、最も近い「位置指定された（static以外の）」祖先要素を基準に配置するプロパティ値はどれか。",
     "options": [
       "position: static;",
       "position: relative;",
@@ -261,19 +261,19 @@
       "position: fixed;"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（position: absolute;）\n\n【解説】\n1. static はデフォルト値で、通常のフローに従って配置されます。\n2. relative は通常のフローに従いますが、本来の位置からの相対位置を指定できます。\n3. absolute は通常のフローから除外され、positionがstatic以外の祖先要素を基準に配置されます。\n4. fixed は通常のフローから除外され、ビューポート（ブラウザウィンドウ）を基準に配置されます。"
+    "explanation": "【正解】3（position: absolute;）\n\n【解説】\n1. static はデフォルト値で、フローに従って配置されます。\n2. relative はフローに従いますが、本来の位置からの相対位置を指定できます。\n3. absolute はフローから除外され、positionがstatic以外の祖先要素を基準に配置されます。\n4. fixed はフローから除外され、ビューポート（ブラウザウィンドウ）を基準に配置されます。"
   },
   {
     "id": 20023,
     "question": "JavaScriptにおいて、JSON文字列をJavaScriptのオブジェクトに変換するメソッドはどれか。",
     "options": [
       "JSON.stringify()",
-      "JSON.parse()",
+      "JSON.toObject()",
       "JSON.objectify()",
-      "JSON.toObject()"
+      "JSON.parse()"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（JSON.parse()）\n\n【解説】\n1. JSON.stringify() は、逆にJavaScriptのオブジェクトをJSON文字列に変換するメソッドです。\n2. JSON.parse() は、JSON形式の文字列を解析してJavaScriptの値やオブジェクトを構築します。\n3. JSON.objectify() というメソッドは標準には存在しません。\n4. JSON.toObject() というメソッドは標準には存在しません。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（JSON.parse()）\n\n【解説】\n1. JSON.stringify() は、逆にJavaScriptのオブジェクトをJSON文字列に変換するメソッドです。\n2. JSON.toObject() というメソッドは標準には存在しません。\n3. JSON.objectify() というメソッドは標準には存在しません。\n4. JSON.parse() は、JSON形式の文字列を解析してJavaScriptの値やオブジェクトを構築します。"
   },
   {
     "id": 20024,
@@ -292,12 +292,12 @@
     "question": "HTMLの `<a>` タグにおいて、リンク先を新しいタブ（またはウィンドウ）で開くように指定する属性値はどれか。",
     "options": [
       "target=\"_self\"",
-      "target=\"_blank\"",
+      "target=\"_top\"",
       "target=\"_parent\"",
-      "target=\"_top\""
+      "target=\"_blank\""
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（target=\"_blank\"）\n\n【解説】\n1. _self は現在のフレーム（デフォルト）で開きます。\n2. _blank は新しいブラウジングコンテキスト（タブやウィンドウ）で開きます。セキュリティのため `rel=\"noopener\"` の併用が推奨されます。\n3. _parent は親フレームで開きます。\n4. _top はフレームを解除してウィンドウ全体で開きます。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（target=\"_blank\"）\n\n【解説】\n1. _self は現在のフレーム（デフォルト）で開きます。\n2. _top はフレームを解除してウィンドウ全体で開きます。\n3. _parent は親フレームで開きます。\n4. _blank は新しいブラウジングコンテキスト（タブやウィンドウ）で開きます。セキュリティのため `rel=\"noopener\"` を併用します。"
   },
   {
     "id": 20026,
@@ -309,7 +309,7 @@
       "ページ内のレイアウトが予期せずズレる量の合計スコア。"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（ページ内のメインコンテンツ（最大視覚要素）が表示されるまでの時間。）\n\n【解説】\n1. FCP (First Contentful Paint) の説明に近いですが、LCPは「最大」の要素に着目します。\n2. TTI (Time to Interactive) や FID (First Input Delay) に関連する概念です。\n3. LCPは、Core Web Vitalsの一つで、ユーザーにとって主要なコンテンツが表示されたタイミングを測定します。\n4. CLS (Cumulative Layout Shift) の説明です。"
+    "explanation": "【正解】3（ページ内のメインコンテンツ(最大視覚要素)が表示されるまでの時間。）\n\n【解説】\n1. FCP (First Contentful Paint) の説明に近いですが、LCPは「最大」の要素に着目します。\n2. TTI (Time to Interactive) や FID (First Input Delay) に関連する概念です。\n3. LCPは、Core Web Vitalsの一つで、ユーザーにとって主要なコンテンツが表示されたタイミングを測定します。\n4. CLS (Cumulative Layout Shift) の説明です。"
   },
   {
     "id": 20027,
@@ -340,47 +340,47 @@
     "question": "Gitにおいて、リモートリポジトリの変更内容を取り込み、現在のブランチに統合（マージ）するコマンドはどれか。",
     "options": [
       "git push",
-      "git pull",
+      "git fetch",
       "git commit",
-      "git fetch"
+      "git pull"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（git pull）\n\n【解説】\n1. git push はローカルの変更をリモートに送信します。\n2. git pull はリモートから変更を取得（fetch）し、自動的に現在のブランチにマージします。\n3. git commit は変更をローカルリポジトリに記録します。\n4. git fetch はリモートから変更を取得しますが、マージは行いません。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（git pull）\n\n【解説】\n1. git push はローカルの変更をリモートに送信します。\n2. git fetch はリモートから変更を取得しますが、マージは行いません。\n3. git commit は変更をローカルリポジトリに記録します。\n4. git pull はリモートから変更を取得（fetch）し、自動的に現在のブランチにマージします。"
   },
   {
     "id": 20030,
     "question": "ユニバーサルデザインフォント（UDフォント）の特徴として、最も適切なものはどれか。",
     "options": [
       "装飾性が高く、デザインのアクセントとして使用される。",
-      "文字の形が分かりやすく、誤読しにくいように設計されている。",
+      "文字幅を極端に狭くし、一度に多くの情報を表示できる。",
       "筆書きの文字を忠実に再現しており、伝統的な印象を与える。",
-      "文字幅を極端に狭くし、一度に多くの情報を表示できる。"
+      "文字の形が分かりやすく、誤読しにくいように設計されている。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（文字の形が分かりやすく、誤読しにくいように設計されている。）\n\n【解説】\n1. 装飾性は重視されません。\n2. UDフォントは、視認性（見えやすさ）、判読性（読みやすさ）、デザイン性などを考慮し、高齢者や弱視者を含む多くの人にとって読みやすいように設計されています。濁点・半濁点の強調や、紛らわしい文字の区別などが特徴です。\n3. 行書体などの説明です。\n4. コンデンスドフォントの説明ですが、UDフォントの主要な特徴ではありません。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（文字の形が分かりやすく、誤読しにくいように設計されている。）\n\n【解説】\n1. 装飾性は重視されません。\n2. コンデンスドフォントの説明ですが、UDフォントの主要な特徴ではありません。\n3. 行書体などの説明です。\n4. UDフォントは、視認性（見えやすさ）、判読性（読みやすさ）、デザイン性などを考慮し、高齢者や弱視者を含む多くの人にとって読みやすいように設計されています。濁点・半濁点の強調や、紛らわしい文字の区別などが特徴です。"
   },
   {
     "question": "HTML5において、ナビゲーションリンクのセクションを表すために使用すべき要素はどれか。",
     "options": [
       "<menu>",
-      "<nav>",
+      "<section>",
       "<navigation>",
-      "<section>"
+      "<nav>"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（<nav>）\n\n【解説】\n1. <menu>は操作メニューを表す要素です。\n2. <nav>は主要なナビゲーションブロックを表すために設計された要素です。\n3. <navigation>というタグはHTML5仕様には存在しません。\n4. <section>は一般的な文書のセクションを表します。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（<nav>）\n\n【解説】\n1. <menu>は操作メニューを表す要素です。\n2. <section>は文書のセクションを表します。\n3. <navigation>というタグはHTML5仕様には存在しません。\n4. <nav>は主要なナビゲーションブロックを表すために設計された要素です。",
     "id": 20031
   },
   {
     "question": "外部リンクを新しいタブで開く際（target=\"_blank\"）、セキュリティとパフォーマンスの観点から付与すべき属性はどれか。",
     "options": [
       "rel=\"nofollow\"",
-      "rel=\"noopener noreferrer\"",
+      "rel=\"next\"",
       "rel=\"external\"",
-      "rel=\"next\""
+      "rel=\"noopener noreferrer\""
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（rel=\"noopener noreferrer\"）\n\n【解説】\n1. rel=\"nofollow\"は検索エンジンにリンク先をたどらせないための属性です。\n2. rel=\"noopener noreferrer\"を指定することで、リンク先のページから元のページを操作される脆弱性（Tabnabbing）を防ぎ、パフォーマンス低下も防ぐことができます。\n3. rel=\"external\"は外部サイトであることを示すメタデータですが、セキュリティ機能はありません。\n4. rel=\"next\"は一連の文書の次のページを示します。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（rel=\"noopener noreferrer\"）\n\n【解説】\n1. rel=\"nofollow\"は検索エンジンにリンク先をたどらせないための属性です。\n2. rel=\"next\"は一連の文書の次のページを示します。\n3. rel=\"external\"は外部サイトであることを示すメタデータですが、セキュリティ機能はありません。\n4. rel=\"noopener noreferrer\"を指定することで、リンク先のページから元のページを操作される脆弱性（Tabnabbing）を防ぎ、パフォーマンス低下も防ぐことができます。",
     "id": 20032
   },
   {
@@ -399,12 +399,12 @@
     "question": "CSSの `z-index` プロパティが有効になるための条件として、適切なものはどれか。",
     "options": [
       "displayプロパティが block であること",
-      "positionプロパティが static 以外であること（またはflex/gridアイテムであること）",
+      "widthとheightが指定されていること",
       "floatプロパティが設定されていること",
-      "widthとheightが指定されていること"
+      "positionプロパティが static 以外であること（またはflex/gridアイテムであること）"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（positionプロパティが static 以外であること（またはflex/gridアイテムであること））\n\n【解説】\n1. displayの値だけでは有効になりません。\n2. z-indexは、positionがstatic以外の要素（relative, absolute, fixed, sticky）、またはFlexboxやGridの子アイテムに対して有効になります。\n3. floatだけでは有効になりません。\n4. サイズ指定は関係ありません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（positionプロパティが static 以外であること（またはflex/gridアイテムであること））\n\n【解説】\n1. displayの値だけでは有効になりません。\n2. サイズ指定は関係ありません。\n3. floatだけでは有効になりません。\n4. z-indexは、positionがstatic以外の要素（relative, absolute, fixed, sticky）、またはFlexboxやGridの子アイテムに対して有効になります。",
     "id": 20034
   },
   {
@@ -423,12 +423,12 @@
     "question": "JavaScriptの配列（Array）の末尾に新しい要素を追加するメソッドはどれか。",
     "options": [
       "pop()",
-      "push()",
+      "unshift()",
       "shift()",
-      "unshift()"
+      "push()"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（push()）\n\n【解説】\n1. pop()は末尾の要素を削除します。\n2. push()は末尾に要素を追加します。\n3. shift()は先頭の要素を削除します。\n4. unshift()は先頭に要素を追加します。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（push()）\n\n【解説】\n1. pop()は末尾の要素を削除します。\n2. unshift()は先頭に要素を追加します。\n3. shift()は先頭の要素を削除します。\n4. push()は末尾に要素を追加します。",
     "id": 20036
   },
   {
@@ -464,7 +464,7 @@
       "サーバー内部エラー"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（認証が必要である（未認証））\n\n【解説】\n1. 404 Not Foundです。\n2. 400 Bad Requestです。\n3. 401 Unauthorizedは、アクセスには認証が必要だが、認証情報が不足しているか誤っている場合などに返されます。\n4. 500 Internal Server Errorです。",
+    "explanation": "【正解】3（認証が必要である(未認証)）\n\n【解説】\n1. 404 Not Foundです。\n2. 400 Bad Requestです。\n3. 401 Unauthorizedは、アクセスには認証が必要だが、認証情報が不足しているか誤っている場合などに返されます。\n4. 500 Internal Server Errorです。",
     "id": 20039
   },
   {
@@ -483,24 +483,24 @@
     "question": "光の三原色（RGB）の説明として正しいものはどれか。",
     "options": [
       "赤(Red)、緑(Green)、青(Blue)の混色で、混ぜるほど暗くなる（減法混色）。",
-      "赤(Red)、緑(Green)、青(Blue)の混色で、混ぜるほど明るくなる（加法混色）。",
+      "赤(Red)、黄(Yellow)、青(Blue)の混色である。",
       "シアン(Cyan)、マゼンタ(Magenta)、イエロー(Yellow)の混色である。",
-      "赤(Red)、黄(Yellow)、青(Blue)の混色である。"
+      "赤(Red)、緑(Green)、青(Blue)の混色で、混ぜるほど明るくなる（加法混色）。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（赤(Red)、緑(Green)、青(Blue)の混色で、混ぜるほど明るくなる（加法混色）。）\n\n【解説】\n1. 減法混色はCMYK（インクなど）の特徴です。\n2. ディスプレイなどで使われるRGBは光の三原色であり、混ぜるほど白に近づく「加法混色」です。\n3. CMYは色の三原色です。\n4. 絵具の三原色に近い概念ですが、WebデザインにおけるRGBの説明としては不正確です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（赤(Red)、緑(Green)、青(Blue)の混色で、混ぜるほど明るくなる（加法混色）。）\n\n【解説】\n1. 減法混色はCMYK（インクなど）の特徴です。\n2. 絵具の三原色に近い概念ですが、WebデザインにおけるRGBの説明としては不正確です。\n3. CMYは色の三原色です。\n4. ディスプレイなどで使われるRGBは光の三原色であり、混ぜるほど白に近づく「加法混色」です。",
     "id": 20041
   },
   {
     "question": "Googleが開発した画像フォーマットで、高い圧縮率を持ち、透過やアニメーションもサポートしているものはどれか。",
     "options": [
       "JPEG",
-      "WebP",
+      "BMP",
       "TIFF",
-      "BMP"
+      "WebP"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（WebP）\n\n【解説】\n1. JPEGは非可逆圧縮で透過やアニメーションをサポートしていません。\n2. WebP（ウェッピー）は、JPEGやPNGよりも高い圧縮効率を持ち、透過やアニメーションもサポートする現代的な画像フォーマットです。\n3. TIFFは印刷用途などで使われる高画質形式で、Webには不向きです。\n4. BMPは非圧縮形式でファイルサイズが大きいため、Webには不向きです。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（WebP）\n\n【解説】\n1. JPEGは非可逆圧縮で透過やアニメーションをサポートしていません。\n2. BMPは非圧縮形式でファイルサイズが大きいため、Webには不向きです。\n3. TIFFは印刷用途などで使われる高画質形式で、Webには不向きです。\n4. WebP（ウェッピー）は、JPEGやPNGよりも高い圧縮効率を持ち、透過やアニメーションもサポートする現代的な画像フォーマットです。",
     "id": 20042
   },
   {
@@ -519,12 +519,12 @@
     "question": "SEO（検索エンジン最適化）において、検索結果のスニペット（説明文）として表示されることが多いメタ要素はどれか。",
     "options": [
       "<meta name=\"keywords\">",
-      "<meta name=\"description\">",
+      "<meta name=\"viewport\">",
       "<meta name=\"author\">",
-      "<meta name=\"viewport\">"
+      "<meta name=\"description\">"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（<meta name=\"description\">）\n\n【解説】\n1. keywordsは現在、多くの検索エンジンで重視されていません。\n2. descriptionはページの概要を記述するもので、検索結果の説明文として利用されることが多く、クリック率（CTR）に影響します。\n3. authorは著作者を示します。\n4. viewportはモバイル端末での表示領域設定です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（<meta name=\"description\">）\n\n【解説】\n1. keywordsは現在、多くの検索エンジンで重視されていません。\n2. viewportはモバイル端末での表示領域設定です。\n3. authorは著作者を示します。\n4. descriptionはページの概要を記述するもので、検索結果の説明文として利用されることが多く、クリック率（CTR）に影響します。",
     "id": 20044
   },
   {
@@ -536,19 +536,19 @@
       "21:9"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2:9\n\n【解説】\n1920 ÷ 120 = 16\n1080 ÷ 120 = 9\nしたがって、アスペクト比は 16:9 です。\n\n1. 4:3はアナログテレビや古いPCモニターの比率です。\n3. 16:10はWUXGA（1920x1200）などの比率です。\n4. 21:9はウルトラワイドモニターの比率です。",
+    "explanation": "【正解】2（16:9）\n\n【解説】\n1920 ÷ 120 = 16\n1080 ÷ 120 = 9\nしたがって、アスペクト比は 16:9 です。\n\n1. 4:3はアナログテレビや古いPCモニターの比率です。\n3. 16:10はWUXGA（1920x1200）などの比率です。\n4. 21:9はウルトラワイドモニターの比率です。",
     "id": 20045
   },
   {
     "question": "カラーコード `#00FF00` が表す色はどれか。",
     "options": [
       "赤",
-      "緑",
+      "白",
       "青",
-      "白"
+      "緑"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（緑）\n\n【解説】\nカラーコードは `#RRGGBB` の形式で表されます。\nRR（赤）= 00\nGG（緑）= FF（最大値）\nBB（青）= 00\nしたがって、緑（Green）の純色を表します。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（緑）\n\n【解説】\nカラーコードは `#RRGGBB` の形式で表されます。\nRR（赤）= 00\nGG（緑）= FF（最大値）\nBB（青）= 00\nしたがって、緑（Green）の純色を表します。",
     "id": 20046
   },
   {
@@ -560,43 +560,43 @@
       "100万円"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3\n\n【解説】\nディレクション費 = 5日 × 4万円 = 20万円\nデザイン費 = 10日 × 3万円 = 30万円\nコーディング費 = 10日 × 3万円 = 30万円\n\n総額 = 20 + 30 + 30 = 80万円です。",
+    "explanation": "【正解】3（80万円）\n\n【解説】\nディレクション費 = 5日 × 4万円 = 20万円\nデザイン費 = 10日 × 3万円 = 30万円\nコーディング費 = 10日 × 3万円 = 30万円\n\n総額 = 20 + 30 + 30 = 80万円です。",
     "id": 20047
   },
   {
     "question": "500MB（メガバイト）のファイルを、実効速度100Mbps（メガビット毎秒）の回線で転送する場合にかかる理論上の時間は何秒か。",
     "options": [
       "5秒",
-      "40秒",
+      "400秒",
       "50秒",
-      "400秒"
+      "40秒"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2\n\n【解説】\n1. 単位を合わせます。\n500 MB = 500 × 8 = 4000 Mbit（メガビット）\n\n2. 時間を計算します。\n時間 = データ量 ÷ 通信速度\n4000 Mbit ÷ 100 Mbps = 40 秒です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（40秒）\n\n【解説】\n1. 単位を合わせます。\n500 MB = 500 × 8 = 4000 Mbit（メガビット）\n\n2. 時間を計算します。\n時間 = データ量 ÷ 通信速度\n4000 Mbit ÷ 100 Mbps = 40 秒です。",
     "id": 20048
   },
   {
     "question": "1000×1000ピクセルの画像を、24ビットカラー（1画素あたり3バイト）で非圧縮保存した場合のファイルサイズはどれか。（1MB = 1,000,000バイトとする）。",
     "options": [
       "約1MB",
-      "約3MB",
+      "約24MB",
       "約10MB",
-      "約24MB"
+      "約3MB"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（約3MB）\n\n【解説】\n画素数 = 1000 × 1000 = 1,000,000画素\n1画素あたりのデータ量 = 3バイト\n\n全体サイズ = 1,000,000 × 3 = 3,000,000バイト\n1MB = 1,000,000バイト換算なので、3MBとなります。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（約3MB）\n\n【解説】\n画素数 = 1000 × 1000 = 1,000,000画素\n1画素あたりのデータ量 = 3バイト\n\n全体サイズ = 1,000,000 × 3 = 3,000,000バイト\n1MB = 1,000,000バイト換算なので、3MBとなります。",
     "id": 20049
   },
   {
     "question": "WCAG 2.1の「知覚可能」の原則において、画像コンテンツに対して提供すべき代替手段はどれか。",
     "options": [
       "title属性",
-      "alt属性（代替テキスト）",
+      "href属性",
       "src属性",
-      "href属性"
+      "alt属性（代替テキスト）"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（alt属性（代替テキスト））\n\n【解説】\n1. title属性は補足情報であり、代替テキストとしては不十分な場合があります。\n2. alt属性（Alternative Text）は、画像が表示できない場合やスクリーンリーダー利用者のために、画像の内容を説明するテキストを提供するために必須です。\n3. src属性は画像ファイルのパスを指定するものです。\n4. href属性はリンク先を指定するものです。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（alt属性（代替テキスト））\n\n【解説】\n1. title属性は補足情報であり、代替テキストとしては不十分な場合があります。\n2. href属性はリンク先を指定するものです。\n3. src属性は画像ファイルのパスを指定するものです。\n4. alt属性（Alternative Text）は、画像が表示できない場合やスクリーンリーダー利用者のために、画像の内容を説明するテキストを提供するために必須です。",
     "id": 20050
   },
   {
@@ -615,12 +615,12 @@
     "question": "スマートフォンなどで電話番号の入力に適したキーパッドを表示させるための、input要素のtype属性値はどれか。",
     "options": [
       "type=\"number\"",
-      "type=\"tel\"",
+      "type=\"call\"",
       "type=\"phone\"",
-      "type=\"call\""
+      "type=\"tel\""
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（type=\"tel\"）\n\n【解説】\n1. type=\"number\"は数値を入力するためのもので、電話番号（ハイフンや先頭の0など）には不向きな場合があります。\n2. type=\"tel\"は電話番号入力用で、モバイル端末では電話番号用キーパッドが表示されるのが一般的です。\n3. type=\"phone\"は存在しません。\n4. type=\"call\"は存在しません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（type=\"tel\"）\n\n【解説】\n1. type=\"number\"は数値を入力するためのもので、電話番号（ハイフンや先頭の0など）には不向きです。\n2. type=\"call\"は存在しません。\n3. type=\"phone\"は存在しません。\n4. type=\"tel\"は電話番号入力用で、モバイル端末では電話番号用キーパッドが表示されます。",
     "id": 20052
   },
   {
@@ -663,12 +663,12 @@
     "question": "JavaScriptにおいて、JSON形式の文字列をJavaScriptのオブジェクトに変換するメソッドはどれか。",
     "options": [
       "JSON.stringify()",
-      "JSON.parse()",
+      "JSON.convert()",
       "JSON.toObject()",
-      "JSON.convert()"
+      "JSON.parse()"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（JSON.parse()）\n\n【解説】\n1. JSON.stringify()は、JavaScriptオブジェクトをJSON文字列に変換します。\n2. JSON.parse()は、JSON文字列を解析してJavaScriptオブジェクトに変換します。\n3. 存在しません。\n4. 存在しません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（JSON.parse()）\n\n【解説】\n1. JSON.stringify()は、JavaScriptオブジェクトをJSON文字列に変換します。\n2. 存在しません。\n3. 存在しません。\n4. JSON.parse()は、JSON文字列を解析してJavaScriptオブジェクトに変換します。",
     "id": 20056
   },
   {
@@ -687,60 +687,60 @@
     "question": "SQLインジェクション攻撃を防ぐための対策として、最も適切なものはどれか。",
     "options": [
       "入力値の長さを制限する",
-      "プレースホルダを用いたプリペアードステートメントを使用する",
+      "データベースのパスワードを定期的に変更する",
       "エラーメッセージを詳細に表示する",
-      "データベースのパスワードを定期的に変更する"
+      "プレースホルダを用いたプリペアードステートメントを使用する"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（プレースホルダを用いたプリペアードステートメントを使用する）\n\n【解説】\n1. 長さ制限だけでは不十分です。\n2. プリペアードステートメントを使用することで、SQL文とデータを分離し、入力値を単なる文字として扱うことができるため、SQLインジェクションを根本的に防げます。\n3. エラーメッセージが詳細すぎると攻撃のヒントを与える可能性があります。\n4. 重要な対策ですが、SQLインジェクションそのものの防止策ではありません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（プレースホルダを用いたプリペアードステートメントを使用する）\n\n【解説】\n1. 長さ制限だけでは不十分です。\n2. 重要な対策ですが、SQLインジェクションそのものの防止策ではありません。\n3. エラーメッセージが詳細すぎると攻撃のヒントになります。\n4. プリペアードステートメントを使用することで、SQL文とデータを分離し、入力値を単なる文字として扱うことができるため、SQLインジェクションを根本的に防げます。",
     "id": 20058
   },
   {
     "question": "総当たり攻撃（ブルートフォースアタック）への対策として、最も効果的なものはどれか。",
     "options": [
       "パスワードの有効期限を短くする",
-      "アカウントロック機能を導入する（数回失敗で一時停止）",
+      "SSL/TLSを導入する",
       "ユーザーIDを複雑にする",
-      "SSL/TLSを導入する"
+      "アカウントロック機能を導入する（数回失敗で一時停止）"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（アカウントロック機能を導入する（数回失敗で一時停止））\n\n【解説】\n1. 有効期限も一定の効果はありますが、攻撃時の防御にはなりません。\n2. 短時間に多数のログイン試行を行う攻撃に対しては、一定回数の失敗でアカウントをロックするのが直接的に有効です。\n3. IDの推測は難しくなりますが、攻撃自体を防ぐものではありません。\n4. 通信経路の暗号化であり、ログイン試行攻撃は防げません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（アカウントロック機能を導入する（数回失敗で一時停止））\n\n【解説】\n1. 有効期限も一定の効果はありますが、攻撃時の防御にはなりません。\n2. 通信経路の暗号化であり、ログイン試行攻撃は防げません。\n3. IDの推測は難しくなりますが、攻撃自体を防ぐものではありません。\n4. 短時間に多数のログイン試行を行う攻撃に対しては、一定回数の失敗でアカウントをロックするのが直接的に有効です。",
     "id": 20059
   },
   {
     "question": "インターネットにおいて、ドメイン名（例: www.example.co.jp）をIPアドレスに変換する仕組みはどれか。",
     "options": [
       "DHCP",
-      "DNS",
+      "VPN",
       "FTP",
-      "VPN"
+      "DNS"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（DNS）\n\n【解説】\n1. DHCPはIPアドレスを自動割り当てするプロトコルです。\n2. DNS (Domain Name System) は、ドメイン名とIPアドレスを対応付け、変換（名前解決）を行うシステムです。\n3. FTPはファイル転送プロトコルです。\n4. VPNは仮想プライベートネットワークです。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（DNS）\n\n【解説】\n1. DHCPはIPアドレスを自動割り当てするプロトコルです。\n2. VPNは仮想プライベートネットワークです。\n3. FTPはファイル転送プロトコルです。\n4. DNS (Domain Name System) は、ドメイン名とIPアドレスを対応付け、変換（名前解決）を行うシステムです。",
     "id": 20060
   },
   {
     "question": "キーボード操作において、Tabキーによるフォーカス移動の順序を明示的に指定するHTML属性はどれか。",
     "options": [
       "accesskey",
-      "tabindex",
+      "key-sequence",
       "focus-order",
-      "key-sequence"
+      "tabindex"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（tabindex）\n\n【解説】\n1. accesskeyはショートカットキーを割り当てる属性です。\n2. tabindex属性に正の整数を指定することで、Tabキーによる移動順序を制御できます（ただし、通常はDOMの順序に任せることが推奨されます）。0を指定するとフォーカス可能になり、-1を指定するとプログラムからのみフォーカス可能になります。\n3. 存在しません。\n4. 存在しません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（tabindex）\n\n【解説】\n1. accesskeyはショートカットキーを割り当てる属性です。\n2. 存在しません。\n3. 存在しません。\n4. tabindex属性に正の整数を指定することで、Tabキーによる移動順序を制御できます。0を指定するとフォーカス可能になり、-1を指定するとプログラムからのみフォーカス可能になります。フォーカス順序はDOMの順序に任せます。",
     "id": 20061
   },
   {
     "question": "Webサイト内の現在位置を階層的に示し、上位階層へのリンクを提供するナビゲーション手法を何と呼ぶか。",
     "options": [
       "グローバルナビゲーション",
-      "パンくずリスト（Breadcrumb）",
+      "フッターナビゲーション",
       "サイトマップ",
-      "フッターナビゲーション"
+      "パンくずリスト（Breadcrumb）"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（パンくずリスト（Breadcrumb））\n\n【解説】\n1. サイト全体の主要なリンク集です。\n2. 「ホーム > 製品 > 電化製品」のように、トップページから現在地までの経路を示すナビゲーションをパンくずリストと呼びます。\n3. サイト全体のページ構成を一覧表示したものです。\n4. ページ下部のリンク集です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（パンくずリスト（Breadcrumb））\n\n【解説】\n1. サイト全体の主要なリンク集です。\n2. ページ下部のリンク集です。\n3. サイト全体のページ構成を一覧表示したものです。\n4. 「ホーム > 製品 > 電化製品」のように、トップページから現在地までの経路を示すナビゲーションをパンくずリストと呼びます。",
     "id": 20062
   },
   {
@@ -759,48 +759,48 @@
     "question": "HTML5において、日付や時刻を機械可読な形式で表すための要素はどれか。",
     "options": [
       "<date>",
-      "<time>",
+      "<clock>",
       "<datetime>",
-      "<clock>"
+      "<time>"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（<time>）\n\n【解説】\n1. <date>タグは存在しません。\n2. <time>要素は、人間が読むための日時と、datetime属性による機械可読な日時をマークアップするために使用します。\n3. <datetime>タグは存在しません（属性としては存在します）。\n4. <clock>タグは存在しません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（<time>）\n\n【解説】\n1. <date>タグは存在しません。\n2. <clock>タグは存在しません。\n3. <datetime>タグは存在しません（属性としては存在します）。\n4. <time>要素は、人間が読むための日時と、datetime属性による機械可読な日時をマークアップするために使用します。",
     "id": 20064
   },
   {
     "question": "図版（画像、図表、コードなど）と、そのキャプション（説明文）をグループ化するためのHTML5要素の組み合わせとして正しいものはどれか。",
     "options": [
       "<image> と <caption>",
-      "<figure> と <figcaption>",
+      "<section> と <summary>",
       "<picture> と <label>",
-      "<section> と <summary>"
+      "<figure> と <figcaption>"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（<figure> と <figcaption>）\n\n【解説】\n1. <image>タグは非推奨またはSVG内でのみ使用。<caption >はtable要素用です。\n2. <figure>要素で図版全体を囲み、その中に<figcaption>要素でキャプションを記述します。\n3. <picture>はレスポンシブ画像用です。\n4. <summary>はdetails要素用です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（<figure> と <figcaption>）\n\n【解説】\n1. <image>タグはHTML要素として存在しません（SVG内の要素です）。<caption>はtable要素用です。\n2. <summary>はdetails要素用です。\n3. <picture>はレスポンシブ画像用です。\n4. <figure>要素で図版全体を囲み、その中に<figcaption>要素でキャプションを記述します。",
     "id": 20065
   },
   {
     "question": "JavaScript（ES6）の `let` と `var` の違いに関する説明として、正しいものはどれか。",
     "options": [
       "letは再代入ができないが、varはできる。",
-      "letはブロックスコープ（{}内）を持つが、varは関数スコープを持つ。",
+      "違いはなく、どちらも同じように使える。",
       "letは変数の巻き上げ（hoisting）が発生しない。",
-      "違いはなく、どちらも同じように使える。"
+      "letはブロックスコープ（{}内）を持つが、varは関数スコープを持つ。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（letはブロックスコープ（{}内）を持つが、varは関数スコープを持つ。）\n\n【解説】\n1. letもvarも再代入可能です（constは不可）。\n2. varは関数単位のスコープですが、let（およびconst）はブロック単位のスコープを持ち、if文やfor文の中だけで有効な変数を作れます。\n3. letも巻き上げ自体は発生しますが、「一時的な死角（TDZ）」により宣言前にアクセスするとエラーになります。\n4. スコープの挙動が大きく異なります。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（letはブロックスコープ（{}内）を持つが、varは関数スコープを持つ。）\n\n【解説】\n1. letもvarも再代入可能です（constは不可）。\n2. スコープの挙動が大きく異なります。\n3. letも巻き上げ自体は発生しますが、「一時的な死角（TDZ）」により宣言前にアクセスするとエラーになります。\n4. varは関数単位のスコープですが、let（およびconst）はブロック単位のスコープを持ち、if文やfor文の中だけで有効な変数を作れます。",
     "id": 20066
   },
   {
     "question": "JavaScriptにおける厳密等価演算子 `===` の挙動として正しいものはどれか。",
     "options": [
       "値のみを比較し、型が異なる場合は自動的に型変換を行って比較する。",
-      "値と型の両方を比較し、どちらも一致する場合のみ true を返す。",
+      "数値の比較専用である。",
       "文字列の比較専用である。",
-      "数値の比較専用である。"
+      "値と型の両方を比較し、どちらも一致する場合のみ true を返す。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（値と型の両方を比較し、どちらも一致する場合のみ true を返す。）\n\n【解説】\n1. これは等価演算子 `==` の挙動です（例: 1 == '1' は true）。\n2. 厳密等価演算子 `===` は型変換を行わず、型と値が両方一致していないと true になりません（例: 1 === '1' は false）。バグを防ぐため通常はこちらの使用が推奨されます。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（値と型の両方を比較し、どちらも一致する場合のみ true を返す。）\n\n【解説】\n1. これは等価演算子 `==` の挙動です（例: 1 == '1' は true）。\n2. 厳密等価演算子 `===` は型変換を行わず、型と値が両方一致していないと true になりません（例: 1 === '1' は false）。バグを防ぐため `===` を使用します。",
     "id": 20067
   },
   {
@@ -812,7 +812,7 @@
       "機密情報（パスワードなど）を送信する場合は、GETを使用すべきである。"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（機密情報（パスワードなど）を送信する場合は、GETを使用すべきである。）\n\n【解説】\n1. 正しい説明です。\n2. 正しい説明です（?key=value の形式）。\n3. 正しい説明です。\n4. 誤りです。GETパラメータはURL履歴やログに残るため、機密情報の送信にはPOST（かつHTTPS）を使用すべきです。",
+    "explanation": "【正解】4（機密情報(パスワードなど)を送信する場合は、GETを使用すべきである。）\n\n【解説】\n1. 正しい説明です。\n2. 正しい説明です（?key=value の形式）。\n3. 正しい説明です。\n4. 誤りです。GETパラメータはURL履歴やログに残るため、機密情報の送信にはPOST（かつHTTPS）を使用すべきです。",
     "id": 20068
   },
   {
@@ -843,24 +843,24 @@
     "question": "CSSの `display: none;` と `visibility: hidden;` の違いについて、正しい説明はどれか。",
     "options": [
       "違いはない。",
-      "display: none; は要素が非表示になり、レイアウト上のスペースも消える。",
+      "display: none; は要素が半透明になる。",
       "visibility: hidden; は要素が非表示になるが、レイアウト上のスペースは消える。",
-      "display: none; は要素が半透明になる。"
+      "display: none; は要素が非表示になり、レイアウト上のスペースも消える。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（display: none; は要素が非表示になり、レイアウト上のスペースも消える。）\n\n【解説】\n1. 違います。\n2. `display: none;` はDOMには存在しますが、レンダリングツリーから除外されるため、スペースも詰められます。\n3. `visibility: hidden;` は要素は見えなくなりますが、スペース（高さや幅）はそのまま確保されます。\n4. 半透明にするのは `opacity` です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（display: none; は要素が非表示になり、レイアウト上のスペースも消える。）\n\n【解説】\n1. 違います。\n2. 半透明にするのは `opacity` です。\n3. `visibility: hidden;` は要素は見えなくなりますが、スペース（高さや幅）はそのまま確保されます。\n4. `display: none;` はDOMには存在しますが、レンダリングツリーから除外されるため、スペースも詰められます。",
     "id": 20071
   },
   {
     "question": "レスポンシブデザインで、「画面幅が600px以下の場合」にスタイルを適用するメディアクエリの記述はどれか。",
     "options": [
       "@media (min-width: 600px) { ... }",
-      "@media (max-width: 600px) { ... }",
+      "@media (screen-width: 600px) { ... }",
       "@media (width: 600px) { ... }",
-      "@media (screen-width: 600px) { ... }"
+      "@media (max-width: 600px) { ... }"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（@media (max-width: 600px) { ... }）\n\n【解説】\n1. min-widthは「600px以上」です。\n2. max-widthは「最大600pxまで」＝「600px以下」を表します。\n3. widthは「ちょうど600px」です。\n4. screen-widthという指定はありません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（@media (max-width: 600px) { ... }）\n\n【解説】\n1. min-widthは「600px以上」です。\n2. screen-widthという指定はありません。\n3. widthは「ちょうど600px」です。\n4. max-widthは「最大600pxまで」＝「600px以下」を表します。",
     "id": 20072
   },
   {
@@ -896,7 +896,7 @@
       "Digital Photo Image"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（Dot Per Inch（1インチあたりのドット数））\n\n【解説】\n1. dpi (dots per inch) は、1インチ（約2.54cm）の幅の中にどれだけのドット（点）が含まれているかを表す解像度の単位です。Web画像では72dpiや96dpi、印刷物では300dpi〜350dpiが一般的です。",
+    "explanation": "【正解】1（Dot Per Inch(1インチあたりのドット数)）\n\n【解説】\n1. dpi (dots per inch) は、1インチ（約2.54cm）の幅の中にどれだけのドット（点）が含まれているかを表す解像度の単位です。Web画像は72dpiや96dpi、印刷物は300dpi〜350dpiです。",
     "id": 20075
   },
   {
@@ -920,43 +920,43 @@
       "プロトタイプチェーン"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（スコープ（ローカルスコープ））\n\n【解説】\n1. クロージャは、関数とその関数が作られた環境の組み合わせのことです。\n2. 巻き上げは宣言が先頭に移動したように振る舞うことです。\n3. 変数の有効範囲のことをスコープと呼び、関数内で定義された変数が関数内でのみ有効なことを関数スコープ（ローカルスコープの一種）と呼びます。\n4. プロトタイプチェーンは継承の仕組みです。",
+    "explanation": "【正解】3（スコープ(ローカルスコープ)）\n\n【解説】\n1. クロージャは、関数とその関数が作られた環境の組み合わせのことです。\n2. 巻き上げは宣言が先頭に移動したように振る舞うことです。\n3. 変数の有効範囲のことをスコープと呼び、関数内で定義された変数が関数内でのみ有効なことを関数スコープ（ローカルスコープの一種）と呼びます。\n4. プロトタイプチェーンは継承の仕組みです。",
     "id": 20077
   },
   {
     "question": "HTML5において、記事の公開日や更新日を表すために `<time>` 要素の `datetime` 属性に記述する正しい日付フォーマット（ISO 8601準拠）はどれか。",
     "options": [
       "2023/10/01",
-      "2023-10-01",
+      "Oct 1, 2023",
       "2023.10.01",
-      "Oct 1, 2023"
+      "2023-10-01"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（2023-10-01）\n\n【解説】\nHTML5のdatetime属性では、ハイフン区切りの `YYYY-MM-DD` 形式（例: 2023-10-01）を使用することが標準とされています。スラッシュやドット区切りは無効です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（2023-10-01）\n\n【解説】\nHTML5のdatetime属性では、ハイフン区切りの `YYYY-MM-DD` 形式（例: 2023-10-01）を使用することが標準とされています。スラッシュやドット区切りは無効です。",
     "id": 20078
   },
   {
     "question": "次のCSSコード `.box { margin: 10px 20px 30px 40px; }` におけるマージンの適用順序として正しいものはどれか。",
     "options": [
       "上、下、左、右",
-      "上、右、下、左",
+      "右、左、下、上",
       "左、右、上、下",
-      "右、左、下、上"
+      "上、右、下、左"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（上、右、下、左）\n\n【解説】\nCSSのショートハンド指定で値が4つある場合、時計回りの順序「上(Top) → 右(Right) → 下(Bottom) → 左(Left)」で適用されます。\n10px(上)、20px(右)、30px(下)、40px(左)となります。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（上、右、下、左）\n\n【解説】\nCSSのショートハンド指定で値が4つある場合、時計回りの順序「上(Top) → 右(Right) → 下(Bottom) → 左(Left)」で適用されます。\n10px(上)、20px(右)、30px(下)、40px(左)となります。",
     "id": 20079
   },
   {
     "question": "WebブラウザがWebページを描画する際、HTMLを解析して構築するツリー構造のデータモデルを何と呼ぶか。",
     "options": [
       "CSSOM",
-      "DOM (Document Object Model)",
+      "XML",
       "JSON",
-      "XML"
+      "DOM (Document Object Model)"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（DOM (Document Object Model)）\n\n【解説】\n1. CSSOMはCSSのオブジェクトモデルです。\n2. DOMはHTML文書をプログラムから操作可能なオブジェクトのツリー構造として表現したものです。\n3. JSONはデータ記述形式です。\n4. XMLはマークアップ言語です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（DOM (Document Object Model)）\n\n【解説】\n1. CSSOMはCSSのオブジェクトモデルです。\n2. XMLはマークアップ言語です。\n3. JSONはデータ記述形式です。\n4. DOMはHTML文書をプログラムから操作可能なオブジェクトのツリー構造として表現したものです。",
     "id": 20080
   },
   {
@@ -975,12 +975,12 @@
     "question": "CSSにおいて、要素を「スティッキー配置」（スクロールに合わせて移動し、特定位置で固定）するための指定はどれか。",
     "options": [
       "position: fixed;",
-      "position: sticky;",
+      "display: sticky;",
       "position: absolute;",
-      "display: sticky;"
+      "position: sticky;"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（position: sticky;）\n\n【解説】\n1. `fixed` はビューポートに対して常に固定されます。\n2. `sticky` は、通常は相対位置（relative）のように振る舞いますが、スクロールして指定された閾値（例: `top: 0`）に達すると固定（fixed）のように振る舞います。\n3. `absolute` は親要素を基準に絶対配置されます。\n4. `display` プロパティに `sticky` という値はありません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（position: sticky;）\n\n【解説】\n1. `fixed` はビューポートに対して常に固定されます。\n2. `display` プロパティに `sticky` という値はありません。\n3. `absolute` は親要素を基準に絶対配置されます。\n4. `sticky` は相対位置（relative）のように振る舞いますが、スクロールして指定された閾値（例: `top: 0`）に達すると固定（fixed）のように振る舞います。",
     "id": 20082
   },
   {
@@ -999,16 +999,16 @@
     "question": "Webアクセシビリティにおいて、キーボード操作だけで全ての機能を利用可能にすべきという要件は、WCAG 2.1のどの原則に属するか。",
     "options": [
       "知覚可能 (Perceivable)",
-      "操作可能 (Operable)",
+      "堅牢 (Robust)",
       "理解可能 (Understandable)",
-      "堅牢 (Robust)"
+      "操作可能 (Operable)"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（操作可能 (Operable)）\n\n【解説】\n1. 知覚可能は、情報やUIコンポーネントがユーザーに知覚できること（代替テキストなど）。\n2. 操作可能は、UIコンポーネントやナビゲーションが操作できること（キーボード操作、十分な時間、発作の防止など）。\n3. 理解可能は、情報や操作が理解できること（言語設定、予測可能性など）。\n4. 堅牢は、様々なユーザーエージェントで解釈できること（構文解析など）。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（操作可能 (Operable)）\n\n【解説】\n1. 知覚可能は、情報やUIコンポーネントがユーザーに知覚できること（代替テキストなど）。\n2. 堅牢は、様々なユーザーエージェントで解釈できること（構文解析など）。\n3. 理解可能は、情報や操作が理解できること（言語設定、予測できることなど）。\n4. 操作可能は、UIコンポーネントやナビゲーションが操作できること（キーボード操作、十分な時間、発作の防止など）。",
     "id": 20084
   },
   {
-    "question": "次の16進数カラーコードのうち、背景色が白（#FFFFFF）の場合に、WCAGレベルAA（4.5:1以上）のコントラスト比を満たす可能性が最も高い文字色はどれか。",
+    "question": "次の16進数カラーコードのうち、背景色が白（#FFFFFF）の場合に、WCAGレベルAA（4.5:1以上）のコントラスト比を満たす文字色はどれか。",
     "options": [
       "#CCCCCC",
       "#FFFF00",
@@ -1023,12 +1023,12 @@
     "question": "HTTPステータスコード `503 Service Unavailable` の意味として正しいものはどれか。",
     "options": [
       "リクエストされたページが見つからない。",
-      "サーバーが一時的に過負荷やメンテナンス中でリクエストを処理できない。",
+      "アクセス権限がない。",
       "ゲートウェイでタイムアウトが発生した。",
-      "アクセス権限がない。"
+      "サーバーが一時的に過負荷やメンテナンス中でリクエストを処理できない。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（サーバーが一時的に過負荷やメンテナンス中でリクエストを処理できない。）\n\n【解説】\n1. 404 Not Foundです。\n2. 503 Service Unavailableは、サーバーが一時的に利用できない状態を示します。\n3. 504 Gateway Timeoutです。\n4. 403 Forbiddenです。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（サーバーが一時的に過負荷やメンテナンス中でリクエストを処理できない。）\n\n【解説】\n1. 404 Not Foundです。\n2. 403 Forbiddenです。\n3. 504 Gateway Timeoutです。\n4. 503 Service Unavailableは、サーバーが一時的に利用できない状態を示します。",
     "id": 20086
   },
   {
@@ -1052,19 +1052,19 @@
       "type=\"address\""
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（type=\"address\"）\n\n【解説】\n1. `email` はメールアドレス入力用です。\n2. `url` はURL入力用です。\n3. `search` は検索キーワード入力用です。\n4. `address` というtype属性値はHTML5仕様には存在しません（住所入力には通常textを使用し、autocomplete属性で補完します）。",
+    "explanation": "【正解】4（type=\"address\"）\n\n【解説】\n1. `email` はメールアドレス入力用です。\n2. `url` はURL入力用です。\n3. `search` は検索キーワード入力用です。\n4. `address` というtype属性値はHTML5仕様には存在しません（住所入力にはtextを使用し、autocomplete属性で補完します）。",
     "id": 20088
   },
   {
     "question": "JavaScriptで、指定した時間が経過した後に一度だけ関数を実行するメソッドはどれか。",
     "options": [
       "setInterval()",
-      "setTimeout()",
+      "requestAnimationFrame()",
       "setTimer()",
-      "requestAnimationFrame()"
+      "setTimeout()"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（setTimeout()）\n\n【解説】\n1. `setInterval()` は指定した間隔で繰り返し実行します。\n2. `setTimeout()` は指定した遅延時間の後に一度だけ実行します。\n3. `setTimer()` は存在しません。\n4. `requestAnimationFrame()` はブラウザの描画更新に合わせて関数を実行します。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（setTimeout()）\n\n【解説】\n1. `setInterval()` は指定した間隔で繰り返し実行します。\n2. `requestAnimationFrame()` はブラウザの描画更新に合わせて関数を実行します。\n3. `setTimer()` は存在しません。\n4. `setTimeout()` は指定した遅延時間の後に一度だけ実行します。",
     "id": 20089
   },
   {
@@ -1088,19 +1088,19 @@
       "display: grid; place-items: center;"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（justify-content: center; align-items: center;）\n\n【解説】\n1. Flexboxでは、`justify-content` で主軸方向、`align-items` で交差軸方向の配置を制御します。両方を `center` にすると上下左右中央揃えになります。\n2. これはインライン要素やテーブルセルに対する古い手法です。\n3. これだけでは上下中央になりません。\n4. `display: grid; place-items: center;` も正しいですが、設問は「Flexboxの記述」を求めています（ただし、選択肢としてGridが正解になる文脈もあり得ますが、ここでは1が最も一般的なFlexboxの解です）。",
+    "explanation": "【正解】1（justify-content: center; align-items: center;）\n\n【解説】\n1. Flexboxでは、`justify-content` で主軸方向、`align-items` で交差軸方向の配置を制御します。両方を `center` にすると上下左右中央揃えになります。\n2. これはインライン要素やテーブルセルに対する古い手法です。\n3. これだけでは上下中央になりません。\n4. 設問は「Flexboxの記述」を求めているため、1が正解です。",
     "id": 20091
   },
   {
     "question": "画像ファイル形式「GIF」の特徴として正しいものはどれか。",
     "options": [
       "最大約1677万色（24ビット）を表示できる。",
-      "アニメーションをサポートしている。",
+      "写真はJPEGよりも高画質になる。",
       "非可逆圧縮であり、画質が劣化する。",
-      "写真はJPEGよりも高画質になる。"
+      "アニメーションをサポートしている。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（アニメーションをサポートしている。）\n\n【解説】\n1. GIFは最大256色（8ビット）までしか扱えません。\n2. アニメーションGIFとして、複数のフレームを持つことができます。\n3. GIFは可逆圧縮（LZW圧縮）です。\n4. 色数が少ないため、写真には不向きです。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（アニメーションをサポートしている。）\n\n【解説】\n1. GIFは最大256色（8ビット）までしか扱えません。\n2. 色数が少ないため、写真には不向きです。\n3. GIFは可逆圧縮（LZW圧縮）です。\n4. アニメーションGIFとして、複数のフレームを持つことができます。",
     "id": 20092
   },
   {
@@ -1143,24 +1143,24 @@
     "question": "JavaScriptにおいて、配列 `[1, 2, 3]` の各要素を2倍にした新しい配列 `[2, 4, 6]` を生成するメソッドはどれか。",
     "options": [
       "forEach()",
-      "map()",
+      "reduce()",
       "filter()",
-      "reduce()"
+      "map()"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（map()）\n\n【解説】\n1. `forEach()` は各要素に対して処理を行いますが、新しい配列は返しません（返り値は undefined）。\n2. `map()` は各要素に対してコールバック関数を実行し、その結果からなる新しい配列を生成します。\n3. `filter()` は条件に合う要素だけを抽出します。\n4. `reduce()` は配列を単一の値に畳み込みます。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（map()）\n\n【解説】\n1. `forEach()` は各要素に対して処理を行いますが、新しい配列は返しません（返り値は undefined）。\n2. `reduce()` は配列を単一の値に畳み込みます。\n3. `filter()` は条件に合う要素だけを抽出します。\n4. `map()` は各要素に対してコールバック関数を実行し、その結果からなる新しい配列を生成します。",
     "id": 20096
   },
   {
     "question": "Webサーバーとブラウザ間の通信を暗号化するプロトコル「HTTPS」で利用される技術はどれか。",
     "options": [
       "SSH",
-      "SSL/TLS",
+      "SMTP",
       "SFTP",
-      "SMTP"
+      "SSL/TLS"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（SSL/TLS）\n\n【解説】\n1. SSHはリモート操作用のプロトコルです。\n2. HTTPS (HTTP Secure) は、SSL (Secure Sockets Layer) またはその後継である TLS (Transport Layer Security) を用いて通信を暗号化します。\n3. SFTPはSSHを利用したファイル転送です。\n4. SMTPはメール送信プロトコルです。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（SSL/TLS）\n\n【解説】\n1. SSHはリモート操作用のプロトコルです。\n2. SMTPはメール送信プロトコルです。\n3. SFTPはSSHを利用したファイル転送です。\n4. HTTPS (HTTP Secure) は、SSL (Secure Sockets Layer) またはその後継である TLS (Transport Layer Security) を用いて通信を暗号化します。",
     "id": 20097
   },
   {
@@ -1184,43 +1184,43 @@
       "10000 MB"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3 MB\n\n【解説】\nコンピュータの世界（2進数ベース）では、2の10乗ごとに単位が変わります。\n1 GB = 1024 MB\n1 MB = 1024 KB\n1 KB = 1024 Byteです。",
+    "explanation": "【正解】3（1024 MB）\n\n【解説】\nコンピュータの世界（2進数ベース）では、2の10乗ごとに単位が変わります。\n1 GB = 1024 MB\n1 MB = 1024 KB\n1 KB = 1024 Byteです。",
     "id": 20099
   },
   {
     "question": "CSSにおいて、フォントサイズを「ルート要素（html要素）のフォントサイズに対する相対値」で指定する単位はどれか。",
     "options": [
       "em",
-      "rem",
+      "%",
       "px",
-      "%"
+      "rem"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（rem）\n\n【解説】\n1. `em` は親要素のフォントサイズに対する相対値です。\n2. `rem` (root em) は、ルート要素（通常は `<html>`）のフォントサイズを基準（1rem）とします。アクセシビリティやレスポンシブ対応で扱いやすい単位です。\n3. `px` は絶対単位（ピクセル）です。\n4. `%` は親要素に対する割合です（font-sizeの場合）。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（rem）\n\n【解説】\n1. `em` は親要素のフォントサイズに対する相対値です。\n2. `%` は親要素に対する割合です（font-sizeの場合）。\n3. `px` は絶対単位（ピクセル）です。\n4. `rem` (root em) は、ルート要素（`<html>`）のフォントサイズを基準（1rem）とします。アクセシビリティやレスポンシブ対応で扱いやすい単位です。",
     "id": 20100
   },
   {
     "question": "HTML5の `<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">` の記述が意図するものはどれか。",
     "options": [
       "PCサイトをスマートフォンでそのまま表示する。",
-      "スマートフォンなどのモバイル端末で、画面幅に合わせて適切に表示倍率を調整する（レスポンシブ対応）。",
+      "ページの読み込み速度を向上させる。",
       "画面の解像度を強制的に1920pxにする。",
-      "ページの読み込み速度を向上させる。"
+      "スマートフォンなどのモバイル端末で、画面幅に合わせて適切に表示倍率を調整する（レスポンシブ対応）。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（スマートフォンなどのモバイル端末で、画面幅に合わせて適切に表示倍率を調整する（レスポンシブ対応）。）\n\n【解説】\n1. viewport設定がない場合の挙動に近いです。\n2. `width=device-width` でビューポート幅をデバイス幅に合わせ、`initial-scale=1.0` で初期ズーム倍率を1（等倍）に設定します。これはレスポンシブWebデザインの必須設定です。\n3. 解像度固定ではありません。\n4. 速度とは直接関係ありません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（スマートフォンなどのモバイル端末で、画面幅に合わせて適切に表示倍率を調整する（レスポンシブ対応）。）\n\n【解説】\n1. viewport設定がない場合の挙動に近いです。\n2. 速度とは直接関係ありません。\n3. 解像度固定ではありません。\n4. `width=device-width` でビューポート幅をデバイス幅に合わせ、`initial-scale=1.0` で初期ズーム倍率を1（等倍）に設定します。これはレスポンシブWebデザインの必須設定です。",
     "id": 20101
   },
   {
     "question": "ユニバーサルデザインにおける「ミスの許容（Tolerance for Error）」の例として適切なものはどれか。",
     "options": [
       "操作ボタンを大きくして押しやすくする。",
-      "「元に戻す（Undo）」機能を実装し、誤操作をリカバリーできるようにする。",
+      "音声ガイドを提供する。",
       "専門用語を使わずに平易な言葉を使う。",
-      "音声ガイドを提供する。"
+      "「元に戻す（Undo）」機能を実装し、誤操作をリカバリーできるようにする。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（「元に戻す（Undo）」機能を実装し、誤操作をリカバリーできるようにする。）\n\n【解説】\n1. これは「身体的負担の軽減」や「操作しやすさ」に関連します。\n2. 「ミスの許容」は、危険や誤操作による悪影響を最小限に抑える原則です。Undo機能や確認画面の表示などが該当します。\n3. これは「単純で直感的な使用」に関連します。\n4. これは「認知できる情報」に関連します。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（「元に戻す（Undo）」機能を実装し、誤操作をリカバリーできるようにする。）\n\n【解説】\n1. これは「身体的負担の軽減」や「操作しやすさ」に関連します。\n2. これは「認知できる情報」に関連します。\n3. これは「単純で直感的な使用」に関連します。\n4. 「ミスの許容」は、危険や誤操作による悪影響を最小限に抑える原則です。Undo機能や確認画面の表示などが該当します。",
     "id": 20102
   },
   {
@@ -1232,7 +1232,7 @@
       "console.debug()"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（console.log()）\n\n【解説】\n1. printはありません（window.printは印刷ダイアログ）。\n2. writeはありません（document.writeはあります）。\n3. `console.log()` はデバッグ情報の出力に最も一般的に使われます。\n4. `console.debug()` もありますが、logが最も標準的です。",
+    "explanation": "【正解】3（console.log()）\n\n【解説】\n1. printはありません（window.printは印刷ダイアログ）。\n2. writeはありません（document.writeはあります）。\n3. `console.log()` はデバッグ情報の出力に使用します。\n4. `console.debug()` もありますが、`console.log()` を使用します。",
     "id": 20103
   },
   {
@@ -1244,7 +1244,7 @@
       "1200ピクセル"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3\n\n【解説】\nピクセル数 = インチ数 × dpi (dots per inch)\n2インチ × 300 dpi = 600 ピクセル。",
+    "explanation": "【正解】3（600ピクセル）\n\n【解説】\nピクセル数 = インチ数 × dpi (dots per inch)\n2インチ × 300 dpi = 600 ピクセル。",
     "id": 20104
   },
   {
@@ -1256,19 +1256,19 @@
       "要素を非表示にする。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（要素からはみ出したコンテンツを表示しない（切り取る）。）\n\n【解説】\n1. `overflow: hidden;` は、ボックスのサイズを超えたコンテンツを非表示にします（クリッピング）。\n2. スクロールするのは `overflow: scroll;` や `overflow: auto;` です。\n3. 背景色は関係ありません。\n4. 要素自体を非表示にするのは `display: none;` や `visibility: hidden;` です。",
+    "explanation": "【正解】1（要素からはみ出したコンテンツを表示しない(切り取る)。）\n\n【解説】\n1. `overflow: hidden;` は、ボックスのサイズを超えたコンテンツを非表示にします（クリッピング）。\n2. スクロールするのは `overflow: scroll;` や `overflow: auto;` です。\n3. 背景色は関係ありません。\n4. 要素自体を非表示にするのは `display: none;` や `visibility: hidden;` です。",
     "id": 20105
   },
   {
     "question": "HTML5において、文書の主要なコンテンツ（メインコンテンツ）を表す要素はどれか。",
     "options": [
       "<content>",
-      "<main>",
+      "<article>",
       "<body>",
-      "<article>"
+      "<main>"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（<main>）\n\n【解説】\n1. `<content>` は廃止されたShadow DOM用の要素です。\n2. `<main>` 要素は、文書の主要なコンテンツを表し、ページ内で一度だけ（hidden属性がない限り）使用すべきです。\n3. `<body>` は文書全体の内容を表すルートに近い要素です。\n4. `<article>` は自己完結した記事を表します。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（<main>）\n\n【解説】\n1. `<content>` は廃止されたShadow DOM用の要素です。\n2. `<article>` は自己完結した記事を表します。\n3. `<body>` は文書全体の内容を表すルートに近い要素です。\n4. `<main>` 要素は、文書の主要なコンテンツを表し、ページ内で一度だけ（hidden属性がない限り）使用すべきです。",
     "id": 20106
   },
   {
@@ -1299,24 +1299,24 @@
     "question": "HTMLのアンカーリンク `<a href=\"#top\">` をクリックしたときの動作はどれか。",
     "options": [
       "top.htmlというページに遷移する。",
-      "ページ内のIDが「top」の要素へスクロール（ジャンプ）する。",
+      "新しいウィンドウを開く。",
       "ページの最下部へ移動する。",
-      "新しいウィンドウを開く。"
+      "ページ内のIDが「top」の要素へスクロール（ジャンプ）する。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（ページ内のIDが「top」の要素へスクロール（ジャンプ）する。）\n\n【解説】\n`href` 属性の値が `#` で始まる場合、それはページ内リンク（フラグメント識別子）を意味します。`#top` は、`id=\"top\"` を持つ要素へのリンクとなります。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ページ内のIDが「top」の要素へスクロール（ジャンプ）する。）\n\n【解説】\n`href` 属性の値が `#` で始まる場合、それはページ内リンク（フラグメント識別子）を意味します。`#top` は、`id=\"top\"` を持つ要素へのリンクとなります。",
     "id": 20109
   },
   {
     "question": "JavaScriptで、DOM要素のテキスト内容（HTMLタグを含まない）を取得・設定するプロパティはどれか。",
     "options": [
       "innerHTML",
-      "textContent",
+      "value",
       "outerHTML",
-      "value"
+      "textContent"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（textContent）\n\n【解説】\n1. `innerHTML` はHTMLタグを含む内容を扱います。\n2. `textContent` はノードとその子孫のテキスト内容のみを扱います。セキュリティ（XSS対策）の観点からも、単なるテキスト挿入にはこちらが推奨されます。\n3. `outerHTML` は要素自身を含むHTMLです。\n4. `value` はinput要素などの入力値です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（textContent）\n\n【解説】\n1. `innerHTML` はHTMLタグを含む内容を扱います。\n2. `value` はinput要素などの入力値です。\n3. `outerHTML` は要素自身を含むHTMLです。\n4. `textContent` はノードとその子孫のテキスト内容のみを扱います。単なるテキスト挿入には `textContent` を使用します。",
     "id": 20110
   },
   {
@@ -1328,7 +1328,7 @@
       "Webサイトの画像を保存して自分のPCの壁紙にする。"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（会社で購入したソフトウェアを、社員全員のPCに無断でコピーしてインストールする。）\n\n【解説】\n1, 2, 4は個人的または家庭内での使用範囲内であり、私的使用のための複製として認められる場合が多いです。\n3は「業務使用」であり、私的使用の範囲を超えています。企業内での無断複製は著作権侵害となります。",
+    "explanation": "【正解】3（会社で購入したソフトウェアを、社員全員のPCに無断でコピーしてインストールする。）\n\n【解説】\n1, 2, 4は個人的または家庭内での使用範囲内であり、私的使用のための複製に該当します。\n3は「業務使用」であり、私的使用の範囲を超えています。企業内での無断複製は著作権侵害となります。",
     "id": 20111
   },
   {
@@ -1340,7 +1340,7 @@
       "フォントサイズの1.5倍になる（子要素には計算後の固定値が継承される）。"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（フォントサイズの1.5倍になる（子要素にも倍率が継承される）。）\n\n【解説】\n`line-height` に単位なしの数値を指定すると、その数値は倍率として扱われ、子要素には「倍率そのもの」が継承されます。一方、`%` や `em` で指定すると、計算された「具体的な高さ（px値）」が子要素に継承されるため、意図しない表示崩れの原因になることがあります。通常は単位なしの指定が推奨されます。",
+    "explanation": "【正解】3（フォントサイズの1.5倍になる(子要素にも倍率が継承される)。）\n\n【解説】\n`line-height` に単位なしの数値を指定すると、その数値は倍率として扱われ、子要素には「倍率そのもの」が継承されます。一方、`%` や `em` で指定すると、計算された「具体的な高さ（px値）」が子要素に継承され、意図しない表示崩れの原因になります。`line-height` は単位なしの数値を指定します。",
     "id": 20112
   },
   {
@@ -1352,35 +1352,35 @@
       "100%"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3\n\n【解説】\n元のサイズ：2MB = 2000KB\n圧縮後のサイズ：200KB\n\n削減されたサイズ = 2000KB - 200KB = 1800KB\n圧縮率（削減率） = 1800 ÷ 2000 × 100 = 90%\n\n（※残存率であれば10%ですが、一般的に圧縮率と言うと「どれだけ縮んだか」を指すことが多いです。文脈によりますが、ここではサイズが1/10になった＝90%カットされた、という意味で90%が適切です。あるいは「データ量が10%になった」という意味で10%を選択させる場合もありますが、選択肢の並びから90%（削減）が妥当です。）。",
+    "explanation": "【正解】3（90%）\n\n【解説】\n元のサイズ：2MB = 2000KB\n圧縮後のサイズ：200KB\n\n削減されたサイズ = 2000KB - 200KB = 1800KB\n圧縮率（削減率） = 1800 ÷ 2000 × 100 = 90%",
     "id": 20113
   },
   {
     "question": "HTML5において、連絡先の情報（著者やサイト管理者など）を表すための要素はどれか。",
     "options": [
       "<contact>",
-      "<address>",
+      "<author>",
       "<info>",
-      "<author>"
+      "<address>"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（<address>）\n\n【解説】\n1. `<contact>` は存在しません。\n2. `<address>` 要素は、そのセクションや記事の連絡先情報（著者のメールアドレス、住所、電話番号など）を提供するために使用されます。\n3. `<info>` は存在しません。\n4. `<author>` は存在しません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（<address>）\n\n【解説】\n1. `<contact>` は存在しません。\n2. `<author>` は存在しません。\n3. `<info>` は存在しません。\n4. `<address>` 要素は、そのセクションや記事の連絡先情報（著者のメールアドレス、住所、電話番号など）を提供するために使用されます。",
     "id": 20114
   },
   {
     "question": "カラーユニバーサルデザインにおいて、色だけでなく形や文字を併用して情報を伝えることの重要性を示す理由はどれか。",
     "options": [
       "デザインが美しくなるため。",
-      "色覚多様性のあるユーザー（色弱者など）が、色だけで情報を識別できない場合があるため。",
+      "ファイルサイズを小さくするため。",
       "印刷コストを下げるため。",
-      "ファイルサイズを小さくするため。"
+      "色覚多様性のあるユーザー（色弱者など）の中に、色だけで情報を識別できないユーザーがいるため。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（色覚多様性のあるユーザー（色弱者など）が、色だけで情報を識別できない場合があるため。）\n\n【解説】\n特定の色（赤と緑など）の区別がつきにくいユーザーにとって、色だけで「赤はエラー、緑は正常」のように情報を伝えると理解できません。色に加えて、アイコン（形）やテキスト（文字）を併用することで、誰にでも情報が伝わるようになります。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（色覚多様性のあるユーザー（色弱者など）の中に、色だけで情報を識別できないユーザーがいるため。）\n\n【解説】\n特定の色（赤と緑など）の区別がつきにくいユーザーにとって、色だけで「赤はエラー、緑は正常」のように情報を伝えると理解できません。色に加えて、アイコン（形）やテキスト（文字）を併用して情報を伝えます。",
     "id": 20115
   },
   {
-    "question": "HTTPメソッド `PUT` と `POST` の主な違い（RESTful APIにおける一般的解釈）として適切なものはどれか。",
+    "question": "HTTPメソッド `PUT` と `POST` の主な違い（RESTful APIにおける扱い）として適切なものはどれか。",
     "options": [
       "PUTはリソースの作成・置換（ID指定あり）に使われ、POSTはリソースの追加（ID自動採番など）や処理に使われる。",
       "PUTはデータ取得、POSTはデータ送信に使われる。",
@@ -1388,7 +1388,7 @@
       "PUTは安全で副作用がないが、POSTは副作用がある。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（PUTはリソースの作成・置換（ID指定あり）に使われ、POSTはリソースの追加（ID自動採番など）や処理に使われる。）\n\n【解説】\nPUTは「冪等性（Idempotency）」を持ち、同じリクエストを何度送っても結果（リソースの状態）が同じになることが期待されます（指定したURIにリソースを配置/更新する）。一方、POSTは送信するたびに新しいリソースが作成されるなど、冪等性がない場合があります。",
+    "explanation": "【正解】1（PUTはリソースの作成・置換(ID指定あり)に使われ、POSTはリソースの追加(ID自動採番など)や処理に使われる。）\n\n【解説】\nPUTは「冪等性（Idempotency）」を持ち、同じリクエストを何度送っても結果（リソースの状態）が同じになることが期待されます（指定したURIにリソースを配置/更新する）。一方、POSTは送信するたびに新しいリソースが作成されるなど、冪等性がない場合があります。",
     "id": 20116
   },
   {
@@ -1424,7 +1424,7 @@
       "<script src=\"favicon.js\"></script>"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（<link rel=\"icon\" href=\"favicon.ico\">）\n\n【解説】\nファビコンは `<link>` 要素の `rel=\"icon\"` （または `shortcut icon`）属性を使用して指定し、`href` 属性に画像ファイルのパスを記述します。通常は `<head>` 内に記述します。",
+    "explanation": "【正解】1（<link rel=\"icon\" href=\"favicon.ico\">）\n\n【解説】\nファビコンは `<link>` 要素の `rel=\"icon\"` （または `shortcut icon`）属性を使用して指定し、`href` 属性に画像ファイルのパスを記述します。`<head>` 内に記述します。",
     "id": 20119
   },
   {
@@ -1460,7 +1460,7 @@
       "400 × 400 ピクセル"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3 × 200 ピクセル\n\n【解説】\n実寸（インチ）を維持する場合、dpiが2倍（72→144）になれば、必要なピクセル数も2倍になります。\n100 × 2 = 200ピクセル\nしたがって、200×200ピクセルが必要です。",
+    "explanation": "【正解】3（200 × 200 ピクセル）\n\n【解説】\n実寸（インチ）を維持する場合、dpiが2倍（72→144）になれば、必要なピクセル数も2倍になります。\n100 × 2 = 200ピクセル\nしたがって、200×200ピクセルが必要です。",
     "id": 20122
   },
   {
@@ -1476,7 +1476,7 @@
     "id": 20123
   },
   {
-    "question": "Cookie（クッキー）に保存可能なデータサイズの上限として、一般的な目安はどれくらいか。",
+    "question": "Cookie（クッキー）に保存可能なデータサイズの上限として、目安はどれくらいか。",
     "options": [
       "4 KB",
       "5 MB",
@@ -1484,7 +1484,7 @@
       "無制限"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1 KB\n\n【解説】\n1. Cookieのサイズ制限はブラウザによりますが、一般的に1つのCookieにつき約4KB（4096バイト）程度です。\n2. 5MBはWeb Storage (localStorage/sessionStorage) の一般的な上限です。\n3. 10MBではありません。\n4. 無制限ではありません。",
+    "explanation": "【正解】1（4 KB）\n\n【解説】\n1. 1つのCookieに保存できるデータサイズの上限の目安は4KB（4096バイト）です。\n2. 5MBはWeb Storage (localStorage/sessionStorage) の上限の目安です。\n3. 10MBではありません。\n4. 無制限ではありません。",
     "id": 20124
   },
   {
@@ -1508,7 +1508,7 @@
       "上記すべて（役割による）"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（上記すべて（役割による））\n\n【解説】\n1. `aria-selected` はタブやリストボックスの選択状態に使います。\n2. `aria-checked` はチェックボックスやラジオボタンに使います。\n3. `aria-pressed` はトグルボタンに使います。\nしたがって、要素の役割（role）によって使い分ける必要があり、すべて正解です。",
+    "explanation": "【正解】4（上記すべて(役割による)）\n\n【解説】\n1. `aria-selected` はタブやリストボックスの選択状態に使います。\n2. `aria-checked` はチェックボックスやラジオボタンに使います。\n3. `aria-pressed` はトグルボタンに使います。\nしたがって、要素の役割（role）によって使い分ける必要があり、すべて正解です。",
     "id": 20126
   },
   {
@@ -1587,60 +1587,60 @@
     "question": "JavaScriptで、0以上1未満のランダムな浮動小数点数を生成するメソッドはどれか。",
     "options": [
       "Math.round()",
-      "Math.random()",
+      "Math.ceil()",
       "Math.floor()",
-      "Math.ceil()"
+      "Math.random()"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（Math.random()）\n\n【解説】\n1. `Math.round()` は四捨五入します。\n2. `Math.random()` は 0 <= x < 1 の範囲の擬似乱数を返します。\n3. `Math.floor()` は切り捨て（床関数）です。\n4. `Math.ceil()` は切り上げ（天井関数）です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（Math.random()）\n\n【解説】\n1. `Math.round()` は四捨五入します。\n2. `Math.ceil()` は切り上げ（天井関数）です。\n3. `Math.floor()` は切り捨て（床関数）です。\n4. `Math.random()` は 0 <= x < 1 の範囲の擬似乱数を返します。",
     "id": 20133
   },
   {
     "question": "Webサイトへの攻撃手法の一つ「CSRF（クロスサイトリクエストフォージェリ）」の説明として適切なものはどれか。",
     "options": [
-      "ユーザーの入力データをそのまま画面に表示し、スクリプトを実行させる。",
       "認証済みのユーザーに、意図しない操作（送金や退会など）を行わせる。",
+      "ユーザーの入力データをそのまま画面に表示し、スクリプトを実行させる。",
       "サーバーに大量のパケットを送りつけてダウンさせる。",
       "データベースのクエリを操作して情報を盗み出す。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（認証済みのユーザーに、意図しない操作（送金や退会など）を行わせる。）\n\n【解説】\n1. XSS（クロスサイトスクリプティング）の説明です。\n2. CSRFは、ログイン中のユーザーの権限を利用して、攻撃者が用意した罠サイトなどを経由して、本人の意図しないリクエスト（購入、投稿、設定変更など）を送信させる攻撃です。\n3. DoS攻撃の説明です。\n4. SQLインジェクションの説明です。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（認証済みのユーザーに、意図しない操作（送金や退会など）を行わせる。）\n\n【解説】\n1. CSRFは、ログイン中のユーザーの権限を利用して、攻撃者が用意した罠サイトなどを経由して、本人の意図しないリクエスト（購入、投稿、設定変更など）を送信させる攻撃です。\n2. XSS（クロスサイトスクリプティング）の説明です。\n3. DoS攻撃の説明です。\n4. SQLインジェクションの説明です。",
     "id": 20134
   },
   {
     "question": "テーブルのセル結合において、横方向（列）に結合するために使用する属性はどれか。",
     "options": [
       "rowspan",
-      "colspan",
+      "merge",
       "span",
-      "merge"
+      "colspan"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（colspan）\n\n【解説】\n1. `rowspan` は縦方向（行）の結合です。\n2. `colspan` (column span) は横方向（列）の結合を指定します。\n3. `span` は `<col>` 要素などで使用しますが、結合属性ではありません。\n4. `merge` という属性はありません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（colspan）\n\n【解説】\n1. `rowspan` は縦方向（行）の結合です。\n2. `merge` という属性はありません。\n3. `span` は `<col>` 要素などで使用しますが、結合属性ではありません。\n4. `colspan` (column span) は横方向（列）の結合を指定します。",
     "id": 20135
   },
   {
     "question": "CSSで要素を回転させるために使用するプロパティと関数の組み合わせはどれか。",
     "options": [
-      "transition: rotate(45deg);",
       "transform: rotate(45deg);",
+      "transition: rotate(45deg);",
       "animation: spin(45deg);",
       "display: rotation(45deg);"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（transform: rotate(45deg);）\n\n【解説】\n1. `transition` は時間的変化（アニメーション）の設定です。\n2. `transform` プロパティは要素の変形（回転、拡大縮小、移動、傾斜）を指定します。回転には `rotate()` 関数を使用します。\n3. `spin` という関数はありません。\n4. `display` にそのような値はありません。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（transform: rotate(45deg);）\n\n【解説】\n1. `transform` プロパティは要素の変形（回転、拡大縮小、移動、傾斜）を指定します。回転には `rotate()` 関数を使用します。\n2. `transition` は時間的変化（アニメーション）の設定です。\n3. `spin` という関数はありません。\n4. `display` にそのような値はありません。",
     "id": 20136
   },
   {
     "question": "Webコンテンツの「アクセシビリティ（Accessibility）」と「ユーザビリティ（Usability）」の違いに関する説明として、最も適切なものはどれか。",
     "options": [
       "アクセシビリティは障害者専用の概念であり、ユーザビリティは健常者専用の概念である。",
-      "アクセシビリティは「誰でも使えること（利用可能性）」を指し、ユーザビリティは「使いやすさ（有効性・効率・満足度）」を指す。",
+      "ユーザビリティが確保されていれば、アクセシビリティは自動的に確保される。",
       "両者は全く同じ意味である。",
-      "ユーザビリティが確保されていれば、アクセシビリティは自動的に確保される。"
+      "アクセシビリティは「誰でも使えること（利用できること）」を指し、ユーザビリティは「使いやすさ（有効性・効率・満足度）」を指す。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（アクセシビリティは「誰でも使えること（利用可能性）」を指し、ユーザビリティは「使いやすさ（有効性・効率・満足度）」を指す。）\n\n【解説】\nアクセシビリティは高齢者や障害者を含む「あらゆるユーザーが情報や機能にアクセスできるか」という土台の概念です。ユーザビリティは、特定のユーザーが特定の目的を達成する際の「使い勝手の良さ」を評価する指標です。アクセスできなければ使いやすさを評価することもできません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（アクセシビリティは「誰でも使えること（利用できること）」を指し、ユーザビリティは「使いやすさ（有効性・効率・満足度）」を指す。）\n\n【解説】\nアクセシビリティは高齢者や障害者を含む「あらゆるユーザーが情報や機能にアクセスできるか」という土台の概念です。ユーザビリティは、特定のユーザーが特定の目的を達成する際の「使い勝手の良さ」を評価する指標です。アクセスできなければ使いやすさを評価することもできません。",
     "id": 20137
   },
   {
@@ -1658,49 +1658,49 @@
   {
     "question": "JavaScriptで、現在の日付と時刻を取得するためにインスタンス化するオブジェクトはどれか。",
     "options": [
-      "Time()",
       "Date()",
+      "Time()",
       "Clock()",
       "Now()"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（Date()）\n\n【解説】\n1. `Time` オブジェクトはありません。\n2. `new Date()` で現在の日時を持つDateオブジェクトを生成します。\n3. `Clock` オブジェクトはありません。\n4. `Now` オブジェクトはありません（`Date.now()` メソッドはあります）。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（Date()）\n\n【解説】\n1. `new Date()` で現在の日時を持つDateオブジェクトを生成します。\n2. `Time` オブジェクトはありません。\n3. `Clock` オブジェクトはありません。\n4. `Now` オブジェクトはありません（`Date.now()` メソッドはあります）。",
     "id": 20139
   },
   {
     "question": "幅1024px、高さ768pxのディスプレイのアスペクト比はどれか。",
     "options": [
       "16:9",
-      "4:3",
+      "16:10",
       "3:2",
-      "16:10"
+      "4:3"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2:3\n\n【解説】\n1024 ÷ 256 = 4\n768 ÷ 256 = 3\nしたがって、4:3（XGA）です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（4:3）\n\n【解説】\n1024 ÷ 256 = 4\n768 ÷ 256 = 3\nしたがって、4:3（XGA）です。",
     "id": 20140
   },
   {
     "question": "CSSセレクタ `p::first-line` が適用される対象はどれか。",
     "options": [
-      "p要素の最初の1文字",
       "p要素の最初の1行",
+      "p要素の最初の1文字",
       "p要素の最初の子要素",
       "最初のp要素"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（p要素の最初の1行）\n\n【解説】\n1. `::first-letter` です。\n2. `::first-line` 擬似要素は、ブロックレベル要素の最初の行にスタイルを適用します。ブラウザの幅によって1行目の内容は変化します。\n3. `::before` や `:first-child` などとは異なります。\n4. `p:first-of-type` などです。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（p要素の最初の1行）\n\n【解説】\n1. `::first-line` 擬似要素は、ブロックレベル要素の最初の行にスタイルを適用します。ブラウザの幅によって1行目の内容は変化します。\n2. `::first-letter` です。\n3. `::before` や `:first-child` などとは異なります。\n4. `p:first-of-type` などです。",
     "id": 20141
   },
   {
     "question": "Basic認証（基本認証）の仕組みに関する説明として、正しいものはどれか。",
     "options": [
       "ユーザー名とパスワードをハッシュ化して送信する。",
-      "ユーザー名とパスワードをBase64でエンコードして送信する。",
+      "一度ログインすると、ログアウトするまでサーバーにセッション情報が保存される。",
       "デジタル証明書を使用して認証を行う。",
-      "一度ログインすると、ログアウトするまでサーバーにセッション情報が保存される。"
+      "ユーザー名とパスワードをBase64でエンコードして送信する。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（ユーザー名とパスワードをBase64でエンコードして送信する。）\n\n【解説】\n1. Digest認証の説明に近いです（Basic認証は平文に近い状態で送ります）。\n2. Basic認証は `username:password` をBase64エンコードしてヘッダーに含めます。暗号化ではないため、HTTPSとの併用が必須です。\n3. クライアント証明書認証などの説明です。\n4. Basic認証はステートレスであり、ブラウザが認証情報をキャッシュしてリクエスト毎に送信します（サーバー側にセッションを持つフォーム認証とは異なります）。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（ユーザー名とパスワードをBase64でエンコードして送信する。）\n\n【解説】\n1. Digest認証の説明に近いです（Basic認証は平文に近い状態で送ります）。\n2. Basic認証はステートレスであり、ブラウザが認証情報をキャッシュしてリクエスト毎に送信します（サーバー側にセッションを持つフォーム認証とは異なります）。\n3. クライアント証明書認証などの説明です。\n4. Basic認証は `username:password` をBase64エンコードしてヘッダーに含めます。暗号化ではないため、HTTPSとの併用が必須です。",
     "id": 20142
   },
   {
@@ -1712,19 +1712,19 @@
       "smtp:"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（mailto:）\n\n【解説】\n1. `ftp:` はファイル転送プロトコルです。\n2. `tel:` は電話発信です。\n3. `mailto:address@example.com` のように記述すると、既定のメーラーが起動します。\n4. `smtp:` はスキームとして一般的ではありません。",
+    "explanation": "【正解】3（mailto:）\n\n【解説】\n1. `ftp:` はファイル転送プロトコルです。\n2. `tel:` は電話発信です。\n3. `mailto:address@example.com` のように記述すると、既定のメーラーが起動します。\n4. `smtp:` はURLスキームとして使用しません。",
     "id": 20143
   },
   {
     "question": "CSSにおいて、ボックスに影をつけるためのプロパティはどれか。",
     "options": [
-      "text-shadow",
       "box-shadow",
+      "text-shadow",
       "drop-shadow",
       "shadow-effect"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（box-shadow）\n\n【解説】\n1. `text-shadow` は文字に影をつけます。\n2. `box-shadow` は要素のボックス自体に影をつけます。\n3. `drop-shadow` は `filter` プロパティの関数の一つで、透過画像の輪郭に沿った影を落とす場合などに使われます。\n4. そのようなプロパティはありません。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（box-shadow）\n\n【解説】\n1. `box-shadow` は要素のボックス自体に影をつけます。\n2. `text-shadow` は文字に影をつけます。\n3. `drop-shadow` は `filter` プロパティの関数の一つで、透過画像の輪郭に沿った影を落とす場合などに使われます。\n4. そのようなプロパティはありません。",
     "id": 20144
   },
   {
@@ -1736,23 +1736,23 @@
       "1 : 8"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3 : 3\n\n【解説】\nグレースケール：8ビット/画素\nフルカラー：24ビット/画素\n\n8 : 24 = 1 : 3\nしたがって、フルカラー画像はグレースケール画像の3倍のデータサイズになります。",
+    "explanation": "【正解】3（1 : 3）\n\n【解説】\nグレースケール：8ビット/画素\nフルカラー：24ビット/画素\n\n8 : 24 = 1 : 3\nしたがって、フルカラー画像はグレースケール画像の3倍のデータサイズになります。",
     "id": 20145
   },
   {
     "question": "JavaScriptにおいて、イベントリスナーを登録するための標準的なメソッドはどれか。",
     "options": [
       "attachEvent()",
-      "addEventListener()",
+      "listen()",
       "on()",
-      "listen()"
+      "addEventListener()"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（addEventListener()）\n\n【解説】\n1. `attachEvent()` は古いIE（IE8以下）独自のメソッドです。\n2. `addEventListener()` はDOM Level 2 Eventsで定義された標準メソッドです。\n3. `on()` はjQueryなどのライブラリでよく使われるメソッド名です。\n4. `listen()` は一般的ではありません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（addEventListener()）\n\n【解説】\n1. `attachEvent()` は古いIE（IE8以下）独自のメソッドです。\n2. `listen()` は標準のDOM APIとして定義されていません。\n3. `on()` はjQueryなどのライブラリでよく使われるメソッド名です。\n4. `addEventListener()` はDOM Level 2 Eventsで定義された標準メソッドです。",
     "id": 20146
   },
   {
-    "question": "著作権法において、著作権の譲渡契約を結ぶ際、特掲（契約書に明記）しない限り譲渡されないとされる権利はどれか。",
+    "question": "著作権法において、著作権の譲渡契約を結ぶ際、特掲（契約書に明記）しない限り譲渡されない権利はどれか。",
     "options": [
       "複製権（第21条）",
       "公衆送信権（第23条）",
@@ -1760,7 +1760,7 @@
       "頒布権（第26条）"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（翻訳権・翻案権（第27条）および二次的著作物の利用に関する原著作者の権利（第28条））\n\n【解説】\n著作権法第61条第2項により、著作権を譲渡する場合でも、第27条（翻訳・翻案等）と第28条（二次的著作物の利用）の権利については、特掲（契約書に具体的に記載）されていない限り、譲渡人に留保されたもの（移転しない）と推定されます。",
+    "explanation": "【正解】3（翻訳権・翻案権(第27条)および二次的著作物の利用に関する原著作者の権利(第28条)）\n\n【解説】\n著作権法第61条第2項により、著作権を譲渡する場合でも、第27条（翻訳・翻案等）と第28条（二次的著作物の利用）の権利については、特掲（契約書に具体的に記載）されていない限り、譲渡人に留保されたもの（移転しない）と推定されます。",
     "id": 20147
   },
   {
@@ -1778,13 +1778,13 @@
   {
     "question": "HTML5において、文書の注釈や補足情報（サイドバーなど）を表す要素はどれか。",
     "options": [
-      "<sidebar>",
       "<aside>",
+      "<sidebar>",
       "<note>",
       "<subcontent>"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（<aside>）\n\n【解説】\n1. `<sidebar>` は存在しません。\n2. `<aside>` 要素は、メインコンテンツと関連性が薄い、または補足的なコンテンツ（広告、サイドバー、用語解説など）を表します。\n3. `<note>` は存在しません。\n4. `<subcontent>` は存在しません。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（<aside>）\n\n【解説】\n1. `<aside>` 要素は、メインコンテンツと関連性が薄い、または補足的なコンテンツ（広告、サイドバー、用語解説など）を表します。\n2. `<sidebar>` は存在しません。\n3. `<note>` は存在しません。\n4. `<subcontent>` は存在しません。",
     "id": 20149
   },
   {
@@ -1808,31 +1808,31 @@
       "1.5"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4.5\n\n【解説】\n`z-index` の値は整数（integer）である必要があります。小数（1.5など）は指定できません。負の値（-1など）や `auto` は指定可能です。",
+    "explanation": "【正解】4（1.5）\n\n【解説】\n`z-index` の値は整数（integer）である必要があります。小数（1.5など）は指定できません。負の値（-1など）や `auto` は指定可能です。",
     "id": 20151
   },
   {
     "question": "JavaScriptで、クラス `active` を要素に追加するための正しい記述はどれか（要素を変数 `el` とする）。",
     "options": [
       "el.class = 'active';",
-      "el.classList.add('active');",
+      "el.addClass('active');",
       "el.className.push('active');",
-      "el.addClass('active');"
+      "el.classList.add('active');"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（el.classList.add('active');）\n\n【解説】\n1. `class` は予約語等の関係でプロパティ名は `className` ですが、上書きになってしまいます。\n2. `classList` プロパティの `add()` メソッドを使うのが最も推奨される方法です。既存のクラスを保持したまま追加できます。\n3. `className` は文字列であり配列ではないため `push` できません。\n4. `addClass` はjQueryのメソッドです。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（el.classList.add('active');）\n\n【解説】\n1. `class` は予約語等の関係でプロパティ名は `className` ですが、上書きになってしまいます。\n2. `addClass` はjQueryのメソッドです。\n3. `className` は文字列であり配列ではないため `push` できません。\n4. `classList` プロパティの `add()` メソッドを使うのが適切な方法です。既存のクラスを保持したまま追加できます。",
     "id": 20152
   },
   {
     "question": "Webサイトのユーザビリティ評価手法の一つで、専門家が既定の原則（ガイドライン）に基づいて評価を行う手法はどれか。",
     "options": [
-      "ユーザーテスト",
       "ヒューリスティック評価",
+      "ユーザーテスト",
       "A/Bテスト",
       "アクセス解析"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（ヒューリスティック評価）\n\n【解説】\n1. 実際のユーザーに操作してもらう手法です。\n2. ヒューリスティック評価は、ユーザビリティの専門家が経験則（ヒューリスティクス）に基づいて問題点を発見・評価する手法です。\n3. 異なるパターンを比較検証する手法です。\n4. ログデータから行動を分析する手法です。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（ヒューリスティック評価）\n\n【解説】\n1. ヒューリスティック評価は、ユーザビリティの専門家が経験則（ヒューリスティクス）に基づいて問題点を発見・評価する手法です。\n2. 実際のユーザーに操作してもらう手法です。\n3. 異なるパターンを比較検証する手法です。\n4. ログデータから行動を分析する手法です。",
     "id": 20153
   },
   {
@@ -1850,13 +1850,13 @@
   {
     "question": "次のHTMLコード `<script src=\"app.js\" defer></script>` における `defer` 属性の効果はどれか。",
     "options": [
-      "スクリプトを非同期で読み込み、読み込み完了後すぐに実行する（HTML解析を中断する可能性がある）。",
-      "スクリプトを非同期で読み込み、HTML解析完了後（DOMContentLoaded直前）に実行する。",
+      "スクリプトを非同期で読み込み、読み込み完了後すぐに実行する（HTML解析を中断する）。",
+      "古いブラウザでのみ実行させる。",
       "スクリプトの実行をユーザーの操作があるまで遅延させる。",
-      "古いブラウザでのみ実行させる。"
+      "スクリプトを非同期で読み込み、HTML解析完了後（DOMContentLoaded直前）に実行する。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（スクリプトを非同期で読み込み、HTML解析完了後（DOMContentLoaded直前）に実行する。）\n\n【解説】\n1. `async` 属性の挙動です。\n2. `defer` 属性は、HTMLパースを止めずにバックグラウンドでスクリプトを読み込み、パース完了後かつ `DOMContentLoaded` イベントの前に順序通り実行します。\n3. そのような機能ではありません。\n4. `nomodule` 属性などに近いです。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（スクリプトを非同期で読み込み、HTML解析完了後（DOMContentLoaded直前）に実行する。）\n\n【解説】\n1. `async` 属性の挙動です。\n2. `nomodule` 属性などに近いです。\n3. そのような機能ではありません。\n4. `defer` 属性は、HTMLパースを止めずにバックグラウンドでスクリプトを読み込み、パース完了後かつ `DOMContentLoaded` イベントの前に順序通り実行します。",
     "id": 20155
   },
   {
@@ -1868,7 +1868,7 @@
       "Key Plate (キープレート)"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（Key Plate (キープレート)）\n\n【解説】\nCMYKはCyan, Magenta, Yellow, Key Plateの略です。理論上はCMYを混ぜると黒になりますが、実際には濁った茶色になるため、輪郭や細部を引き締めるための黒インク版（Key Plate）を使用します。一般的にはBlack（黒）として認識されていますが、語源としてはKey Plateが正確です。",
+    "explanation": "【正解】4（Key Plate (キープレート)）\n\n【解説】\nCMYKはCyan, Magenta, Yellow, Key Plateの略です。理論上はCMYを混ぜると黒になりますが、実際には濁った色になるため、輪郭や細部を引き締めるための黒インク版（Key Plate）を使用します。Kは黒（Black）の版に相当します。",
     "id": 20156
   },
   {
@@ -1908,27 +1908,27 @@
     "id": 20159
   },
   {
-    "question": "3000文字のテキストデータ（日本語、UTF-8、1文字平均3バイトとする）のデータサイズはおよそいくらか。",
+    "question": "3000文字のテキストデータ（日本語、UTF-8、1文字平均3バイト、1KB=1000バイトとする）のデータサイズはいくらか。",
     "options": [
-      "3 KB",
       "9 KB",
+      "3 KB",
       "30 KB",
       "90 KB"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2 KB\n\n【解説】\n3000文字 × 3バイト/文字 = 9000バイト\n1 KB ≒ 1000バイト（または1024バイト）なので、約9 KBとなります。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（9 KB）\n\n【解説】\n3000文字 × 3バイト/文字 = 9000バイト\n9000バイト ÷ 1000バイト/KB = 9KB",
     "id": 20160
   },
   {
     "question": "JavaScriptで、JSON文字列 `{\"name\":\"Alice\"}` をオブジェクトに変換しようとした際、構文エラーが発生しないように例外処理を行う構文はどれか。",
     "options": [
       "if - else",
-      "try - catch",
+      "for - in",
       "switch - case",
-      "for - in"
+      "try - catch"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（try - catch）\n\n【解説】\n`JSON.parse()` は不正なJSON文字列を渡すとエラー（例外）をスローしてプログラムを停止させます。これを防ぐために `try { ... } catch (e) { ... }` ブロックで囲んで例外処理を行います。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（try - catch）\n\n【解説】\n`JSON.parse()` は不正なJSON文字列を渡すとエラー（例外）をスローしてプログラムを停止させます。これを防ぐために `try { ... } catch (e) { ... }` ブロックで囲んで例外処理を行います。",
     "id": 20161
   },
   {
@@ -1946,13 +1946,13 @@
   {
     "question": "HTMLの `<table>` 要素において、表のタイトル（キャプション）を指定する要素はどれか。",
     "options": [
-      "<title>",
       "<caption>",
+      "<title>",
       "<thead>",
       "<legend>"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（<caption>）\n\n【解説】\n1. `<title>` はHTML文書全体のタイトルです。\n2. `<caption>` 要素はテーブルの直下に記述し、表のタイトルや説明を表示します。\n3. `<thead>` はヘッダー行のグループ化です。\n4. `<legend>` は `<fieldset>` 要素（フォーム）のキャプションです。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（<caption>）\n\n【解説】\n1. `<caption>` 要素はテーブルの直下に記述し、表のタイトルや説明を表示します。\n2. `<title>` はHTML文書全体のタイトルです。\n3. `<thead>` はヘッダー行のグループ化です。\n4. `<legend>` は `<fieldset>` 要素（フォーム）のキャプションです。",
     "id": 20163
   },
   {
@@ -1971,40 +1971,40 @@
     "question": "CSS Flexboxにおいて、子要素の順序をHTMLの記述順序とは異なる順序に変更できるプロパティはどれか。",
     "options": [
       "z-index",
-      "order",
+      "align-content",
       "flex-direction",
-      "align-content"
+      "order"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（order）\n\n【解説】\n1. `z-index` は重なり順です。\n2. `order` プロパティはフレックスアイテムの配置順序を整数で指定します。デフォルトは0で、小さい順に並びます。\n3. `flex-direction` は並ぶ方向（縦・横・逆順）を指定しますが、個別の順序入れ替えではありません。\n4. `align-content` は複数行の交差軸方向の配置です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（order）\n\n【解説】\n1. `z-index` は重なり順です。\n2. `align-content` は複数行の交差軸方向の配置です。\n3. `flex-direction` は並ぶ方向（縦・横・逆順）を指定しますが、個別の順序入れ替えではありません。\n4. `order` プロパティはフレックスアイテムの配置順序を整数で指定します。デフォルトは0で、小さい順に並びます。",
     "id": 20165
   },
   {
     "question": "Webサイトの運用において、CDN（Content Delivery Network）を利用する主なメリットはどれか。",
     "options": [
-      "Webサイトのデザインを自動で生成できる。",
       "サーバーの負荷を分散し、コンテンツの配信速度を向上させる。",
+      "Webサイトのデザインを自動で生成できる。",
       "データベースのバックアップを自動化する。",
       "検索エンジンの順位を強制的に上げる。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（サーバーの負荷を分散し、コンテンツの配信速度を向上させる。）\n\n【解説】\nCDNは世界中に分散配置されたキャッシュサーバー群を利用して、オリジンサーバーの代わりにユーザーに近いサーバーからコンテンツ（画像、CSS、JSなど）を配信する仕組みです。これにより表示速度の向上とオリジンサーバーの負荷軽減が期待できます。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（サーバーの負荷を分散し、コンテンツの配信速度を向上させる。）\n\n【解説】\nCDNは世界中に分散配置されたキャッシュサーバー群を利用して、オリジンサーバーの代わりにユーザーに近いサーバーからコンテンツ（画像、CSS、JSなど）を配信する仕組みです。これにより表示速度の向上とオリジンサーバーの負荷軽減が期待できます。",
     "id": 20166
   },
   {
     "question": "HTML5において、強調したいテキストを表す要素 `<em>` と `<strong>` の違いについて、正しい説明はどれか。",
     "options": [
       "<em>は太字、<strong>は斜体で表示される。",
-      "<em>はアクセント（発音上の強調）、<strong>は重要性（深刻さ・緊急性）を表す。",
+      "<strong>はSEO効果があるが、<em>にはない。",
       "違いはなく、どちらも強調を表す。",
-      "<strong>はSEO効果があるが、<em>にはない。"
+      "<em>はアクセント（発音上の強調）、<strong>は重要性（深刻さ・緊急性）を表す。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（<em>はアクセント（発音上の強調）、<strong>は重要性（深刻さ・緊急性）を表す。）\n\n【解説】\nデフォルトのスタイルでは `<em>` はイタリック（斜体）、`<strong>` はボールド（太字）になることが多いですが、意味的な違いがあります。`<em>` (emphasis) は文脈上のアクセントやニュアンスの強調、`<strong>` (strong importance) は内容そのものの重要性や警告などを表します。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（<em>はアクセント（発音上の強調）、<strong>は重要性（深刻さ・緊急性）を表す。）\n\n【解説】\nデフォルトのスタイルでは `<em>` はイタリック（斜体）、`<strong>` はボールド（太字）になります。`<em>` (emphasis) は文脈上のアクセントやニュアンスの強調、`<strong>` (strong importance) は内容そのものの重要性や警告などを表します。",
     "id": 20167
   },
   {
-    "question": "600dpiのプリンタで画像を印刷する場合、画質を損なわないために推奨される画像解像度は一般的にどれくらいか。",
+    "question": "600dpiのプリンタで画像を印刷する場合、画質を保つために必要な画像解像度として適切なものはどれか。",
     "options": [
       "72 dpi",
       "150 dpi",
@@ -2012,19 +2012,19 @@
       "1200 dpi"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（300〜350 dpi）\n\n【解説】\n一般的な商用印刷や高品位なプリンタ出力において、実寸サイズで300〜350dpi程度の解像度があれば、人間の目には十分綺麗に見えます。600dpiのプリンタでも、入力画像は350dpiあれば十分とされることが多いです。72dpiでは粗く（ジャギーが）目立ちます。",
+    "explanation": "【正解】3（300〜350 dpi）\n\n【解説】\n商用印刷では、実寸サイズで300〜350dpiの解像度の画像を使用します。72dpiでは画素密度が不足します。",
     "id": 20168
   },
   {
     "question": "JavaScriptで、配列の要素を結合して1つの文字列にするメソッドはどれか。",
     "options": [
-      "concat()",
       "join()",
+      "concat()",
       "split()",
       "splice()"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（join()）\n\n【解説】\n1. `concat()` は配列同士の結合です。\n2. `join(separator)` は配列の全要素を指定した区切り文字（デフォルトはカンマ）で連結した文字列を返します。\n3. `split()` は文字列を分割して配列にします（逆の操作）。\n4. `splice()` は要素の削除・置換・追加を行います。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（join()）\n\n【解説】\n1. `join(separator)` は配列の全要素を指定した区切り文字（デフォルトはカンマ）で連結した文字列を返します。\n2. `concat()` は配列同士の結合です。\n3. `split()` は文字列を分割して配列にします（逆の操作）。\n4. `splice()` は要素の削除・置換・追加を行います。",
     "id": 20169
   },
   {
@@ -2036,43 +2036,43 @@
       "HTMLのstyle属性（インラインスタイル）"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（ブラウザのデフォルトスタイル（ユーザーエージェントスタイルシート））\n\n【解説】\n優先順位は低い順に以下のようになります。\n1. ブラウザのデフォルトスタイル\n2. ユーザー設定スタイル（通常）\n3. 制作者のスタイル（外部CSS、styleタグ）\n4. インラインスタイル\n5. !important が付いたスタイル\nしたがって、ブラウザのデフォルトスタイルは最も優先度が低く、簡単に上書きできます。",
+    "explanation": "【正解】1（ブラウザのデフォルトスタイル(ユーザーエージェントスタイルシート)）\n\n【解説】\n優先順位は低い順に以下のようになります。\n1. ブラウザのデフォルトスタイル\n2. ユーザーが設定したユーザースタイル\n3. 制作者のスタイル（外部CSS、styleタグ）\n4. インラインスタイル\n5. !important が付いたスタイル\nしたがって、ブラウザのデフォルトスタイルは最も優先度が低く、簡単に上書きできます。",
     "id": 20170
   },
   {
     "question": "次のファイルパス指定 `<img src=\"../images/photo.jpg\">` における `..` の意味はどれか。",
     "options": [
       "現在のディレクトリ（カレントディレクトリ）",
-      "1つ上の階層のディレクトリ（親ディレクトリ）",
+      "ホームディレクトリ",
       "ルートディレクトリ",
-      "ホームディレクトリ"
+      "1つ上の階層のディレクトリ（親ディレクトリ）"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（1つ上の階層のディレクトリ（親ディレクトリ））\n\n【解説】\n1. `.` または省略はカレントディレクトリです。\n2. `..` は親ディレクトリを表します。\n3. `/` から始めるとルートディレクトリ基準になります。\n4. `~` はシェルなどでホームを表しますが、Webパスでは一般的ではありません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（1つ上の階層のディレクトリ（親ディレクトリ））\n\n【解説】\n1. `.` または省略はカレントディレクトリです。\n2. `~` はシェルなどでホームを表しますが、Webパスでは使用しません。\n3. `/` から始めるとルートディレクトリ基準になります。\n4. `..` は親ディレクトリを表します。",
     "id": 20171
   },
   {
     "question": "カラーマネジメントにおいて、色の再現範囲のことを何と呼ぶか。",
     "options": [
-      "ガンマ",
       "色域（ガマット）",
+      "ガンマ",
       "解像度",
       "ビット深度"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（色域（ガマット））\n\n【解説】\n1. ガンマは中間調の明るさの補正値です。\n2. 色域（Gamut: ガマット）は、ある色空間やデバイスが再現できる色の範囲を指します（例: sRGB色域、Adobe RGB色域）。\n3. 解像度は細かさです。\n4. ビット深度は色の階調数です。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（色域（ガマット））\n\n【解説】\n1. 色域（Gamut: ガマット）は、ある色空間やデバイスが再現できる色の範囲を指します（例: sRGB色域、Adobe RGB色域）。\n2. ガンマは中間調の明るさの補正値です。\n3. 解像度は細かさです。\n4. ビット深度は色の階調数です。",
     "id": 20172
   },
   {
     "question": "HTML5の `<video>` 要素で、動画が再生できない環境（古いブラウザなど）のために表示するコンテンツはどこに記述すべきか。",
     "options": [
       "alt属性の中",
-      "<video>タグと</video>タグの間",
+      "no-video属性の中",
       "<fallback>タグの中",
-      "no-video属性の中"
+      "<video>タグと</video>タグの間"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（<video>タグと</video>タグの間）\n\n【解説】\n`<video src=\"movie.mp4\">動画を再生できません。</video>` のように、タグの中身（コンテンツ）として記述されたテキストやHTMLは、`<video>` 要素をサポートしていないブラウザでのみ表示されます（フォールバックコンテンツ）。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（<video>タグと</video>タグの間）\n\n【解説】\n`<video src=\"movie.mp4\">動画を再生できません。</video>` のように、タグの中身（コンテンツ）として記述されたテキストやHTMLは、`<video>` 要素をサポートしていないブラウザでのみ表示されます（フォールバックコンテンツ）。",
     "id": 20173
   },
   {
@@ -2084,55 +2084,55 @@
       "要素を半透明にする。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（要素を表示する（デフォルト）。）\n\n【解説】\n1. `visible` は要素が見える状態（初期値）です。\n2. `hidden` は非表示です。\n3. `blink` は廃止されました。\n4. `opacity` プロパティを使います。",
+    "explanation": "【正解】1（要素を表示する(デフォルト)。）\n\n【解説】\n1. `visible` は要素が見える状態（初期値）です。\n2. `hidden` は非表示です。\n3. `blink` は廃止されました。\n4. `opacity` プロパティを使います。",
     "id": 20174
   },
   {
     "question": "次のJavaScriptコード `console.log(1 + \"2\");` の出力結果はどれか。",
     "options": [
-      "3",
       "\"12\"",
+      "3",
       "NaN",
       "Error"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（\"12\"）\n\n【解説】\nJavaScriptでは、数値と文字列を `+` 演算子で結合すると、数値が文字列に変換されて連結されます。したがって `\"1\" + \"2\"` と同じ扱いになり、`\"12\"` となります。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（\"12\"）\n\n【解説】\nJavaScriptでは、数値と文字列を `+` 演算子で結合すると、数値が文字列に変換されて連結されます。したがって `\"1\" + \"2\"` と同じ扱いになり、`\"12\"` となります。",
     "id": 20175
   },
   {
     "question": "Webデザインにおける「カーニング（Kerning）」の意味はどれか。",
     "options": [
       "行間の調整",
-      "文字ごとの間隔の微調整",
+      "フォントの太さの変更",
       "段落のインデント",
-      "フォントの太さの変更"
+      "文字ごとの間隔の微調整"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（文字ごとの間隔の微調整）\n\n【解説】\n1. 行間は「リーディング（Leading）」または `line-height` です。\n2. カーニングは、特定の文字の組み合わせ（例: AとV）において、見た目のバランスを良くするために文字間隔を個別に調整することです。全体の文字間隔調整は「トラッキング（Tracking）」または `letter-spacing` と呼ばれます。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（文字ごとの間隔の微調整）\n\n【解説】\n1. 行間は「リーディング（Leading）」または `line-height` です。\n2. カーニングは、特定の文字の組み合わせ（例: AとV）において、見た目のバランスを良くするために文字間隔を個別に調整することです。全体の文字間隔調整は「トラッキング（Tracking）」または `letter-spacing` と呼ばれます。",
     "id": 20176
   },
   {
     "question": "HTMLフォームにおいて、送信ボタンを押した際に、JavaScriptで送信をキャンセルするために使用するメソッドはどれか（イベントオブジェクトを `e` とする）。",
     "options": [
-      "e.stop()",
       "e.preventDefault()",
+      "e.stop()",
       "e.cancel()",
       "return false;（HTML属性内のみ）"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（e.preventDefault()）\n\n【解説】\n`submit` イベントのリスナー内で `event.preventDefault()` を呼び出すことで、フォームのデフォルトの送信動作（ページ遷移）をキャンセルできます。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（e.preventDefault()）\n\n【解説】\n`submit` イベントのリスナー内で `event.preventDefault()` を呼び出すことで、フォームのデフォルトの送信動作（ページ遷移）をキャンセルできます。",
     "id": 20177
   },
   {
     "question": "CSSプロパティ `vertical-align` が効く要素はどれか。",
     "options": [
       "すべてのブロックレベル要素",
-      "インライン要素およびテーブルセル",
+      "float: left; が指定された要素",
       "position: absolute; が指定された要素",
-      "float: left; が指定された要素"
+      "インライン要素およびテーブルセル"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（インライン要素およびテーブルセル）\n\n【解説】\n`vertical-align` は、インライン要素（`inline`, `inline-block`）やテーブルセル（`table-cell`）の垂直方向の配置を指定するプロパティです。通常のブロックレベル要素（`div`や`p`など）には効果がありません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（インライン要素およびテーブルセル）\n\n【解説】\n`vertical-align` は、インライン要素（`inline`, `inline-block`）やテーブルセル（`table-cell`）の垂直方向の配置を指定するプロパティです。ブロックレベル要素（`div`や`p`など）には効果がありません。",
     "id": 20178
   },
   {
@@ -2150,61 +2150,61 @@
   {
     "question": "16進数の `F` は10進数でいくつを表すか。",
     "options": [
-      "10",
       "15",
+      "10",
       "16",
       "255"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2\n\n【解説】\n16進数は 0〜9 と A(10), B(11), C(12), D(13), E(14), F(15) を使用します。したがって F は 15 です。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（15）\n\n【解説】\n16進数は 0〜9 と A(10), B(11), C(12), D(13), E(14), F(15) を使用します。したがって F は 15 です。",
     "id": 20180
   },
   {
     "question": "HTML5において、フォーム部品とラベル（説明文）を関連付けるための `<label>` 要素の正しい使い方はどれか。",
     "options": [
       "<label target=\"email\">メールアドレス</label>",
-      "<label for=\"email\">メールアドレス</label>",
+      "<label id=\"email\">メールアドレス</label>",
       "<label src=\"email\">メールアドレス</label>",
-      "<label id=\"email\">メールアドレス</label>"
+      "<label for=\"email\">メールアドレス</label>"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（<label for=\"email\">メールアドレス</label>）\n\n【解説】\n1. `target` 属性ではありません。\n2. `<label>` 要素の `for` 属性の値と、関連付けたいフォーム部品（inputなど）の `id` 属性の値を一致させることで、ラベルと部品を関連付けます。これにより、ラベルをクリックした際にもフォーム部品にフォーカスが当たります。\n3. `src` 属性ではありません。\n4. `id` 属性は要素自体の識別子です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（<label for=\"email\">メールアドレス</label>）\n\n【解説】\n1. `target` 属性ではありません。\n2. `id` 属性は要素自体の識別子です。\n3. `src` 属性ではありません。\n4. `<label>` 要素の `for` 属性の値と、関連付けたいフォーム部品（inputなど）の `id` 属性の値を一致させることで、ラベルと部品を関連付けます。これにより、ラベルをクリックした際にもフォーム部品にフォーカスが当たります。",
     "id": 20181
   },
   {
     "question": "CSSカスタムプロパティ（CSS変数）の宣言として正しい書式はどれか。",
     "options": [
-      "$main-color: #333;",
       "--main-color: #333;",
+      "$main-color: #333;",
       "var-main-color: #333;",
       "@main-color: #333;"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（--main-color: #333;）\n\n【解説】\n1. `$` はSass(SCSS)の変数です。\n2. CSS標準のカスタムプロパティは、プロパティ名の先頭にハイフン2つ `--` を付けて宣言します（例: `--main-color: #333;`）。使用する際は `var(--main-color)` と記述します。\n3. `var-` という接頭辞ではありません。\n4. `@` はLessの変数などで使われます。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（--main-color: #333;）\n\n【解説】\n1. CSS標準のカスタムプロパティは、プロパティ名の先頭にハイフン2つ `--` を付けて宣言します（例: `--main-color: #333;`）。使用する際は `var(--main-color)` と記述します。\n2. `$` はSass(SCSS)の変数です。\n3. `var-` という接頭辞ではありません。\n4. `@` はLessの変数などで使われます。",
     "id": 20182
   },
   {
     "question": "JavaScriptにおいて、数値ではない値（Not a Number）を判定するための関数はどれか。",
     "options": [
       "isNumber()",
-      "isNaN()",
+      "isUndefined()",
       "isNull()",
-      "isUndefined()"
+      "isNaN()"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（isNaN()）\n\n【解説】\n1. `isNumber()` は標準関数として存在しません。\n2. `isNaN(value)` は、引数が数値でない場合（NaNの場合）に `true` を返します。ES6からはより厳密な `Number.isNaN()` も利用可能です。\n3. `isNull()` は存在しません。\n4. `isUndefined()` は存在しません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（isNaN()）\n\n【解説】\n1. `isNumber()` は標準関数として存在しません。\n2. `isUndefined()` は存在しません。\n3. `isNull()` は存在しません。\n4. `isNaN(value)` は、引数が数値でない場合（NaNの場合）に `true` を返します。ES6からはより厳密な `Number.isNaN()` も利用可能です。",
     "id": 20183
   },
   {
     "question": "Webサイトのレイアウト手法において、「リキッドレイアウト（Liquid Layout）」の説明として正しいものはどれか。",
     "options": [
-      "画面幅に関わらず、コンテンツ幅をピクセル単位で固定する。",
       "画面幅に合わせて、コンテンツ幅をパーセント（%）で指定し、可変にする。",
+      "画面幅に関わらず、コンテンツ幅をピクセル単位で固定する。",
       "デバイスごとに全く異なるHTMLファイルを表示する。",
       "画像のみを使用してレイアウトを構成する。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（画面幅に合わせて、コンテンツ幅をパーセント（%）で指定し、可変にする。）\n\n【解説】\n1. 固定レイアウト（Fixed Layout）です。\n2. リキッドレイアウトは、幅を `%` などの相対単位で指定し、ブラウザのウィンドウ幅に合わせて流動的（Liquid）にサイズを変える手法です。\n3. これは別URL構成やアダプティブの一種です。\n4. テーブルレイアウトなどの古い手法でもありません。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（画面幅に合わせて、コンテンツ幅をパーセント（%）で指定し、可変にする。）\n\n【解説】\n1. リキッドレイアウトは、幅を `%` などの相対単位で指定し、ブラウザのウィンドウ幅に合わせて流動的（Liquid）にサイズを変える手法です。\n2. 固定レイアウト（Fixed Layout）です。\n3. これは別URL構成やアダプティブの一種です。\n4. テーブルレイアウトなどの古い手法でもありません。",
     "id": 20184
   },
   {
@@ -2223,48 +2223,48 @@
     "question": "CSSの `object-fit: cover;` の挙動として正しいものはどれか。",
     "options": [
       "画像をアスペクト比を維持したまま、要素のコンテンツボックス全体を埋めるように拡大縮小する（はみ出した部分は切り取られる）。",
-      "画像をアスペクト比を維持したまま、要素のコンテンツボックス内に収まるように拡大縮小する（余白ができる可能性がある）。",
+      "画像をアスペクト比を維持したまま、要素のコンテンツボックス内に収まるように拡大縮小する（余白ができる）。",
       "画像のアスペクト比を無視して、要素のサイズに合わせて引き伸ばす。",
       "画像の元のサイズのまま表示する。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（画像をアスペクト比を維持したまま、要素のコンテンツボックス全体を埋めるように拡大縮小する（はみ出した部分は切り取られる）。）\n\n【解説】\n1. `cover` は要素全体を覆うように表示します。\n2. `contain` の挙動です。\n3. `fill` の挙動です。\n4. `none` の挙動です。",
+    "explanation": "【正解】1（画像をアスペクト比を維持したまま、要素のコンテンツボックス全体を埋めるように拡大縮小する(はみ出した部分は切り取られる)。）\n\n【解説】\n1. `cover` は要素全体を覆うように表示します。\n2. `contain` の挙動です。\n3. `fill` の挙動です。\n4. `none` の挙動です。",
     "id": 20186
   },
   {
     "question": "次のHTMLコード `<a href=\"tel:03-1234-5678\">電話をかける</a>` をスマートフォンでタップした際の動作はどれか。",
     "options": [
       "SMS送信画面が開く。",
-      "電話発信画面（ダイヤラー）が開き、番号が入力された状態になる。",
+      "Googleマップが開く。",
       "電話帳に登録される。",
-      "Googleマップが開く。"
+      "電話発信画面（ダイヤラー）が開き、番号が入力された状態になる。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（電話発信画面（ダイヤラー）が開き、番号が入力された状態になる。）\n\n【解説】\n`tel:` スキームを使用すると、OSの標準的な電話アプリ（ダイヤラー）が起動し、指定された電話番号が発信可能な状態で表示されます。ユーザーが発信ボタンを押すことで通話が始まります。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（電話発信画面（ダイヤラー）が開き、番号が入力された状態になる。）\n\n【解説】\n`tel:` スキームを使用すると、OSの標準的な電話アプリ（ダイヤラー）が起動し、指定された電話番号が発信可能な状態で表示されます。ユーザーが発信ボタンを押すことで通話が始まります。",
     "id": 20187
   },
   {
     "question": "Webサーバへの不正アクセス手法の一つ「ディレクトリトラバーサル」の説明はどれか。",
     "options": [
-      "パスワードを総当たりで試す。",
       "URLのパスを操作して、本来アクセス権限のない非公開ファイル（../etc/passwdなど）にアクセスする。",
+      "パスワードを総当たりで試す。",
       "大量のメールを送りつける。",
       "DNSサーバーの情報を書き換える。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（URLのパスを操作して、本来アクセス権限のない非公開ファイル（../etc/passwdなど）にアクセスする。）\n\n【解説】\n1. ブルートフォース攻撃です。\n2. ディレクトリトラバーサル（パストラバーサル）は、相対パス指定（`../`など）を悪用して、Web公開領域の外にある重要ファイルへのアクセスを試みる攻撃です。\n3. メールボムです。\n4. DNSキャッシュポイズニングです。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（URLのパスを操作して、本来アクセス権限のない非公開ファイル（../etc/passwdなど）にアクセスする。）\n\n【解説】\n1. ディレクトリトラバーサル（パストラバーサル）は、相対パス指定（`../`など）を悪用して、Web公開領域の外にある重要ファイルへのアクセスを試みる攻撃です。\n2. ブルートフォース攻撃です。\n3. メールボムです。\n4. DNSキャッシュポイズニングです。",
     "id": 20188
   },
   {
     "question": "CSSにおいて、要素の透明度を指定する `opacity` プロパティと、色指定の `rgba()` の違いについて正しい説明はどれか。",
     "options": [
       "違いはない。",
-      "opacityは要素全体（子要素含む）が透明になるが、rgbaの背景色は子要素に影響しない。",
+      "opacityは文字色には効かない。",
       "rgbaは要素全体が透明になる。",
-      "opacityは文字色には効かない。"
+      "opacityは要素全体（子要素含む）が透明になるが、rgbaの背景色は子要素に影響しない。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（opacityは要素全体（子要素含む）が透明になるが、rgbaの背景色は子要素に影響しない。）\n\n【解説】\n1. 違います。\n2. `opacity: 0.5;` を指定すると、その要素とその中の文字や子要素すべてが半透明になります。一方、`background-color: rgba(0,0,0,0.5);` のように指定した場合、背景色だけが半透明になり、中の文字や子要素の不透明度は維持されます。\n3. 逆です。\n4. `opacity` は文字色含むすべてに影響します。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（opacityは要素全体（子要素含む）が透明になるが、rgbaの背景色は子要素に影響しない。）\n\n【解説】\n1. 違います。\n2. `opacity` は文字色含むすべてに影響します。\n3. 逆です。\n4. `opacity: 0.5;` を指定すると、その要素とその中の文字や子要素すべてが半透明になります。一方、`background-color: rgba(0,0,0,0.5);` のように指定した場合、背景色だけが半透明になり、中の文字や子要素の不透明度は維持されます。",
     "id": 20189
   },
   {
@@ -2276,43 +2276,43 @@
       "150 MB"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3 MB\n\n【解説】\n1秒あたりのフレーム数 = 30フレーム\n1分間 = 60秒\n総フレーム数 = 30 × 60 = 1800フレーム\n\n総データサイズ = 1800フレーム × 50 KB = 90,000 KB\n1 MB = 1000 KB 換算で 約90 MB です。",
+    "explanation": "【正解】3（90 MB）\n\n【解説】\n1秒あたりのフレーム数 = 30フレーム\n1分間 = 60秒\n総フレーム数 = 30 × 60 = 1800フレーム\n\n総データサイズ = 1800フレーム × 50 KB = 90,000 KB\n1 MB = 1000 KB 換算で 約90 MB です。",
     "id": 20190
   },
   {
     "question": "Webデザインにおける「黄金比（Golden Ratio）」の近似値はどれか。",
     "options": [
-      "1 : 1.414",
       "1 : 1.618",
+      "1 : 1.414",
       "1 : 1.732",
       "1 : 2.000"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2 : 1.618\n\n【解説】\n1. 1:1.414 は白銀比（大和比）で、A4用紙などの比率です。\n2. 1:1.618 は黄金比で、最も美しい比率とされ、パルテノン神殿や名刺のサイズなどに使われています。\n3. 1:1.732 は白金比（プラチナ比）に近い値（ルート3）です。\n4. 1:2 は単純な整数比です。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（1 : 1.618）\n\n【解説】\n1. 1:1.618 は黄金比で、パルテノン神殿や名刺のサイズなどに使われています。\n2. 1:1.414 は白銀比（大和比）で、A4用紙などの比率です。\n3. 1:1.732 は白金比（プラチナ比）に近い値（ルート3）です。\n4. 1:2 は単純な整数比です。",
     "id": 20191
   },
   {
     "question": "HTML5の `<meta charset=\"UTF-8\">` は文書内のどこに記述すべきか。",
     "options": [
       "<body>タグの直後",
-      "<head>タグ内のなるべく先頭（最初の1024バイト以内）",
+      "CSSファイルの中",
       "<footer>タグの中",
-      "CSSファイルの中"
+      "<head>タグ内のなるべく先頭（最初の1024バイト以内）"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（<head>タグ内のなるべく先頭（最初の1024バイト以内））\n\n【解説】\nブラウザが文字コードを正しく判別してパースを開始できるよう、`<head>` 要素内の先頭付近（仕様上は最初の1024バイト以内）に記述することが推奨されています。遅すぎると文字化けやセキュリティリスク（XSS回避など）の原因になることがあります。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（<head>タグ内のなるべく先頭（最初の1024バイト以内））\n\n【解説】\nブラウザが文字コードを正しく判別してパースを開始できるよう、`<head>` 要素内の先頭（仕様上は最初の1024バイト以内）に記述します。遅れると文字化けやセキュリティリスク（XSS回避など）につながります。",
     "id": 20192
   },
   {
     "question": "JavaScriptで、配列の要素数を取得するプロパティはどれか。",
     "options": [
-      "size",
       "length",
+      "size",
       "count",
       "index"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（length）\n\n【解説】\n1. `size` はSetやMapオブジェクトのプロパティです。\n2. 配列（Array）の要素数は `length` プロパティで取得できます（例: `array.length`）。\n3. `count` は一般的なプロパティではありません。\n4. `index` は要素番号を指す概念です。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（length）\n\n【解説】\n1. 配列（Array）の要素数は `length` プロパティで取得できます（例: `array.length`）。\n2. `size` はSetやMapオブジェクトのプロパティです。\n3. `count` は標準のプロパティではありません。\n4. `index` は要素番号を指す概念です。",
     "id": 20193
   },
   {
@@ -2324,19 +2324,19 @@
       "TCPは無線LAN専用、UDPは有線LAN専用である。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（TCPは信頼性が高く（到達確認あり）、UDPは高速だが信頼性が低い（到達確認なし）。）\n\n【解説】\n1. TCP（Transmission Control Protocol）はコネクション型でデータの到達を保証するためWebやメールに使われます。UDP（User Datagram Protocol）はコネクションレス型で、パケットロスを許容してでもリアルタイム性が求められる動画配信やVoIPなどに使われます。\n2. 逆です。\n3. 暗号化はTLSなどの上位層の役割です。\n4. 物理層の違いは関係ありません。",
+    "explanation": "【正解】1（TCPは信頼性が高く(到達確認あり)、UDPは高速だが信頼性が低い(到達確認なし)。）\n\n【解説】\n1. TCP（Transmission Control Protocol）はコネクション型でデータの到達を保証するためWebやメールに使われます。UDP（User Datagram Protocol）はコネクションレス型で、パケットロスを許容してでもリアルタイム性が求められる動画配信やVoIPなどに使われます。\n2. 逆です。\n3. 暗号化はTLSなどの上位層の役割です。\n4. 物理層の違いは関係ありません。",
     "id": 20194
   },
   {
     "question": "CSSにおいて、スタイルに `!important` を付与した際の効果はどれか。",
     "options": [
       "そのスタイルを無効化する。",
-      "そのスタイルの優先順位を最優先にする。",
+      "そのスタイルをコメントアウトする。",
       "そのスタイルを点滅させる。",
-      "そのスタイルをコメントアウトする。"
+      "そのスタイルの優先順位を最優先にする。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（そのスタイルの優先順位を最優先にする。）\n\n【解説】\n値の後に `!important` を記述すると、詳細度（Specificity）の計算ルールを無視して、そのスタイルが最優先で適用されます。ただし、多用するとメンテナンス性が低下するため推奨されません。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（そのスタイルの優先順位を最優先にする。）\n\n【解説】\n値の後に `!important` を記述すると、詳細度（Specificity）の計算ルールを無視して、そのスタイルが最優先で適用されます。ただし、多用するとメンテナンス性が低下します。",
     "id": 20195
   },
   {
@@ -2354,13 +2354,13 @@
   {
     "question": "画像編集ソフトにおいて、「アンチエイリアス」処理を行う目的はどれか。",
     "options": [
-      "画像のファイルサイズを小さくする。",
       "斜め線や曲線のギザギザ（ジャギー）を目立たなくして滑らかにする。",
+      "画像のファイルサイズを小さくする。",
       "画像をモノクロに変換する。",
       "画像の輪郭を強調してシャープにする。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（斜め線や曲線のギザギザ（ジャギー）を目立たなくして滑らかにする。）\n\n【解説】\nデジタル画像ではピクセルが格子状に並んでいるため、斜めの線などで階段状のギザギザ（ジャギー）が発生します。アンチエイリアスは、境界部分に中間色を配置することで、視覚的に滑らかに見せる処理です。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（斜め線や曲線のギザギザ（ジャギー）を目立たなくして滑らかにする。）\n\n【解説】\nデジタル画像ではピクセルが格子状に並んでいるため、斜めの線などで階段状のギザギザ（ジャギー）が発生します。アンチエイリアスは、境界部分に中間色を配置することで、視覚的に滑らかに見せる処理です。",
     "id": 20197
   },
   {
@@ -2372,43 +2372,43 @@
       "スクリプトを無効化する。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（スクリプトを非同期で読み込み、読み込みが完了した時点で（HTML解析を中断してでも）即座に実行する。）\n\n【解説】\n1. `async` は読み込み完了次第実行されるため、実行順序が保証されません（解析中断のリスクあり）。Google Analyticsなどの独立したスクリプトに適しています。\n2. `defer` の挙動です。\n3. 属性なしの挙動です。",
+    "explanation": "【正解】1（スクリプトを非同期で読み込み、読み込みが完了した時点で(HTML解析を中断してでも)即座に実行する。）\n\n【解説】\n1. `async` は読み込み完了次第実行されるため、実行順序が保証されません（解析中断のリスクあり）。Google Analyticsなどの独立したスクリプトに適しています。\n2. `defer` の挙動です。\n3. 属性なしの挙動です。",
     "id": 20198
   },
   {
     "question": "CSSセレクタ `.list > li` の意味として正しいものはどれか。",
     "options": [
       "クラスlistを持つ要素の子孫にある全てのli要素",
-      "クラスlistを持つ要素の直下にある子要素のli要素",
+      "クラスlistを持つ要素の中にある最初のli要素",
       "クラスlistを持つ要素の直後にあるli要素",
-      "クラスlistを持つ要素の中にある最初のli要素"
+      "クラスlistを持つ要素の直下にある子要素のli要素"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（クラスlistを持つ要素の直下にある子要素のli要素）\n\n【解説】\n1. `.list li`（子孫セレクタ）の意味です。\n2. `>` は「子供セレクタ（直下セレクタ）」であり、孫要素以下のliには適用されません。\n3. `.list + li`（隣接兄弟セレクタ）の意味です。\n4. `.list li:first-child` などの意味です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（クラスlistを持つ要素の直下にある子要素のli要素）\n\n【解説】\n1. `.list li`（子孫セレクタ）の意味です。\n2. `.list li:first-child` などの意味です。\n3. `.list + li`（隣接兄弟セレクタ）の意味です。\n4. `>` は「子供セレクタ（直下セレクタ）」であり、孫要素以下のliには適用されません。",
     "id": 20199
   },
   {
     "question": "JavaScriptで、非同期通信を行い、リソースを取得するためのモダンなAPIはどれか。",
     "options": [
-      "XMLHttpRequest",
       "fetch API",
+      "XMLHttpRequest",
       "ajax()",
       "get()"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（fetch API）\n\n【解説】\n1. `XMLHttpRequest` は従来の方法ですが、コールバック地獄になりがちです。\n2. `fetch API` はPromiseベースのモダンな非同期通信APIで、より簡潔に記述できます。\n3. `ajax()` はjQueryなどのライブラリのメソッドです。\n4. `get()` もライブラリ等で一般的ですが、標準APIとしては `fetch` が正解です。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（fetch API）\n\n【解説】\n1. `fetch API` はPromiseベースのモダンな非同期通信APIで、より簡潔に記述できます。\n2. `XMLHttpRequest` は従来の方法ですが、コールバック地獄になりがちです。\n3. `ajax()` はjQueryなどのライブラリのメソッドです。\n4. `get()` はライブラリ等のメソッド名です。標準APIとしては `fetch` が正解です。",
     "id": 20200
   },
   {
     "question": "情報セキュリティにおける「辞書攻撃」の説明はどれか。",
     "options": [
       "あらゆる文字の組み合わせを試す。",
-      "辞書に載っている単語やよく使われるパスワードのリストを使ってログインを試行する。",
+      "システム管理者にパスワードを問い合わせる。",
       "キーボードの配列順に試す。",
-      "システム管理者にパスワードを問い合わせる。"
+      "辞書に載っている単語やよく使われるパスワードのリストを使ってログインを試行する。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（辞書に載っている単語やよく使われるパスワードのリストを使ってログインを試行する。）\n\n【解説】\n1. ブルートフォース（総当たり）攻撃です。\n2. 辞書攻撃（ディクショナリアタック）は、人間が覚えやすい単語（辞書にある語）を使用する傾向を逆手に取り、単語リストを用いて効率的にパスワードを破ろうとする手法です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（辞書に載っている単語やよく使われるパスワードのリストを使ってログインを試行する。）\n\n【解説】\n1. ブルートフォース（総当たり）攻撃です。\n2. 辞書攻撃（ディクショナリアタック）は、人間が覚えやすい単語（辞書にある語）を使用する傾向を逆手に取り、単語リストを用いて効率的にパスワードを破ろうとする手法です。",
     "id": 20201
   },
   {
@@ -2420,7 +2420,7 @@
       "親しみやすさやポップな印象を与えるのに最適である。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（線の端に「うろこ（セリフ）」と呼ばれる装飾がある。）\n\n【解説】\n1. 明朝体（欧文ではSerif）は、線の端に飾り（うろこ）があり、縦線と横線の太さが異なるのが特徴です。伝統的、高級、真面目な印象を与えます。\n2. ゴシック体（Sans-serif）の特徴です。\n3. 低解像度の画面ではゴシック体の方が視認性が高い場合が多いです。\n4. ポップな印象にはゴシック体や丸ゴシックが適しています。",
+    "explanation": "【正解】1（線の端に「うろこ(セリフ)」と呼ばれる装飾がある。）\n\n【解説】\n1. 明朝体（欧文ではSerif）は、線の端に飾り（うろこ）があり、縦線と横線の太さが異なるのが特徴です。伝統的、高級、真面目な印象を与えます。\n2. ゴシック体（Sans-serif）の特徴です。\n3. 低解像度の画面ではゴシック体の方が視認性が高い場合が多いです。\n4. ポップな印象にはゴシック体や丸ゴシックが適しています。",
     "id": 20202
   },
   {
@@ -2438,37 +2438,37 @@
   {
     "question": "HTML5において、ページ内のナビゲーションリンク以外のハイパーリンク（サイドバーのリンク集など）に使用すべき要素はどれか。",
     "options": [
-      "<nav>",
       "<aside>",
+      "<nav>",
       "<section>",
       "<div>"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（<aside>）\n\n【解説】\n1. `<nav>` は主要なナビゲーション（グローバルナビなど）に使用します。\n2. `<aside>` はメインコンテンツとは関係の薄い補足情報や、関連リンク集、広告などに適しています。\n3. `<section>` は汎用的なセクションです。\n4. `<div>` は意味を持ちません。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（<aside>）\n\n【解説】\n1. `<aside>` はメインコンテンツとは関係の薄い補足情報や、関連リンク集、広告などに適しています。\n2. `<nav>` は主要なナビゲーション（グローバルナビなど）に使用します。\n3. `<section>` は汎用的なセクションです。\n4. `<div>` は意味を持ちません。",
     "id": 20204
   },
   {
     "question": "Webサイトの「パンくずリスト」を構造化データ（JSON-LDなど）でマークアップする主なメリットはどれか。",
     "options": [
       "デザインが自動的に変更される。",
-      "検索エンジンの検索結果にリッチリザルト（パンくず）として表示されやすくなる。",
+      "ブラウザの戻るボタンが無効になる。",
       "ページの読み込み速度が上がる。",
-      "ブラウザの戻るボタンが無効になる。"
+      "検索エンジンの検索結果にリッチリザルト（パンくず）として表示されやすくなる。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（検索エンジンの検索結果にリッチリザルト（パンくず）として表示されやすくなる。）\n\n【解説】\n構造化データを実装することで、Googleなどの検索エンジンがページの階層構造を理解しやすくなり、検索結果のスニペットにURLの代わりにパンくずリストが表示されるなどのメリットがあります（SEO効果）。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（検索エンジンの検索結果にリッチリザルト（パンくず）として表示されやすくなる。）\n\n【解説】\n構造化データを実装することで、Googleなどの検索エンジンがページの階層構造を理解しやすくなり、検索結果のスニペットにURLの代わりにパンくずリストが表示されるなどのメリットがあります（SEO効果）。",
     "id": 20205
   },
   {
-    "question": "CSSで、要素の背景画像を要素のサイズに合わせて縦横比を崩さずに全体が表示されるように調整する値はどれか（余白が出る可能性がある）。",
+    "question": "CSSで、要素の背景画像を要素のサイズに合わせて縦横比を崩さずに全体が表示されるように調整する値はどれか（余白が出る）。",
     "options": [
-      "background-size: cover;",
       "background-size: contain;",
+      "background-size: cover;",
       "background-size: 100% 100%;",
       "background-size: auto;"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（background-size: contain;）\n\n【解説】\n1. `cover` は要素を埋め尽くすため、はみ出した部分が切り取られます。\n2. `contain` は画像全体が見えるように、アスペクト比を維持したまま要素内に収めます。要素と画像の比率が違う場合、余白が生じます。\n3. 画像が歪みます。\n4. 元のサイズで表示されます。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（background-size: contain;）\n\n【解説】\n1. `contain` は画像全体が見えるように、アスペクト比を維持したまま要素内に収めます。要素と画像の比率が違う場合、余白が生じます。\n2. `cover` は要素を埋め尽くすため、はみ出した部分が切り取られます。\n3. 画像が歪みます。\n4. 元のサイズで表示されます。",
     "id": 20206
   },
   {
@@ -2487,36 +2487,36 @@
     "question": "50Mbpsの通信速度で、1.5GBのデータをダウンロードするのにかかる理論上の時間はどれか。",
     "options": [
       "30秒",
-      "240秒",
       "300秒",
+      "240秒",
       "2400秒"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2\n\n【解説】\n1. 単位変換：1.5 GB = 1500 MB = 12000 Mbit (1500 × 8)\n2. 計算：12000 Mbit ÷ 50 Mbps = 240 秒\n\n（※1.5GBを1536MBとして計算する場合もありますが、選択肢の間隔が広いため、概算で1.5×1000または1024どちらでも近い値を選びます。1500*8/50=240。1536*8/50=245.76。選択肢では240秒が正解です。）。",
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（240秒）\n\n【解説】\n1. 単位変換：1.5 GB = 1500 MB = 12000 Mbit (1500 × 8)\n2. 計算：12000 Mbit ÷ 50 Mbps = 240 秒\n\n（※1.5GBを1536MBとして計算する場合もありますが、選択肢の間隔が広いため、概算で1.5×1000または1024どちらでも近い値を選びます。1500*8/50=240。1536*8/50=245.76。選択肢では240秒が正解です。）。",
     "id": 20208
   },
   {
     "question": "Webアクセシビリティにおいて、動画コンテンツに「キャプション（字幕）」を提供することの主な目的はどれか。",
     "options": [
       "動画のファイルサイズを削減するため。",
-      "聴覚障害者や、音を出せない環境にいるユーザーが内容を理解できるようにするため。",
+      "動画の画質を向上させるため。",
       "検索エンジンに動画を表示させないようにするため。",
-      "動画の画質を向上させるため。"
+      "聴覚障害者や、音を出せない環境にいるユーザーが内容を理解できるようにするため。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（聴覚障害者や、音を出せない環境にいるユーザーが内容を理解できるようにするため。）\n\n【解説】\nキャプション（字幕）は、音声情報（会話や効果音など）をテキストで表示するもので、耳が聞こえない人や音が聞き取りにくい環境にいる人にとって不可欠な情報保障手段です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（聴覚障害者や、音を出せない環境にいるユーザーが内容を理解できるようにするため。）\n\n【解説】\nキャプション（字幕）は、音声情報（会話や効果音など）をテキストで表示するもので、耳が聞こえない人や音が聞き取りにくい環境にいる人にとって不可欠な情報保障手段です。",
     "id": 20209
   },
   {
     "question": "CSSのメディアクエリにおいて、画面の向きが「横長（ランドスケープ）」であることを条件にする記述はどれか。",
     "options": [
-      "(orientation: portrait)",
       "(orientation: landscape)",
+      "(orientation: portrait)",
       "(direction: horizontal)",
       "(screen: wide)"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（(orientation: landscape)）\n\n【解説】\n1. `portrait` は縦長です。\n2. `orientation: landscape` は、ビューポートの幅が高さ以上である場合（横長）に適用されます。\n3. `direction` は書字方向です。\n4. そのようなメディア特性はありません。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（(orientation: landscape)）\n\n【解説】\n1. `orientation: landscape` は、ビューポートの幅が高さ以上である場合（横長）に適用されます。\n2. `portrait` は縦長です。\n3. `direction` は書字方向です。\n4. そのようなメディア特性はありません。",
     "id": 20210
   },
   {
@@ -2535,12 +2535,12 @@
     "question": "JavaScriptにおいて、定数 `PI`（円周率）などを提供する組み込みオブジェクトはどれか。",
     "options": [
       "Number",
-      "Math",
       "Calc",
+      "Math",
       "Science"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（Math）\n\n【解説】\nJavaScriptの `Math` オブジェクトは、数学的な定数や関数を提供します。円周率は `Math.PI` で取得できます。",
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（Math）\n\n【解説】\nJavaScriptの `Math` オブジェクトは、数学的な定数や関数を提供します。円周率は `Math.PI` で取得できます。",
     "id": 20212
   },
   {
@@ -2559,36 +2559,36 @@
     "question": "Webサイトのパフォーマンス高速化手法の一つ「Lazy Loading（遅延読み込み）」の説明はどれか。",
     "options": [
       "全ての画像を最初に一括で読み込む。",
-      "画面のスクロールに応じて、必要になったタイミングで画像などを読み込む。",
+      "サーバーの応答速度を上げる。",
       "画質を落として読み込みを速くする。",
-      "サーバーの応答速度を上げる。"
+      "画面のスクロールに応じて、必要になったタイミングで画像などを読み込む。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（画面のスクロールに応じて、必要になったタイミングで画像などを読み込む。）\n\n【解説】\n`loading=\"lazy\"` 属性などを使用し、ビューポート外にある画像の読み込みを後回しにすることで、初期表示速度（First Contentful Paintなど）を向上させる手法です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（画面のスクロールに応じて、必要になったタイミングで画像などを読み込む。）\n\n【解説】\n`loading=\"lazy\"` 属性などを使用し、ビューポート外にある画像の読み込みを後回しにすることで、初期表示速度（First Contentful Paintなど）を向上させる手法です。",
     "id": 20214
   },
   {
     "question": "色彩心理において、「進出色」の特徴として正しいものはどれか。",
     "options": [
-      "寒色系の色で、後ろに下がって見える。",
       "暖色系の明るい色で、前に飛び出して見える。",
+      "寒色系の色で、後ろに下がって見える。",
       "無彩色で、距離感がない。",
       "暗い色で、重く感じる。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（暖色系の明るい色で、前に飛び出して見える。）\n\n【解説】\n赤、橙、黄などの暖色系で、かつ明度・彩度が高い色は、実際よりも手前に位置しているように見えるため「進出色」と呼ばれます。逆に、青などの寒色系や暗い色は「後退色」と呼ばれます。",
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1（暖色系の明るい色で、前に飛び出して見える。）\n\n【解説】\n赤、橙、黄などの暖色系で、かつ明度・彩度が高い色は、実際よりも手前に位置しているように見えるため「進出色」と呼ばれます。逆に、青などの寒色系や暗い色は「後退色」と呼ばれます。",
     "id": 20215
   },
   {
     "question": "HTML5の `<meter>` 要素の使用目的として適切なものはどれか。",
     "options": [
       "進捗状況（プログレスバー）を表示する。",
-      "既知の範囲内でのスカラー測定値（ディスク使用量や投票率など）を表示する。",
       "ナビゲーションメニューを表示する。",
+      "既知の範囲内でのスカラー測定値（ディスク使用量や投票率など）を表示する。",
       "数式を表示する。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（既知の範囲内でのスカラー測定値（ディスク使用量や投票率など）を表示する。）\n\n【解説】\n1. 進捗状況（タスクの完了度など）には `<progress>` 要素を使用します。\n2. `<meter>` 要素は、最大値・最小値が決まっている測定値（容量、温度、得点など）を表すのに適しています。\n3. `<nav>` です。\n4. MathMLなどを使用します。",
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3（既知の範囲内でのスカラー測定値（ディスク使用量や投票率など）を表示する。）\n\n【解説】\n1. 進捗状況（タスクの完了度など）には `<progress>` 要素を使用します。\n2. `<nav>` です。\n3. `<meter>` 要素は、最大値・最小値が決まっている測定値（容量、温度、得点など）を表すのに適しています。\n4. MathMLなどを使用します。",
     "id": 20216
   },
   {
@@ -2600,7 +2600,7 @@
       "テキストを均等割り付け（両端揃え）にする。"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（テキストを均等割り付け（両端揃え）にする。）\n\n【解説】\n1. `left` です。\n2. `right` です。\n3. `center` です。\n4. `justify` を指定すると、行の行末が揃うように文字間隔が自動調整されます（均等割り付け）。",
+    "explanation": "【正解】4（テキストを均等割り付け(両端揃え)にする。）\n\n【解説】\n1. `left` です。\n2. `right` です。\n3. `center` です。\n4. `justify` を指定すると、行の行末が揃うように文字間隔が自動調整されます（均等割り付け）。",
     "id": 20217
   },
   {
@@ -2619,12 +2619,12 @@
     "question": "JavaScriptにおいて、`localStorage` と `sessionStorage` の主な違いはどれか。",
     "options": [
       "保存できる容量の違い（localStorageの方が小さい）。",
-      "データの有効期限の違い（localStorageは永続的、sessionStorageはブラウザを閉じるまで）。",
+      "違いはない。",
       "localStorageはサーバーに送信されるが、sessionStorageは送信されない。",
-      "違いはない。"
+      "データの有効期限の違い（localStorageは永続的、sessionStorageはブラウザを閉じるまで）。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（データの有効期限の違い（localStorageは永続的、sessionStorageはブラウザを閉じるまで）。）\n\n【解説】\nどちらもWeb Storage APIですが、`localStorage` は明示的に削除しない限りデータが残り続けます。一方、`sessionStorage` はページのセッション中のみ（タブやウィンドウを閉じるまで）有効です。容量はどちらも同程度（約5MB〜）です。",
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4（データの有効期限の違い（localStorageは永続的、sessionStorageはブラウザを閉じるまで）。）\n\n【解説】\nどちらもWeb Storage APIですが、`localStorage` は明示的に削除しない限りデータが残り続けます。一方、`sessionStorage` はページのセッション中のみ（タブやウィンドウを閉じるまで）有効です。容量はどちらも同程度（約5MB〜）です。",
     "id": 20219
   },
   {
@@ -2724,7 +2724,7 @@
     "id": 20227
   },
   {
-    "question": "HTML5の `<br>` 要素の使用が適切とされるケースはどれか。",
+    "question": "HTML5の `<br>` 要素の使用が適切なケースはどれか。",
     "options": [
       "段落と段落の間を広げるため。",
       "詩や住所など、行送りが内容の一部となっている場合。",
@@ -2732,7 +2732,7 @@
       "見出しを中央寄せにするため。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（詩や住所など、行送りが内容の一部となっている場合。）\n\n【解説】\n`<br>` は改行（Line Break）を表しますが、単なる余白調整のために使用するのは非推奨です（余白はCSSのmarginを使うべき）。詩や住所など、改行自体に意味がある場合にのみ使用します。",
+    "explanation": "【正解】2（詩や住所など、行送りが内容の一部となっている場合。）\n\n【解説】\n`<br>` は改行（Line Break）を表します。単なる余白調整のために使用しません（余白はCSSのmarginを使用します）。詩や住所など、改行自体に意味がある場合に使用します。",
     "id": 20228
   },
   {
@@ -2768,7 +2768,7 @@
       "ブラウザのウィンドウサイズが変わると非表示になる。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（親要素の領域内でのみ、スクロールに応じて固定配置と相対配置が切り替わる。）\\n\\n【解説】\\n`position: sticky;` は、指定された閾値（`top: 0`など）に達するまでは相対配置（relative）のように振る舞い、達すると固定配置（fixed）のように振る舞います。ただし、その効果は親要素（コンテナ）の範囲内に限定されます。",
+    "explanation": "【正解】2（親要素の領域内でのみ、スクロールに応じて固定配置と相対配置が切り替わる。）",
     "id": 20232
   },
   {
@@ -2780,7 +2780,7 @@
       "push()"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（push()）\\n\\n【解説】\\n1. `pop()`: 配列の末尾から要素を取り除く。\\n2. `shift()`: 配列の先頭から要素を取り除く。\\n3. `unshift()`: 配列の先頭に要素を追加する。\\n4. `push()`: 配列の末尾に要素を追加する。",
+    "explanation": "【正解】4（push()）",
     "id": 20233
   },
   {
@@ -2792,7 +2792,7 @@
       "SVG"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（JPEG）\\n\\n【解説】\\n1. GIF: 可逆圧縮。256色まで。アニメーション対応。\\n2. PNG: 可逆圧縮。透過対応。\\n3. JPEG: 非可逆圧縮。フルカラー対応で写真に適しているが、保存を繰り返すと画質が劣化する。\\n4. SVG: ベクター形式。",
+    "explanation": "【正解】3（JPEG）",
     "id": 20234
   },
   {
@@ -2804,11 +2804,11 @@
       "約144 KB"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（約1.44 MB）\\n\\n【解説】\\nデータ量(ビット) = 800 × 600 × 24 = 11,520,000 ビット\\nバイト換算 = 11,520,000 ÷ 8 = 1,440,000 バイト\\nKB換算 = 1,440,000 ÷ 1,000 = 1,440 KB\\nMB換算 = 1,440 ÷ 1,000 = 1.44 MB\\n（または1024で割る場合: 1,440,000 ÷ 1024 ÷ 1024 ≒ 1.37 MB）\\n選択肢の中で最も近いのは約1.44 MBです。",
+    "explanation": "【正解】1（約1.44 MB）",
     "id": 20235
   },
   {
-    "question": "WCAG 2.1 における「達成基準 1.4.3 コントラスト (最低限)」で求められる、通常のテキストのコントラスト比はどれか。",
+    "question": "WCAG 2.1 における「達成基準 1.4.3 コントラスト (最低限)」で求められる、大きな文字を除くテキストのコントラスト比はどれか。",
     "options": [
       "3:1 以上",
       "4.5:1 以上",
@@ -2816,7 +2816,7 @@
       "10:1 以上"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2.5:1 以上\\n\\n【解説】\\nWCAG 2.1 レベルAAでは、通常のテキストおよび文字画像には 4.5:1 以上のコントラスト比が求められます。大きな文字（18pt以上または太字14pt以上）の場合は 3:1 以上です。",
+    "explanation": "【正解】2（4.5:1 以上）",
     "id": 20236
   },
   {
@@ -2828,7 +2828,7 @@
       "上10px、右20px、左30px、下0px"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（上10px、右20px、下30px、左20px（左は右と同じ））\\n\\n【解説】\\n`margin` プロパティに値を3つ指定した場合の順序は「上、左右、下」となります。\\n・値1つ: 全方向\\n・値2つ: 上下、左右\\n・値3つ: 上、左右、下\\n・値4つ: 上、右、下、左。",
+    "explanation": "【正解】2（上10px、右20px、下30px、左20px(左は右と同じ)）",
     "id": 20237
   },
   {
@@ -2840,7 +2840,7 @@
       "Internal Server Error (サーバー内部エラー)"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（Not Found (未検出)）\\n\\n【解説】\\n1. 400: Bad Request\\n2. 403: Forbidden\\n3. 404: Not Found (リクエストされたリソースが見つからない)\\n4. 500: Internal Server Errorになります。",
+    "explanation": "【正解】3（Not Found (未検出)）",
     "id": 20238
   },
   {
@@ -2852,7 +2852,7 @@
       "文化庁に届け出た時点"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（著作物を創作した時点）\\n\\n【解説】\\n著作権法では無方式主義を採用しており、著作物を創作した時点で自動的に著作権が発生します。登録や表示は要件ではありません。",
+    "explanation": "【正解】1（著作物を創作した時点）",
     "id": 20239
   },
   {
@@ -2864,7 +2864,7 @@
       "<header>"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（<header>）\\n\\n【解説】\\nHTML5におけるセクショニング・コンテンツは `<article>`, `<aside>`, `<nav>`, `<section>` の4つです。`<header>`, `<footer>`, `<main>` などはセクショニング・コンテンツではありません。",
+    "explanation": "【正解】4（<header>）",
     "id": 20240
   },
   {
@@ -2876,7 +2876,7 @@
       "\"number\""
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（\"object\"）\\n\\n【解説】\\nJavaScriptの仕様上のバグ（歴史的経緯）により、`typeof null` は `\"object\"` を返します。`null` はプリミティブ値ですが、型判定ではオブジェクトとして扱われます。",
+    "explanation": "【正解】3（\"object\"）",
     "id": 20241
   },
   {
@@ -2888,11 +2888,11 @@
       "display: table;"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（display: grid;）\\n\\n【解説】\\nグリッドレイアウトを使用するには、コンテナ要素に `display: grid;` または `display: inline-grid;` を指定します。",
+    "explanation": "【正解】2（display: grid;）",
     "id": 20242
   },
   {
-    "question": "VDT作業における労働衛生管理として、推奨されるディスプレイの位置はどれか。",
+    "question": "VDT作業における労働衛生管理として、適切なディスプレイの位置はどれか。",
     "options": [
       "画面の上端が眼の高さと同じか、やや下になるようにする。",
       "画面の上端が眼の高さより上になるようにする。",
@@ -2900,7 +2900,7 @@
       "キーボードよりも低い位置に設置する。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（画面の上端が眼の高さと同じか、やや下になるようにする。）\\n\\n【解説】\\n厚生労働省のVDT作業ガイドライン（現：情報機器作業における労働衛生管理のためのガイドライン）では、ディスプレイの上端が眼の高さとほぼ同じか、やや下になることが推奨されています。視線が下向きになることで、涙液の蒸発を防ぎ、眼精疲労を軽減できます。",
+    "explanation": "【正解】1（画面の上端が眼の高さと同じか、やや下になるようにする。）",
     "id": 20243
   },
   {
@@ -2912,7 +2912,7 @@
       "%"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（rem）\\n\\n【解説】\\n1. `em`: 親要素のフォントサイズを基準とする。\\n2. `px`: ピクセル（絶対単位）。\\n3. `rem` (root em): ルート要素（通常はhtmlタグ）のフォントサイズを基準とする。\\n4. `%`: 親要素の値を基準とする。",
+    "explanation": "【正解】3（rem）",
     "id": 20245
   },
   {
@@ -2924,7 +2924,7 @@
       "Layout Cumulative Position"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（Largest Contentful Paint）\\n\\n【解説】\\nLCP (Largest Contentful Paint) は、Core Web Vitalsの一つで、ビューポート内の最も大きなコンテンツ（画像やテキストブロックなど）が表示されるまでの時間を測定する指標です。",
+    "explanation": "【正解】1（Largest Contentful Paint）",
     "id": 20246
   },
   {
@@ -2936,7 +2936,7 @@
       "入力されたメールアドレスに自動的に確認メールを送信する。"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（スマートフォンなどで入力時にメールアドレス用のキーボードを表示する。）\\n\\n【解説】\\n`<input type=\"email\">` を指定すると、ブラウザによるバリデーション（形式チェック）が行われるほか、スマートフォンなどのソフトウェアキーボードがメールアドレス入力用に最適化（@マークが表示されるなど）されます。メール送信機能はありません。",
+    "explanation": "【正解】3（スマートフォンなどで入力時にメールアドレス用のキーボードを表示する。）",
     "id": 20247
   },
   {
@@ -2948,7 +2948,7 @@
       "約16秒"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（約160秒）\\n\\n【解説】\\n1. 単位を合わせる。2GB = 2 × 1024 × 8 Mb (メガビット) = 16,384 Mb\\n   (簡易計算では 2 × 1000 × 8 = 16,000 Mb とすることも多い)\\n2. 通信速度で割る。16,000 Mb ÷ 100 Mbps = 160 秒\\n\\n正確な計算（1GB=1024MBの場合）：\\n2 × 1024 × 8 = 16,384 Mbit\\n16,384 ÷ 100 = 163.84 秒\\n\\n選択肢の中で最も近いのは「約160秒」です。",
+    "explanation": "【正解】2（約160秒）",
     "id": 20248
   },
   {
@@ -2960,7 +2960,7 @@
       "JSON.decode()"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1",
+    "explanation": "【正解】1（JSON.stringify()）",
     "id": 20250
   },
   {
@@ -2972,7 +2972,7 @@
       "画像の読み込み優先度を指定する。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（画像が表示できない場合や、スクリーンリーダー利用者に画像の内容を伝える。）\\n\\n【解説】\\n`alt` 属性（代替テキスト）は、画像が何らかの理由で表示されない場合や、視覚障害者がスクリーンリーダーを使用する際に、画像の意味や内容を伝えるために不可欠です。",
+    "explanation": "【正解】1（画像が表示できない場合や、スクリーンリーダー利用者に画像の内容を伝える。）",
     "id": 20251
   },
   {
@@ -2984,7 +2984,7 @@
       "div要素と同じ階層にあるp要素"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（div要素の直下にある子要素のp要素）\\n\\n【解説】\\n1. `div p` (子孫セレクタ): 内部にあるすべてのp要素。\\n2. `div > p` (子セレクタ): 直下の子要素であるp要素のみ。\\n3. `div + p` (隣接兄弟セレクタ): 直後にあるp要素。\\n4. `div ~ p` (一般兄弟セレクタ): 同じ親を持ち、後ろにあるp要素。",
+    "explanation": "【正解】2（div要素の直下にある子要素のp要素）",
     "id": 20252
   },
   {
@@ -2996,7 +2996,7 @@
       "Technical Layer Standard"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（Transport Layer Security）\\n\\n【解説】\\nTLS (Transport Layer Security) は、インターネット上で通信を暗号化するためのプロトコルです。SSL (Secure Sockets Layer) の後継規格ですが、慣習的にSSLと呼ばれることもあります。",
+    "explanation": "【正解】1（Transport Layer Security）",
     "id": 20253
   },
   {
@@ -3008,7 +3008,7 @@
       "<navigation>"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4",
+    "explanation": "【正解】4（<navigation>）",
     "id": 20254
   },
   {
@@ -3020,7 +3020,7 @@
       "Error"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（\"12\"）\\n\\n【解説】\\n数値と文字列を `+` 演算子で結合すると、数値が文字列に変換され、文字列連結が行われます。したがって `\"1\" + \"2\"` となり、結果は `\"12\"` です。",
+    "explanation": "【正解】2（\"12\"）",
     "id": 20256
   },
   {
@@ -3032,7 +3032,7 @@
       "rgba"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（opacity）\\n\\n【解説】\\n`opacity` プロパティは要素の不透明度を 0.0（完全に透明）から 1.0（完全に不透明）の間で指定します。`rgba` は色の指定方法の一つでアルファチャンネルを含みます。",
+    "explanation": "【正解】3（opacity）",
     "id": 20257
   },
   {
@@ -3044,7 +3044,7 @@
       "digital picture index"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（dot per inch）\\n\\n【解説】\\ndpi (dots per inch) は、1インチ（約2.54cm）あたりにいくつのドット（点）が含まれているかを表す解像度の単位です。",
+    "explanation": "【正解】1（dot per inch）",
     "id": 20258
   },
   {
@@ -3056,7 +3056,7 @@
       "ブルートフォース攻撃"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（SQLインジェクション）\\n\\n【解説】\\nSQLインジェクションは、入力フォームなどに不正なSQLコマンドを含めることで、データベースのデータを盗み見たり、改ざん・消去したりする攻撃手法です。",
+    "explanation": "【正解】3（SQLインジェクション）",
     "id": 20259
   },
   {
@@ -3068,7 +3068,7 @@
       "強い重要性を示す"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（重要性はないが、他と区別したいテキスト（キーワード、製品名など））\\n\\n【解説】\\n以前は単に「太字」を表す要素でしたが、現在は「重要性は持たないが、他と区別されるべきテキスト（キーワード、製品名など）」を表し、デフォルトスタイルとして太字が適用されます。重要性を示す場合は `<strong>` を使用します。",
+    "explanation": "【正解】3（重要性はないが、他と区別したいテキスト(キーワード、製品名など)）",
     "id": 20260
   },
   {
@@ -3080,7 +3080,7 @@
       "画面幅が768pxちょうどの場合"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（画面幅が768px以下の場合）\\n\\n【解説】\\n`max-width: 768px` は「最大幅が768px」という意味なので、0pxから768pxまでの範囲（768px以下）に適用されます。",
+    "explanation": "【正解】2（画面幅が768px以下の場合）",
     "id": 20261
   },
   {
@@ -3092,7 +3092,7 @@
       "static"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（const）\\n\\n【解説】\\n1. `var`: 再代入可能、関数スコープ（古い宣言方法）。\\n2. `let`: 再代入可能、ブロックスコープ。\\n3. `const`: 再代入不可（定数）、ブロックスコープ。",
+    "explanation": "【正解】3（const）",
     "id": 20262
   },
   {
@@ -3104,7 +3104,7 @@
       "主従関係があること（自分の著作物が「主」、引用部分が「従」）。"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（著作者の許可を得ていること。）\\n\\n【解説】\\n引用は、法律で定められた条件（公表された著作物、公正な慣行、正当な範囲、明瞭区別、主従関係、出所の明示など）を満たしていれば、著作者の許諾なしに行うことができます。",
+    "explanation": "【正解】3（著作者の許可を得ていること。）",
     "id": 20263
   },
   {
@@ -3116,7 +3116,7 @@
       "<article>"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（<main>）\\n\\n【解説】\\n`<main>` 要素は、文書の `<body>` 内の主要なコンテンツを表します。1つの文書内に、`hidden` 属性がない限り、1つしか配置できません。",
+    "explanation": "【正解】3（<main>）",
     "id": 20264
   },
   {
@@ -3128,7 +3128,7 @@
       "background-repeat: repeat-y;"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（background-repeat: no-repeat;）\\n\\n【解説】\\n背景画像を一度だけ表示し、繰り返さない場合は `no-repeat` を指定します。",
+    "explanation": "【正解】1（background-repeat: no-repeat;）",
     "id": 20265
   },
   {
@@ -3140,7 +3140,7 @@
       "ブラウザの履歴情報。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（Webブラウザ（クライアント）側に保存される小さなテキストデータ。）\\n\\n【解説】\\nCookieは、Webサイトがユーザーのブラウザに情報を保存するための仕組みです。セッション管理やユーザー設定の保存などに利用されます。",
+    "explanation": "【正解】2（Webブラウザ(クライアント)側に保存される小さなテキストデータ。）",
     "id": 20266
   },
   {
@@ -3152,7 +3152,7 @@
       "i, ii, iii ..."
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（a, b, c ...）\\n\\n【解説】\\n`<ol>` 要素の `type` 属性でリストマーカーの種類を指定できます。\\n・`1`: 数字（デフォルト）\\n・`a`: 小文字のアルファベット\\n・`A`: 大文字のアルファベット\\n・`i`: 小文字のローマ数字\\n・`I`: 大文字のローマ数字。",
+    "explanation": "【正解】2（a, b, c ...）",
     "id": 20267
   },
   {
@@ -3164,7 +3164,7 @@
       "Math.ceil()"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（Math.random()）\\n\\n【解説】\\n1. `Math.round()`: 四捨五入。\\n2. `Math.random()`: 0以上1未満の擬似乱数を返す。\\n3. `Math.floor()`: 切り捨て。\\n4. `Math.ceil()`: 切り上げ。",
+    "explanation": "【正解】2（Math.random()）",
     "id": 20269
   },
   {
@@ -3176,7 +3176,7 @@
       "SEOの効果が直接的に高まる。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（画像が読み込まれる前にレイアウトのスペースが確保され、レイアウトシフト（ガタつき）を防ぐ。）\\n\\n【解説】\\n`width` と `height` を指定することで、ブラウザは画像の読み込み完了を待たずにアスペクト比を計算し、必要なスペースを確保できます。これにより、読み込み中のレイアウトのズレ（CLS: Cumulative Layout Shift）を防ぐことができます。",
+    "explanation": "【正解】2（画像が読み込まれる前にレイアウトのスペースが確保され、レイアウトシフト(ガタつき)を防ぐ。）",
     "id": 20271
   },
   {
@@ -3188,7 +3188,7 @@
       "stack"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（z-index）\\n\\n【解説】\\n`z-index` プロパティは、位置指定された要素（positioned elements）の重なり順を整数値で指定します。値が大きいほど手前に表示されます。",
+    "explanation": "【正解】1（z-index）",
     "id": 20272
   },
   {
@@ -3200,11 +3200,11 @@
       "return true"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（event.preventDefault()）\\n\\n【解説】\\n1. `event.stopPropagation()`: イベントのバブリング（親要素への伝播）を停止する。\\n2. `event.preventDefault()`: ブラウザのデフォルトの動作をキャンセルする。\\n3. `event.stopImmediatePropagation()`: 他のリスナーの実行も止める。",
+    "explanation": "【正解】2（event.preventDefault()）",
     "id": 20273
   },
   {
-    "question": "Webページの文字コードとして、現在もっとも推奨され、広く使われているものはどれか。",
+    "question": "Webページの文字コードとして、広く使われているものはどれか。",
     "options": [
       "Shift_JIS",
       "EUC-JP",
@@ -3212,7 +3212,7 @@
       "ISO-2022-JP"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（UTF-8）\\n\\n【解説】\\nUTF-8は世界中のほぼすべての文字を扱えるユニコードのエンコーディング方式であり、HTML5でも推奨されています。",
+    "explanation": "【正解】3（UTF-8）",
     "id": 20274
   },
   {
@@ -3224,7 +3224,7 @@
       "flex-wrap"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（justify-content）\\n\\n【解説】\\n1. `align-items`: 交差軸（縦方向）の配置。\\n2. `justify-content`: 主軸（横方向）の配置。\\n3. `flex-direction`: 主軸の方向（横か縦か）を指定。\\n4. `flex-wrap`: 折り返しを指定。",
+    "explanation": "【正解】2（justify-content）",
     "id": 20275
   },
   {
@@ -3236,7 +3236,7 @@
       "cover"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（poster）\\n\\n【解説】\\n`poster` 属性に画像のURLを指定すると、動画が再生される前や読み込み中にその画像が表示されます。",
+    "explanation": "【正解】3（poster）",
     "id": 20276
   },
   {
@@ -3248,7 +3248,7 @@
       "aria-label=\"button\""
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（role=\"button\"）\\n\\n【解説】\\nHTMLのネイティブな `<button>` 要素を使えない場合（`<div>`などでボタンを作る場合）、`role=\"button\"` を指定してスクリーンリーダーなどにボタンであることを伝えます。",
+    "explanation": "【正解】1（role=\"button\"）",
     "id": 20277
   },
   {
@@ -3260,7 +3260,7 @@
       "box-model: border;"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（box-sizing: border-box;）\\n\\n【解説】\\n1. `content-box` (デフォルト): widthにpaddingやborderは含まれない。\\n2. `border-box`: widthにpaddingとborderが含まれる。レスポンシブデザインで計算が楽になるためよく使われます。",
+    "explanation": "【正解】2（box-sizing: border-box;）",
     "id": 20278
   },
   {
@@ -3272,7 +3272,7 @@
       "1111"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4\\n\\n【解説】\\n16進数のFは10進数の15です。\\n15 = 8 + 4 + 2 + 1 なので、2進数では `1111` となります。",
+    "explanation": "【正解】4（1111）",
     "id": 20279
   },
   {
@@ -3284,7 +3284,7 @@
       "<h1>"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（<span>）\\n\\n【解説】\\n`<div>`, `<p>`, `<h1>` は（HTML4までの分類で）ブロックレベル要素です。`<span>` はインライン要素です。HTML5ではコンテンツモデルという概念に変わっていますが、デフォルトの表示形式（displayプロパティ）として理解しておくと良いでしょう。",
+    "explanation": "【正解】3（<span>）",
     "id": 20280
   },
   {
@@ -3296,7 +3296,7 @@
       "match"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（pattern）\\n\\n【解説】\\n`pattern` 属性を使用すると、正規表現を指定して入力値を検証できます。例えば郵便番号なら `pattern=\"\\d{3}-\\d{4}\"` のように指定します。",
+    "explanation": "【正解】3（pattern）",
     "id": 20281
   },
   {
@@ -3308,7 +3308,7 @@
       "revert"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（inherit）\\n\\n【解説】\\n1. `inherit`: 親要素の計算値を強制的に継承します。\\n2. `initial`: プロパティの初期値（デフォルト値）に戻します。\\n3. `unset`: 親から継承するプロパティなら `inherit`、そうでなければ `initial` として振る舞います。",
+    "explanation": "【正解】1（inherit）",
     "id": 20282
   },
   {
@@ -3320,7 +3320,7 @@
       "Defer"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（Promise）\\n\\n【解説】\\n`Promise` オブジェクトは、非同期処理の完了（または失敗）とその結果の値を表します。`then()` や `catch()` メソッド、あるいは `async/await`構文とともに使用されます。",
+    "explanation": "【正解】2（Promise）",
     "id": 20283
   },
   {
@@ -3332,7 +3332,7 @@
       "@font-face"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（@font-face）\\n\\n【解説】\\n`@font-face` ルールを使用すると、サーバー上のフォントファイルを読み込んでWebページで使用することができます。",
+    "explanation": "【正解】4（@font-face）",
     "id": 20284
   },
   {
@@ -3344,7 +3344,7 @@
       "<meta name=\"abstract\" content=\"...\">"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（<meta name=\"description\" content=\"...\">）\\n\\n【解説】\\n`meta description` は、ページの概要を記述するタグで、検索エンジンの検索結果（スニペット）として表示されることが多く、クリック率（CTR）に影響します。",
+    "explanation": "【正解】2（<meta name=\"description\" content=\"...\">）",
     "id": 20285
   },
   {
@@ -3356,7 +3356,7 @@
       "Apple製品でのみ表示可能な画像フォーマットである。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（Googleが開発した画像フォーマットで、高い圧縮率を持ち、透過やアニメーションもサポートする。）\\n\\n【解説】\\nWebPは、JPEGやPNGよりもファイルサイズを小さくできる次世代フォーマットです。現在は主要なブラウザでサポートされています。",
+    "explanation": "【正解】1（Googleが開発した画像フォーマットで、高い圧縮率を持ち、透過やアニメーションもサポートする。）",
     "id": 20286
   },
   {
@@ -3368,7 +3368,7 @@
       "100年"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3\\n\\n【解説】\\nTPP11協定の発効に伴い、2018年12月30日から、著作権の保護期間は著作者の死後50年から「70年」に延長されました。",
+    "explanation": "【正解】3（70年）",
     "id": 20287
   },
   {
@@ -3380,7 +3380,7 @@
       "ファイアウォールを設置する。"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（ユーザーからの入力データを適切にサニタイズ（エスケープ処理）して出力する。）\\n\\n【解説】\\nXSSは、悪意のあるスクリプトが埋め込まれて実行されてしまう脆弱性です。HTML特殊文字（`<`, `>`, `&`, `\"`, `'`）をエスケープすることで、スクリプトとして解釈されるのを防ぎます。",
+    "explanation": "【正解】3（ユーザーからの入力データを適切にサニタイズ(エスケープ処理)して出力する。）",
     "id": 20288
   },
   {
@@ -3392,7 +3392,7 @@
       "HTTP"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（DNS）\\n\\n【解説】\\nDNS (Domain Name System) は、人間が覚えやすいドメイン名と、コンピュータが通信に使用するIPアドレスを対応付けるシステムです。",
+    "explanation": "【正解】2（DNS）",
     "id": 20289
   },
   {
@@ -3404,7 +3404,7 @@
       "21:9"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2:9\\n\\n【解説】\\n1920 ÷ 120 = 16\\n1080 ÷ 120 = 9\\nしたがって、16:9（フルHD）です。",
+    "explanation": "【正解】2（16:9）",
     "id": 20290
   },
   {
@@ -3416,7 +3416,7 @@
       "hidden: true;"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（visibility: hidden;）\\n\\n【解説】\\n1. `display: none;`: 要素を非表示にし、レイアウトからも消滅する（スペースが詰まる）。\\n2. `visibility: hidden;`: 要素は見えなくなるが、存在していたスペースはそのまま残る。\\n3. `opacity: 0;`: 透明になるだけで、クリック等のイベントも発生する可能性がある（配置は残る）。",
+    "explanation": "【正解】2（visibility: hidden;）",
     "id": 20291
   },
   {
@@ -3428,7 +3428,7 @@
       "2023.10.01"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（2023-10-01）\\n\\n【解説】\\n`datetime` 属性には、機械可読な形式（ISO 8601形式）で記述する必要があります。日付の場合は `YYYY-MM-DD` で記述します。",
+    "explanation": "【正解】2（2023-10-01）",
     "id": 20292
   },
   {
@@ -3440,7 +3440,7 @@
       "value"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（textContent）\\n\\n【解説】\\n1. `innerHTML`: HTMLタグを含む内容を取得・設定する。XSSのリスクがある。\\n2. `textContent`: ノードとその子孫のテキスト内容を取得・設定する。高速で安全。\\n3. `innerText`: レンダリングされているテキストを取得する（CSSで非表示のものは取得できないなどの違いがある）。",
+    "explanation": "【正解】2（textContent）",
     "id": 20293
   },
   {
@@ -3452,7 +3452,7 @@
       "堅牢 (Robust)"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（操作可能 (Operable)）\\n\\n【解説】\\nキーボード操作可能性（Keyboard Accessible）は、「操作可能」の原則に含まれるガイドラインです。マウスを使えないユーザーでも操作できることを保証します。",
+    "explanation": "【正解】2（操作可能 (Operable)）",
     "id": 20294
   },
   {
@@ -3464,7 +3464,7 @@
       "広がりの距離（スプレッド）"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（垂直方向のオフセット（ずれ））\\n\\n【解説】\\n`box-shadow: offset-x offset-y blur-radius spread-radius color;` の順で指定します。\\n1. `10px`: 水平オフセット\\n2. `5px`: 垂直オフセット\\n3. `5px`: ぼかし半径\\n4. 指定なし: 広がり\\n5. 色。",
+    "explanation": "【正解】2（垂直方向のオフセット(ずれ)）",
     "id": 20295
   },
   {
@@ -3476,7 +3476,7 @@
       "イエロー（黄色）"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（イエロー（黄色））\\n\\n【解説】\\n光の三原色（加法混色）では、赤＋緑＝黄色、緑＋青＝シアン、青＋赤＝マゼンタとなります。全て混ぜると白になります。",
+    "explanation": "【正解】4（イエロー(黄色)）",
     "id": 20296
   },
   {
@@ -3488,7 +3488,7 @@
       "ブラウザのキャッシュを無効にする。"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（モバイルデバイスで表示した際に、画面幅に合わせて適切にスケーリングする。）\\n\\n【解説】\\nレスポンシブWebデザインを行うために必須の記述です。ビューポートの幅をデバイスの幅に合わせ、初期倍率を1倍に設定します。",
+    "explanation": "【正解】3（モバイルデバイスで表示した際に、画面幅に合わせて適切にスケーリングする。）",
     "id": 20297
   },
   {
@@ -3500,7 +3500,7 @@
       "イベント処理が無限ループすること。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（イベントが発生した要素から親要素へとイベントが伝播していくこと。）\\n\\n【解説】\\nDOMイベントフローには「キャプチャリングフェーズ（親→子）」と「バブリングフェーズ（子→親）」があります。通常、イベントはターゲット要素で発火した後、親要素に向かって泡のように上がっていきます（バブリング）。",
+    "explanation": "【正解】1（イベントが発生した要素から親要素へとイベントが伝播していくこと。）",
     "id": 20298
   },
   {
@@ -3512,7 +3512,7 @@
       "target属性の値が \"_blank\" 以外のa要素"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（target属性の値が \"_blank\" であるa要素）\\n\\n【解説】\\nこれは属性セレクタです。`[attribute=\"value\"]` の形式で、特定の属性値を持つ要素を選択します。",
+    "explanation": "【正解】3（target属性の値が \"_blank\" であるa要素）",
     "id": 20299
   },
   {
@@ -3524,7 +3524,7 @@
       "200 px"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2 px\\n\\n【解説】\\n72 dpi (dots per inch) は、1インチあたり72ピクセルであることを意味します。\\n72 pixel/inch × 2 inch = 144 pixel",
+    "explanation": "【正解】2（144 px）",
     "id": 20300
   },
   {
@@ -3536,7 +3536,7 @@
       "DNS"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（Cookie）\\n\\n【解説】\\nHTTPはステートレスプロトコルですが、Cookieを使用することで、サーバーはクライアント（ブラウザ）を識別し、ログイン状態やカートの中身などの状態（セッション）を維持することができます。",
+    "explanation": "【正解】3（Cookie）",
     "id": 20301
   },
   {
@@ -3548,7 +3548,7 @@
       "3倍の大きさにする。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（1frの幅の列を3回繰り返す（3等分する）。）\\n\\n【解説】\\n`repeat()` 関数はパターンを繰り返します。`1fr` は利用可能なスペースの割合（fraction）を表す単位です。`repeat(3, 1fr)` は `1fr 1fr 1fr` と同じで、グリッドコンテナを3等分します。",
+    "explanation": "【正解】1（1frの幅の列を3回繰り返す(3等分する)。）",
     "id": 20302
   },
   {
@@ -3560,7 +3560,7 @@
       "Math.int()"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（parseInt()）\\n\\n【解説】\\n1. `parseInt()`: 文字列を整数に変換します。\\n2. `parseFloat()`: 文字列を浮動小数点数に変換します。\\n3. `String()`: 文字列に変換します。",
+    "explanation": "【正解】2（parseInt()）",
     "id": 20303
   },
   {
@@ -3572,7 +3572,7 @@
       "複製権"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3",
+    "explanation": "【正解】3（同一性保持権）",
     "id": 20304
   },
   {
@@ -3584,7 +3584,7 @@
       "<legend>"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（<figcaption>）\\n\\n【解説】\\n1. `<caption>`: テーブル（`<table>`）のタイトル。\\n2. `<figcaption>`: `<figure>` 要素内のキャプション。\\n3. `<legend>`: `<fieldset>` 要素（フォーム）のキャプション。",
+    "explanation": "【正解】3（<figcaption>）",
     "id": 20305
   },
   {
@@ -3596,7 +3596,7 @@
       "position"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（transform）\\n\\n【解説】\\n`transform` プロパティを使用すると、要素の回転（rotate）、拡大縮小（scale）、移動（translate）、傾斜（skew）などが可能です。",
+    "explanation": "【正解】3（transform）",
     "id": 20306
   },
   {
@@ -3608,7 +3608,7 @@
       "ネットワークサービス"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4",
+    "explanation": "【正解】4（ネットワークサービス）",
     "id": 20307
   },
   {
@@ -3620,7 +3620,7 @@
       "new Now()"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（new Date()）\\n\\n【解説】\\nJavaScriptには `Date` オブジェクトがあり、`new Date()` で現在の日時を持つインスタンスを生成します。",
+    "explanation": "【正解】3（new Date()）",
     "id": 20308
   },
   {
@@ -3632,7 +3632,7 @@
       "#F0F000"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（#FF0000）\\n\\n【解説】\\n3桁のカラーコード `#RGB` は、各桁を2回繰り返して `#RRGGBB` と解釈されます。`#F00` は `#FF0000`（赤）と同じです。",
+    "explanation": "【正解】2（#FF0000）",
     "id": 20309
   },
   {
@@ -3644,7 +3644,7 @@
       "特定のOSでのみ使用できる。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（文字の形が分かりやすく、読み間違いにくいように設計されている。）\\n\\n【解説】\\nUDフォントは、視認性（見やすさ）、可読性（読みやすさ）、判読性（誤読のしにくさ）を重視してデザインされたフォントです。濁点・半濁点の強調や、紛らわしい文字の区別などが工夫されています。",
+    "explanation": "【正解】2（文字の形が分かりやすく、読み間違いにくいように設計されている。）",
     "id": 20310
   },
   {
@@ -3656,7 +3656,7 @@
       "menu"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（controls）\\n\\n【解説】\\n`controls` 属性を指定すると、ブラウザ標準のオーディオコントローラー（再生ボタン、シークバー、音量など）が表示されます。",
+    "explanation": "【正解】2（controls）",
     "id": 20311
   },
   {
@@ -3668,7 +3668,7 @@
       "親要素の高さの1.5倍"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（フォントサイズの1.5倍）\\n\\n【解説】\\n単位なしの数値（1.5など）を指定した場合、その要素のフォントサイズに対する倍率となります。子要素に継承される際も、計算値ではなく倍率そのものが継承されるため、レイアウト崩れが起きにくく推奨されます。",
+    "explanation": "【正解】1（フォントサイズの1.5倍）",
     "id": 20312
   },
   {
@@ -3680,7 +3680,7 @@
       "localStorage.add()"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（localStorage.setItem()）\\n\\n【解説】\\n・保存: `localStorage.setItem('key', 'value')`\\n・取得: `localStorage.getItem('key')`\\n・削除: `localStorage.removeItem('key')`",
+    "explanation": "【正解】3（localStorage.setItem()）",
     "id": 20313
   },
   {
@@ -3692,7 +3692,7 @@
       "通信速度が物理的に向上し、帯域幅が倍増する。"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（通信速度が物理的に向上し、帯域幅が倍増する。）\\n\\n【解説】\\nVLANは論理的にネットワークを分割する技術であり、管理の柔軟性やセキュリティ、不要なトラフィックの遮断には効果がありますが、物理的な回線速度や帯域幅そのものを増やすものではありません。",
+    "explanation": "【正解】4（通信速度が物理的に向上し、帯域幅が倍増する。）",
     "id": 20314
   },
   {
@@ -3704,7 +3704,7 @@
       "<li>"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（<ul>）\\n\\n【解説】\\n1. `<ul>` (Unordered List): 順序のないリスト（箇条書き）。\\n2. `<ol>` (Ordered List): 順序のあるリスト（番号付き）。\\n3. `<dl>` (Description List): 定義リスト。",
+    "explanation": "【正解】2（<ul>）",
     "id": 20315
   },
   {
@@ -3716,7 +3716,7 @@
       "bgcolor"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（background-color）\\n\\n【解説】\\n1. `color`: 文字色を指定するプロパティ。\\n2. `background-color`: 背景色を指定するプロパティ。",
+    "explanation": "【正解】2（background-color）",
     "id": 20316
   },
   {
@@ -3728,7 +3728,7 @@
       "index"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（length）\\n\\n【解説】\\n配列の `length` プロパティは、配列に含まれる要素の数を返します。",
+    "explanation": "【正解】3（length）",
     "id": 20317
   },
   {
@@ -3740,7 +3740,7 @@
       "辞書攻撃"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（APT攻撃）\\n\\n【解説】\\nAPT (Advanced Persistent Threat) 攻撃は、特定のターゲットに対して、持続的（Persistent）かつ高度（Advanced）な脅威を与える攻撃のことです。潜伏して情報を盗み出すケースが多いです。",
+    "explanation": "【正解】3（APT攻撃）",
     "id": 20318
   },
   {
@@ -3752,7 +3752,7 @@
       "画像を白黒に変換する。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（画像の斜め線や曲線に発生するギザギザ（ジャギー）を目立たなくする。）\\n\\n【解説】\\nデジタル画像ではピクセルで構成されるため斜めの線が階段状（ジャギー）になります。境界部分の中間色を配置して滑らかに見せる技術がアンチエイリアスです。",
+    "explanation": "【正解】2（画像の斜め線や曲線に発生するギザギザ(ジャギー)を目立たなくする。）",
     "id": 20319
   },
   {
@@ -3764,7 +3764,7 @@
       "3Dモデルを表示するための専用要素（WebGL非対応）。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（JavaScriptを使って、ビットマップグラフィックスを動的に描画するための要素。）\\n\\n【解説】\\n`<canvas>` はJavaScript APIを使用して図形や画像を描画するための領域を提供します。ピクセルベース（ビットマップ）です。ベクターグラフィックスはSVGです。",
+    "explanation": "【正解】2（JavaScriptを使って、ビットマップグラフィックスを動的に描画するための要素。）",
     "id": 20320
   },
   {
@@ -3776,7 +3776,7 @@
       "position: absolute; top: 50%; left: 50%;"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（justify-content: center; align-items: center;）\\n\\n【解説】\\nFlexboxで完全な中央揃えをする定石です。`justify-content: center` で主軸（横）の中央、`align-items: center` で交差軸（縦）の中央に配置します。",
+    "explanation": "【正解】1（justify-content: center; align-items: center;）",
     "id": 20321
   },
   {
@@ -3788,7 +3788,7 @@
       "function"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4",
+    "explanation": "【正解】4（function）",
     "id": 20322
   },
   {
@@ -3800,7 +3800,7 @@
       "提案勧告 (Proposed Recommendation)"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（勧告 (Recommendation)）\\n\\n【解説】\\nW3Cの標準化プロセスは、大まかに WD (草案) → CR (勧告候補) → PR (提案勧告) → REC (勧告) の順に進みます。Recommendationが最終的な標準仕様です。",
+    "explanation": "【正解】3（勧告 (Recommendation)）",
     "id": 20323
   },
   {
@@ -3812,7 +3812,7 @@
       "透明度 (Alpha)"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（透明度 (Alpha)）\\n\\n【解説】\\n色の三属性は「色相（色味）」「彩度（鮮やかさ）」「明度（明るさ）」です。透明度は色の属性というよりは、表示上のパラメータです。",
+    "explanation": "【正解】4（透明度 (Alpha)）",
     "id": 20324
   },
   {
@@ -3824,7 +3824,7 @@
       "<a link=\"top\">Top</a>"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（<a href=\"#top\">Top</a>）\\n\\n【解説】\\nページ内リンク（アンカー）は、`href` 属性に `#` + `id名` を指定します。",
+    "explanation": "【正解】2（<a href=\"#top\">Top</a>）",
     "id": 20325
   },
   {
@@ -3836,7 +3836,7 @@
       "&"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（*）\\n\\n【解説】\\n1. `#`: IDセレクタ\\n2. `.`: クラスセレクタ\\n3. `*`: 全称セレクタ（ユニバーサルセレクタ）。",
+    "explanation": "【正解】3（*）",
     "id": 20326
   },
   {
@@ -3848,7 +3848,7 @@
       "コンピュータの構成管理を行うシステム。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（Webサイトのコンテンツ（テキストや画像など）を管理・更新するためのシステム。）\\n\\n【解説】\\nWordPressなどが代表的なCMSです。HTMLやCSSの専門知識がなくても、Webサイトの更新・管理ができるように設計されています。",
+    "explanation": "【正解】1（Webサイトのコンテンツ(テキストや画像など)を管理・更新するためのシステム。）",
     "id": 20327
   },
   {
@@ -3860,7 +3860,7 @@
       ".mp3"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（.mp3）\\n\\n【解説】\\n1. `.mp4`: 動画ファイル。\\n2. `.mov`: 動画ファイル（QuickTime）。\\n3. `.webm`: Web向け動画ファイル。\\n4. `.mp3`: 音声ファイル。",
+    "explanation": "【正解】4（.mp3）",
     "id": 20328
   },
   {
@@ -3872,7 +3872,7 @@
       "文字の色の調整"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（文字ごとの間隔の調整）\\n\\n【解説】\\n・カーニング (Kerning): 特定の文字の組み合わせ（例えば 'AV' など）に対して文字間隔を微調整すること。\\n・トラッキング (Tracking): 文字列全体の字送りを一律に調整すること（Letter Spacing）。\\n・レディング (Leading): 行送りの調整（Line Height）。",
+    "explanation": "【正解】2（文字ごとの間隔の調整）",
     "id": 20329
   },
   {
@@ -3884,7 +3884,7 @@
       "アプリケーション層"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（アプリケーション層）\\n\\n【解説】\\nOSI参照モデルの第7層（最上位）であるアプリケーション層には、HTTP, FTP, SMTP, POP3, DNSなどのプロトコルが含まれます。",
+    "explanation": "【正解】4（アプリケーション層）",
     "id": 20330
   },
   {
@@ -3896,7 +3896,7 @@
       "<label>"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（<summary>）\\n\\n【解説】\\n`<details>` 要素は折りたたみ可能なウィジェットを作成します。その中にある `<summary>` 要素の内容が常に表示される見出し（要約）となり、それをクリックすると詳細が開閉します。",
+    "explanation": "【正解】2（<summary>）",
     "id": 20331
   },
   {
@@ -3908,11 +3908,11 @@
       "word-break: keep-all;"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（white-space: nowrap;）\\n\\n【解説】\\n`white-space` プロパティに `nowrap` を指定すると、ソースコード上の改行を無視し、行の折り返しを行わなくなります。",
+    "explanation": "【正解】2（white-space: nowrap;）",
     "id": 20332
   },
   {
-    "question": "JavaScriptのアロー関数式 `(a, b) => a + b` と同等の通常の関数定義はどれか。",
+    "question": "JavaScriptのアロー関数式 `(a, b) => a + b` と同等の関数定義はどれか。",
     "options": [
       "function(a, b) { return a + b; }",
       "function(a, b) { a + b; }",
@@ -3920,7 +3920,7 @@
       "void function(a, b) { return a + b; }"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（function(a, b) { return a + b; }）\\n\\n【解説】\\nアロー関数で `=>` の直後に式を書くと、その結果が暗黙的に `return` されます（concise body）。ブロック `{}` を使わない場合は `return` を省略できます。",
+    "explanation": "【正解】1（function(a, b) { return a + b; }）",
     "id": 20333
   },
   {
@@ -3932,7 +3932,7 @@
       "無彩色"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（補色）\\n\\n【解説】\\n色相環で向かい合う位置にある色の組み合わせを「補色（ダイアッド）」と呼びます。互いの色を引き立て合う効果（補色対比）があります。",
+    "explanation": "【正解】3（補色）",
     "id": 20334
   },
   {
@@ -3944,7 +3944,7 @@
       "Not Modified (更新なし)"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（Moved Permanently (恒久的な移動)）\\n\\n【解説】\\n301リダイレクトは、ページが恒久的に新しいURLに移動したことを示します。検索エンジンの評価も新URLに引き継がれます。一時的な移動は302です。",
+    "explanation": "【正解】2（Moved Permanently (恒久的な移動)）",
     "id": 20335
   },
   {
@@ -3956,7 +3956,7 @@
       "約100.0 cm"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（約67.7 cm）\\n\\n【解説】\\n1. ピクセル数をdpiで割り、インチを求める。\\n   1920 px ÷ 72 dpi ≒ 26.666 inch\\n2. インチをセンチメートルに換算する。\\n   26.666 inch × 2.54 cm/inch ≒ 67.73 cmです。",
+    "explanation": "【正解】3（約67.7 cm）",
     "id": 20336
   },
   {
@@ -3968,7 +3968,7 @@
       "電話番号"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（電話番号）\\n\\n【解説】\\n「要配慮個人情報」は、不当な差別や偏見が生じないように特に配慮を要する情報（人種、信条、社会的身分、病歴、犯罪歴など）です。電話番号は通常の「個人情報」ですが、要配慮個人情報には該当しません。",
+    "explanation": "【正解】4（電話番号）",
     "id": 20337
   },
   {
@@ -3980,7 +3980,7 @@
       "reduce()"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（map()）\\n\\n【解説】\\n1. `forEach()`: 要素ごとに処理を実行するが、新しい配列は返さない（返り値はundefined）。\\n2. `map()`: 要素ごとに処理を実行し、その結果からなる新しい配列を返す。\\n3. `filter()`: 条件に一致する要素だけを抽出する。",
+    "explanation": "【正解】2（map()）",
     "id": 20339
   },
   {
@@ -3992,7 +3992,7 @@
       "入力欄を一時的に無効化する。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（ユーザーには見えないデータをサーバーに送信する。）\\n\\n【解説】\\n`type=\"hidden\"` は画面上には表示されませんが、フォーム送信時にその `name` と `value` がサーバーに送信されます。CSRF対策トークンやIDの送信などによく使われます。",
+    "explanation": "【正解】2（ユーザーには見えないデータをサーバーに送信する。）",
     "id": 20340
   },
   {
@@ -4004,7 +4004,7 @@
       "visibility"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（content）\\n\\n【解説】\\n`::before` や `::after` 擬似要素は、要素の内容の前後にコンテンツを挿入します。`content` プロパティで挿入する内容（空文字 `\"\"` でも可）を指定しないと、擬似要素自体が生成されません。",
+    "explanation": "【正解】2（content）",
     "id": 20341
   },
   {
@@ -4016,7 +4016,7 @@
       "aria-pressed"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（aria-expanded）\\n\\n【解説】\\n1. `aria-expanded`: 展開されている(`true`)か折りたたまれている(`false`)かを示す。\\n2. `aria-hidden`: 支援技術から隠すかどうかを示す。\\n3. `aria-selected`: 選択されているかどうかを示す。",
+    "explanation": "【正解】2（aria-expanded）",
     "id": 20342
   },
   {
@@ -4028,7 +4028,7 @@
       "JSON.encode()"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（JSON.stringify()）\\n\\n【解説】\\n・`JSON.stringify()`: オブジェクト → JSON文字列\\n・`JSON.parse()`: JSON文字列 → オブジェクト。",
+    "explanation": "【正解】3（JSON.stringify()）",
     "id": 20343
   },
   {
@@ -4040,7 +4040,7 @@
       "フラットデザイン"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（レスポンシブWebデザイン）\\n\\n【解説】\\nレスポンシブWebデザイン (Responsive Web Design) は、単一のHTMLファイルをCSS（メディアクエリなど）で制御し、デバイスの画面幅に応じて表示を切り替える手法です。",
+    "explanation": "【正解】2（レスポンシブWebデザイン）",
     "id": 20344
   },
   {
@@ -4052,7 +4052,7 @@
       "マンセル表色系"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（RGB）\\n\\n【解説】\\n・RGB（Red, Green, Blue）: 光の三原色。混ぜるほど明るくなる加法混色。\\n・CMYK（Cyan, Magenta, Yellow, Key plate）: 色材の三原色。混ぜるほど暗くなる減法混色。",
+    "explanation": "【正解】1（RGB）",
     "id": 20346
   },
   {
@@ -4064,7 +4064,7 @@
       "hidden"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（contenteditable）\\n\\n【解説】\\n`contenteditable` 属性を `true` に設定すると、その要素（`div`や`p`など）の内容をユーザーがブラウザ上で直接編集できるようになります。",
+    "explanation": "【正解】2（contenteditable）",
     "id": 20347
   },
   {
@@ -4076,7 +4076,7 @@
       "違いはない。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（varは関数スコープ、letはブロックスコープ。）\\n\\n【解説】\\n`var` で宣言された変数は関数単位のスコープ（関数スコープ）を持ちますが、`let` や `const` はブロック `{ ... }` 単位のスコープ（ブロックスコープ）を持ちます。これにより意図しない変数の漏洩や衝突を防ぎやすくなります。",
+    "explanation": "【正解】2（varは関数スコープ、letはブロックスコープ。）",
     "id": 20348
   },
   {
@@ -4088,7 +4088,7 @@
       "ウイルスメールの受信"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（Webアプリケーションの脆弱性を突く攻撃（SQLインジェクションなど））\\n\\n【解説】\\n一般的なファイアウォールはポートやIPアドレスで制御しますが、WAFはWebアプリケーションへの通信内容（HTTP/HTTPS）を検査し、SQLインジェクションやXSSなどの攻撃を遮断します。",
+    "explanation": "【正解】2（Webアプリケーションの脆弱性を突く攻撃(SQLインジェクションなど)）",
     "id": 20349
   },
   {
@@ -4100,7 +4100,7 @@
       "80秒"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2\\n\\n【解説】\\n1. ファイルサイズをビットに換算: 10 MB = 10 × 8 Mb = 80 Mb (メガビット)\\n2. 通信速度で割る: 80 Mb ÷ 10 Mbps = 8 秒\\n（※1バイト＝8ビット）。",
+    "explanation": "【正解】2（8秒）",
     "id": 20350
   },
   {
@@ -4112,7 +4112,7 @@
       "floatプロパティが指定されている要素。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（positionプロパティが static 以外の値に指定されている要素。）\\n\\n【解説】\\n`z-index` は、ポジショニングされた要素（`position` が `relative`, `absolute`, `fixed`, `sticky` のいずれか）に対してのみ有効です。デフォルトの `static` では効きません。",
+    "explanation": "【正解】2（positionプロパティが static 以外の値に指定されている要素。）",
     "id": 20351
   },
   {
@@ -4124,7 +4124,7 @@
       "Skypeを起動する。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（電話発信の確認画面を表示する（スマートフォンなど）。）\\n\\n【解説】\\n`tel:` スキームを使用すると、電話機能を持つデバイスでは発信確認が行われます。PCなどでは対応するアプリが起動するか、何も起きない場合があります。",
+    "explanation": "【正解】2（電話発信の確認画面を表示する(スマートフォンなど)。）",
     "id": 20352
   },
   {
@@ -4136,7 +4136,7 @@
       "delete()"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（pop()）\\n\\n【解説】\\n1. `pop()`: 末尾削除＆取得\\n2. `push()`: 末尾追加\\n3. `shift()`: 先頭削除＆取得\\n4. `unshift()`: 先頭追加。",
+    "explanation": "【正解】1（pop()）",
     "id": 20353
   },
   {
@@ -4148,7 +4148,7 @@
       "事業者の氏名（名称）、住所、電話番号"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（事業者の顔写真）\\n\\n【解説】\\n特定商取引法では、価格、支払時期・方法、商品の引渡時期、事業者情報（氏名、住所、電話番号）、返品特約などの表示が義務付けられていますが、顔写真は必須ではありません。",
+    "explanation": "【正解】3（事業者の顔写真）",
     "id": 20354
   },
   {
@@ -4160,7 +4160,7 @@
       "@media speech"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（@media print）\\n\\n【解説】\\n`@media print { ... }` 内に記述されたCSSは、ページを印刷する（または印刷プレビューを表示する）際にのみ適用されます。",
+    "explanation": "【正解】2（@media print）",
     "id": 20355
   },
   {
@@ -4172,7 +4172,7 @@
       "<div>"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（<aside>）\\n\\n【解説】\\n`<aside>` 要素は、その周囲のコンテンツと関連しているが、区別して扱えるような補足的コンテンツ（余談、広告、サイドバーなど）を表します。",
+    "explanation": "【正解】1（<aside>）",
     "id": 20356
   },
   {
@@ -4184,7 +4184,7 @@
       "常に実行中の関数そのものを指す。"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（関数がどのように呼び出されたかによって決まる。）\\n\\n【解説】\\nJavaScriptの `this` は実行コンテキストに依存します。メソッドとして呼ばれた場合はそのオブジェクト、単独で呼ばれた場合はグローバル（厳格モードではundefined）、アロー関数の場合は定義時のスコープの `this` を継承するなど、呼び出し方で変化します。",
+    "explanation": "【正解】3（関数がどのように呼び出されたかによって決まる。）",
     "id": 20357
   },
   {
@@ -4196,7 +4196,7 @@
       "空（alt=\"\"）にする。"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（リンク先のページの内容や目的。）\\n\\n【解説】\\n画像がリンクになっている場合、その画像の見た目ではなく、リンクをクリックすると何が起きるか（どこへ行くか）という「機能」や「目的」を説明する必要があります。装飾用画像なら空で良いですが、リンクの場合は空にしてはいけません。",
+    "explanation": "【正解】3（リンク先のページの内容や目的。）",
     "id": 20358
   },
   {
@@ -4208,7 +4208,7 @@
       "transition-timing-function"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（transition-timing-function）\\n\\n【解説】\\n`transition-timing-function` は、アニメーションの進行速度の変化を指定します。`linear`（一定）、`ease`（開始と終了が滑らか）、`ease-in`（徐々に加速）などの値があります。",
+    "explanation": "【正解】4（transition-timing-function）",
     "id": 20359
   },
   {
@@ -4220,7 +4220,7 @@
       "0101"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2\\n\\n【解説】\\nビットごとの論理和（OR）は、どちらか片方でも1なら1になります。\\n  1010\\nOR 0101\\n-------\\n  1111です。",
+    "explanation": "【正解】2（1111）",
     "id": 20360
   },
   {
@@ -4232,7 +4232,7 @@
       "<r>, <rb>"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（<ruby>, <rt>, <rp>）\\n\\n【解説】\\n`<ruby>` 要素で全体を囲み、`<rt>` でルビテキストを指定します。`<rp>` はルビ未対応ブラウザ用の括弧などを指定するために使われます。",
+    "explanation": "【正解】1（<ruby>, <rt>, <rp>）",
     "id": 20361
   },
   {
@@ -4244,7 +4244,7 @@
       "filter: alpha(50);"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（rgba(255, 0, 0, 0.5)）\\n\\n【解説】\\n`opacity` プロパティは要素全体（子要素含む）を透過させますが、`background-color: rgba(...)` を使用すると、背景色だけを半透明にし、中の文字などは不透明のままにできます。",
+    "explanation": "【正解】2（rgba(255, 0, 0, 0.5)）",
     "id": 20362
   },
   {
@@ -4256,7 +4256,7 @@
       "%variable%"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（${variable}）\\n\\n【解説】\\nES6で導入されたテンプレートリテラルでは、`${...}` の中に変数や式を記述して文字列に埋め込むことができます。",
+    "explanation": "【正解】2（${variable}）",
     "id": 20363
   },
   {
@@ -4268,7 +4268,7 @@
       "ファイアウォール"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（デジタル証明書（サーバー証明書））\\n\\n【解説】\\n信頼できる認証局（CA）が発行したデジタル証明書をサーバーにインストールすることで、そのサーバーが実在する組織のものであることを証明し、なりすましを防ぎます。",
+    "explanation": "【正解】2（デジタル証明書(サーバー証明書)）",
     "id": 20364
   },
   {
@@ -4280,7 +4280,7 @@
       "cursor: not-allowed;"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3",
+    "explanation": "【正解】3（pointer-events: none;）",
     "id": 20365
   },
   {
@@ -4292,7 +4292,7 @@
       "H.264"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（H.264）\\n\\n【解説】\\nMP4, AVI, MOVは動画や音声を格納する「コンテナフォーマット」です。一方、H.264（MPEG-4 AVC）は動画データを圧縮するための「コーデック（圧縮規格）」です。",
+    "explanation": "【正解】4（H.264）",
     "id": 20366
   },
   {
@@ -4304,7 +4304,7 @@
       "どこでも良い"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（<head>要素内の先頭付近）\\n\\n【解説】\\n文字コードの指定は、ブラウザが文書を読み込み始める際に最初に認識させる必要があるため、`<head>` 要素内のなるべく上の方（通常は `<title>` などよりも前）に記述します。遅れると文字化けの原因やセキュリティリスク（XSS）になります。",
+    "explanation": "【正解】1（<head>要素内の先頭付近）",
     "id": 20367
   },
   {
@@ -4316,7 +4316,7 @@
       "配列aが未定義になる。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（配列aは [1, 2, 3] になる。）\\n\\n【解説】\\n`const` は変数への「再代入」を防ぐものであり、参照しているオブジェクト（配列など）の中身の変更までは防ぎません。したがって、`push` メソッドによる要素の追加は可能です。",
+    "explanation": "【正解】2（配列aは [1, 2, 3] になる。）",
     "id": 20368
   },
   {
@@ -4328,7 +4328,7 @@
       "スクリーンリーダーが停止する状態。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（Tabキーでフォーカスが特定の領域に入り込み、そこから抜け出せなくなる状態。）\\n\\n【解説】\\nキーボードユーザーにとって深刻な問題です。モーダルダイアログなどで、Tabキーを押してもフォーカスがダイアログ内を循環し、閉じることも外に出ることもできなくなる実装ミスなどを指します。",
+    "explanation": "【正解】1（Tabキーでフォーカスが特定の領域に入り込み、そこから抜け出せなくなる状態。）",
     "id": 20370
   },
   {
@@ -4340,7 +4340,7 @@
       "約2540 px"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（約1378 px）\\n\\n【解説】\\n1. mmをインチに換算: 100 mm ÷ 25.4 mm/inch ≒ 3.937 inch\\n2. dpiを掛ける: 3.937 inch × 350 dpi ≒ 1377.95 px\\n約1378ピクセル必要です。",
+    "explanation": "【正解】1（約1378 px）",
     "id": 20371
   },
   {
@@ -4352,7 +4352,7 @@
       "<source>"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1",
+    "explanation": "【正解】1（<subtitle>）",
     "id": 20372
   },
   {
@@ -4364,7 +4364,7 @@
       "位置が(2, 0.5)に移動する。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（横幅が2倍、高さが0.5倍になる。）\\n\\n【解説】\\n`scale(x, y)` は拡大縮小を指定します。第1引数がX軸（横）、第2引数がY軸（縦）の倍率です。",
+    "explanation": "【正解】1（横幅が2倍、高さが0.5倍になる。）",
     "id": 20373
   },
   {
@@ -4376,7 +4376,7 @@
       "back()"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（reverse()）\\n\\n【解説】\\n`reverse()` メソッドは、配列の要素の順番を反転させます（破壊的メソッド）。",
+    "explanation": "【正解】1（reverse()）",
     "id": 20374
   },
   {
@@ -4388,7 +4388,7 @@
       "フィッシング"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（ドロップキャッチ）\\n\\n【解説】\\nドメインの有効期限切れ直後に、再登録可能になった瞬間を狙って第三者がそのドメインを取得する行為を「ドロップキャッチ」と呼びます。",
+    "explanation": "【正解】2（ドロップキャッチ）",
     "id": 20375
   },
   {
@@ -4400,7 +4400,7 @@
       "ドロップダウンリスト"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（スライダーによる数値選択）\\n\\n【解説】\\n`type=\"range\"` は、正確な値よりも「ある範囲内の数値」を直感的に指定するためのスライダーコントロールを表示します。",
+    "explanation": "【正解】2（スライダーによる数値選択）",
     "id": 20376
   },
   {
@@ -4412,7 +4412,7 @@
       "すべての子要素"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（親要素（コンテナ））\\n\\n【解説】\\nFlexboxレイアウトを適用するには、アイテムを囲む親要素に `display: flex;` を指定します。その直下の子要素が自動的にフレックスアイテムになります。",
+    "explanation": "【正解】1（親要素(コンテナ)）",
     "id": 20377
   },
   {
@@ -4424,7 +4424,7 @@
       "エラーになる。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（IDがtestの要素の文字色が赤になる。）\\n\\n【解説】\\nDOM操作の基本です。指定したIDを持つ要素を取得し、その `style` プロパティの `color` を変更しています。",
+    "explanation": "【正解】1（IDがtestの要素の文字色が赤になる。）",
     "id": 20378
   },
   {
@@ -4436,7 +4436,7 @@
       "ウェブコンテンツアクセシビリティガイドライン"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（高齢者・障害者等配慮設計指針）\\n\\n【解説】\\n正式名称は「高齢者・障害者等配慮設計指針－情報通信における機器，ソフトウェア及びサービス－第3部：ウェブコンテンツ」です。",
+    "explanation": "【正解】1（高齢者・障害者等配慮設計指針）",
     "id": 20379
   },
   {
@@ -4448,7 +4448,7 @@
       "HEIF"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（PNG）\\n\\n【解説】\\nPNG (Portable Network Graphics) は可逆圧縮方式を採用しており、画質を劣化させずに保存できます。JPEGは非可逆圧縮です。",
+    "explanation": "【正解】2（PNG）",
     "id": 20380
   },
   {
@@ -4460,11 +4460,11 @@
       "Cookieを使用せずにセッション管理を行う。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（1つのTCPコネクション上で複数のリクエストとレスポンスを多重化できる。）\\n\\n【解説】\\nHTTP/2はバイナリプロトコルであり、ストリームの多重化（マルチプレクシング）により、1つの接続で並行して通信できるため、HTTP/1.1よりも高速です。UDPを使うのはHTTP/3です。",
+    "explanation": "【正解】2（1つのTCPコネクション上で複数のリクエストとレスポンスを多重化できる。）",
     "id": 20381
   },
   {
-    "question": "CSSで、要素の背景画像を要素のサイズに合わせて拡大縮小し、画像全体を表示する（アスペクト比は保持し、余白ができる可能性がある）設定はどれか。",
+    "question": "CSSで、要素の背景画像を要素のサイズに合わせて拡大縮小し、画像全体を表示する（アスペクト比は保持し、余白ができる）設定はどれか。",
     "options": [
       "background-size: cover;",
       "background-size: contain;",
@@ -4472,7 +4472,7 @@
       "background-size: auto;"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（background-size: contain;）\\n\\n【解説】\\n1. `contain`: アスペクト比を保持し、画像全体が入る最大サイズにする（余白が出る可能性あり）。\\n2. `cover`: アスペクト比を保持し、要素全体を覆う最小サイズにする（はみ出す可能性あり）。",
+    "explanation": "【正解】2（background-size: contain;）",
     "id": 20382
   },
   {
@@ -4484,7 +4484,7 @@
       "defer"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（async）\\n\\n【解説】\\n`async function` を定義することで、その関数は自動的にPromiseを返すようになり、内部で `await` キーワードを使用できるようになります。",
+    "explanation": "【正解】2（async）",
     "id": 20383
   },
   {
@@ -4496,7 +4496,7 @@
       "<a rel=\"canonical\" href=\"...\">"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（<link rel=\"canonical\" href=\"...\">）\\n\\n【解説】\\n`rel=\"canonical\"` を指定することで、重複コンテンツの問題を避け、リンクの評価を正規URLに集約させることができます。",
+    "explanation": "【正解】1（<link rel=\"canonical\" href=\"...\">）",
     "id": 20384
   },
   {
@@ -4508,7 +4508,7 @@
       "Strict-Transport-Security"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（X-Frame-Options）\\n\\n【解説】\\n`X-Frame-Options` ヘッダ（またはCSPの `frame-ancestors`）を使用することで、自サイトのコンテンツが `<iframe>` などで他サイトに埋め込まれることを制御し、透明なボタンなどを重ねるクリックジャッキング攻撃を防ぎます。",
+    "explanation": "【正解】3（X-Frame-Options）",
     "id": 20385
   },
   {
@@ -4520,7 +4520,7 @@
       "約5 GB"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（約11 GB）\\n\\n【解説】\\n1フレームのデータ量 = 1920 × 1080 × 24 bit = 49,766,400 bit\\n1秒間のデータ量 = 49,766,400 × 30 fps = 1,492,992,000 bit\\n1分間のデータ量 = 1,492,992,000 × 60 sec = 89,579,520,000 bit\\nバイト換算 = 89,579,520,000 ÷ 8 = 11,197,440,000 Byte\\nGB換算 = 11,197,440,000 ÷ 1000^3 ≒ 11.2 GB（または1024^3 ≒ 10.4 GB）\\n選択肢で最も近いのは約11GBです。",
+    "explanation": "【正解】1（約11 GB）",
     "id": 20386
   },
   {
@@ -4532,7 +4532,7 @@
       "<nav>"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（<aside>）\\n\\n【解説】\\n`<aside>` はメインコンテンツとは関係性の薄い、分離可能なコンテンツ（広告、サイドバー、余談など）を表します。",
+    "explanation": "【正解】3（<aside>）",
     "id": 20387
   },
   {
@@ -4544,7 +4544,7 @@
       "initial"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（0）\\n\\n【解説】\\n`flex-grow` のデフォルト値は `0` です。これは、コンテナに余白があっても、アイテムは必要以上のサイズに伸長しないことを意味します。",
+    "explanation": "【正解】1（0）",
     "id": 20388
   },
   {
@@ -4556,11 +4556,11 @@
       "create class MyClass { ... }"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（class MyClass { constructor() { ... } }）\\n\\n【解説】\\nES6では `class` キーワードを使ってクラスを定義できます。初期化処理は `constructor` メソッド内に記述します。",
+    "explanation": "【正解】1（class MyClass { constructor() { ... } }）",
     "id": 20389
   },
   {
-    "question": "Webアクセシビリティにおいて、動画コンテンツに提供すべき代替手段として、最も優先度が低い（あるいは不十分とされる）ものはどれか。",
+    "question": "Webアクセシビリティにおいて、動画コンテンツに提供すべき代替手段として、最も優先度が低い（あるいは不十分な）ものはどれか。",
     "options": [
       "字幕（キャプション）",
       "音声解説（オーディオディスクリプション）",
@@ -4568,7 +4568,7 @@
       "動画の概要のみを記した短いテキスト"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（動画の概要のみを記した短いテキスト）\\n\\n【解説】\\n動画の内容を理解するためには、音声情報に対する字幕、映像情報に対する音声解説、または全体の内容を含む書き起こしテキストが必要です。概要だけでは代替手段として不十分です。",
+    "explanation": "【正解】4（動画の概要のみを記した短いテキスト）",
     "id": 20390
   },
   {
@@ -4580,7 +4580,7 @@
       "グリッドの余白を指定している。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（2つの列を作り、右の列は左の列の2倍の幅になる。）\\n\\n【解説】\\n`grid-template-columns` は列の定義です。`1fr 2fr` は、利用可能な幅を1:2の比率で分割することを意味します。",
+    "explanation": "【正解】2（2つの列を作り、右の列は左の列の2倍の幅になる。）",
     "id": 20391
   },
   {
@@ -4592,7 +4592,7 @@
       "Secure Visual Guide"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（Scalable Vector Graphics）\\n\\n【解説】\\nSVGはXMLベースのベクター画像形式で、拡大縮小しても画質が劣化せず、コードで編集やアニメーションが可能です。",
+    "explanation": "【正解】1（Scalable Vector Graphics）",
     "id": 20392
   },
   {
@@ -4604,7 +4604,7 @@
       "map()"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（every()）\\n\\n【解説】\\n1. `every()`: すべての要素が条件を満たせばtrue。\\n2. `some()`: 少なくとも1つの要素が条件を満たせばtrue。\\n3. `filter()`: 条件を満たす要素を抽出する。",
+    "explanation": "【正解】2（every()）",
     "id": 20393
   },
   {
@@ -4616,7 +4616,7 @@
       "著作物を出版した者"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（著作物を創作した者）\\n\\n【解説】\\n著作者とは、著作物を創作した本人を指します。発注者や著作権者は必ずしも著作者ではありません（職務著作の場合を除く）。",
+    "explanation": "【正解】1（著作物を創作した者）",
     "id": 20394
   },
   {
@@ -4628,7 +4628,7 @@
       "begin, finish"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（min, max）\\n\\n【解説】\\n`min` 属性で最小日、`max` 属性で最大日を指定できます（例: `min=\"2023-01-01\"`）。",
+    "explanation": "【正解】2（min, max）",
     "id": 20395
   },
   {
@@ -4640,7 +4640,7 @@
       ":visited"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4",
+    "explanation": "【正解】4（:visited）",
     "id": 20396
   },
   {
@@ -4652,7 +4652,7 @@
       "10 Mbps"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2 Mbps\\n\\n【解説】\\n1. データ量をビットに換算: 500 MB = 500 × 8 Mb = 4000 Mb\\n2. 時間で割る: 4000 Mb ÷ 40 sec = 100 Mbpsです。",
+    "explanation": "【正解】2（100 Mbps）",
     "id": 20397
   },
   {
@@ -4664,7 +4664,7 @@
       "delay=\"image\""
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（loading=\"lazy\"）\\n\\n【解説】\\n`<img>` や `<iframe>` タグに `loading=\"lazy\"` を指定すると、ブラウザはビューポートに近づくまでリソースの読み込みを遅延させ、初期表示速度を向上させます。",
+    "explanation": "【正解】1（loading=\"lazy\"）",
     "id": 20398
   },
   {
@@ -4676,7 +4676,7 @@
       "contains"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（in）\\n\\n【解説】\\n`\"key\" in obj` のように `in` 演算子を使用すると、オブジェクト（またはそのプロトタイプチェーン）にプロパティが存在するかどうかを真偽値で返します。",
+    "explanation": "【正解】3（in）",
     "id": 20399
   },
   {
@@ -4688,7 +4688,7 @@
       "白 (White)"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（シアン (Cyan)）\\n\\n【解説】\\n赤(00)・緑(FF)・青(FF)。緑と青の光を混ぜるとシアン（水色）になります。",
+    "explanation": "【正解】2（シアン (Cyan)）",
     "id": 20400
   },
   {
@@ -4700,7 +4700,7 @@
       "aria-readonly"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（aria-live）\\n\\n【解説】\\n`aria-live` 属性（値は `polite`, `assertive` など）を使用すると、JavaScriptなどでコンテンツが動的に更新された際、スクリーンリーダーがそれをいつ読み上げるかを制御できます。",
+    "explanation": "【正解】1（aria-live）",
     "id": 20401
   },
   {
@@ -4712,7 +4712,7 @@
       "画面全体の解像度の50%"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（ビューポート（ブラウザ表示領域）の幅の50%）\\n\\n【解説】\\n`vw` (viewport width) 単位は、ビューポートの幅を100としたときの割合です。`50vw` は画面幅の半分になります。",
+    "explanation": "【正解】2（ビューポート(ブラウザ表示領域)の幅の50%）",
     "id": 20402
   },
   {
@@ -4724,7 +4724,7 @@
       "RangeError"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（SyntaxError）\\n\\n【解説】\\nJSONの形式が正しくない場合（例えばシングルクォートを使っている、末尾にカンマがあるなど）、`JSON.parse()` は `SyntaxError` をスローします。",
+    "explanation": "【正解】3（SyntaxError）",
     "id": 20403
   },
   {
@@ -4736,7 +4736,7 @@
       "受信拒否の通知方法を記載して送信すること"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（事前に同意（オプトイン）を得ていない相手への広告宣伝メールの送信）\\n\\n【解説】\\n特定電子メール法では、原則としてあらかじめ同意した者に対してのみ送信が認められる「オプトイン方式」が採用されています。「未承諾広告※」の記載義務は過去のルール（オプトアウト方式時代）のものです。",
+    "explanation": "【正解】1（事前に同意(オプトイン)を得ていない相手への広告宣伝メールの送信）",
     "id": 20404
   },
   {
@@ -4748,7 +4748,7 @@
       "getImage()"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（toDataURL()）\\n\\n【解説】\\n`canvas.toDataURL()` メソッドを使用すると、描画内容をBase64エンコードされたデータURIスキーム形式（`data:image/png;base64,...`など）で取得できます。",
+    "explanation": "【正解】1（toDataURL()）",
     "id": 20405
   },
   {
@@ -4760,7 +4760,7 @@
       "div p"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（div + p）\\n\\n【解説】\\n1. `+` (隣接兄弟結合子): 直後の兄弟要素を選択。\\n2. `~` (一般兄弟結合子): 後ろにあるすべての兄弟要素を選択。",
+    "explanation": "【正解】2（div + p）",
     "id": 20406
   },
   {
@@ -4772,7 +4772,7 @@
       "ポートスキャン"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（DoS攻撃 / DDoS攻撃）\\n\\n【解説】\\nDoS (Denial of Service) 攻撃はサービス妨害攻撃です。多数の機器から一斉に行うものをDDoS (Distributed DoS) 攻撃と呼びます。",
+    "explanation": "【正解】1（DoS攻撃 / DDoS攻撃）",
     "id": 20407
   },
   {
@@ -4784,7 +4784,7 @@
       "720 px"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2 px\\n\\n【解説】\\n高さ = 幅 × (3 / 4) = 1024 × 0.75 = 768 pxです。",
+    "explanation": "【正解】2（768 px）",
     "id": 20408
   },
   {
@@ -4796,7 +4796,7 @@
       "フレックスアイテム"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（インライン要素およびテーブルセル）\\n\\n【解説】\\n`vertical-align` は、インライン要素（`inline`, `inline-block`）の垂直方向の整列や、テーブルセル（`td`, `th`）内のコンテンツの垂直位置指定に使用されます。通常のブロックレベル要素には効きません。",
+    "explanation": "【正解】3（インライン要素およびテーブルセル）",
     "id": 20409
   },
   {
@@ -4808,7 +4808,7 @@
       "分 (m)"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（ミリ秒 (ms)）\\n\\n【解説】\\n`setTimeout(callback, delay)` の `delay` はミリ秒単位です。1000ミリ秒＝1秒です。",
+    "explanation": "【正解】2（ミリ秒 (ms)）",
     "id": 20410
   },
   {
@@ -4820,7 +4820,7 @@
       "SNSへのシェアボタンを表示する。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（現在のページがサイト階層のどこに位置するかをユーザーに示す。）\\n\\n【解説】\\nパンくずリストは、ユーザーがサイト内の現在位置を把握し、上位階層へ簡単に戻れるようにするためのナビゲーション要素です。",
+    "explanation": "【正解】2（現在のページがサイト階層のどこに位置するかをユーザーに示す。）",
     "id": 20411
   },
   {
@@ -4832,7 +4832,7 @@
       "自動的にメールが送信される。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（メールソフトが起動し、宛先と件名（Inquiry）が自動入力される。）\\n\\n【解説】\\n`mailto:` スキームではクエリパラメータで件名（`subject`）や本文（`body`）を指定できます（日本語はURLエンコードが必要）。",
+    "explanation": "【正解】2（メールソフトが起動し、宛先と件名(Inquiry)が自動入力される。）",
     "id": 20412
   },
   {
@@ -4844,7 +4844,7 @@
       "marker-style"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（list-style-type）\\n\\n【解説】\\n`list-style-type` でマーカーの種類（`disc`, `circle`, `square`, `decimal` など）を指定します。",
+    "explanation": "【正解】3（list-style-type）",
     "id": 20413
   },
   {
@@ -4856,7 +4856,7 @@
       "enable strict;"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（\"use strict\";）\\n\\n【解説】\\nスクリプトの先頭または関数の先頭に `\"use strict\";` と記述することで、より厳格なエラーチェックが行われるモードになります。",
+    "explanation": "【正解】1（\"use strict\";）",
     "id": 20414
   },
   {
@@ -4868,7 +4868,7 @@
       "動画の再生時間を表示する。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（既知の範囲内でのスカラー測定値（ディスク使用量や投票率など）を表示する。）\\n\\n【解説】\\n1. `<meter>`: 規定範囲内の値（ゲージ）。\\n2. `<progress>`: タスクの完了度（進捗バー）。\\n3. `<output>`: 計算結果。",
+    "explanation": "【正解】2（既知の範囲内でのスカラー測定値(ディスク使用量や投票率など)を表示する。）",
     "id": 20415
   },
   {
@@ -4880,7 +4880,7 @@
       "index.html"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（sitemap.xml）\\n\\n【解説】\\nXMLサイトマップ（`sitemap.xml`）は、検索エンジンに対してサイト内のページURL、更新頻度、重要度などを伝えるためのファイルです。",
+    "explanation": "【正解】2（sitemap.xml）",
     "id": 20416
   },
   {
@@ -4892,7 +4892,7 @@
       "すべて正解"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2",
+    "explanation": "【正解】2（rotate3d()）",
     "id": 20417
   },
   {
@@ -4904,7 +4904,7 @@
       "0"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1\\n\\n【解説】\\n`Math.floor()` は引数以下の最大の整数（切り捨て）を返します。",
+    "explanation": "【正解】1（3）",
     "id": 20418
   },
   {
@@ -4916,7 +4916,7 @@
       "無制限"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（シングルスレッド）\\n\\n【解説】\\nJavaScript（ブラウザのメインスレッド）は基本的にシングルスレッドで動作し、一度に1つの処理しか実行できません。Web Workersを使うことでバックグラウンドでのマルチスレッド処理は可能です。",
+    "explanation": "【正解】1（シングルスレッド）",
     "id": 20419
   },
   {
@@ -4928,7 +4928,7 @@
       "白と青"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（赤と緑）\\n\\n【解説】\\nP型（1型）やD型（2型）の色覚特性を持つ人にとって、赤と緑は明度が近いと区別がつきにくく、同じような茶色や灰色に見えることがあります。",
+    "explanation": "【正解】3（赤と緑）",
     "id": 20420
   },
   {
@@ -4940,7 +4940,7 @@
       "テンプレートエンジン専用の要素でブラウザでは無視される。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（ページ読み込み時には描画されず、JavaScriptで複製して使用するためのひな形となる。）\\n\\n【解説】\\n`<template>` 内のコンテンツはDOMには存在しますが、レンダリングはされません。JavaScriptで `content` プロパティにアクセスし、複製（clone）してDOMに追加することで表示されます。",
+    "explanation": "【正解】2（ページ読み込み時には描画されず、JavaScriptで複製して使用するためのひな形となる。）",
     "id": 20421
   },
   {
@@ -4952,7 +4952,7 @@
       "親要素が height を持っていること。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（positionプロパティが static 以外の値を持つ直近の祖先要素。）\\n\\n【解説】\\n絶対配置（absolute）の基準は、`position` が `static`（初期値）以外の値（relative, absolute, fixed, sticky）に設定されている、最も近い祖先要素です。見つからない場合は初期包含ブロック（通常はビューポートやhtml）が基準になります。",
+    "explanation": "【正解】2（positionプロパティが static 以外の値を持つ直近の祖先要素。）",
     "id": 20422
   },
   {
@@ -4964,7 +4964,7 @@
       "200,000,000,000 バイト"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3,000,000,000,000 バイト\\n\\n【解説】\\n1TB (テラ) = 10^12 = 1,000,000,000,000\\n2TB = 2 × 10^12 = 2,000,000,000,000 バイト\\n（※1024計算の場合は約2.19兆バイトになりますが、設問の条件に従います）。",
+    "explanation": "【正解】3（2,000,000,000,000 バイト）",
     "id": 20423
   },
   {
@@ -4976,7 +4976,7 @@
       "アクセシビリティ、セキュリティ、プライバシー"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（有効性、効率性、満足度）\\n\\n【解説】\\nISO 9241-11におけるユーザビリティの定義は、「特定のユーザが特定の利用状況において、システム、製品又はサービスを利用する際に、有効さ（Effectiveness）、効率（Efficiency）及び利用者の満足度（Satisfaction）をもって特定の目標を達成する度合い」です。",
+    "explanation": "【正解】1（有効性、効率性、満足度）",
     "id": 20424
   },
   {
@@ -4988,7 +4988,7 @@
       "drop-shadow"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（text-shadow）\\n\\n【解説】\\n文字に影をつけるのは `text-shadow` です。要素のボックス自体に影をつけるのが `box-shadow` です。`drop-shadow` は `filter` プロパティの関数です。",
+    "explanation": "【正解】2（text-shadow）",
     "id": 20425
   },
   {
@@ -5000,7 +5000,7 @@
       "splice(6)"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（slice(6)）\\n\\n【解説】\\n`slice(start, end)` メソッドは文字列の一部を抽出します。インデックス6から末尾までを取得すると `\"World\"` になります。`substring(6)` も同様です。",
+    "explanation": "【正解】1（slice(6)）",
     "id": 20426
   },
   {
@@ -5012,7 +5012,7 @@
       "XML"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（PHP）\\n\\n【解説】\\nHTML/CSSはクライアント（ブラウザ）で解釈される言語です。PHP, Ruby, Python, Node.jsなどはサーバーサイドで実行され、動的にHTMLを生成します。",
+    "explanation": "【正解】3（PHP）",
     "id": 20427
   },
   {
@@ -5024,19 +5024,19 @@
       "違法にアップロードされたと知りながら漫画をダウンロードする。"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（購入した音楽CDを自分のスマホに入れて聴く。）\\n\\n【解説】\\n「個人的に又は家庭内その他これに準ずる限られた範囲内」で使用することを目的とする場合は複製が認められています。業務目的や友人への配布、違法アップロードと知ってのダウンロードは対象外です。",
+    "explanation": "【正解】1（購入した音楽CDを自分のスマホに入れて聴く。）",
     "id": 20428
   },
   {
     "question": "HTML5の `<script>` タグの `defer` 属性の効果はどれか。",
     "options": [
-      "スクリプトを非同期で読み込み、読み込み完了後すぐに実行する（HTML解析を中断する可能性がある）。",
+      "スクリプトを非同期で読み込み、読み込み完了後すぐに実行する（HTML解析を中断する）。",
       "スクリプトを非同期で読み込み、HTML解析完了後（DOMContentLoadedの前）に実行する。",
       "スクリプトの実行を無効にする。",
       "スクリプトをサーバー側で実行する。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（スクリプトを非同期で読み込み、HTML解析完了後（DOMContentLoadedの前）に実行する。）\\n\\n【解説】\\n`defer` はHTMLパースをブロックせず並行して読み込み、パース完了後に順序通り実行されるため、DOM操作を含むスクリプトに適しています。`async` は読み込み完了次第実行されるため順序が保証されません。",
+    "explanation": "【正解】2（スクリプトを非同期で読み込み、HTML解析完了後(DOMContentLoadedの前)に実行する。）",
     "id": 20429
   },
   {
@@ -5048,7 +5048,7 @@
       "border-style: dashed;"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（border-style: double;）\\n\\n【解説】\\n1. `solid`: 実線\\n2. `double`: 二重線（ボーダー幅が3px以上必要）\\n3. `dotted`: 点線\\n4. `dashed`: 破線。",
+    "explanation": "【正解】2（border-style: double;）",
     "id": 20430
   },
   {
@@ -5096,7 +5096,7 @@
       "堅牢 (Robust)"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（操作可能 (Operable)）\n\n【解説】\nキーボード操作可能性は「操作可能（Operable）」の原則に含まれます。ユーザーがインターフェースを操作し、ナビゲーションできることを保証する必要があります。",
+    "explanation": "【正解】2（操作可能 (Operable)）\n\n【解説】\nキーボード操作が可能であることは「操作可能（Operable）」の原則に含まれます。ユーザーがインターフェースを操作し、ナビゲーションできることを保証する必要があります。",
     "id": 20434
   },
   {
@@ -5120,7 +5120,7 @@
       "11.5 MB"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2.44 MB\n\n【解説】\nデータ量 = 画素数 × 1画素あたりのビット数\n800 × 600 = 480,000 画素\n480,000 × 24 bit = 11,520,000 bit\n11,520,000 ÷ 8 = 1,440,000 Byte\n1,440,000 ÷ 1,000,000 = 1.44 MB (または ÷1024÷1024 ≒ 1.37 MiB)。",
+    "explanation": "【正解】2（1.44 MB）\n\n【解説】\nデータ量 = 画素数 × 1画素あたりのビット数\n800 × 600 = 480,000 画素\n480,000 × 24 bit = 11,520,000 bit\n11,520,000 ÷ 8 = 1,440,000 Byte\n1,440,000 ÷ 1,000,000 = 1.44 MB (または ÷1024÷1024 ≒ 1.37 MiB)。",
     "id": 20436
   },
   {
@@ -5156,7 +5156,7 @@
       "100年"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3\n\n【解説】\n日本の著作権法では、著作権の保護期間は原則として著作者の死後70年までと定められています（映画の著作物なども公表後70年）。",
+    "explanation": "【正解】3（70年）\n\n【解説】\n日本の著作権法では、著作権の保護期間は原則として著作者の死後70年までと定められています（映画の著作物なども公表後70年）。",
     "id": 20439
   },
   {
@@ -5168,7 +5168,7 @@
       "ブラウザキャッシュを活用する"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（全ての画像をBMP形式で保存する）\n\n【解説】\nBMP形式は通常非圧縮でファイルサイズが大きくなるため、Webでの使用は推奨されません。JPEG, PNG, WebPなどの圧縮形式を使用すべきです。",
+    "explanation": "【正解】3（全ての画像をBMP形式で保存する）\n\n【解説】\nBMP形式は非圧縮でファイルサイズが大きくなります。WebではJPEG, PNG, WebPなどの圧縮形式を使用します。",
     "id": 20441
   },
   {
@@ -5208,7 +5208,7 @@
     "id": 20444
   },
   {
-    "question": "JIS X 8341-3:2016 において、レベルAAで求められる「コントラスト比（最低限）」の達成基準は、通常の文字においてどれか。",
+    "question": "JIS X 8341-3:2016 において、レベルAAで求められる「コントラスト比（最低限）」の達成基準は、大きな文字を除く文字においてどれか。",
     "options": [
       "3:1 以上",
       "4.5:1 以上",
@@ -5216,7 +5216,7 @@
       "10:1 以上"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2.5:1 以上\n\n【解説】\nレベルAAでは、通常のテキストのコントラスト比は少なくとも 4.5:1 が必要です。大きな文字（18pt以上、または太字14pt以上）の場合は 3:1 以上が必要です。",
+    "explanation": "【正解】2（4.5:1 以上）\n\n【解説】\nレベルAAでは、大きな文字を除くテキストのコントラスト比は 4.5:1 以上が必要です。大きな文字（18pt以上、または太字14pt以上）の場合は 3:1 以上が必要です。",
     "id": 20445
   },
   {
@@ -5240,7 +5240,7 @@
       "200秒"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4\n\n【解説】\n600MB = 600 × 8 Mbit = 4800 Mbit\n4800 Mbit ÷ 24 Mbps = 200 秒\n(注意: B=Byte, b=bit。1Byte=8bit)。",
+    "explanation": "【正解】4（200秒）\n\n【解説】\n600MB = 600 × 8 Mbit = 4800 Mbit\n4800 Mbit ÷ 24 Mbps = 200 秒\n(注意: B=Byte, b=bit。1Byte=8bit)。",
     "id": 20447
   },
   {
@@ -5324,7 +5324,7 @@
       "Error"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2\n\n【解説】\n数値と文字列を `+` 演算子で結合すると、数値が文字列に変換されて連結されます。`1` が `'1'` になり、`'1' + '2'` で `'12'` となります。",
+    "explanation": "【正解】2（12）\n\n【解説】\n数値と文字列を `+` 演算子で結合すると、数値が文字列に変換されて連結されます。`1` が `'1'` になり、`'1' + '2'` で `'12'` となります。",
     "id": 20456
   },
   {
@@ -5568,7 +5568,7 @@
     "id": 20480
   },
   {
-    "question": "次のうち、厚生労働省の「情報機器作業における労働衛生管理のためのガイドライン」（VDT作業ガイドライン）において、一連続作業時間の目安として推奨されている時間はどれか。",
+    "question": "次のうち、厚生労働省の「情報機器作業における労働衛生管理のためのガイドライン」（VDT作業ガイドライン）において、一連続作業時間の目安として示されている時間はどれか。",
     "options": [
       "30分を超えないようにする",
       "60分を超えないようにする",
@@ -5576,7 +5576,7 @@
       "120分を超えないようにする"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2\n\n【解説】\nガイドラインでは、一連続作業時間が60分を超えないようにし、次の連続作業までの間に10分〜15分の作業休止時間を設けることが推奨されています。",
+    "explanation": "【正解】2（60分を超えないようにする）\n\n【解説】\nガイドラインでは、一連続作業時間が60分を超えないようにし、次の連続作業までの間に10分〜15分の作業休止時間を設けます。",
     "id": 20481
   },
   {
@@ -5588,7 +5588,7 @@
       "インライン要素でのみ有効"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（positionプロパティが static 以外（relative, absolute, fixed, sticky）の要素で有効）\n\n【解説】\n`z-index` は、`position` プロパティの初期値である `static` の要素には適用されません。スタッキングコンテキスト（重なり順）を制御するには、`position` の指定が必要です（FlexアイテムやGridアイテムの場合を除く）。",
+    "explanation": "【正解】3（positionプロパティが static 以外(relative, absolute, fixed, sticky)の要素で有効）\n\n【解説】\n`z-index` は、`position` プロパティの初期値である `static` の要素には適用されません。スタッキングコンテキスト（重なり順）を制御するには、`position` の指定が必要です（FlexアイテムやGridアイテムの場合を除く）。",
     "id": 20482
   },
   {
@@ -5708,7 +5708,7 @@
       "2024.01.01"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（2024-01-01）\n\n【解説】\n`datetime` 属性の値は、機械可読な形式（ISO 8601形式など）である必要があります。日付の場合は `YYYY-MM-DD` 形式が推奨されます。",
+    "explanation": "【正解】2（2024-01-01）\n\n【解説】\n`datetime` 属性の値は、機械可読な形式（ISO 8601形式など）である必要があります。日付の場合は `YYYY-MM-DD` 形式を使用します。",
     "id": 20492
   },
   {
@@ -5720,7 +5720,7 @@
       "ウイルス感染を防ぐため"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（ステートレスなHTTP通信で状態（セッション）を維持するため）\n\n【解説】\nHTTPは本来、1回ごとの通信で完結する（ステートレス）プロトコルです。ログイン状態やカートの中身などを維持するためにCookieが利用されます。",
+    "explanation": "【正解】3（ステートレスなHTTP通信で状態(セッション)を維持するため）\n\n【解説】\nHTTPは本来、1回ごとの通信で完結する（ステートレス）プロトコルです。ログイン状態やカートの中身などを維持するためにCookieが利用されます。",
     "id": 20493
   },
   {
@@ -5817,7 +5817,7 @@
       "保存できる容量はCookieと同じ4KB程度である。"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（有効期限がなく、永続的に保存される（明示的に削除しない限り）。）\n\n【解説】\n`localStorage` は永続的なストレージで、ブラウザを閉じてもデータは保持されます。`sessionStorage` はブラウザ（タブ）を閉じると消えます。容量は一般的に5MB程度です。"
+    "explanation": "【正解】3（有効期限がなく、永続的に保存される(明示的に削除しない限り)。）\n\n【解説】\n`localStorage` は永続的なストレージで、ブラウザを閉じてもデータは保持されます。`sessionStorage` はブラウザ（タブ）を閉じると消えます。容量の目安は5MBです。"
   },
   {
     "id": 20503,
@@ -5841,7 +5841,7 @@
       "10:1"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2.5:1\n\n【解説】\nレベルAAでは、通常のテキストには 4.5:1 以上のコントラスト比が求められます。大きな文字（18pt以上または太字14pt以上）は 3:1 以上です。"
+    "explanation": "【正解】2（4.5:1）\n\n【解説】\nレベルAAでは、大きな文字を除くテキストには 4.5:1 以上のコントラスト比が求められます。大きな文字（18pt以上または太字14pt以上）は 3:1 以上です。"
   },
   {
     "id": 20505,
@@ -5859,13 +5859,13 @@
     "id": 20506,
     "question": "CSS関数 `clamp()` の引数の順序として正しいものはどれか。",
     "options": [
-      "clamp(最小値, 推奨値, 最大値)",
-      "clamp(推奨値, 最小値, 最大値)",
-      "clamp(最大値, 推奨値, 最小値)",
-      "clamp(最小値, 最大値, 推奨値)"
+      "clamp(最小値, 値, 最大値)",
+      "clamp(値, 最小値, 最大値)",
+      "clamp(最大値, 値, 最小値)",
+      "clamp(最小値, 最大値, 値)"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（clamp(最小値, 推奨値, 最大値)）\n\n【解説】\n`clamp(MIN, VAL, MAX)` は、値をMINとMAXの間に制限しつつ、基本的にはVALを使用します。レスポンシブタイポグラフィなどでよく使われます。"
+    "explanation": "【正解】1（clamp(最小値, 値, 最大値)）\n\n【解説】\n`clamp(MIN, VAL, MAX)` は、値をMINとMAXの間に制限しつつ、基本的にはVALを使用します。レスポンシブタイポグラフィなどでよく使われます。"
   },
   {
     "id": 20507,
@@ -5949,7 +5949,7 @@
       "スクリプトの実行を無効化する。"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（HTML解析と並行してダウンロードし、解析完了直後（DOMContentLoaded前）に実行する。）\n\n【解説】\n`defer` はHTMLパースをブロックせず、パース完了後に順序通り実行されます。`async` はダウンロード完了次第すぐに実行されます。"
+    "explanation": "【正解】2（HTML解析と並行してダウンロードし、解析完了直後(DOMContentLoaded前)に実行する。）\n\n【解説】\n`defer` はHTMLパースをブロックせず、パース完了後に順序通り実行されます。`async` はダウンロード完了次第すぐに実行されます。"
   },
   {
     "id": 20514,
@@ -5965,7 +5965,7 @@
   },
   {
     "id": 20515,
-    "question": "厚生労働省の「情報機器作業における労働衛生管理のためのガイドライン」において、推奨されるディスプレイと目の距離はおよそどれくらいか。",
+    "question": "厚生労働省の「情報機器作業における労働衛生管理のためのガイドライン」において、ディスプレイと目の距離の目安はどれくらいか。",
     "options": [
       "20cm以上",
       "40cm以上",
@@ -5973,7 +5973,7 @@
       "100cm以上"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（40cm以上）\n\n【解説】\nガイドラインでは、眼と画面の距離は40cm以上の距離を保つことが推奨されています。"
+    "explanation": "【正解】2（40cm以上）\n\n【解説】\nガイドラインでは、眼と画面の距離は40cm以上の距離を保ちます。"
   },
   {
     "id": 20516,
@@ -5997,6 +5997,6 @@
       "フッターナビゲーション"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（パンくずリスト（Breadcrumbs））\n\n【解説】\nパンくずリストは、トップページから現在のページまでの経路を示し、ユーザーがサイト内のどこにいるかを把握しやすくします。"
+    "explanation": "【正解】2（パンくずリスト(Breadcrumbs)）\n\n【解説】\nパンくずリストは、トップページから現在のページまでの経路を示し、ユーザーがサイト内のどこにいるかを把握しやすくします。"
   }
 ]
