@@ -5406,8 +5406,8 @@
       "80mmHg",
       "210mmHg"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2 / 【解説】\n脈圧 = 収縮期血圧 - 拡張期血圧。130 - 80 = 50mmHg。平均血圧は拡張期 + 脈圧/3 ≒ 96mmHg。"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1\n\n/ 【解説】\n脈圧 = 収縮期血圧 - 拡張期血圧。130 - 80 = 50mmHg。平均血圧は拡張期 + 脈圧/3 ≒ 96mmHg。"
   },
   {
     "id": "HR-451",

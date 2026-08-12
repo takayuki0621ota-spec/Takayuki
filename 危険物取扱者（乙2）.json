@@ -828,8 +828,8 @@
       "約4.2×10^4J",
       "約2.1×10^4J"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4（約4.2×10^4J）\n\n【解説】Q=mcΔT=500×4.2×10＝21000J＝2.1×10^4J。"
+    "correctOptionIndex": 4,
+    "explanation": "【正解】5\n\n【解説】Q=mcΔT=500×4.2×10＝21000J＝2.1×10^4J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_065",
@@ -2245,8 +2245,8 @@
       "約1.05×10^4J",
       "約2.10×10^4J"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4（約1.05×10^4J）\n\n【解説】Q=250×4.2×15＝15750J。"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2\n\n【解説】Q=250×4.2×15＝15750J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_174",
@@ -2583,8 +2583,8 @@
       "約1.26×10^4J",
       "約1.0×10^4J"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1（約8.4×10^3J）\n\n【解説】Q=200×4.2×15＝12600J。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4\n\n【解説】Q=200×4.2×15＝12600J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_200",
@@ -2778,8 +2778,8 @@
       "約8.4×10^3J",
       "約4.2×10^3J"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4（約8.4×10^3J）\n\n【解説】Q=300×4.2×10＝12600J。"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2\n\n【解説】Q=300×4.2×10＝12600J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_215",
@@ -2895,8 +2895,8 @@
       "約1.26×10^4J",
       "約4.2×10^3J"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3（約8.4×10^3J）\n\n【解説】Q=250×4.2×10＝10500J。"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2\n\n【解説】Q=250×4.2×10＝10500J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_224",
@@ -3402,8 +3402,8 @@
       "約1.26×10^4J",
       "約4.2×10^3J"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3（約3.78×10^3J）\n\n【解説】Q=90×4.2×5＝1890J。"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1\n\n【解説】Q=90×4.2×5＝1890J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_263",
@@ -3610,8 +3610,8 @@
       "約3.78×10^3J",
       "約4.2×10^3J"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1（約7.56×10^3J）\n\n【解説】Q=180×4.2×20＝15120J。"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2\n\n【解説】Q=180×4.2×20＝15120J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_279",
@@ -3662,8 +3662,8 @@
       "約1.26×10^3J",
       "約6.3×10^3J"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4（約1.26×10^3J）\n\n【解説】Q=40×4.2×5＝840J。"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1\n\n【解説】Q=40×4.2×5＝840J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_283",
@@ -3766,8 +3766,8 @@
       "約1.26×10^4J",
       "約2.1×10^4J"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3（約8.4×10^3J）\n\n【解説】Q=100×4.2×30＝12600J。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4\n\n【解説】Q=100×4.2×30＝12600J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_291",
@@ -4052,8 +4052,8 @@
       "約8.4×10^3J",
       "約1.05×10^3J"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1（約2.1×10^3J）\n\n【解説】Q=50×4.2×20＝4200J。"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3\n\n【解説】Q=50×4.2×20＝4200J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_313",
@@ -4260,8 +4260,8 @@
       "約2.84×10^3J",
       "約1.89×10^3J"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5（約1.89×10^3J）\n\n【解説】Q=45×4.2×15＝2835J。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4\n\n【解説】Q=45×4.2×15＝2835J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_329",
@@ -5248,8 +5248,8 @@
       "約1.26×10^4J",
       "約6.3×10^3J"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4（約1.26×10^4J）\n\n【解説】Q=300×4.2×25＝31500J。"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3\n\n【解説】Q=300×4.2×25＝31500J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_405",
@@ -5300,8 +5300,8 @@
       "約2.1×10^4J",
       "約8.4×10^3J"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1（約1.26×10^4J）\n\n【解説】Q=480×4.2×15＝30240J。"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2\n\n【解説】Q=480×4.2×15＝30240J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_409",
@@ -5612,8 +5612,8 @@
       "約1.58×10^3J",
       "約3.15×10^3J"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（約5.04×10^3J）\n\n【解説】Q=75×4.2×25＝7875J。"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3\n\n【解説】Q=75×4.2×25＝7875J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_433",
@@ -5716,8 +5716,8 @@
       "約4.2×10^3J",
       "約2.1×10^4J"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（約9.45×10^3J）\n\n【解説】Q=225×4.2×20＝18900J。"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1\n\n【解説】Q=225×4.2×20＝18900J。"
   },
   {
     "id": "KIKENBUTSU_OTSU2_441",

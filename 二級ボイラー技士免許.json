@@ -5895,8 +5895,8 @@
       "12 kg",
       "22.4 kg"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（32 kg）\n\n【解説】質量保存の法則より、12kg + 酸素 = 44kg なので、酸素 = 32kg です。（化学反応式的にも C(12) + O2(32) → CO2(44) で一致します）"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3\n\n【解説】質量保存の法則より、12kg + 酸素 = 44kg なので、酸素 = 32kg です。（化学反応式的にも C(12) + O2(32) → CO2(44) で一致します）"
   },
   {
     "id": "BOILER_FUEL_124",

@@ -4260,8 +4260,8 @@
       "4 Diopter",
       "8 Diopter"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3（12 Diopter）\n\n【解説】\n倍率M = D / 4 の式を用いると、D = 4 × M となります。3倍なら 4×3=12D です。（M = 1 + D/4 の式を使う場合もありますが、高倍率では D/4 が簡易的に使われます）"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4\n\n【解説】\n倍率M = D / 4 の式を用いると、D = 4 × M となります。3倍なら 4×3=12D です。（M = 1 + D/4 の式を使う場合もありますが、高倍率では D/4 が簡易的に使われます）"
   },
   {
     "id": 329,

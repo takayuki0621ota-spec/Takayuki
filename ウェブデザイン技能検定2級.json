@@ -3012,7 +3012,7 @@
     "id": 20254
   },
   {
-    "question": "次のJavaScriptコードの実行結果はどれか。\\n`console.log(1 + \"2\");`",
+    "question": "次のJavaScriptコードの実行結果はどれか。\n`console.log(1 + \"2\");`",
     "options": [
       "3",
       "\"12\"",

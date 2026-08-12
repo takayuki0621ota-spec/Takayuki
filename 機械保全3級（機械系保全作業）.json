@@ -1101,8 +1101,8 @@
       "150 m/min",
       "314 m/min"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2 m/min\n\n【解説】\n1. 切削速度の公式：v = (π × D × N) ÷ 1000\n2. v：切削速度(m/min)、D：直径(mm)、N：回転数(min⁻¹)\n3. v = (3.14 × 100 × 318) ÷ 1000\n4. v = 99852 ÷ 1000 ≒ 100 m/min"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4\n\nm/min\n\n【解説】\n1. 切削速度の公式：v = (π × D × N) ÷ 1000\n2. v：切削速度(m/min)、D：直径(mm)、N：回転数(min⁻¹)\n3. v = (3.14 × 100 × 318) ÷ 1000\n4. v = 99852 ÷ 1000 ≒ 100 m/min"
   },
   {
     "id": 30093,

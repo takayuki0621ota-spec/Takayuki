@@ -1075,8 +1075,8 @@
       "3000J。",
       "6000J。"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5（6000J。）\n\n【解説】熱量Q＝mcΔTより、m＝100g、c＝0.5J/(g・K)、ΔT＝60KなのでQ＝100×0.5×60＝3000Jとなる。最も近い値は3000Jである。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4\n\n【解説】熱量Q＝mcΔTより、m＝100g、c＝0.5J/(g・K)、ΔT＝60KなのでQ＝100×0.5×60＝3000Jとなる。最も近い値は3000Jである。"
   },
   {
     "id": "KIKENBUTSU_OTSU4_084",
@@ -2830,8 +2830,8 @@
       "約30％。",
       "約25％。"
     ],
-    "correctOptionIndex": 0,
-    "explanation": "【正解】1（約15％。）\n\n【解説】溶液の質量は200＋50＝250gであり、質量パーセント濃度は50/250×100＝20％となる。したがって最も近い値は約20％であるが、選択肢の読み違いに注意する必要がある。"
+    "correctOptionIndex": 2,
+    "explanation": "【正解】3\n\n【解説】溶液の質量は200＋50＝250gであり、質量パーセント濃度は50/250×100＝20％となる。したがって最も近い値は約20％であるが、選択肢の読み違いに注意する必要がある。"
   },
   {
     "id": "KIKENBUTSU_OTSU4_219",
@@ -3155,8 +3155,8 @@
       "約16000J。",
       "約8000J。"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5（約8000J。）\n\n【解説】熱量Q＝mcΔTより、m＝200g、c＝0.8J/(g・K)、ΔT＝30KなのでQ＝200×0.8×30＝4800Jとなる。計算結果と選択肢の単位・桁を慎重に確認する必要がある。"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1\n\n【解説】熱量Q＝mcΔTより、m＝200g、c＝0.8J/(g・K)、ΔT＝30KなのでQ＝200×0.8×30＝4800Jとなる。計算結果と選択肢の単位・桁を慎重に確認する必要がある。"
   },
   {
     "id": "KIKENBUTSU_OTSU4_244",
@@ -3194,8 +3194,8 @@
       "約8000J。",
       "約400J。"
     ],
-    "correctOptionIndex": 2,
-    "explanation": "【正解】3（約2000J。）\n\n【解説】熱量Q＝mcΔTより、m＝200g、c＝1.0J/(g・K)、ΔT＝20KなのでQ＝200×1.0×20＝4000Jとなる。選択肢の中で最も近い値は約4000Jである。"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1\n\n【解説】熱量Q＝mcΔTより、m＝200g、c＝1.0J/(g・K)、ΔT＝20KなのでQ＝200×1.0×20＝4000Jとなる。選択肢の中で最も近い値は約4000Jである。"
   },
   {
     "id": "KIKENBUTSU_OTSU4_247",
@@ -3220,8 +3220,8 @@
       "約4500J。",
       "約7500J。"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（約6000J。）\n\n【解説】熱量Q＝mcΔTより、m＝150g、c＝0.5J/(g・K)、ΔT＝60KなのでQ＝150×0.5×60＝4500Jとなる。"
+    "correctOptionIndex": 3,
+    "explanation": "【正解】4\n\n【解説】熱量Q＝mcΔTより、m＝150g、c＝0.5J/(g・K)、ΔT＝60KなのでQ＝150×0.5×60＝4500Jとなる。"
   },
   {
     "id": "KIKENBUTSU_OTSU4_249",

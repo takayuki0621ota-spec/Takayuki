@@ -980,8 +980,8 @@
       "1.013 MPa",
       "1013 Pa"
     ],
-    "correctOptionIndex": 1,
-    "explanation": "【正解】2（101.3 kPa）\n\n【解説】1 atm = 101325 Pa ≒ 101.3 kPa ≒ 0.1013 MPa です。"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1\n\n【解説】1 atm = 101325 Pa ≒ 101.3 kPa ≒ 0.1013 MPa です。"
   },
   {
     "id": "KHK_HEI_LPG_083_CHEM",

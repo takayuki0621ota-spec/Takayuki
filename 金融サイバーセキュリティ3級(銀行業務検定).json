@@ -2156,8 +2156,8 @@
       "200万円",
       "100万円"
     ],
-    "correctOptionIndex": 3,
-    "explanation": "【正解】4\n\n【解説】\nALE（Annual Loss Expectancy）は、単一損失予想額（SLE）× 年間発生率（ARO）で求められます。\nまずSLE = 資産価値 × 露出係数(EF) = 1,000万円 × 0.5 = 500万円。\n次にALE = SLE × ARO = 500万円 × 0.2 = 100万円。\nよって正解は4です。"
+    "correctOptionIndex": 0,
+    "explanation": "【正解】1\n\n【解説】\nALE（Annual Loss Expectancy）は、単一損失予想額（SLE）× 年間発生率（ARO）で求められます。\nまずSLE = 資産価値 × 露出係数(EF) = 1,000万円 × 0.5 = 500万円。\n次にALE = SLE × ARO = 500万円 × 0.2 = 100万円。\nよって正解は4です。"
   },
   {
     "id": 181,
@@ -2373,7 +2373,7 @@
       "Strict-Transport-Security"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1\n\n【解説】\nクリックジャッキング対策として、自サイトのコンテンツが他サイトのフレーム内に表示されるのを制御するヘッダは1の「X-Frame-Options」です（またはCSPのframe-ancestors）。"
+    "explanation": "【正解】1\n\n【解説】\n選択肢の中で、クリックジャッキング対策として自サイトのコンテンツが他サイトのフレーム内に表示されるのを制御するHTTPレスポンスヘッダは1の「X-Frame-Options」です。なお、現行ではCSPの「frame-ancestors」で制御する方法もありますが、本問の選択肢ではX-Frame-Optionsが正答です。"
   },
   {
     "id": 199,

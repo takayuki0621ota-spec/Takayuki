@@ -6418,8 +6418,8 @@
       "4 g",
       "40 g"
     ],
-    "correctOptionIndex": 4,
-    "explanation": "【正解】5\npH 2 = [H+] 10^-2 mol/L。\n100 L 中の H+ の物質量は、10^-2 * 100 = 1 mol。\nこれを中和するには OH- が 1 mol 必要。\nNaOH 1 mol の質量は 40 g。\nよって 40 g。"
+    "correctOptionIndex": 1,
+    "explanation": "【正解】2\n\npH 2 = [H+] 10^-2 mol/L。\n100 L 中の H+ の物質量は、10^-2 * 100 = 1 mol。\nこれを中和するには OH- が 1 mol 必要。\nNaOH 1 mol の質量は 40 g。\nよって 40 g。"
   },
   {
     "id": "KAYAKU_SEIZO_KOGAKU_086",
