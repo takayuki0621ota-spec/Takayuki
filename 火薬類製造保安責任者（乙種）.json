@@ -5620,13 +5620,13 @@
     "question": "【計算問題】火薬類の爆発。ある爆薬の爆発圧力が10GPa（ギガパスカル）である。これを気圧（atm）に換算すると約何気圧か。（1 atm ≒ 0.1 MPa とする）。",
     "options": [
       "1,000 atm",
-      "10,000 atm",
-      "100 atm",
       "100,000 atm",
+      "100 atm",
+      "10,000 atm",
       "1,000,000 atm"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2\n\n10 GPa = 10,000 MPa。\n10,000 MPa / 0.1 MPa/atm = 100,000 atm。"
+    "explanation": "【正解】2（100,000 atm）\n\n【解説】\n単位換算を段階的に行います。\n\n① GPa → MPa に換算：\n1 GPa = 1,000 MPa なので、\n10 GPa = 10 × 1,000 = 10,000 MPa\n\n② MPa → atm に換算：\n問題文より 1 atm ≒ 0.1 MPa なので、1 MPa = 10 atm。\nしたがって、\n10,000 MPa × 10 atm/MPa = 100,000 atm\n\n1. 不適当。1,000 atm は 10 GPa を 100 MPa と誤った場合の値です。\n2. 適当。計算結果と一致します。\n3. 不適当。100 atm は GPa → kPa と誤換算した場合の値です。\n4. 不適当。10,000 atm は 1 atm ≒ 1 MPa と誤って計算した場合の値です。\n5. 不適当。1,000,000 atm は 1 atm ≒ 0.01 MPa と誤った場合の値です。"
   },
   {
     "id": "KAYAKU_SEIZO_OTSU_434",
