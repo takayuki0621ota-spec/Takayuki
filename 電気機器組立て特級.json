@@ -1662,7 +1662,7 @@
       "NOT (A AND B) = (NOT A) AND (NOT B)"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（NOT (A AND B) = (NOT A) OR (NOT B)）\n\n【解説】\nド・モルガンの定理は以下の2つです。\n1. NOT (A AND B) = (NOT A) OR (NOT B)\n2. NOT (A OR B) = (NOT A) AND (NOT B)\n選択肢1が正解です。"
+    "explanation": "【正解】2（NOT (A AND B) = (NOT A) OR (NOT B)）\n\n【解説】\nド・モルガンの定理は、論理否定（NOT）を論理積（AND）と論理和（OR）の間で分配する際の法則で、以下の2式が成立します。\n・否定と論理積：NOT (A AND B) = (NOT A) OR (NOT B)  … 選択肢2\n・否定と論理和：NOT (A OR B) = (NOT A) AND (NOT B)\n選択肢1は結合律（ANDとORの優先順位に関する式）であり、ド・モルガンの定理ではありません。選択肢3・4はド・モルガンの定理の式を左右で取り違えた誤りです。\n\nよって、選択肢2が正解です。"
   },
   {
     "id": 90136,
