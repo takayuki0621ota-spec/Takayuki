@@ -2857,7 +2857,7 @@
       "$C = A \\times B$"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（$C = (A \\times Q1 + B \\times Q2) / (Q1 +…）\n\n物質収支の計算です。総物質量（負荷量）を総流量で割ることで平均濃度が求まります。"
+    "explanation": "【正解】3（$C = (A \\times Q1 + B \\times Q2) / (Q1 + Q2)$）\n\n物質収支の計算です。総物質量（負荷量）を総流量で割ることで平均濃度が求まります。"
   },
   {
     "id": 221,

@@ -1617,7 +1617,7 @@
       "3.76 m³/s"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（0.063 m³/s）\n\n流量 Q = A v です。\nA = π r^2 = π (0.1)^2 = 0.0314 m^2\nQ = 0.0314 \times 2.0 = 0.0628 m^3/s \u0007pprox 0.063 m^3/s"
+    "explanation": "【正解】1（0.063 m³/s）\n\n流量 Q = A v です。\nA = π r^2 = π (0.1)^2 = 0.0314 m^2\nQ = 0.0314 \\times 2.0 = 0.0628 m^3/s \\approx 0.063 m^3/s"
   },
   {
     "id": "KHK_KOU_KIKAI_134_LAW",
@@ -1737,7 +1737,7 @@
       "1960 J"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（196 J）\n\n位置エネルギー U = mgh です。\nm = 2 kg\ng = 9.8 m/s^2\nh = 10 m\nU = 2 \times 9.8 \times 10 = 196 J"
+    "explanation": "【正解】3（196 J）\n\n位置エネルギー U = mgh です。\nm = 2 kg\ng = 9.8 m/s^2\nh = 10 m\nU = 2 \\times 9.8 \\times 10 = 196 J"
   },
   {
     "id": "KHK_KOU_KIKAI_140_LAW",
@@ -1769,11 +1769,11 @@
     "options": [
       "理想気体では、常に Z > 1 である",
       "実在気体では、常に Z < 1 である",
-      "ボイル温度において、圧力が低い範囲では Z \u0007pprox 1 となる",
+      "ボイル温度において、圧力が低い範囲では Z \\approx 1 となる",
       "臨界点において、Z は無限大になる"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（ボイル温度において、圧力が低い範囲では Z \u0007pprox 1 となる）\n\n理想気体では Z=1 です。実在気体は条件により Z>1 にも Z<1 にもなります。ボイル温度付近の低圧域では、理想気体に近い挙動を示し Z \u0007pprox 1 となります。"
+    "explanation": "【正解】3（ボイル温度において、圧力が低い範囲では Z \\approx 1 となる）\n\n理想気体では Z=1 です。実在気体は条件により Z>1 にも Z<1 にもなります。ボイル温度付近の低圧域では、理想気体に近い挙動を示し Z \\approx 1 となります。"
   },
   {
     "id": "KHK_KOU_KIKAI_142_TECH",
@@ -1937,7 +1937,7 @@
     "options": [
       "ηad = Lad / Lact",
       "ηad = Lact / Lad",
-      "ηad = Lad \times Lact",
+      "ηad = Lad \\times Lact",
       "ηad = Lact - Lad"
     ],
     "correctOptionIndex": 0,
@@ -1945,7 +1945,7 @@
   },
   {
     "id": "KHK_KOU_KIKAI_151_SCI",
-    "question": "【計算問題】比熱比 κ = 1.4 の理想気体を、温度 300 K から断熱的に圧縮して、圧力を高めたところ、温度が 600 K になった。このとき、体積は何倍になったか。ただし TV^κ-1 = \text{一定} とする。",
+    "question": "【計算問題】比熱比 κ = 1.4 の理想気体を、温度 300 K から断熱的に圧縮して、圧力を高めたところ、温度が 600 K になった。このとき、体積は何倍になったか。ただし TV^κ-1 = \\text{一定} とする。",
     "options": [
       "0.5倍",
       "0.177倍",
@@ -1953,7 +1953,7 @@
       "0.8倍"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（0.177倍）\n\nT1 V1^κ-1 = T2 V2^κ-1\n300 V1^0.4 = 600 V2^0.4\n(V2/V1)^0.4 = 300/600 = 0.5\nV2/V1 = 0.5^1/0.4 = 0.5^2.5 \u0007pprox 0.1767\n約0.177倍になります。"
+    "explanation": "【正解】2（0.177倍）\n\nT1 V1^κ-1 = T2 V2^κ-1\n300 V1^0.4 = 600 V2^0.4\n(V2/V1)^0.4 = 300/600 = 0.5\nV2/V1 = 0.5^1/0.4 = 0.5^2.5 \\approx 0.1767\n約0.177倍になります。"
   },
   {
     "id": "KHK_KOU_KIKAI_151_TECH",
@@ -2073,7 +2073,7 @@
       "200 J"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（200 kJ）\n\n仕事 W = P Δ V です。\nP = 100 kPa = 100,000 Pa\nΔ V = 2 m^3\nW = 100,000 \times 2 = 200,000 J = 200 kJ"
+    "explanation": "【正解】2（200 kJ）\n\n仕事 W = P Δ V です。\nP = 100 kPa = 100,000 Pa\nΔ V = 2 m^3\nW = 100,000 \\times 2 = 200,000 J = 200 kJ"
   },
   {
     "id": "KHK_KOU_KIKAI_157_TECH",
@@ -2317,7 +2317,7 @@
   },
   {
     "id": "KHK_KOU_KIKAI_169_SCI",
-    "question": "【計算問題】メタン CH4 が完全燃焼するときの化学反応式 CH4 + 2O2 \to CO2 + 2H2O において、メタン 1 mol を完全燃焼させるのに必要な酸素の物質量はいくらか。",
+    "question": "【計算問題】メタン CH4 が完全燃焼するときの化学反応式 CH4 + 2O2 \\to CO2 + 2H2O において、メタン 1 mol を完全燃焼させるのに必要な酸素の物質量はいくらか。",
     "options": [
       "1 mol",
       "2 mol",
@@ -2385,7 +2385,7 @@
       "0.5乗"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（2乗）\n\nダルシー・ワイスバッハの式 Δ P = λ (L/D) (\rho v^2 / 2) より、圧力損失は流速 v の2乗に比例します。"
+    "explanation": "【正解】2（2乗）\n\nダルシー・ワイスバッハの式 Δ P = λ (L/D) (\\rho v^2 / 2) より、圧力損失は流速 v の2乗に比例します。"
   },
   {
     "id": "KHK_KOU_KIKAI_173_LAW",
@@ -2589,7 +2589,7 @@
       "2.0 m"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（0.6 m）\n\n速度水頭は v^2 / 2g です。\n点A: 2^2 / (2 \times 9.8) = 4 / 19.6 \u0007pprox 0.204 m\n点B: 4^2 / (2 \times 9.8) = 16 / 19.6 \u0007pprox 0.816 m\n差: 0.816 - 0.204 = 0.612 m"
+    "explanation": "【正解】2（0.6 m）\n\n速度水頭は v^2 / 2g です。\n点A: 2^2 / (2 \\times 9.8) = 4 / 19.6 \\approx 0.204 m\n点B: 4^2 / (2 \\times 9.8) = 16 / 19.6 \\approx 0.816 m\n差: 0.816 - 0.204 = 0.612 m"
   },
   {
     "id": "KHK_KOU_KIKAI_184_LAW",
@@ -2661,7 +2661,7 @@
       "31.2"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（28.8）\n\n平均分子量 M = 32 \times 0.2 + 28 \times 0.8 = 6.4 + 22.4 = 28.8。"
+    "explanation": "【正解】1（28.8）\n\n平均分子量 M = 32 \\times 0.2 + 28 \\times 0.8 = 6.4 + 22.4 = 28.8。"
   },
   {
     "id": "KHK_KOU_KIKAI_190_LAW",
@@ -2733,7 +2733,7 @@
       "50 MPa"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（0.5 MPa）\n\nP = F / A です。\nF = 500 N\nA = 10 cm^2 = 10 \times 10^-4 m^2 = 0.001 m^2\nP = 500 / 0.001 = 500,000 Pa = 0.5 MPa"
+    "explanation": "【正解】2（0.5 MPa）\n\nP = F / A です。\nF = 500 N\nA = 10 cm^2 = 10 \\times 10^-4 m^2 = 0.001 m^2\nP = 500 / 0.001 = 500,000 Pa = 0.5 MPa"
   },
   {
     "id": "KHK_KOU_KIKAI_196_LAW",
@@ -2805,7 +2805,7 @@
       "8.0 kW"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（0.8 kW）\n\n入力電力 Pin = 100 \times 10 = 1000 W = 1.0 kW\n出力電力 Pout = Pin \times η = 1.0 \times 0.8 = 0.8 kW"
+    "explanation": "【正解】1（0.8 kW）\n\n入力電力 Pin = 100 \\times 10 = 1000 W = 1.0 kW\n出力電力 Pout = Pin \\times η = 1.0 \\times 0.8 = 0.8 kW"
   },
   {
     "id": "KHK_KOU_KIKAI_202_LAW",
@@ -2841,7 +2841,7 @@
       "気体の比熱比 κ = C_p / C_v は、常に1より小さい"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（比熱とは、物質1kgの温度を1K上昇させるのに必要な熱量のことである）\n\n比熱の定義は選択肢1の通りです。水は比熱が非常に大きい物質です。固体・液体では C_p \u0007pprox C_v です。気体の比熱比は常に1より大きいです（C_p > C_v）。"
+    "explanation": "【正解】1（比熱とは、物質1kgの温度を1K上昇させるのに必要な熱量のことである）\n\n比熱の定義は選択肢1の通りです。水は比熱が非常に大きい物質です。固体・液体では C_p \\approx C_v です。気体の比熱比は常に1より大きいです（C_p > C_v）。"
   },
   {
     "id": "KHK_KOU_KIKAI_205_LAW",
@@ -2869,7 +2869,7 @@
   },
   {
     "id": "KHK_KOU_KIKAI_207_SCI",
-    "question": "【計算問題】プロパン C3H8 の燃焼反応式 C3H8 + 5O2 \to 3CO2 + 4H2O において、プロパン 1m^3 を完全燃焼させるのに必要な理論空気量は、およそいくらか。ただし、空気中の酸素濃度を20%とする。",
+    "question": "【計算問題】プロパン C3H8 の燃焼反応式 C3H8 + 5O2 \\to 3CO2 + 4H2O において、プロパン 1m^3 を完全燃焼させるのに必要な理論空気量は、およそいくらか。ただし、空気中の酸素濃度を20%とする。",
     "options": [
       "5 m^3",
       "10 m^3",
@@ -2877,7 +2877,7 @@
       "50 m^3"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（25 m^3）\n\nプロパン 1 に対して酸素 5 が必要です。空気中の酸素は20%（1/5）なので、必要な空気量は酸素量の5倍です。\n必要酸素量 = 5 m^3\n必要空気量 = 5 \times 5 = 25 m^3"
+    "explanation": "【正解】3（25 m^3）\n\nプロパン 1 に対して酸素 5 が必要です。空気中の酸素は20%（1/5）なので、必要な空気量は酸素量の5倍です。\n必要酸素量 = 5 m^3\n必要空気量 = 5 \\times 5 = 25 m^3"
   },
   {
     "id": "KHK_KOU_KIKAI_208_LAW",
@@ -2949,7 +2949,7 @@
       "9000 mm^2"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（1490 mm^2）\n\n断面積 A = \frac{π}{4}(D^2 - d^2) です。\nA = \frac{3.14}{4}(100^2 - 90^2) = 0.785 (10000 - 8100) = 0.785 \times 1900 \u0007pprox 1491.5 mm^2"
+    "explanation": "【正解】2（1490 mm^2）\n\n断面積 A = \\frac{π}{4}(D^2 - d^2) です。\nA = \\frac{3.14}{4}(100^2 - 90^2) = 0.785 (10000 - 8100) = 0.785 \\times 1900 \\approx 1491.5 mm^2"
   },
   {
     "id": "KHK_KOU_KIKAI_214_LAW",
@@ -3021,7 +3021,7 @@
       "2.5 m^3"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（0.1 m^3）\n\nボイルの法則 P1 V1 = P2 V2 より\n0.4 \times 0.5 = 2.0 \times V2\n0.2 = 2.0 V2\nV2 = 0.1 m^3"
+    "explanation": "【正解】1（0.1 m^3）\n\nボイルの法則 P1 V1 = P2 V2 より\n0.4 \\times 0.5 = 2.0 \\times V2\n0.2 = 2.0 V2\nV2 = 0.1 m^3"
   },
   {
     "id": "KHK_KOU_KIKAI_220_LAW",
@@ -3049,15 +3049,15 @@
   },
   {
     "id": "KHK_KOU_KIKAI_222_SCI",
-    "question": "流体の粘性係数 μ と動粘性係数 \nu の関係式として、正しいものはどれか（\rho:密度）。",
+    "question": "流体の粘性係数 μ と動粘性係数 \\nu の関係式として、正しいものはどれか（\\rho:密度）。",
     "options": [
-      "\nu = μ \rho",
-      "\nu = μ / \rho",
-      "\nu = \rho / μ",
-      "\nu = μ + \rho"
+      "\\nu = μ \\rho",
+      "\\nu = μ / \\rho",
+      "\\nu = \\rho / μ",
+      "\\nu = μ + \\rho"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（／u = μ / ho）\n\n動粘性係数 \nu は、粘性係数 μ を密度 \rho で割ったものです。\nu = μ / \rho。"
+    "explanation": "【正解】2（\\nu = μ / \\rho）\n\n動粘性係数 \\nu は、粘性係数 μ を密度 \\rho で割ったものです。\\nu = μ / \\rho。"
   },
   {
     "id": "KHK_KOU_KIKAI_223_LAW",
@@ -3093,7 +3093,7 @@
       "1000 N/mm²"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（400 N/mm²）\n\n断面積 A = π \times 10^2 / 4 = 78.5 mm^2\n引張強さ σ_B = 31400 / 78.5 \u0007pprox 400 N/mm²"
+    "explanation": "【正解】3（400 N/mm²）\n\n断面積 A = π \\times 10^2 / 4 = 78.5 mm^2\n引張強さ σ_B = 31400 / 78.5 \\approx 400 N/mm²"
   },
   {
     "id": "KHK_KOU_KIKAI_226_LAW",
@@ -3573,7 +3573,7 @@
       "600^°C"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（327^°C）\n\nシャルルの法則（V/T = \text{一定}）より、圧力が一定の場合、体積は絶対温度に比例します。\n元の温度 T1 = 27 + 273 = 300 K\n体積を2倍にするには、絶対温度も2倍にする必要があります。\nT2 = 300 × 2 = 600 K\nセルシウス温度に直すと、600 - 273 = 327^°C です。"
+    "explanation": "【正解】3（327^°C）\n\nシャルルの法則（V/T = \\text{一定}）より、圧力が一定の場合、体積は絶対温度に比例します。\n元の温度 T1 = 27 + 273 = 300 K\n体積を2倍にするには、絶対温度も2倍にする必要があります。\nT2 = 300 × 2 = 600 K\nセルシウス温度に直すと、600 - 273 = 327^°C です。"
   },
   {
     "id": "KHK_KOU_KIKAI_266_LAW",
@@ -5349,7 +5349,7 @@
       "10 kg"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（0.5 kg）\n\nアルキメデスの原理より、浮力＝排除した水の重量＝物体の重量。\n排除した水の体積 Vsub = 10 × 10 × 10 × 0.5 = 500 cm^3 = 0.5 × 10^-3 m^3。\n浮力 F = \rho Vsub g = 1000 × 0.5 × 10^-3 × g = 0.5 g。\n物体の質量 m = F / g = 0.5 kg。"
+    "explanation": "【正解】1（0.5 kg）\n\nアルキメデスの原理より、浮力＝排除した水の重量＝物体の重量。\n排除した水の体積 Vsub = 10 × 10 × 10 × 0.5 = 500 cm^3 = 0.5 × 10^-3 m^3。\n浮力 F = \\rho Vsub g = 1000 × 0.5 × 10^-3 × g = 0.5 g。\n物体の質量 m = F / g = 0.5 kg。"
   },
   {
     "id": "KHK_KOU_KIKAI_414_LAW",

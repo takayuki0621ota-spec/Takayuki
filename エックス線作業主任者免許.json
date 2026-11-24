@@ -5223,7 +5223,7 @@
       "1.05 μSv/h"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（105 μSv/h）\n\n真の値 ＝ 測定値 × 校正定数 ＝ $100 \\times 1.05 = 105 \\text{ \\mu Sv/h}$。"
+    "explanation": "【正解】3（105 μSv/h）\n\n真の値 ＝ 測定値 × 校正定数 ＝ $100 \\times 1.05 = 105 \\mu\\text{Sv/h}$。"
   },
   {
     "id": "XRAY_SOKUTEI_116",
@@ -5314,7 +5314,7 @@
       "200 μSv/h"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（25 μSv/h）\n\n距離の逆二乗則により、$(1/4)^2 = 1/16$ 倍になります。$400 / 16 = 25 \\text{ \\mu Sv/h}$。"
+    "explanation": "【正解】2（25 μSv/h）\n\n距離の逆二乗則により、$(1/4)^2 = 1/16$ 倍になります。$400 / 16 = 25 \\mu\\text{Sv/h}$。"
   },
   {
     "id": "XRAY_SEITAI_104",

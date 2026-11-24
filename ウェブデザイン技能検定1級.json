@@ -1383,7 +1383,7 @@
     "id": 10116,
     "question": "CSS変数（カスタムプロパティ）の定義と使用方法として、正しい組み合わせはどれか。",
     "options": [
-      "定義: $main-color: #333;  使用: color: $main-color;",
+      "定義: ＄main-color: #333;  使用: color: ＄main-color;",
       "定義: @main-color: #333;  使用: color: @main-color;",
       "定義: --main-color: #333;  使用: color: var(--main-color);",
       "定義: var-main-color: #333;  使用: color: use(var-main-color);"

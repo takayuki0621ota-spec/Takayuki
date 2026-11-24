@@ -1568,7 +1568,7 @@
       "6 dB"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（3 dB）\n\n【解説】\n電力比のデシベル計算は $10 \\log_{10} (\text{倍率})$ です。\n$10 \\log_{10} 2 \\approx 10 \\times 0.301 = 3.01 \\text{dB}$\nしたがって、電力が2倍になると約3dB増加し、半分になると約3dB減少（-3dB）します。",
+    "explanation": "【正解】3（3 dB）\n\n【解説】\n電力比のデシベル計算は $10 \\log_{10} (\\text{倍率})$ です。\n$10 \\log_{10} 2 \\approx 10 \\times 0.301 = 3.01 \\text{dB}$\nしたがって、電力が2倍になると約3dB増加し、半分になると約3dB減少（-3dB）します。",
     "id": 1131
   },
   {
@@ -1580,7 +1580,7 @@
       "20 dB"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（6 dB）\n\n【解説】\n電圧比のデシベル計算は $20 \\log_{10} (\text{倍率})$ です。\n$20 \\log_{10} 2 \\approx 20 \\times 0.301 = 6.02 \\text{dB}$\nしたがって、電圧が2倍になると約6dB増加します。",
+    "explanation": "【正解】2（6 dB）\n\n【解説】\n電圧比のデシベル計算は $20 \\log_{10} (\\text{倍率})$ です。\n$20 \\log_{10} 2 \\approx 20 \\times 0.301 = 6.02 \\text{dB}$\nしたがって、電圧が2倍になると約6dB増加します。",
     "id": 1132
   },
   {

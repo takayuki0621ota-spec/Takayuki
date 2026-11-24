@@ -3416,7 +3416,7 @@
       "1 atm"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（20 μPa）\n\n0dB SPLの基準音圧 $P_0$ は、20 μPa（マイクロパスカル）= $2 \times 10^{-5}$ Pa です。これはヒトの1000Hzにおける最小可聴値に相当します。"
+    "explanation": "【正解】4（20 μPa）\n\n0dB SPLの基準音圧 $P_0$ は、20 μPa（マイクロパスカル）= $2 \\times 10^{-5}$ Pa です。これはヒトの1000Hzにおける最小可聴値に相当します。"
   },
   {
     "id": "ST264",
@@ -3546,7 +3546,7 @@
       "600Hz"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（600Hz）\n\n高調波（倍音）は基本周波数の整数倍です。第3高調波は $200 \times 3 = 600\text{Hz}$ です。"
+    "explanation": "【正解】5（600Hz）\n\n高調波（倍音）は基本周波数の整数倍です。第3高調波は $200 \\times 3 = 600\\text{Hz}$ です。"
   },
   {
     "id": "ST274",
