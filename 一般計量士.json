@@ -335,7 +335,7 @@
       "運動量"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（圧力）\n\n【解説】\n圧力は「力÷面積」です。力の次元は $\\mathsf{MLT^{-2}}$（=ma$）、面積の次元は $\\mathsf{L^2}$ です。したがって、圧力の次元は $\\mathsf{MLT^{-2} / L^2 = ML^{-1}T^{-2}}$ となります。"
+    "explanation": "【正解】3（圧力）\n\n【解説】\n圧力は「力÷面積」です。力の次元は $\\mathsf{MLT^{-2}}$（=ma）、面積の次元は $\\mathsf{L^2}$ です。したがって、圧力の次元は $\\mathsf{MLT^{-2} / L^2 = ML^{-1}T^{-2}}$ となります。"
   },
   {
     "id": 1027,
@@ -543,7 +543,7 @@
       "アボガドロ定数"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（気体定数）\n\n【解説】\n$R$ は気体定数と呼ばれ、$R \\approx 8.314\\,\\text{J/(mol\\cdot K)}$ の値を持ちます。物理化学の基本定数の一つです。"
+    "explanation": "【正解】3（気体定数）\n\n【解説】\n$R$ は気体定数と呼ばれ、$R \\approx 8.314\\,\\text{J/(mol}\\cdot\\text{K)}$ の値を持ちます。物理化学の基本定数の一つです。"
   },
   {
     "id": 1043,
@@ -651,7 +651,7 @@
   },
   {
     "id": 1051,
-    "question": "管理図において、中心線（CL）から上下に標準偏差の3倍（\\sigma$）の距離に引かれる線を何というか。",
+    "question": "管理図において、中心線（CL）から上下に標準偏差の3倍（$\\sigma$）の距離に引かれる線を何というか。",
     "options": [
       "許容限界線",
       "管理限界線",
@@ -902,12 +902,12 @@
     "options": [
       "標準電池の起電力によって定義。",
       "銀の電析量によって定義。",
-      "電気素量 $ の数値を固定することによって定義。",
+      "電気素量の数値を固定することによって定義。",
       "無限に長い2本の平行導体に流れる電流による力によって定義。",
       "ジョセフソン効果によって定義。"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（電気素量 $ の数値を固定することによって定義。）\n\n【解説】\n2019年の改定により、アンペアは電気素量 $ を正確に .602 176 634 \times 10^{-19}$ C と定めることによって定義されています。以前の「無限に長い平行導体...」という定義は廃止されました。"
+    "explanation": "【正解】3（電気素量の数値を固定することによって定義。）\n\n【解説】\n2019年の改定により、アンペアは電気素量 $e$ を正確に $1.602176634 \\times 10^{-19}$ C と定めることによって定義されています。以前の「無限に長い平行導体...」という定義は廃止されました。"
   },
   {
     "id": 1071,
@@ -1041,7 +1041,7 @@
   },
   {
     "id": 1081,
-    "question": "質量 $100\\,\\text{g}$、比熱 $4.2\\,\\text{J/(g\\cdot K)}$ の水の熱容量はいくらか。",
+    "question": "質量 $100\\,\\text{g}$、比熱 $4.2\\,\\text{J/(g}\\cdot\\text{K)}$ の水の熱容量はいくらか。",
     "options": [
       "4.2 J/K",
       "4200 J/K",
@@ -1210,7 +1210,7 @@
   },
   {
     "id": 1094,
-    "question": "電力量 $1\\,\\text{kW\\cdot h}$ は何ジュール (J) か。",
+    "question": "電力量 $1\\,\\text{kW}\\cdot\\text{h}$ は何ジュール (J) か。",
     "options": [
       "3600 J",
       "60 J",
@@ -2029,7 +2029,7 @@
   },
   {
     "id": 1157,
-    "question": "理想気体の状態方程式 $PV=nRT$ を用いて、標準状態（$0^\\circ\\text{C}, 1\\,\\text{atm}$）における理想気体 $1\\,\\text{mol}$ の体積を計算すると約何リットルになるか。$R \\approx 0.082\\,\\text{L\\cdot atm/(K\\cdot mol)}$ とする。",
+    "question": "理想気体の状態方程式 $PV=nRT$ を用いて、標準状態（$0^\\circ\\text{C}, 1\\,\\text{atm}$）における理想気体 $1\\,\\text{mol}$ の体積を計算すると約何リットルになるか。$R \\approx 0.082\\,\\text{L}\\cdot\\text{atm/(K}\\cdot\\text{mol)}$ とする。",
     "options": [
       "10.0 L",
       "100 L",
@@ -3537,7 +3537,7 @@
   },
   {
     "id": 1273,
-    "question": "抵抗 $R=10\\,\\Omega$、インダクタンス $L=0.1\\,\text{H}$ の直列回路に、角周波数 $\\omega=100\\,\text{rad/s}$ の交流電圧を印加した。回路のインピーダンスの大きさ $|Z|$ はいくらか。",
+    "question": "抵抗 $R=10\\,\\Omega$、インダクタンス $L=0.1\\,\\text{H}$ の直列回路に、角周波数 $\\omega=100\\,\\text{rad/s}$ の交流電圧を印加した。回路のインピーダンスの大きさ $|Z|$ はいくらか。",
     "options": [
       "110 Ω",
       "14.1 Ω",
@@ -3667,16 +3667,16 @@
   },
   {
     "id": 1283,
-    "question": "データ $x_1, x_2, \\dots, x_n$ の分散 $V$ を求める式はどれか。平均値を $\bar{x}$ とする。",
+    "question": "データ $x_1, x_2, \\dots, x_n$ の分散 $V$ を求める式はどれか。平均値を $\\bar{x}$ とする。",
     "options": [
-      "$V = \\sqrt{\frac{1}{n} \\sum_{i=1}^n (x_i - \bar{x})^2}$",
-      "$V = \frac{1}{n} \\sum_{i=1}^n (x_i - \bar{x})$",
-      "$V = \frac{1}{n} \\sum_{i=1}^n (x_i - \bar{x})^2$",
-      "$V = \frac{1}{n} \\sum_{i=1}^n x_i^2$",
-      "$V = \\sum_{i=1}^n (x_i - \bar{x})^2$"
+      "$V = \\sqrt{\\frac{1}{n} \\sum_{i=1}^n (x_i - \\bar{x})^2}$",
+      "$V = \\frac{1}{n} \\sum_{i=1}^n (x_i - \\bar{x})$",
+      "$V = \\frac{1}{n} \\sum_{i=1}^n (x_i - \\bar{x})^2$",
+      "$V = \\frac{1}{n} \\sum_{i=1}^n x_i^2$",
+      "$V = \\sum_{i=1}^n (x_i - \\bar{x})^2$"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（$V = \frac{1}{n} \\sum_{i=1}^n (x_i - \bar{x})^2$）\n\n【解説】\n分散は偏差平方和の平均です。不偏分散の場合は分母が $n-1$ になります。"
+    "explanation": "【正解】3（$V = \\frac{1}{n} \\sum_{i=1}^n (x_i - \\bar{x})^2$）\n\n【解説】\n分散は偏差平方和の平均です。不偏分散の場合は分母が $n-1$ になります。"
   },
   {
     "id": 1284,
@@ -3719,7 +3719,7 @@
   },
   {
     "id": 1287,
-    "question": "質量 $10\\,\text{kg}$ の物体に $20\\,\text{N}$ の力が作用したときの加速度はいくらか。",
+    "question": "質量 $10\\,\\text{kg}$ の物体に $20\\,\\text{N}$ の力が作用したときの加速度はいくらか。",
     "options": [
       "0.5 m/s²",
       "2.0 m/s²",
@@ -3728,7 +3728,7 @@
       "200 m/s²"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（2.0 m/s²）\n\n【解説】\n運動方程式 $F = ma$ より、$a = F/m = 20 / 10 = 2.0\\,\text{m/s}^2$。"
+    "explanation": "【正解】2（2.0 m/s²）\n\n【解説】\n運動方程式 $F = ma$ より、$a = F/m = 20 / 10 = 2.0\\,\\text{m/s}^2$。"
   },
   {
     "id": 1288,
@@ -3780,7 +3780,7 @@
       "0.1505"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（0.6020）\n\n【解説】\n$\\log_{10} 4 = \\log_{10} 2^2 = 2 \\log_{10} 2 = 2 \times 0.3010 = 0.6020$。"
+    "explanation": "【正解】4（0.6020）\n\n【解説】\n$\\log_{10} 4 = \\log_{10} 2^2 = 2 \\log_{10} 2 = 2 \\times 0.3010 = 0.6020$。"
   },
   {
     "id": 1292,
@@ -3851,14 +3851,14 @@
     "id": 1297,
     "question": "圧力のSI単位「パスカル (Pa)」の定義はどれか。",
     "options": [
-      "1平方センチメートルあたり1キログラム重 ($1\\,\text{kgf/cm}^2$)",
+      "1平方センチメートルあたり1キログラム重 ($1\\,\\text{kgf/cm}^2$)",
       "1平方メートルあたり1ワットの仕事率",
-      "1平方メートルあたり1ニュートンの力 ($1\\,\text{N/m}^2$)",
+      "1平方メートルあたり1ニュートンの力 ($1\\,\\text{N/m}^2$)",
       "水銀柱760mmの圧力",
       "1キログラムの物体にかかる重力"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（1平方メートルあたり1ニュートンの力 ($1\\,\text{N/m}^2$)）\n\n【解説】\n圧力＝力／面積です。"
+    "explanation": "【正解】3（1平方メートルあたり1ニュートンの力 ($1\\,\\text{N/m}^2$)）\n\n【解説】\n圧力＝力／面積です。"
   },
   {
     "id": 1298,
@@ -3916,7 +3916,7 @@
     "id": 1302,
     "question": "関数 $y = \\sin x$ を $x$ で微分するとどうなるか。",
     "options": [
-      "$\tan x$",
+      "$\\tan x$",
       "$-\\sin x$",
       "$\\sin x$",
       "$-\\cos x$",
@@ -3965,7 +3965,7 @@
   },
   {
     "id": 1306,
-    "question": "オームの法則 $V=IR$ において、$R=10\\,\\Omega, I=2\\,\text{A}$ のとき、消費電力 $P$ はいくらか。",
+    "question": "オームの法則 $V=IR$ において、$R=10\\,\\Omega, I=2\\,\\text{A}$ のとき、消費電力 $P$ はいくらか。",
     "options": [
       "10 W",
       "200 W",
@@ -3974,7 +3974,7 @@
       "4 W"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（40 W）\n\n【解説】\n$P = VI = I^2 R = 2^2 \times 10 = 4 \times 10 = 40\\,\text{W}$。"
+    "explanation": "【正解】3（40 W）\n\n【解説】\n$P = VI = I^2 R = 2^2 \\times 10 = 4 \\times 10 = 40\\,\\text{W}$。"
   },
   {
     "id": 1307,
@@ -3993,7 +3993,7 @@
     "id": 1308,
     "question": "不確かさのタイプB評価において、校正証明書に記載された拡張不確かさ $U$ と包含係数 $k$ が与えられたとき、標準不確かさ $u$ を求める式はどれか。",
     "options": [
-      "$u = U \times k$",
+      "$u = U \\times k$",
       "$u = k / U$",
       "$u = U / k$",
       "$u = U^2$",
@@ -4100,11 +4100,11 @@
       "$U = k x$",
       "$U = k / x$",
       "$U = k x^2$",
-      "$U = \frac{1}{2} k x^2$",
-      "$U = \frac{1}{2} k x$"
+      "$U = \\frac{1}{2} k x^2$",
+      "$U = \\frac{1}{2} k x$"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（$U = \frac{1}{2} k x^2$）\n\n【解説】\n弾性力による位置エネルギーの公式です。"
+    "explanation": "【正解】4（$U = \\frac{1}{2} k x^2$）\n\n【解説】\n弾性力による位置エネルギーの公式です。"
   },
   {
     "id": 1317,
@@ -4114,10 +4114,10 @@
       "1",
       "$P(A) - P(B)$",
       "$P(A) + P(B)$",
-      "$P(A) \times P(B)$"
+      "$P(A) \\times P(B)$"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（$P(A) \times P(B)$）\n\n【解説】\n独立事象の積の法則です。"
+    "explanation": "【正解】5（$P(A) \\times P(B)$）\n\n【解説】\n独立事象の積の法則です。"
   },
   {
     "id": 1318,
@@ -4201,14 +4201,14 @@
     "id": 1324,
     "question": "コンデンサの静電容量 $C$、印加電圧 $V$ のとき、蓄えられる静電エネルギー $U$ はいくらか。",
     "options": [
-      "$U = \frac{1}{2} C V$",
+      "$U = \\frac{1}{2} C V$",
       "$U = C V^2$",
       "$U = C V$",
       "$U = Q V$",
-      "$U = \frac{1}{2} C V^2$"
+      "$U = \\frac{1}{2} C V^2$"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（$U = \frac{1}{2} C V^2$）\n\n【解説】\n$Q=CV$ より、$U = \frac{1}{2}QV = \frac{1}{2}CV^2$ となります。"
+    "explanation": "【正解】5（$U = \\frac{1}{2} C V^2$）\n\n【解説】\n$Q=CV$ より、$U = \\frac{1}{2}QV = \\frac{1}{2}CV^2$ となります。"
   },
   {
     "id": 1325,
@@ -4290,7 +4290,7 @@
   },
   {
     "id": 1331,
-    "question": "$10\\,\text{m/s}$ で走っている質量 $1000\\,\text{kg}$ の自動車の運動エネルギーはいくらか。",
+    "question": "$10\\,\\text{m/s}$ で走っている質量 $1000\\,\\text{kg}$ の自動車の運動エネルギーはいくらか。",
     "options": [
       "50,000 J",
       "500,000 J",
@@ -4299,7 +4299,7 @@
       "100,000 J"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（50,000 J）\n\n【解説】\n$K = \frac{1}{2} mv^2 = \frac{1}{2} \times 1000 \times 10^2 = 500 \times 100 = 50,000\\,\text{J}$。"
+    "explanation": "【正解】1（50,000 J）\n\n【解説】\n$K = \\frac{1}{2} mv^2 = \\frac{1}{2} \\times 1000 \\times 10^2 = 500 \\times 100 = 50,000\\,\\text{J}$。"
   },
   {
     "id": 1332,
@@ -4318,18 +4318,18 @@
     "id": 1333,
     "question": "ボイル・シャルルの法則の式として正しいものはどれか（一定質量の理想気体）。",
     "options": [
-      "$VT / P = \text{一定}$",
-      "$PT / V = \text{一定}$",
+      "$VT / P = \\text{一定}$",
+      "$PT / V = \\text{一定}$",
       "$P = VT$",
-      "$PVT = \text{一定}$",
-      "$PV / T = \text{一定}$"
+      "$PVT = \\text{一定}$",
+      "$PV / T = \\text{一定}$"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（$PV / T = \text{一定}$）\n\n【解説】\n圧力 $P$、体積 $V$、絶対温度 $T$ の間には $PV/T = \text{const}$ の関係があります。"
+    "explanation": "【正解】5（$PV / T = \\text{一定}$）\n\n【解説】\n圧力 $P$、体積 $V$、絶対温度 $T$ の間には $PV/T = \\text{const}$ の関係があります。"
   },
   {
     "id": 1334,
-    "question": "有効数字3桁で計算せよ：$1.23 \times 4.56$",
+    "question": "有効数字3桁で計算せよ：$1.23 \\times 4.56$",
     "options": [
       "5.609",
       "5.6088",
@@ -4338,7 +4338,7 @@
       "5.60"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（5.61）\n\n【解説】\n$1.23 \times 4.56 = 5.6088$。有効数字3桁どうしの積なので、結果も3桁（4桁目を四捨五入）とします。$5.6088 \to 5.61$。"
+    "explanation": "【正解】3（5.61）\n\n【解説】\n$1.23 \\times 4.56 = 5.6088$。有効数字3桁どうしの積なので、結果も3桁（4桁目を四捨五入）とします。$5.6088 \\to 5.61$。"
   },
   {
     "id": 1335,
@@ -4359,12 +4359,12 @@
     "options": [
       "$R = R_1 R_2$",
       "$R = R_1 + R_2$",
-      "$R = \frac{R_1 + R_2}{R_1 R_2}$",
+      "$R = \\frac{R_1 + R_2}{R_1 R_2}$",
       "$R = \\sqrt{R_1^2 + R_2^2}$",
-      "$R = \frac{R_1 R_2}{R_1 + R_2}$"
+      "$R = \\frac{R_1 R_2}{R_1 + R_2}$"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（$R = \frac{R_1 R_2}{R_1 + R_2}$）\n\n【解説】\n$\frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2}$ より、$R = \frac{1}{\frac{R_1+R_2}{R_1 R_2}} = \frac{R_1 R_2}{R_1 + R_2}$（和分の積）となります。"
+    "explanation": "【正解】5（$R = \\frac{R_1 R_2}{R_1 + R_2}$）\n\n【解説】\n$\\frac{1}{R} = \\frac{1}{R_1} + \\frac{1}{R_2}$ より、$R = \\frac{1}{\\frac{R_1+R_2}{R_1 R_2}} = \\frac{R_1 R_2}{R_1 + R_2}$（和分の積）となります。"
   },
   {
     "id": 1337,
@@ -4390,7 +4390,7 @@
       "8.9 m/s²"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（9.8 m/s²）\n\n【解説】\n標準重力加速度は $9.80665\\,\text{m/s}^2$ と定義されています。計算問題では $9.8$ を使うことが多いです。"
+    "explanation": "【正解】3（9.8 m/s²）\n\n【解説】\n標準重力加速度は $9.80665\\,\\text{m/s}^2$ と定義されています。計算問題では $9.8$ を使うことが多いです。"
   },
   {
     "id": 1339,
@@ -4442,7 +4442,7 @@
       "15"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（11）\n\n【解説】\n$1 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 8 + 0 + 2 + 1 = 11$。"
+    "explanation": "【正解】1（11）\n\n【解説】\n$1 \\times 2^3 + 0 \\times 2^2 + 1 \\times 2^1 + 1 \\times 2^0 = 8 + 0 + 2 + 1 = 11$。"
   },
   {
     "id": 1343,
@@ -4494,11 +4494,11 @@
       "気体定数"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（気体定数）\n\n【解説】\n$R \\approx 8.314\\,\\text{J/(mol\\cdot K)}$ は気体定数です。"
+    "explanation": "【正解】5（気体定数）\n\n【解説】\n$R \\approx 8.314\\,\\text{J/(mol}\\cdot\\text{K)}$ は気体定数です。"
   },
   {
     "id": 1347,
-    "question": "長さ $20\\,\text{cm}$、幅 $10\\,\text{cm}$ の長方形の面積をSI単位（$\text{m}^2$）で表すといくらか。",
+    "question": "長さ $20\\,\\text{cm}$、幅 $10\\,\\text{cm}$ の長方形の面積をSI単位（$\\text{m}^2$）で表すといくらか。",
     "options": [
       "200 m²",
       "20000 m²",
@@ -4507,7 +4507,7 @@
       "2 m²"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（0.02 m²）\n\n【解説】\n$20\\,\text{cm} = 0.2\\,\text{m}$、$10\\,\text{cm} = 0.1\\,\text{m}$。$0.2 \times 0.1 = 0.02\\,\text{m}^2$。"
+    "explanation": "【正解】3（0.02 m²）\n\n【解説】\n$20\\,\\text{cm} = 0.2\\,\\text{m}$、$10\\,\\text{cm} = 0.1\\,\\text{m}$。$0.2 \\times 0.1 = 0.02\\,\\text{m}^2$。"
   },
   {
     "id": 1348,
@@ -4553,7 +4553,7 @@
     "question": "質量 $m$ の物体が高さ $h$ にあるときの位置エネルギー $U$ はいくらか。重力加速度を $g$ とする。",
     "options": [
       "$U = mgh$",
-      "$U = \frac{1}{2} mgh$",
+      "$U = \\frac{1}{2} mgh$",
       "$U = mh / g$",
       "$U = mg / h$",
       "$U = mgh^2$"
@@ -4565,14 +4565,14 @@
     "id": 1352,
     "question": "2次方程式 $ax^2 + bx + c = 0$ の解の公式はどれか。",
     "options": [
-      "$x = \frac{-b \\pm \\sqrt{b^2 - 4ac}}{a}$",
-      "$x = \frac{b \\pm \\sqrt{b^2 - 4ac}}{2a}$",
-      "$x = \frac{-b \\pm \\sqrt{b^2 + 4ac}}{2a}$",
-      "$x = \frac{-b \\pm (b^2 - 4ac)}{2a}$",
-      "$x = \frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$"
+      "$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{a}$",
+      "$x = \\frac{b \\pm \\sqrt{b^2 - 4ac}}{2a}$",
+      "$x = \\frac{-b \\pm \\sqrt{b^2 + 4ac}}{2a}$",
+      "$x = \\frac{-b \\pm (b^2 - 4ac)}{2a}$",
+      "$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（$x = \frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$）\n\n【解説】\n基本の解の公式です。"
+    "explanation": "【正解】5（$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$）\n\n【解説】\n基本の解の公式です。"
   },
   {
     "id": 1353,
@@ -4591,14 +4591,14 @@
     "id": 1354,
     "question": "pHの定義式はどれか（水素イオン濃度を $[H^+]$ とする）。",
     "options": [
-      "$\text{pH} = \\log_{10} [H^+]$",
-      "$\text{pH} = 1 / [H^+]$",
-      "$\text{pH} = [H^+]^2$",
-      "$\text{pH} = -\\log_{10} [H^+]$",
-      "$\text{pH} = \\ln [H^+]$"
+      "$\\text{pH} = \\log_{10} [H^+]$",
+      "$\\text{pH} = 1 / [H^+]$",
+      "$\\text{pH} = [H^+]^2$",
+      "$\\text{pH} = -\\log_{10} [H^+]$",
+      "$\\text{pH} = \\ln [H^+]$"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（$\text{pH} = -\\log_{10} [H^+]$）\n\n【解説】\n水素イオン濃度の逆数の常用対数です。"
+    "explanation": "【正解】4（$\\text{pH} = -\\log_{10} [H^+]$）\n\n【解説】\n水素イオン濃度の逆数の常用対数です。"
   },
   {
     "id": 1355,
@@ -4615,7 +4615,7 @@
   },
   {
     "id": 1356,
-    "question": "周波数 $50\\,\text{Hz}$ の交流電源の周期 $T$ はいくらか。",
+    "question": "周波数 $50\\,\\text{Hz}$ の交流電源の周期 $T$ はいくらか。",
     "options": [
       "0.05 秒",
       "50 秒",
@@ -4624,7 +4624,7 @@
       "0.02 秒"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（0.02 秒）\n\n【解説】\n$T = 1/f = 1/50 = 0.02\\,\text{s}$。"
+    "explanation": "【正解】5（0.02 秒）\n\n【解説】\n$T = 1/f = 1/50 = 0.02\\,\\text{s}$。"
   },
   {
     "id": 1357,
@@ -4637,7 +4637,7 @@
       "$T = t$"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（$t = T + 273.15$）\n\n【解説】\n絶対零度は $-273.15\\,^\\circ\text{C}$ です。"
+    "explanation": "【正解】1（$t = T + 273.15$）\n\n【解説】\n絶対零度は $-273.15\\,^\\circ\\text{C}$ です。"
   },
   {
     "id": 1358,
@@ -4654,7 +4654,7 @@
   },
   {
     "id": 1359,
-    "question": "ひずみゲージの原理において、抵抗変化率 $\\Delta R/R$ とひずみ $\u000barepsilon$ の関係を表す定数 $K$ を何と呼ぶか。",
+    "question": "ひずみゲージの原理において、抵抗変化率 $\\Delta R/R$ とひずみ $\\varepsilon$ の関係を表す定数 $K$ を何と呼ぶか。",
     "options": [
       "ポアソン比",
       "弾性係数",
@@ -4663,7 +4663,7 @@
       "ゲージ率"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（ゲージ率）\n\n【解説】\n$\\Delta R/R = K \u000barepsilon$ における $K$ をゲージ率と呼びます。"
+    "explanation": "【正解】5（ゲージ率）\n\n【解説】\n$\\Delta R/R = K \\varepsilon$ における $K$ をゲージ率と呼びます。"
   },
   {
     "id": 1360,
@@ -4676,7 +4676,7 @@
       "内容積が一定の許容誤差内で製造され、「はかり」の代わりに使用できるガラス製等の容器（ビール瓶など）。"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（内容積が一定の許容誤差内で製造され、「はかり」の代わりに使用できるガラス製等の容器（ビール瓶など）。）\n\n【解説】\n指定製造事業者が製造し、$\text{Is}$ マークなどが付された容器で、液面高さで体積を計量販売することができます。"
+    "explanation": "【正解】5（内容積が一定の許容誤差内で製造され、「はかり」の代わりに使用できるガラス製等の容器（ビール瓶など）。）\n\n【解説】\n指定製造事業者が製造し、$\\text{Is}$ マークなどが付された容器で、液面高さで体積を計量販売することができます。"
   },
   {
     "id": 1361,
@@ -4745,29 +4745,29 @@
   },
   {
     "id": 1366,
-    "question": "抵抗 $R$、静電容量 $C$ の直列回路（RC回路）の時定数 $\tau$ はいくらか。",
+    "question": "抵抗 $R$、静電容量 $C$ の直列回路（RC回路）の時定数 $\\tau$ はいくらか。",
     "options": [
-      "$\tau = RC$",
-      "$\tau = R/C$",
-      "$\tau = 1/(RC)$",
-      "$\tau = C/R$",
-      "$\tau = \\sqrt{RC}$"
+      "$\\tau = RC$",
+      "$\\tau = R/C$",
+      "$\\tau = 1/(RC)$",
+      "$\\tau = C/R$",
+      "$\\tau = \\sqrt{RC}$"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（$\tau = RC$）\n\n【解説】\n過渡現象の速さを表す時定数は、抵抗と容量の積です。"
+    "explanation": "【正解】1（$\\tau = RC$）\n\n【解説】\n過渡現象の速さを表す時定数は、抵抗と容量の積です。"
   },
   {
     "id": 1367,
     "question": "真空中の光速 $c$ は定義値であるが、およそいくらか。",
     "options": [
-      "$3 \times 10^{10}$ m/s",
-      "$1 \times 10^8$ m/s",
+      "$3 \\times 10^{10}$ m/s",
+      "$1 \\times 10^8$ m/s",
       "$340$ m/s",
-      "$3 \times 10^5$ m/s",
-      "$3 \times 10^8$ m/s"
+      "$3 \\times 10^5$ m/s",
+      "$3 \\times 10^8$ m/s"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（$3 \times 10^8$ m/s）\n\n【解説】\n正確には $299,792,458\\,\text{m/s}$ です。約30万km/s。"
+    "explanation": "【正解】5（$3 \\times 10^8$ m/s）\n\n【解説】\n正確には $299,792,458\\,\\text{m/s}$ です。約30万km/s。"
   },
   {
     "id": 1368,
@@ -4793,7 +4793,7 @@
       "全圧と静圧の差（動圧）"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（全圧と静圧の差（動圧））\n\n【解説】\nベルヌーイの定理を利用し、動圧（$\frac{1}{2}\rho v^2$）を測定して流速を求めます。"
+    "explanation": "【正解】5（全圧と静圧の差（動圧））\n\n【解説】\nベルヌーイの定理を利用し、動圧（$\\frac{1}{2}\\rho v^2$）を測定して流速を求めます。"
   },
   {
     "id": 1370,
@@ -4810,7 +4810,7 @@
   },
   {
     "id": 1371,
-    "question": "長さ $10\\,\text{m}$ の銅線の抵抗が $0.2\\,\\Omega$ であるとき、同じ材質・同じ太さで長さが $50\\,\text{m}$ の銅線の抵抗はいくらか。",
+    "question": "長さ $10\\,\\text{m}$ の銅線の抵抗が $0.2\\,\\Omega$ であるとき、同じ材質・同じ太さで長さが $50\\,\\text{m}$ の銅線の抵抗はいくらか。",
     "options": [
       "0.1 Ω",
       "0.5 Ω",
@@ -4819,7 +4819,7 @@
       "0.8 Ω"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（1.0 Ω）\n\n【解説】\n抵抗は長さに比例します。長さが5倍なので、抵抗も5倍（$0.2 \times 5 = 1.0\\,\\Omega$）になります。"
+    "explanation": "【正解】3（1.0 Ω）\n\n【解説】\n抵抗は長さに比例します。長さが5倍なので、抵抗も5倍（$0.2 \\times 5 = 1.0\\,\\Omega$）になります。"
   },
   {
     "id": 1372,
@@ -4849,7 +4849,7 @@
   },
   {
     "id": 1374,
-    "question": "コンデンサの静電容量 $C=10\\,\\mu\text{F}$ に電圧 $V=100\\,\text{V}$ を印加したとき、蓄えられる電荷 $Q$ はいくらか。",
+    "question": "コンデンサの静電容量 $C=10\\,\\mu\\text{F}$ に電圧 $V=100\\,\\text{V}$ を印加したとき、蓄えられる電荷 $Q$ はいくらか。",
     "options": [
       "100 mC",
       "1 mC",
@@ -4858,7 +4858,7 @@
       "0.1 mC"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（1 mC）\n\n【解説】\n$Q = CV = 10 \times 10^{-6} \times 100 = 1000 \times 10^{-6} = 1 \times 10^{-3}\\,\text{C} = 1\\,\text{mC}$。"
+    "explanation": "【正解】2（1 mC）\n\n【解説】\n$Q = CV = 10 \\times 10^{-6} \\times 100 = 1000 \\times 10^{-6} = 1 \\times 10^{-3}\\,\\text{C} = 1\\,\\text{mC}$。"
   },
   {
     "id": 1375,
@@ -4875,7 +4875,7 @@
   },
   {
     "id": 1376,
-    "question": "周波数 $f=1\\,\text{kHz}$ の音波の周期 $T$ はいくらか。",
+    "question": "周波数 $f=1\\,\\text{kHz}$ の音波の周期 $T$ はいくらか。",
     "options": [
       "10 ms",
       "1 ms",
@@ -4884,7 +4884,7 @@
       "1 s"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（1 ms）\n\n【解説】\n$T = 1/f = 1/1000 = 0.001\\,\text{s} = 1\\,\text{ms}$。"
+    "explanation": "【正解】2（1 ms）\n\n【解説】\n$T = 1/f = 1/1000 = 0.001\\,\\text{s} = 1\\,\\text{ms}$。"
   },
   {
     "id": 1377,
@@ -4914,7 +4914,7 @@
   },
   {
     "id": 1379,
-    "question": "白金測温抵抗体 (Pt100) の $0\\,^\\circ\text{C}$ における抵抗値はいくらか。",
+    "question": "白金測温抵抗体 (Pt100) の $0\\,^\\circ\\text{C}$ における抵抗値はいくらか。",
     "options": [
       "0 Ω",
       "100 Ω",
@@ -4923,7 +4923,7 @@
       "50 Ω"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（100 Ω）\n\n【解説】\nPt100 という名称の通り、$0\\,^\\circ\text{C}$ で $100\\,\\Omega$ を示します。"
+    "explanation": "【正解】2（100 Ω）\n\n【解説】\nPt100 という名称の通り、$0\\,^\\circ\\text{C}$ で $100\\,\\Omega$ を示します。"
   },
   {
     "id": 1380,
@@ -4940,7 +4940,7 @@
   },
   {
     "id": 1381,
-    "question": "質量 $2\\,\text{kg}$ の物体を $5\\,\text{m}$ 持ち上げたとき、物体が得た重力による位置エネルギーはいくらか（$g=9.8\\,\text{m/s}^2$）。",
+    "question": "質量 $2\\,\\text{kg}$ の物体を $5\\,\\text{m}$ 持ち上げたとき、物体が得た重力による位置エネルギーはいくらか（$g=9.8\\,\\text{m/s}^2$）。",
     "options": [
       "98 J",
       "49 J",
@@ -4949,7 +4949,7 @@
       "10 J"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（98 J）\n\n【解説】\n$U = mgh = 2 \times 9.8 \times 5 = 10 \times 9.8 = 98\\,\text{J}$。"
+    "explanation": "【正解】1（98 J）\n\n【解説】\n$U = mgh = 2 \\times 9.8 \\times 5 = 10 \\times 9.8 = 98\\,\\text{J}$。"
   },
   {
     "id": 1382,
@@ -5007,7 +5007,7 @@
     "id": 1386,
     "question": "並列接続されたコンデンサ $C_1, C_2$ の合成静電容量 $C$ はどうなるか。",
     "options": [
-      "$C = \frac{C_1 C_2}{C_1 + C_2}$",
+      "$C = \\frac{C_1 C_2}{C_1 + C_2}$",
       "$C = C_1 C_2$",
       "$C = \\sqrt{C_1^2 + C_2^2}$",
       "$C = C_1 + C_2$",
@@ -5031,7 +5031,7 @@
   },
   {
     "id": 1388,
-    "question": "重力加速度 $g=9.8\\,\text{m/s}^2$ の場所で、質量 $10\\,\text{kg}$ の物体にかかる重力の大きさは何ニュートンか。",
+    "question": "重力加速度 $g=9.8\\,\\text{m/s}^2$ の場所で、質量 $10\\,\\text{kg}$ の物体にかかる重力の大きさは何ニュートンか。",
     "options": [
       "10 N",
       "9.8 N",
@@ -5040,7 +5040,7 @@
       "980 N"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（98 N）\n\n【解説】\n$F = mg = 10 \times 9.8 = 98\\,\text{N}$（重量キログラムで言うと $10\\,\text{kgf}$）。"
+    "explanation": "【正解】3（98 N）\n\n【解説】\n$F = mg = 10 \\times 9.8 = 98\\,\\text{N}$（重量キログラムで言うと $10\\,\\text{kgf}$）。"
   },
   {
     "id": 1389,
@@ -5092,14 +5092,14 @@
       "30"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（31）\n\n【解説】\n$1 \times 16^1 + 15 \times 16^0 = 16 + 15 = 31$。（Fは15です）。"
+    "explanation": "【正解】3（31）\n\n【解説】\n$1 \\times 16^1 + 15 \\times 16^0 = 16 + 15 = 31$。（Fは15です）。"
   },
   {
     "id": 1393,
-    "question": "三角関数の公式 $\\sin^2 \theta + \\cos^2 \theta$ の値は常にいくらか。",
+    "question": "三角関数の公式 $\\sin^2 \\theta + \\cos^2 \\theta$ の値は常にいくらか。",
     "options": [
       "2",
-      "$\tan \theta$",
+      "$\\tan \\theta$",
       "0",
       "1",
       "-1"
@@ -5148,16 +5148,16 @@
   },
   {
     "id": 1397,
-    "question": "面積 $S$ の極板間距離 $d$ の平行平板コンデンサの静電容量 $C$ はどう表されるか。誘電率を $\u000barepsilon$ とする。",
+    "question": "面積 $S$ の極板間距離 $d$ の平行平板コンデンサの静電容量 $C$ はどう表されるか。誘電率を $\\varepsilon$ とする。",
     "options": [
-      "$C = S / (\u000barepsilon d)$",
-      "$C = d / (\u000barepsilon S)$",
-      "$C = \u000barepsilon d / S$",
-      "$C = \u000barepsilon S d$",
-      "$C = \u000barepsilon S / d$"
+      "$C = S / (\\varepsilon d)$",
+      "$C = d / (\\varepsilon S)$",
+      "$C = \\varepsilon d / S$",
+      "$C = \\varepsilon S d$",
+      "$C = \\varepsilon S / d$"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（$C = \u000barepsilon S / d$）\n\n【解説】\n静電容量は極板面積に比例し、距離に反比例します。"
+    "explanation": "【正解】5（$C = \\varepsilon S / d$）\n\n【解説】\n静電容量は極板面積に比例し、距離に反比例します。"
   },
   {
     "id": 1398,
@@ -5205,7 +5205,7 @@
       "$S = \\pi r$",
       "$S = \\pi r^2$",
       "$S = 2 \\pi r$",
-      "$S = \frac{4}{3} \\pi r^3$",
+      "$S = \\frac{4}{3} \\pi r^3$",
       "$S = 4 \\pi r^2$"
     ],
     "correctOptionIndex": 1,
@@ -5222,7 +5222,7 @@
       "$y = C e^{-x}$"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（$y = C e^x$）\n\n【解説】\n変数分離形 $\frac{dy}{y} = dx$ を積分すると $\\ln y = x + C'$ となり、$y = C e^x$ が得られます。"
+    "explanation": "【正解】2（$y = C e^x$）\n\n【解説】\n変数分離形 $\\frac{dy}{y} = dx$ を積分すると $\\ln y = x + C'$ となり、$y = C e^x$ が得られます。"
   },
   {
     "id": 1403,
@@ -5248,7 +5248,7 @@
       "アボガドロの法則"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（ランベルト・ベールの法則）\n\n【解説】\n$A = \u000barepsilon c l$ （$\u000barepsilon$ はモル吸光係数）で表されます。"
+    "explanation": "【正解】4（ランベルト・ベールの法則）\n\n【解説】\n$A = \\varepsilon c l$ （$\\varepsilon$ はモル吸光係数）で表されます。"
   },
   {
     "id": 1405,
@@ -5333,13 +5333,13 @@
     "question": "球の体積 $V$ を求める式はどれか。半径を $r$ とする。",
     "options": [
       "$V = 4 \\pi r^2$",
-      "$V = \frac{1}{3} \\pi r^3$",
-      "$V = \frac{4}{3} \\pi r^2$",
-      "$V = \frac{4}{3} \\pi r^3$",
+      "$V = \\frac{1}{3} \\pi r^3$",
+      "$V = \\frac{4}{3} \\pi r^2$",
+      "$V = \\frac{4}{3} \\pi r^3$",
       "$V = \\pi r^2$"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（$V = \frac{4}{3} \\pi r^3$）\n\n【解説】\n「身の上に心配ある（3の上に4$\\pi$$r$の3乗）」などの語呂合わせで覚えられます。"
+    "explanation": "【正解】4（$V = \\frac{4}{3} \\pi r^3$）\n\n【解説】\n「身の上に心配ある（3の上に4$\\pi$$r$の3乗）」などの語呂合わせで覚えられます。"
   },
   {
     "id": 1412,
@@ -5410,14 +5410,14 @@
     "id": 1417,
     "question": "1リットル (L) は何立方メートル ($m^3$) か。",
     "options": [
-      "$1000\\,\text{m}^3$",
-      "$1\\,\text{m}^3$",
-      "$0.1\\,\text{m}^3$",
-      "$0.001\\,\text{m}^3$",
-      "$0.01\\,\text{m}^3$"
+      "$1000\\,\\text{m}^3$",
+      "$1\\,\\text{m}^3$",
+      "$0.1\\,\\text{m}^3$",
+      "$0.001\\,\\text{m}^3$",
+      "$0.01\\,\\text{m}^3$"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（$0.001\\,\text{m}^3$）\n\n【解説】\n$1\\,\text{L} = 1000\\,\text{cm}^3 = 10^{-3}\\,\text{m}^3$ です。"
+    "explanation": "【正解】4（$0.001\\,\\text{m}^3$）\n\n【解説】\n$1\\,\\text{L} = 1000\\,\\text{cm}^3 = 10^{-3}\\,\\text{m}^3$ です。"
   },
   {
     "id": 1418,
@@ -5462,7 +5462,7 @@
     "id": 1421,
     "question": "長さ $L$ の単振り子の周期 $T$ はどう表されるか。重力加速度を $g$ とする（振幅が小さい場合）。",
     "options": [
-      "$T = \frac{1}{2\\pi} \\sqrt{L/g}$",
+      "$T = \\frac{1}{2\\pi} \\sqrt{L/g}$",
       "$T = 2\\pi (L/g)$",
       "$T = \\sqrt{L/g}$",
       "$T = 2\\pi \\sqrt{L/g}$",
@@ -5529,7 +5529,7 @@
     "options": [
       "$V_{rms} = V_{max} / 2$",
       "$V_{rms} = 2 V_{max}$",
-      "$V_{rms} = V_{max} \times \\sqrt{2}$",
+      "$V_{rms} = V_{max} \\times \\sqrt{2}$",
       "$V_{rms} = V_{max}$",
       "$V_{rms} = V_{max} / \\sqrt{2}$"
     ],
@@ -5551,16 +5551,16 @@
   },
   {
     "id": 1428,
-    "question": "不確かさの評価において、校正証明書に記載された拡張不確かさが $U = 0.2\\,\text{g}$ ($k=2$) であるとき、分散（標準不確かさの二乗）はいくらか。",
+    "question": "不確かさの評価において、校正証明書に記載された拡張不確かさが $U = 0.2\\,\\text{g}$ ($k=2$) であるとき、分散（標準不確かさの二乗）はいくらか。",
     "options": [
-      "$0.02\\,\text{g}^2$",
-      "$0.001\\,\text{g}^2$",
-      "$0.04\\,\text{g}^2$",
-      "$0.1\\,\text{g}^2$",
-      "$0.01\\,\text{g}^2$"
+      "$0.02\\,\\text{g}^2$",
+      "$0.001\\,\\text{g}^2$",
+      "$0.04\\,\\text{g}^2$",
+      "$0.1\\,\\text{g}^2$",
+      "$0.01\\,\\text{g}^2$"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（$0.01\\,\text{g}^2$）\n\n【解説】\n標準不確かさ $u = U/k = 0.2/2 = 0.1\\,\text{g}$。分散は $u^2 = 0.1^2 = 0.01\\,\text{g}^2$。"
+    "explanation": "【正解】5（$0.01\\,\\text{g}^2$）\n\n【解説】\n標準不確かさ $u = U/k = 0.2/2 = 0.1\\,\\text{g}$。分散は $u^2 = 0.1^2 = 0.01\\,\\text{g}^2$。"
   },
   {
     "id": 1429,
@@ -5573,11 +5573,11 @@
       "100 ℃"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（0 ℃）\n\n【解説】\n熱電対の起電力表（JIS）は、基準接点温度 $0\\,^\\circ\text{C}$ を基準にしています。"
+    "explanation": "【正解】2（0 ℃）\n\n【解説】\n熱電対の起電力表（JIS）は、基準接点温度 $0\\,^\\circ\\text{C}$ を基準にしています。"
   },
   {
     "id": 1430,
-    "question": "圧力の単位変換：$1\\,\text{atm}$（標準大気圧）はおよそ何 $\text{hPa}$ か。",
+    "question": "圧力の単位変換：$1\\,\\text{atm}$（標準大気圧）はおよそ何 $\\text{hPa}$ か。",
     "options": [
       "980 hPa",
       "1000 hPa",
@@ -5618,14 +5618,14 @@
     "id": 1433,
     "question": "理想気体の断熱変化において、成り立つ関係式はどれか（比熱比を $\\gamma$ とする）。",
     "options": [
-      "$PV^\\gamma = \text{一定}$",
-      "$P^\\gamma V = \text{一定}$",
-      "$PV = \text{一定}$",
-      "$P/V = \text{一定}$",
-      "$TV = \text{一定}$"
+      "$PV^\\gamma = \\text{一定}$",
+      "$P^\\gamma V = \\text{一定}$",
+      "$PV = \\text{一定}$",
+      "$P/V = \\text{一定}$",
+      "$TV = \\text{一定}$"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（$PV^\\gamma = \text{一定}$）\n\n【解説】\nポアソンの式です。"
+    "explanation": "【正解】1（$PV^\\gamma = \\text{一定}$）\n\n【解説】\nポアソンの式です。"
   },
   {
     "id": 1434,
@@ -5658,13 +5658,13 @@
     "question": "直列接続されたコンデンサ $C_1, C_2$ の合成静電容量 $C$ はどうなるか。",
     "options": [
       "$C = C_1 - C_2$",
-      "$C = \frac{C_1 C_2}{C_1 + C_2}$",
+      "$C = \\frac{C_1 C_2}{C_1 + C_2}$",
       "$C = C_1 + C_2$",
       "$C = \\sqrt{C_1^2 + C_2^2}$",
       "$C = C_1 C_2$"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（$C = \frac{C_1 C_2}{C_1 + C_2}$）\n\n【解説】\nコンデンサの直列接続は、抵抗の並列接続と同じ計算（逆数の和の逆数）になります。"
+    "explanation": "【正解】2（$C = \\frac{C_1 C_2}{C_1 + C_2}$）\n\n【解説】\nコンデンサの直列接続は、抵抗の並列接続と同じ計算（逆数の和の逆数）になります。"
   },
   {
     "id": 1437,
@@ -5742,7 +5742,7 @@
       "1"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（8）\n\n【解説】\n$1 \times 8^1 + 0 \times 8^0 = 8$。"
+    "explanation": "【正解】1（8）\n\n【解説】\n$1 \\times 8^1 + 0 \\times 8^0 = 8$。"
   },
   {
     "id": 1443,
@@ -5764,7 +5764,7 @@
       "$n = c - v$",
       "$n = c/v$",
       "$n = v/c$",
-      "$n = c \times v$",
+      "$n = c \\times v$",
       "$n = v^2$"
     ],
     "correctOptionIndex": 1,
@@ -5807,7 +5807,7 @@
       "10 m²"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（10,000 m²）\n\n【解説】\n$100\\,\text{m} \times 100\\,\text{m} = 10,000\\,\text{m}^2$ です。"
+    "explanation": "【正解】1（10,000 m²）\n\n【解説】\n$100\\,\\text{m} \\times 100\\,\\text{m} = 10,000\\,\\text{m}^2$ です。"
   },
   {
     "id": 1448,
@@ -5853,19 +5853,19 @@
     "question": "円柱の体積 $V$ を求める式はどれか。底面半径 $r$、高さ $h$ とする。",
     "options": [
       "$V = 2 \\pi r h$",
-      "$V = \frac{1}{3} \\pi r^2 h$",
+      "$V = \\frac{1}{3} \\pi r^2 h$",
       "$V = \\pi r^2 h$",
       "$V = \\pi r^2$",
       "$V = \\pi r h$"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（$V = \\pi r^2 h$）\n\n【解説】\n底面積 $\times$ 高さです。"
+    "explanation": "【正解】3（$V = \\pi r^2 h$）\n\n【解説】\n底面積 $\\times$ 高さです。"
   },
   {
     "id": 1452,
     "question": "関数 $y = e^{2x}$ を微分するとどうなるか。",
     "options": [
-      "$\frac{1}{2} e^{2x}$",
+      "$\\frac{1}{2} e^{2x}$",
       "$2x e^{2x-1}$",
       "$e^x$",
       "$e^{2x}$",
@@ -5915,16 +5915,16 @@
   },
   {
     "id": 1456,
-    "question": "交流回路のインピーダンス $Z = R + jX$ において、位相角 $\theta$ を求める式はどれか。",
+    "question": "交流回路のインピーダンス $Z = R + jX$ において、位相角 $\\theta$ を求める式はどれか。",
     "options": [
-      "$\\cos \theta = X/R$",
-      "$\tan \theta = X/R$",
-      "$\\sin \theta = X/R$",
-      "$\tan \theta = R/X$",
-      "$\theta = X - R$"
+      "$\\cos \\theta = X/R$",
+      "$\\tan \\theta = X/R$",
+      "$\\sin \\theta = X/R$",
+      "$\\tan \\theta = R/X$",
+      "$\\theta = X - R$"
     ],
     "correctOptionIndex": 1,
-    "explanation": "【正解】2（$\tan \theta = X/R$）\n\n【解説】\n複素平面上での偏角なので、$\tan \theta = \text{虚部}/\text{実部} = X/R$ です。"
+    "explanation": "【正解】2（$\\tan \\theta = X/R$）\n\n【解説】\n複素平面上での偏角なので、$\\tan \\theta = \\text{虚部}/\\text{実部} = X/R$ です。"
   },
   {
     "id": 1457,
@@ -5937,7 +5937,7 @@
       "-273.15 ℃"
     ],
     "correctOptionIndex": 4,
-    "explanation": "【正解】5（-273.15 ℃）\n\n【解説】\n正確には $-273.15\\,^\\circ\text{C}$ です。"
+    "explanation": "【正解】5（-273.15 ℃）\n\n【解説】\n正確には $-273.15\\,^\\circ\\text{C}$ です。"
   },
   {
     "id": 1458,
@@ -5982,11 +5982,11 @@
     "id": 1461,
     "question": "ニュートンの運動の第二法則（運動方程式）はどれか。",
     "options": [
-      "$F = G \frac{Mm}{r^2}$",
+      "$F = G \\frac{Mm}{r^2}$",
       "$F = mgh$",
       "$F = ma$",
       "$F = mv$",
-      "$F = \frac{1}{2}mv^2$"
+      "$F = \\frac{1}{2}mv^2$"
     ],
     "correctOptionIndex": 2,
     "explanation": "【正解】3（$F = ma$）\n\n【解説】\n力は質量と加速度の積に等しいという法則です。"
@@ -6136,7 +6136,7 @@
   },
   {
     "id": 1473,
-    "question": "交流電圧 $v(t) = V_m \\sin(\\omega t + \theta)$ において、$\\omega$ と周波数 $f$ の関係はどれか。",
+    "question": "交流電圧 $v(t) = V_m \\sin(\\omega t + \\theta)$ において、$\\omega$ と周波数 $f$ の関係はどれか。",
     "options": [
       "$\\omega = \\pi f$",
       "$\\omega = 2\\pi f$",
@@ -6149,7 +6149,7 @@
   },
   {
     "id": 1474,
-    "question": "SI単位系において、圧力の組立単位ニュートン毎平方メートル ($\text{N/m}^2$) の固有の名称は何か。",
+    "question": "SI単位系において、圧力の組立単位ニュートン毎平方メートル ($\\text{N/m}^2$) の固有の名称は何か。",
     "options": [
       "パスカル (Pa)",
       "ヘクト (h)",
@@ -6158,7 +6158,7 @@
       "バール (bar)"
     ],
     "correctOptionIndex": 0,
-    "explanation": "【正解】1（パスカル (Pa)）\n\n【解説】\n$1\\,\text{Pa} = 1\\,\text{N/m}^2$ です。"
+    "explanation": "【正解】1（パスカル (Pa)）\n\n【解説】\n$1\\,\\text{Pa} = 1\\,\\text{N/m}^2$ です。"
   },
   {
     "id": 1475,
@@ -6184,7 +6184,7 @@
       "$Q = \\Delta T / C$"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（$Q = C \\Delta T$）\n\n【解説】\n熱容量は「物体全体の」温度を1K上げるのに必要な熱量です（比熱容量 $\times$ 質量）。"
+    "explanation": "【正解】3（$Q = C \\Delta T$）\n\n【解説】\n熱容量は「物体全体の」温度を1K上げるのに必要な熱量です（比熱容量 $\\times$ 質量）。"
   },
   {
     "id": 1477,
@@ -6240,16 +6240,16 @@
   },
   {
     "id": 1481,
-    "question": "測定値 $x_1, x_2, \\dots, x_n$ の算術平均 $\bar{x}$ の標準不確かさ（平均値の実験標準偏差）は、単一の測定値の実験標準偏差 $s(x)$ を用いてどう表されるか。",
+    "question": "測定値 $x_1, x_2, \\dots, x_n$ の算術平均 $\\bar{x}$ の標準不確かさ（平均値の実験標準偏差）は、単一の測定値の実験標準偏差 $s(x)$ を用いてどう表されるか。",
     "options": [
-      "$s(\bar{x}) = s(x)^2$",
-      "$s(\bar{x}) = s(x)$",
-      "$s(\bar{x}) = s(x) / \\sqrt{n}$",
-      "$s(\bar{x}) = s(x) \times \\sqrt{n}$",
-      "$s(\bar{x}) = s(x) / n$"
+      "$s(\\bar{x}) = s(x)^2$",
+      "$s(\\bar{x}) = s(x)$",
+      "$s(\\bar{x}) = s(x) / \\sqrt{n}$",
+      "$s(\\bar{x}) = s(x) \\times \\sqrt{n}$",
+      "$s(\\bar{x}) = s(x) / n$"
     ],
     "correctOptionIndex": 2,
-    "explanation": "【正解】3（$s(\bar{x}) = s(x) / \\sqrt{n}$）\n\n【解説】\n測定回数 $n$ を増やすと、平均値のばらつきは $1/\\sqrt{n}$ になります。"
+    "explanation": "【正解】3（$s(\\bar{x}) = s(x) / \\sqrt{n}$）\n\n【解説】\n測定回数 $n$ を増やすと、平均値のばらつきは $1/\\sqrt{n}$ になります。"
   },
   {
     "id": 1482,
@@ -6305,16 +6305,16 @@
   },
   {
     "id": 1486,
-    "question": "粘度の単位 $\text{Pa}\\cdot\text{s}$ （パスカル秒）と同じ次元を持つ単位はどれか。",
+    "question": "粘度の単位 $\\text{Pa}\\cdot\\text{s}$ （パスカル秒）と同じ次元を持つ単位はどれか。",
     "options": [
-      "$\text{kg}/\text{m}^3$",
-      "$\text{J}/\text{s}$",
-      "$\text{m}^2/\text{s}$",
-      "$\text{N}\\cdot\text{s}/\text{m}^2$",
-      "$\text{N}/\text{m}$"
+      "$\\text{kg}/\\text{m}^3$",
+      "$\\text{J}/\\text{s}$",
+      "$\\text{m}^2/\\text{s}$",
+      "$\\text{N}\\cdot\\text{s}/\\text{m}^2$",
+      "$\\text{N}/\\text{m}$"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（$\text{N}\\cdot\text{s}/\text{m}^2$）\n\n【解説】\n$\text{Pa} = \text{N}/\text{m}^2$ なので、$\text{Pa}\\cdot\text{s} = \text{N}\\cdot\text{s}/\text{m}^2$ です。"
+    "explanation": "【正解】4（$\\text{N}\\cdot\\text{s}/\\text{m}^2$）\n\n【解説】\n$\\text{Pa} = \\text{N}/\\text{m}^2$ なので、$\\text{Pa}\\cdot\\text{s} = \\text{N}\\cdot\\text{s}/\\text{m}^2$ です。"
   },
   {
     "id": 1487,
@@ -6331,7 +6331,7 @@
   },
   {
     "id": 1488,
-    "question": "凸レンズの公式 $\frac{1}{a} + \frac{1}{b} = \frac{1}{f}$ において、$f$ は何か。",
+    "question": "凸レンズの公式 $\\frac{1}{a} + \\frac{1}{b} = \\frac{1}{f}$ において、$f$ は何か。",
     "options": [
       "屈折率",
       "焦点距離",
@@ -6398,14 +6398,14 @@
     "id": 1493,
     "question": "仕事の単位ジュール (J) を基本単位で表すとどうなるか。",
     "options": [
-      "$\text{m}^2/\text{s}^2$",
-      "$\text{kg}\\cdot\text{m}/\text{s}$",
-      "$\text{kg}/\text{s}^2$",
-      "$\text{kg}\\cdot\text{m}^2/\text{s}^2$",
-      "$\text{kg}\\cdot\text{m}/\text{s}^2$"
+      "$\\text{m}^2/\\text{s}^2$",
+      "$\\text{kg}\\cdot\\text{m}/\\text{s}$",
+      "$\\text{kg}/\\text{s}^2$",
+      "$\\text{kg}\\cdot\\text{m}^2/\\text{s}^2$",
+      "$\\text{kg}\\cdot\\text{m}/\\text{s}^2$"
     ],
     "correctOptionIndex": 3,
-    "explanation": "【正解】4（$\text{kg}\\cdot\text{m}^2/\text{s}^2$）\n\n【解説】\n仕事＝力($\text{N}$) $\times$ 距離($\text{m}$) = ($\text{kg}\\cdot\text{m}/\text{s}^2$) $\times$ $\text{m}$ = $\text{kg}\\cdot\text{m}^2/\text{s}^2$。"
+    "explanation": "【正解】4（$\\text{kg}\\cdot\\text{m}^2/\\text{s}^2$）\n\n【解説】\n仕事＝力($\\text{N}$) $\\times$ 距離($\\text{m}$) = ($\\text{kg}\\cdot\\text{m}/\\text{s}^2$) $\\times$ $\\text{m}$ = $\\text{kg}\\cdot\\text{m}^2/\\text{s}^2$。"
   },
   {
     "id": 1494,
